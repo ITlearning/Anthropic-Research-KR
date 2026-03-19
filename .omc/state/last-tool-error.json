@@ -1,7 +1,0 @@
-{
-  "tool_name": "Bash",
-  "tool_input_preview": "{\"command\":\"ls /Users/tabber/Anthropic-Research-KR/node_modules/next-mdx-remote 2>&1 && ls /Users/tabber/Anthropic-Research-KR/node_modules/vitest 2>&1\",\"description\":\"Verify both installs completed b...",
-  "error": "Exit code 1\nCHANGELOG.md\nLICENSE\nREADME.md\ndist\nheader.png\nindex.d.ts\nindex.js\npackage.json\nrsc.d.ts\nrsc.js\nserialize.d.ts\nserialize.js\nls: /Users/tabber/Anthropic-Research-KR/node_modules/vitest: No such file or directory",
-  "timestamp": "2026-03-18T09:53:21.336Z",
-  "retry_count": 1
-}
