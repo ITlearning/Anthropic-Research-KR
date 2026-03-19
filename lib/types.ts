@@ -18,6 +18,7 @@ export interface ArticleMeta {
   originalUrl: string
   summary: string
   featured: boolean
+  heroImage?: string
 }
 
 export interface ArticleWithContent extends ArticleMeta {
