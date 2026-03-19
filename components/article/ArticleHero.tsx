@@ -51,7 +51,10 @@ export function ArticleHero({ article }: { article: ArticleMeta }) {
 
             {/* 히어로 이미지 — 원문과 동일: bg-cactus + rounded + padding */}
             {article.heroImage && (
-              <div className="rounded-xl bg-cactus p-8 lg:p-14 flex items-center justify-center">
+              <div
+                className="rounded-xl p-8 lg:p-14 flex items-center justify-center"
+                style={{ backgroundColor: article.heroImageBg ?? '#bcd1ca' }}
+              >
                 <Image
                   src={article.heroImage}
                   alt={article.title}

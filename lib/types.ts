@@ -19,6 +19,7 @@ export interface ArticleMeta {
   summary: string
   featured: boolean
   heroImage?: string
+  heroImageBg?: string
 }
 
 export interface ArticleWithContent extends ArticleMeta {

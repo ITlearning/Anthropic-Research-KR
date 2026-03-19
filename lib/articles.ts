@@ -19,6 +19,7 @@ function parseArticle(filename: string): ArticleMeta {
     summary: data.summary as string,
     featured: Boolean(data.featured),
     heroImage: data.heroImage as string | undefined,
+    heroImageBg: data.heroImageBg as string | undefined,
   }
 }
 
