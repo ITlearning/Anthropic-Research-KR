@@ -6,6 +6,7 @@ import { ArticleHero } from '@/components/article/ArticleHero'
 import { RelatedContent } from '@/components/article/RelatedContent'
 import { TableOfContents } from '@/components/article/TableOfContents'
 import { H2, H3 } from '@/components/article/MdxHeading'
+import { YouTubeEmbed } from '@/components/article/YouTubeEmbed'
 
 // Next.js 14: params는 동기 객체
 interface Props {
@@ -26,7 +27,7 @@ export async function generateMetadata({ params }: Props) {
   }
 }
 
-const mdxComponents = { h2: H2, h3: H3 }
+const mdxComponents = { h2: H2, h3: H3, YouTubeEmbed }
 
 export default async function ArticlePage({ params }: Props) {
   const [article, allArticles] = await Promise.all([
