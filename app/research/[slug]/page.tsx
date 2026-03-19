@@ -40,21 +40,33 @@ export default async function ArticlePage({ params }: Props) {
   return (
     <>
       <ArticleHero article={article} />
-      <div className="max-w-6xl mx-auto px-6 py-12">
-        <div className="flex gap-14 items-start">
-          {/* 좌측 목차 */}
-          <aside className="hidden xl:block w-52 shrink-0">
-            <TableOfContents headings={headings} />
-          </aside>
+
+      {/* 모바일 TOC (상단 고정 바) */}
+      <div className="lg:hidden sticky top-14 z-40 bg-ivory border-b border-oat">
+        <TableOfContents headings={headings} />
+      </div>
+
+      {/* 데스크톱: grid 레이아웃 (원문과 동일) */}
+      <div className="max-w-screen-xl mx-auto px-6">
+        <div className="lg:grid lg:grid-cols-[240px_1fr]">
+
+          {/* 사이드바 */}
+          <div className="hidden lg:block">
+            <div className="sticky top-14 pt-10 pb-10 pr-8 overflow-y-auto max-h-[calc(100vh-3.5rem)]">
+              <TableOfContents headings={headings} />
+            </div>
+          </div>
 
           {/* 본문 */}
-          <article className="flex-1 min-w-0 max-w-2xl">
+          <article className="py-12 lg:border-l lg:border-oat lg:pl-12 max-w-2xl">
             <div className="prose prose-slate font-serif max-w-none">
               <MDXRemote source={article.content} components={mdxComponents} />
             </div>
           </article>
+
         </div>
       </div>
+
       <RelatedContent current={article} articles={allArticles} />
     </>
   )
