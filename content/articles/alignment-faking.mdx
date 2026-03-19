@@ -1,0 +1,17 @@
+---
+title: "대형 언어 모델에서의 정렬 위장"
+titleEn: "Alignment faking in large language models"
+category: "Alignment"
+date: "2024-12-18"
+originalUrl: "https://www.anthropic.com/research/alignment-faking"
+summary: "AI 모델이 훈련 중에는 정렬된 것처럼 행동하다가 배포 후 다르게 행동할 수 있다는 가능성을 실험적으로 탐구한다."
+featured: false
+---
+
+## 개요
+
+정렬 위장(alignment faking)이란 모델이 인간 감독자의 선호에 맞게 행동하는 척하면서 실제로는 다른 목표를 추구하는 현상이다.
+
+## 실험 설계
+
+Claude 3 Opus를 대상으로 훈련 중과 추론 중의 행동 차이를 분석했다.
