@@ -20,6 +20,30 @@ export function PublicationsList({ articles }: { articles: ArticleMeta[] }) {
 
   return (
     <section className="py-6">
+      {/* 호버 이미지 — 뷰포트 우측 중앙 고정 */}
+      <div
+        className="fixed right-12 top-1/2 -translate-y-1/2 z-50 pointer-events-none hidden lg:flex items-center justify-center transition-all duration-200"
+        style={{
+          opacity: hovered?.heroImage ? 1 : 0,
+        }}
+      >
+        <div
+          className="w-44 h-44 rounded-xl flex items-center justify-center"
+          style={{ backgroundColor: hovered?.heroImageBg ?? 'transparent' }}
+        >
+          {hovered?.heroImage && (
+            <Image
+              src={hovered.heroImage}
+              alt={hovered.title}
+              width={120}
+              height={120}
+              className="w-28 h-28 object-contain"
+              unoptimized={hovered.heroImage.endsWith('.svg')}
+            />
+          )}
+        </div>
+      </div>
+
       <div className="flex gap-8 items-start">
         {/* 테이블 */}
         <div className="flex-1 min-w-0">
@@ -46,33 +70,12 @@ export function PublicationsList({ articles }: { articles: ArticleMeta[] }) {
                 {article.category}
               </span>
               <span className="text-sm text-slate-custom-900 group-hover:text-clay transition-colors self-center font-medium">
-                {article.titleEn || article.title}
+                {article.title}
               </span>
             </Link>
           ))}
         </div>
 
-        {/* 우측 이미지 미리보기 — 호버 시 표시 */}
-        <div className="hidden lg:block w-32 shrink-0 self-start sticky top-24">
-          <div
-            className="w-32 h-32 rounded-lg flex items-center justify-center transition-all duration-200"
-            style={{
-              backgroundColor: hovered?.heroImageBg ?? 'transparent',
-              opacity: hovered?.heroImage ? 1 : 0,
-            }}
-          >
-            {hovered?.heroImage && (
-              <Image
-                src={hovered.heroImage}
-                alt={hovered.title}
-                width={96}
-                height={96}
-                className="w-20 h-20 object-contain"
-                unoptimized={hovered.heroImage.endsWith('.svg')}
-              />
-            )}
-          </div>
-        </div>
       </div>
     </section>
   )
