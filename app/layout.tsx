@@ -5,8 +5,8 @@ import { Header } from '@/components/layout/Header'
 import { Footer } from '@/components/layout/Footer'
 
 export const metadata: Metadata = {
-  title: 'Anthropic Research KR — 한국어 번역',
-  description: 'Anthropic 리서치 논문 및 글의 한국어 번역 아카이브입니다.',
+  title: 'Anthropic Research 번역',
+  description: 'Anthropic 리서치 글의 한국어 번역 아카이브입니다. 비영리 목적으로 운영됩니다.',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

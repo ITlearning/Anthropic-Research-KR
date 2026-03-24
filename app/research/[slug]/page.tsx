@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: Props) {
   const article = await getArticleBySlug(params.slug)
   if (!article) return {}
   return {
-    title: `${article.title} — Anthropic KR`,
+    title: `${article.title} — Anthropic Research 번역`,
     description: article.summary,
   }
 }

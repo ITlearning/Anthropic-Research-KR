@@ -8,7 +8,7 @@ export function Header() {
           href="/"
           className="font-sans font-semibold text-slate-custom-900 hover:text-clay transition-colors"
         >
-          Anthropic KR
+          Anthropic Research 번역
         </Link>
         <div className="flex items-center gap-6 text-sm">
           <Link
