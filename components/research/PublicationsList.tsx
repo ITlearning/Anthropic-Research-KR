@@ -20,24 +20,30 @@ export function PublicationsList({ articles }: { articles: ArticleMeta[] }) {
 
   return (
     <section className="py-6">
-      {/* 호버 이미지 — 뷰포트 우측 중앙 고정 */}
+      {/*
+        호버 이미지 — 뷰포트 우측 중앙 고정
+        max-w-6xl(1152px) 기준:
+          2xl(1536px): 여백 192px → right-4(16px) + w-36(144px) = 160px < 192px ✓
+          xl 이하: 여백 부족 → 숨김
+      */}
       <div
-        className="fixed right-12 top-1/2 -translate-y-1/2 z-50 pointer-events-none hidden lg:flex items-center justify-center transition-all duration-200"
+        className="fixed right-4 top-1/2 -translate-y-1/2 z-50 pointer-events-none hidden 2xl:flex items-center justify-center"
         style={{
           opacity: hovered?.heroImage ? 1 : 0,
+          transition: 'opacity 0.15s ease',
         }}
       >
         <div
-          className="w-44 h-44 rounded-xl flex items-center justify-center"
+          className="w-36 h-36 rounded-xl flex items-center justify-center"
           style={{ backgroundColor: hovered?.heroImageBg ?? 'transparent' }}
         >
           {hovered?.heroImage && (
             <Image
               src={hovered.heroImage}
               alt={hovered.title}
-              width={120}
-              height={120}
-              className="w-28 h-28 object-contain"
+              width={100}
+              height={100}
+              className="w-24 h-24 object-contain"
               unoptimized={hovered.heroImage.endsWith('.svg')}
             />
           )}
