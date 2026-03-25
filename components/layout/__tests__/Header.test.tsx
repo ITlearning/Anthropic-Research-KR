@@ -5,7 +5,7 @@ import { Header } from '../Header'
 describe('Header', () => {
   it('renders site logo link', () => {
     render(<Header />)
-    expect(screen.getByText('Anthropic KR')).toBeInTheDocument()
+    expect(screen.getByText('Anthropic Research 번역')).toBeInTheDocument()
   })
 
   it('renders Research navigation link', () => {

@@ -36,3 +36,6 @@ yarn-error.log*
 next-env.d.ts
 .omc/
 스크린샷 2026-03-19 오후 1.52.07.png
+logs/
+tmp/
+ops/codex/*.env

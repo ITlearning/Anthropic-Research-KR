@@ -8,7 +8,9 @@
     "start": "next start",
     "lint": "next lint",
     "test": "vitest",
-    "test:run": "vitest run"
+    "test:run": "vitest run",
+    "translate:batch:check": "node scripts/list-missing-research.mjs",
+    "translate:batch": "node scripts/run_translation_batch.mjs"
   },
   "dependencies": {
     "@fontsource/noto-serif-kr": "^5.2.9",
