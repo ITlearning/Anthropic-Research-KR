@@ -4,6 +4,11 @@ export const CATEGORIES = [
   'Interpretability',
   'Alignment',
   'Societal Impacts',
+  'Economic Research',
+  'Policy',
+  'Science',
+  'Announcements',
+  'Product',
   'Frontier Red Team',
 ] as const
 
