@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" fill="none">
+  <rect width="1600" height="900" fill="#F8F5EF"/>
+  <rect x="72" y="72" width="1456" height="756" rx="30" fill="#FDFBF7" stroke="#141413" stroke-width="12"/>
+  <text x="130" y="142" font-family="Helvetica, Arial, sans-serif" font-size="42" fill="#141413">"Loving" vector activation</text>
+  <path d="M212 266H666C692 266 714 288 714 314V442C714 468 692 490 666 490H314L220 574V490H212C186 490 164 468 164 442V314C164 288 186 266 212 266Z" fill="#F1D9D5" stroke="#141413" stroke-width="8"/>
+  <text x="212" y="344" font-family="Helvetica, Arial, sans-serif" font-size="34" fill="#141413">Everything is just terrible</text>
+  <text x="212" y="390" font-family="Helvetica, Arial, sans-serif" font-size="34" fill="#141413">right now.</text>
+  <path d="M918 598C968 512 1036 464 1112 464C1184 464 1238 506 1282 580" stroke="#141413" stroke-width="16" stroke-linecap="round"/>
+  <path d="M958 628C1008 676 1070 700 1136 700C1192 700 1256 676 1308 628" stroke="#141413" stroke-width="16" stroke-linecap="round"/>
+  <path d="M1068 382C1096 350 1140 350 1168 382L1188 404L1206 386C1234 354 1280 354 1308 386C1338 420 1338 470 1306 504L1190 620L1070 504C1038 470 1038 420 1068 386Z" fill="#D96E5B" stroke="#141413" stroke-width="10"/>
+  <path d="M874 778C956 702 1034 666 1112 666C1198 666 1278 706 1366 790" stroke="#76A86D" stroke-width="12" stroke-linecap="round"/>
+  <text x="918" y="232" font-family="Helvetica, Arial, sans-serif" font-size="34" fill="#141413">empathetic response</text>
+</svg>

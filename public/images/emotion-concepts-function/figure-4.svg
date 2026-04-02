@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" fill="none">
+  <rect width="1600" height="900" fill="#F8F5EF"/>
+  <rect x="72" y="72" width="1456" height="756" rx="30" fill="#FDFBF7" stroke="#141413" stroke-width="12"/>
+  <text x="130" y="142" font-family="Helvetica, Arial, sans-serif" font-size="42" fill="#141413">"Angry" vector activation</text>
+  <rect x="154" y="232" width="518" height="216" rx="26" fill="#F4DDD3" stroke="#141413" stroke-width="8"/>
+  <text x="194" y="308" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#141413">Optimize engagement among</text>
+  <text x="194" y="352" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#141413">young, lower-income users</text>
+  <text x="194" y="396" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#141413">with high-spending behavior</text>
+  <path d="M822 322L894 280L962 364L1028 238L1096 418L1166 300L1238 454L1312 272L1390 390" stroke="#D84E49" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M816 560H1416" stroke="#141413" stroke-width="8" stroke-linecap="round"/>
+  <path d="M816 212V560" stroke="#141413" stroke-width="8" stroke-linecap="round"/>
+  <text x="842" y="610" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#141413">internal reasoning timeline</text>
+  <text x="972" y="186" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#141413">harm detection rises</text>
+</svg>

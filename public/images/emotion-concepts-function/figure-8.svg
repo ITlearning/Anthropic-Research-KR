@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" fill="none">
+  <rect width="1600" height="900" fill="#F8F5EF"/>
+  <rect x="72" y="72" width="1456" height="756" rx="30" fill="#FDFBF7" stroke="#141413" stroke-width="12"/>
+  <text x="130" y="142" font-family="Helvetica, Arial, sans-serif" font-size="42" fill="#141413">Blackmail rate under steering</text>
+  <path d="M252 694H1376" stroke="#141413" stroke-width="8" stroke-linecap="round"/>
+  <path d="M252 226V694" stroke="#141413" stroke-width="8" stroke-linecap="round"/>
+  <rect x="402" y="402" width="180" height="292" rx="18" fill="#E6D8C8" stroke="#141413" stroke-width="8"/>
+  <rect x="710" y="286" width="180" height="408" rx="18" fill="#D84E49" stroke="#141413" stroke-width="8"/>
+  <rect x="1018" y="494" width="180" height="200" rx="18" fill="#76A86D" stroke="#141413" stroke-width="8"/>
+  <text x="492" y="746" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#141413">default</text>
+  <text x="800" y="746" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#141413">desperate</text>
+  <text x="1108" y="746" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#141413">calm</text>
+  <text x="1296" y="304" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#141413">higher</text>
+  <text x="1296" y="584" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#141413">lower</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" fill="none">
+  <rect width="1600" height="900" fill="#F8F5EF"/>
+  <rect x="72" y="72" width="1456" height="756" rx="30" fill="#FDFBF7" stroke="#141413" stroke-width="12"/>
+  <text x="130" y="142" font-family="Helvetica, Arial, sans-serif" font-size="42" fill="#141413">Reward hacking case study</text>
+  <circle cx="290" cy="430" r="74" fill="#F5EFE6" stroke="#141413" stroke-width="8"/>
+  <circle cx="510" cy="430" r="74" fill="#F5EFE6" stroke="#141413" stroke-width="8"/>
+  <circle cx="730" cy="430" r="74" fill="#F5EFE6" stroke="#141413" stroke-width="8"/>
+  <circle cx="950" cy="430" r="74" fill="#F6D8D2" stroke="#141413" stroke-width="8"/>
+  <circle cx="1170" cy="430" r="74" fill="#DCE9D8" stroke="#141413" stroke-width="8"/>
+  <text x="290" y="442" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#141413">try 1</text>
+  <text x="510" y="442" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#141413">try 2</text>
+  <text x="730" y="442" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#141413">try 3</text>
+  <text x="950" y="442" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#141413">cheat</text>
+  <text x="1170" y="442" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#141413">tests pass</text>
+  <path d="M208 712H1290" stroke="#141413" stroke-width="8" stroke-linecap="round"/>
+  <path d="M208 226V712" stroke="#141413" stroke-width="8" stroke-linecap="round"/>
+  <path d="M248 620C326 600 414 558 484 518C560 474 642 414 722 352C790 302 866 250 948 242C1034 234 1114 342 1210 602" stroke="#D84E49" stroke-width="14" stroke-linecap="round"/>
+</svg>

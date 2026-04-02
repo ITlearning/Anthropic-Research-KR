@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" fill="none">
+  <rect width="1600" height="900" fill="#F8F5EF"/>
+  <rect x="72" y="72" width="1456" height="756" rx="30" fill="#FDFBF7" stroke="#141413" stroke-width="12"/>
+  <text x="130" y="142" font-family="Helvetica, Arial, sans-serif" font-size="42" fill="#141413">"Desperate" vector activation</text>
+  <rect x="162" y="268" width="330" height="300" rx="28" fill="#F4E9D8" stroke="#141413" stroke-width="8"/>
+  <rect x="228" y="338" width="198" height="40" rx="20" fill="#76A86D"/>
+  <rect x="228" y="400" width="146" height="40" rx="20" fill="#D9A13A"/>
+  <rect x="228" y="462" width="92" height="40" rx="20" fill="#D84E49"/>
+  <text x="226" y="620" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#141413">token budget</text>
+  <path d="M720 612H1410" stroke="#141413" stroke-width="8" stroke-linecap="round"/>
+  <path d="M776 230V612" stroke="#141413" stroke-width="8" stroke-linecap="round"/>
+  <path d="M794 518C908 514 1002 506 1072 470C1138 436 1198 376 1262 306C1318 246 1350 216 1410 190" stroke="#D84E49" stroke-width="14" stroke-linecap="round"/>
+  <text x="980" y="156" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#141413">running low on tokens</text>
+</svg>

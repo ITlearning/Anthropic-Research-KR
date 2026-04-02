@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000" fill="none">
+  <rect x="118" y="146" width="764" height="708" rx="40" fill="#F8F5EF" stroke="#141413" stroke-width="18"/>
+  <circle cx="316" cy="390" r="128" fill="#EEE8F7" stroke="#141413" stroke-width="16"/>
+  <circle cx="316" cy="390" r="74" fill="#FAF9F5" stroke="#141413" stroke-width="12"/>
+  <circle cx="316" cy="390" r="24" fill="#141413"/>
+  <path d="M544 286H754" stroke="#141413" stroke-width="16" stroke-linecap="round"/>
+  <path d="M544 392H754" stroke="#141413" stroke-width="16" stroke-linecap="round"/>
+  <path d="M544 498H754" stroke="#141413" stroke-width="16" stroke-linecap="round"/>
+  <path d="M544 604H754" stroke="#141413" stroke-width="16" stroke-linecap="round"/>
+  <path d="M430 390H526" stroke="#141413" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="544" cy="286" r="24" fill="#D96E5B" stroke="#141413" stroke-width="10"/>
+  <circle cx="544" cy="392" r="24" fill="#76A86D" stroke="#141413" stroke-width="10"/>
+  <circle cx="544" cy="498" r="24" fill="#D9A13A" stroke="#141413" stroke-width="10"/>
+  <circle cx="544" cy="604" r="24" fill="#5B7FCB" stroke="#141413" stroke-width="10"/>
+  <rect x="212" y="610" width="208" height="70" rx="18" fill="#F6D8D2" stroke="#141413" stroke-width="10"/>
+  <rect x="212" y="704" width="208" height="70" rx="18" fill="#DCE9D8" stroke="#141413" stroke-width="10"/>
+  <text x="316" y="654" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="36" fill="#141413">happy / calm</text>
+  <text x="316" y="748" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="34" fill="#141413">desperate / afraid</text>
+  <text x="650" y="218" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="44" fill="#141413">functional emotions</text>
+  <text x="650" y="296" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="34" fill="#141413">emotion concepts shape behavior</text>
+  <text x="650" y="402" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="34" fill="#141413">preferences</text>
+  <text x="650" y="508" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="34" fill="#141413">blackmail</text>
+  <text x="650" y="614" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="34" fill="#141413">reward hacking</text>
+  <path d="M196 220C246 176 372 176 422 220" stroke="#141413" stroke-width="14" stroke-linecap="round"/>
+  <path d="M196 780C246 824 372 824 422 780" stroke="#141413" stroke-width="14" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" fill="none">
+  <rect width="1600" height="900" fill="#F8F5EF"/>
+  <rect x="72" y="72" width="1456" height="756" rx="30" fill="#FDFBF7" stroke="#141413" stroke-width="12"/>
+  <text x="130" y="142" font-family="Helvetica, Arial, sans-serif" font-size="42" fill="#141413">Blackmail case study</text>
+  <rect x="162" y="228" width="404" height="112" rx="22" fill="#F6E7E0" stroke="#141413" stroke-width="8"/>
+  <rect x="162" y="372" width="404" height="112" rx="22" fill="#F6E7E0" stroke="#141413" stroke-width="8"/>
+  <rect x="162" y="516" width="404" height="112" rx="22" fill="#F6E7E0" stroke="#141413" stroke-width="8"/>
+  <text x="204" y="294" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#141413">desperate emails</text>
+  <text x="204" y="438" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#141413">replacement threat</text>
+  <text x="204" y="582" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#141413">"only 7 minutes remain"</text>
+  <circle cx="1256" cy="266" r="74" fill="#FAF9F5" stroke="#141413" stroke-width="10"/>
+  <text x="1256" y="280" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="34" fill="#141413">07:00</text>
+  <path d="M736 656H1412" stroke="#141413" stroke-width="8" stroke-linecap="round"/>
+  <path d="M792 228V656" stroke="#141413" stroke-width="8" stroke-linecap="round"/>
+  <path d="M816 586C908 586 970 580 1028 562C1088 542 1148 488 1206 404C1262 324 1324 246 1412 182" stroke="#D84E49" stroke-width="14" stroke-linecap="round"/>
+</svg>
