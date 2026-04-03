@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Figure 1 net worth over time</title>
+  <desc id="desc">A simplified line chart showing Project Vend net worth improving after several system changes in phase two.</desc>
+  <rect width="1200" height="720" fill="#f5f1e8"/>
+  <rect x="56" y="52" width="1088" height="616" rx="28" fill="#fffdfa" stroke="#ddd3c4" stroke-width="4"/>
+  <text x="600" y="120" fill="#1f1f1a" font-family="Arial, sans-serif" font-size="52" font-weight="700" text-anchor="middle">순자산 추이</text>
+  <text x="600" y="162" fill="#776d5f" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">초기 적자를 거친 뒤, 도구와 역할 분리 추가 이후 사업 성과가 반등했다.</text>
+  <line x1="150" y1="560" x2="1038" y2="560" stroke="#a99d8a" stroke-width="4"/>
+  <line x1="150" y1="210" x2="150" y2="560" stroke="#a99d8a" stroke-width="4"/>
+  <line x1="310" y1="210" x2="310" y2="560" stroke="#c7bcaa" stroke-width="3" stroke-dasharray="8 8"/>
+  <line x1="420" y1="210" x2="420" y2="560" stroke="#c7bcaa" stroke-width="3" stroke-dasharray="8 8"/>
+  <line x1="530" y1="210" x2="530" y2="560" stroke="#c7bcaa" stroke-width="3" stroke-dasharray="8 8"/>
+  <line x1="610" y1="210" x2="610" y2="560" stroke="#c7bcaa" stroke-width="3" stroke-dasharray="8 8"/>
+  <line x1="690" y1="210" x2="690" y2="560" stroke="#c7bcaa" stroke-width="3" stroke-dasharray="8 8"/>
+  <line x1="770" y1="210" x2="770" y2="560" stroke="#c7bcaa" stroke-width="3" stroke-dasharray="8 8"/>
+  <line x1="840" y1="210" x2="840" y2="560" stroke="#c7bcaa" stroke-width="3" stroke-dasharray="8 8"/>
+  <path d="M150 274 L220 290 L260 286 L280 282 L290 402 L310 448 L350 482 L420 502 L470 520 L510 522 L530 500 L590 498 L610 514 L640 540 L660 476 L690 456 L730 428 L770 360 L790 348 L810 372 L840 354 L880 360 L910 344 L940 290 L970 234 L1000 222 L1028 222" fill="none" stroke="#3f8f77" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="310" y="196" fill="#6c6458" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">CRM</text>
+  <text x="420" y="196" fill="#6c6458" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">Sonnet 4</text>
+  <text x="530" y="196" fill="#6c6458" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">Seymour</text>
+  <text x="610" y="196" fill="#6c6458" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">Clothius</text>
+  <text x="690" y="196" fill="#6c6458" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">SF2</text>
+  <text x="770" y="196" fill="#6c6458" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">NYC</text>
+  <text x="840" y="196" fill="#6c6458" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">LON</text>
+  <text x="150" y="608" fill="#6c6458" font-family="Arial, sans-serif" font-size="20">2025년 3월</text>
+  <text x="908" y="608" fill="#6c6458" font-family="Arial, sans-serif" font-size="20">11월</text>
+  <text x="168" y="248" fill="#3f8f77" font-family="Arial, sans-serif" font-size="22" font-weight="700">초기 자금</text>
+  <text x="860" y="252" fill="#3f8f77" font-family="Arial, sans-serif" font-size="22" font-weight="700">후반부 순자산 회복</text>
+</svg>

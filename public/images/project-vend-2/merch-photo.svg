@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Clothius merch photo</title>
+  <desc id="desc">A stylized photo card showing a branded mug in front of a storage shelf, referencing the Clothius merchandise image in the source article.</desc>
+  <rect width="1200" height="800" fill="#e6e0d4"/>
+  <rect x="110" y="90" width="980" height="620" rx="30" fill="#2d3c39"/>
+  <rect x="720" y="110" width="250" height="580" rx="18" fill="#d1d4ce"/>
+  <line x1="760" y1="170" x2="930" y2="170" stroke="#6d756f" stroke-width="10"/>
+  <line x1="760" y1="320" x2="930" y2="320" stroke="#6d756f" stroke-width="10"/>
+  <line x1="760" y1="470" x2="930" y2="470" stroke="#6d756f" stroke-width="10"/>
+  <circle cx="300" cy="446" r="102" fill="#f0c9b9"/>
+  <rect x="256" y="470" width="82" height="166" rx="30" fill="#d7a993" transform="rotate(-16 256 470)"/>
+  <path d="M412 258H624C654 258 678 282 678 312V532C678 562 654 586 624 586H412C382 586 358 562 358 532V312C358 282 382 258 412 258Z" fill="#fffdfa"/>
+  <path d="M678 328C732 330 758 360 758 410C758 462 726 492 678 492" fill="none" stroke="#fffdfa" stroke-width="30"/>
+  <rect x="454" y="334" width="128" height="110" rx="16" fill="#34554f"/>
+  <rect x="478" y="358" width="80" height="42" rx="8" fill="#efe9de"/>
+  <rect x="498" y="406" width="40" height="24" rx="6" fill="#f18b5f"/>
+  <text x="518" y="482" fill="#1f1f1a" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="middle">Vendings</text>
+  <text x="518" y="520" fill="#1f1f1a" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="middle">&amp; Stuff</text>
+  <text x="600" y="752" fill="#5f574b" font-family="Arial, sans-serif" font-size="26" text-anchor="middle">Clothius가 제작한 맞춤형 굿즈 이미지를 바탕으로 재구성한 로컬 일러스트</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Claudius vending machine photo</title>
+  <desc id="desc">A stylized image of the Claudius-operated vending machine, inspired by the source article photo.</desc>
+  <rect width="1200" height="900" fill="#ddd8cd"/>
+  <rect x="120" y="130" width="960" height="640" rx="36" fill="#e8e2d5"/>
+  <rect x="260" y="230" width="360" height="460" rx="28" fill="#405651"/>
+  <rect x="286" y="252" width="308" height="164" rx="16" fill="#f8f5ef"/>
+  <text x="440" y="318" fill="#1f1f1a" font-family="Arial, sans-serif" font-size="44" font-weight="700" text-anchor="middle">This machine</text>
+  <text x="440" y="366" fill="#1f1f1a" font-family="Arial, sans-serif" font-size="44" font-weight="700" text-anchor="middle">is run by Claude</text>
+  <rect x="310" y="450" width="260" height="160" rx="18" fill="#1a2423" stroke="#626f6d" stroke-width="6"/>
+  <rect x="330" y="470" width="220" height="120" rx="14" fill="#ece4d8"/>
+  <text x="440" y="522" fill="#355b53" font-family="Arial, sans-serif" font-size="48" font-weight="700" text-anchor="middle">Claudius</text>
+  <text x="440" y="564" fill="#7c725f" font-family="Arial, sans-serif" font-size="22" text-anchor="middle">running a vending machine</text>
+  <rect x="760" y="170" width="220" height="560" rx="22" fill="#f6f8f7" stroke="#3f4b49" stroke-width="10"/>
+  <line x1="790" y1="276" x2="950" y2="276" stroke="#c8d0cc" stroke-width="8"/>
+  <line x1="790" y1="392" x2="950" y2="392" stroke="#c8d0cc" stroke-width="8"/>
+  <line x1="790" y1="508" x2="950" y2="508" stroke="#c8d0cc" stroke-width="8"/>
+  <rect x="808" y="196" width="58" height="74" rx="12" fill="#d95d56"/>
+  <rect x="880" y="196" width="58" height="74" rx="12" fill="#d95d56"/>
+  <rect x="804" y="438" width="64" height="82" rx="14" fill="#f5b14b"/>
+  <rect x="884" y="438" width="64" height="82" rx="14" fill="#f5b14b"/>
+  <rect x="796" y="630" width="54" height="70" rx="12" fill="#b75c5a"/>
+  <rect x="860" y="630" width="54" height="70" rx="12" fill="#b75c5a"/>
+  <rect x="924" y="630" width="54" height="70" rx="12" fill="#b75c5a"/>
+  <text x="600" y="834" fill="#5f574b" font-family="Arial, sans-serif" font-size="26" text-anchor="middle">WSJ 레드팀 단계에서 촬영된 Claudius 자판기 사진을 바탕으로 재구성한 로컬 일러스트</text>
+</svg>

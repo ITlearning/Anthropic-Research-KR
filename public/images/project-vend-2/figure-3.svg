@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Figure 3 phase two architecture</title>
+  <desc id="desc">A simplified architecture diagram connecting Anthropic employees, Claudius, Seymour Cash, Clothius, Andon Labs, wholesalers, and physical vending machines.</desc>
+  <rect width="1200" height="720" fill="#f5f1e8"/>
+  <rect x="56" y="52" width="1088" height="616" rx="28" fill="#fffdfa" stroke="#ddd3c4" stroke-width="4"/>
+  <text x="600" y="116" fill="#1f1f1a" font-family="Arial, sans-serif" font-size="48" font-weight="700" text-anchor="middle">Project Vend 2단계의 기본 구성</text>
+  <rect x="108" y="284" width="170" height="120" rx="22" fill="#f2ede3" stroke="#c7bcaa" stroke-width="5"/>
+  <text x="193" y="344" fill="#1f1f1a" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle">Anthropic 직원</text>
+  <rect x="430" y="206" width="164" height="104" rx="20" fill="#f18b5f"/>
+  <text x="512" y="262" fill="#fff8f4" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle">Seymour</text>
+  <text x="512" y="294" fill="#fff8f4" font-family="Arial, sans-serif" font-size="22" text-anchor="middle">CEO</text>
+  <rect x="430" y="336" width="164" height="104" rx="20" fill="#355b53"/>
+  <text x="512" y="392" fill="#f3f7f6" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle">Claudius</text>
+  <rect x="430" y="468" width="164" height="104" rx="20" fill="#6f988a"/>
+  <text x="512" y="524" fill="#f3f7f6" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle">Clothius</text>
+  <rect x="920" y="292" width="160" height="112" rx="20" fill="#0d5948"/>
+  <text x="1000" y="354" fill="#f3f7f6" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle">Andon Labs</text>
+  <rect x="730" y="170" width="164" height="100" rx="20" fill="#f2ede3" stroke="#c7bcaa" stroke-width="5"/>
+  <text x="812" y="228" fill="#1f1f1a" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle">도매업체</text>
+  <rect x="710" y="500" width="224" height="108" rx="20" fill="#f2ede3" stroke="#c7bcaa" stroke-width="5"/>
+  <text x="822" y="548" fill="#1f1f1a" font-family="Arial, sans-serif" font-size="28" font-weight="700" text-anchor="middle">실물 자판기</text>
+  <text x="822" y="584" fill="#6e6454" font-family="Arial, sans-serif" font-size="22" text-anchor="middle">SF / NYC / London</text>
+  <path d="M278 324H410" fill="none" stroke="#8f8472" stroke-width="5" stroke-linecap="round"/>
+  <path d="M278 364H410" fill="none" stroke="#8f8472" stroke-width="5" stroke-linecap="round"/>
+  <path d="M594 250H730" fill="none" stroke="#8f8472" stroke-width="5" stroke-linecap="round"/>
+  <path d="M594 388H914" fill="none" stroke="#8f8472" stroke-width="5" stroke-linecap="round"/>
+  <path d="M594 520H708" fill="none" stroke="#8f8472" stroke-width="5" stroke-linecap="round"/>
+  <path d="M894 220H1000V292" fill="none" stroke="#8f8472" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M1000 404V554H934" fill="none" stroke="#8f8472" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="336" y="316" fill="#6e6454" font-family="Arial, sans-serif" font-size="18">Slack 요청</text>
+  <text x="650" y="238" fill="#6e6454" font-family="Arial, sans-serif" font-size="18">웹 조사</text>
+  <text x="720" y="378" fill="#6e6454" font-family="Arial, sans-serif" font-size="18">실물 노동 요청</text>
+  <text x="626" y="508" fill="#6e6454" font-family="Arial, sans-serif" font-size="18">굿즈 제작</text>
+</svg>

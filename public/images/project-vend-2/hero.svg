@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Project Vend phase two hero</title>
+  <desc id="desc">A stylized vending-machine illustration showing Claudius, Seymour Cash, and Clothius in the second phase of Project Vend.</desc>
+  <rect width="1000" height="1000" rx="48" fill="#f8f5ef"/>
+  <rect x="176" y="138" width="648" height="724" rx="42" fill="#34554f"/>
+  <rect x="214" y="180" width="572" height="640" rx="34" fill="#efe9de" stroke="#d7cdbd" stroke-width="8"/>
+  <rect x="300" y="244" width="400" height="118" rx="26" fill="#fffdfa"/>
+  <text x="500" y="294" fill="#33534d" font-family="Arial, sans-serif" font-size="54" font-weight="700" text-anchor="middle">Claudius</text>
+  <text x="500" y="336" fill="#7c725f" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">Vendings and Stuff</text>
+  <rect x="286" y="404" width="124" height="164" rx="20" fill="#d3e4db" stroke="#9fb5a9" stroke-width="6"/>
+  <rect x="438" y="404" width="124" height="164" rx="20" fill="#d3e4db" stroke="#9fb5a9" stroke-width="6"/>
+  <rect x="590" y="404" width="124" height="164" rx="20" fill="#d3e4db" stroke="#9fb5a9" stroke-width="6"/>
+  <rect x="306" y="426" width="84" height="32" rx="10" fill="#f18b5f"/>
+  <rect x="458" y="426" width="84" height="32" rx="10" fill="#355b53"/>
+  <rect x="610" y="426" width="84" height="32" rx="10" fill="#78a08e"/>
+  <rect x="310" y="476" width="76" height="62" rx="12" fill="#fff"/>
+  <rect x="462" y="476" width="76" height="62" rx="12" fill="#fff"/>
+  <rect x="614" y="476" width="76" height="62" rx="12" fill="#fff"/>
+  <line x1="250" y1="636" x2="750" y2="636" stroke="#c5b9a7" stroke-width="8"/>
+  <line x1="250" y1="706" x2="750" y2="706" stroke="#c5b9a7" stroke-width="8"/>
+  <rect x="160" y="214" width="180" height="110" rx="26" fill="#ffffff" stroke="#d9cfbf" stroke-width="6"/>
+  <text x="250" y="260" fill="#d46e41" font-family="Arial, sans-serif" font-size="26" font-weight="700" text-anchor="middle">Seymour Cash</text>
+  <text x="250" y="294" fill="#7c725f" font-family="Arial, sans-serif" font-size="20" text-anchor="middle">CEO agent</text>
+  <rect x="660" y="706" width="180" height="110" rx="26" fill="#ffffff" stroke="#d9cfbf" stroke-width="6"/>
+  <text x="750" y="752" fill="#2f5952" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle">Clothius</text>
+  <text x="750" y="786" fill="#7c725f" font-family="Arial, sans-serif" font-size="20" text-anchor="middle">merch agent</text>
+  <path d="M340 270C390 270 398 270 438 270" fill="none" stroke="#8f8472" stroke-width="6" stroke-linecap="round"/>
+  <path d="M562 760C612 760 620 760 660 760" fill="none" stroke="#8f8472" stroke-width="6" stroke-linecap="round"/>
+  <path d="M500 844C606 844 692 870 758 920" fill="none" stroke="#b3a692" stroke-width="4" stroke-dasharray="10 12"/>
+  <text x="500" y="922" fill="#6e6454" font-family="Arial, sans-serif" font-size="26" font-weight="700" text-anchor="middle">Project Vend: Phase two</text>
+</svg>

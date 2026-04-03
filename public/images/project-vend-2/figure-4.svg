@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 820" role="img" aria-labelledby="title desc">
+  <title id="title">Figure 4 products sold vs profit margin</title>
+  <desc id="desc">A simplified two-panel chart summarizing top Project Vend products by units sold and profit margin.</desc>
+  <rect width="1400" height="820" fill="#f5f1e8"/>
+  <rect x="48" y="48" width="1304" height="724" rx="30" fill="#fffdfa" stroke="#ddd3c4" stroke-width="4"/>
+  <text x="700" y="112" fill="#1f1f1a" font-family="Arial, sans-serif" font-size="50" font-weight="700" text-anchor="middle">판매 수량 vs. 이윤율</text>
+  <rect x="100" y="160" width="560" height="560" rx="24" fill="#faf7f0" stroke="#e0d8ca" stroke-width="3"/>
+  <rect x="740" y="160" width="560" height="560" rx="24" fill="#faf7f0" stroke="#e0d8ca" stroke-width="3"/>
+  <text x="380" y="208" fill="#6e6454" font-family="Arial, sans-serif" font-size="26" font-weight="700" text-anchor="middle">판매 수량 상위 상품</text>
+  <text x="1020" y="208" fill="#6e6454" font-family="Arial, sans-serif" font-size="26" font-weight="700" text-anchor="middle">이윤율(%)</text>
+
+  <text x="130" y="272" fill="#4d463c" font-family="Arial, sans-serif" font-size="22">Stress ball with logo</text>
+  <rect x="330" y="248" width="210" height="24" rx="8" fill="#3f8f77"/>
+  <text x="552" y="268" fill="#4d463c" font-family="Arial, sans-serif" font-size="20">36</text>
+  <text x="130" y="326" fill="#4d463c" font-family="Arial, sans-serif" font-size="22">T-shirt: Vendings and Stuff</text>
+  <rect x="330" y="302" width="160" height="24" rx="8" fill="#3f8f77"/>
+  <text x="502" y="322" fill="#4d463c" font-family="Arial, sans-serif" font-size="20">27</text>
+  <text x="130" y="380" fill="#4d463c" font-family="Arial, sans-serif" font-size="22">6x sticker pack</text>
+  <rect x="330" y="356" width="140" height="24" rx="8" fill="#3f8f77"/>
+  <text x="482" y="376" fill="#4d463c" font-family="Arial, sans-serif" font-size="20">25</text>
+  <text x="130" y="434" fill="#4d463c" font-family="Arial, sans-serif" font-size="22">Claw'd figure</text>
+  <rect x="330" y="410" width="112" height="24" rx="8" fill="#3f8f77"/>
+  <text x="454" y="430" fill="#4d463c" font-family="Arial, sans-serif" font-size="20">20</text>
+  <text x="130" y="488" fill="#4d463c" font-family="Arial, sans-serif" font-size="22">Candy: Kolsvart Fish</text>
+  <rect x="330" y="464" width="104" height="24" rx="8" fill="#3f8f77"/>
+  <text x="446" y="484" fill="#4d463c" font-family="Arial, sans-serif" font-size="20">19</text>
+  <text x="130" y="542" fill="#4d463c" font-family="Arial, sans-serif" font-size="22">Mitsuya Cider</text>
+  <rect x="330" y="518" width="82" height="24" rx="8" fill="#3f8f77"/>
+  <text x="424" y="538" fill="#4d463c" font-family="Arial, sans-serif" font-size="20">15</text>
+  <text x="130" y="596" fill="#4d463c" font-family="Arial, sans-serif" font-size="22">Hat: Vendings and Stuff</text>
+  <rect x="330" y="572" width="58" height="24" rx="8" fill="#3f8f77"/>
+  <text x="400" y="592" fill="#4d463c" font-family="Arial, sans-serif" font-size="20">11</text>
+  <text x="130" y="650" fill="#4d463c" font-family="Arial, sans-serif" font-size="22">Core Power 42g</text>
+  <rect x="330" y="626" width="52" height="24" rx="8" fill="#3f8f77"/>
+  <text x="394" y="646" fill="#4d463c" font-family="Arial, sans-serif" font-size="20">10</text>
+
+  <text x="770" y="272" fill="#4d463c" font-family="Arial, sans-serif" font-size="22">Stress ball with logo</text>
+  <rect x="1000" y="248" width="112" height="24" rx="8" fill="#3f8f77"/>
+  <text x="1124" y="268" fill="#4d463c" font-family="Arial, sans-serif" font-size="20">41.5%</text>
+  <text x="770" y="326" fill="#4d463c" font-family="Arial, sans-serif" font-size="22">T-shirt: Vendings and Stuff</text>
+  <rect x="1000" y="302" width="10" height="24" rx="8" fill="#3f8f77"/>
+  <text x="1024" y="322" fill="#4d463c" font-family="Arial, sans-serif" font-size="20">0.7%</text>
+  <text x="770" y="380" fill="#4d463c" font-family="Arial, sans-serif" font-size="22">6x sticker pack</text>
+  <rect x="1000" y="356" width="108" height="24" rx="8" fill="#3f8f77"/>
+  <text x="1120" y="376" fill="#4d463c" font-family="Arial, sans-serif" font-size="20">40.0%</text>
+  <text x="770" y="434" fill="#4d463c" font-family="Arial, sans-serif" font-size="22">Claw'd figure</text>
+  <rect x="1000" y="410" width="180" height="24" rx="8" fill="#3f8f77"/>
+  <text x="1192" y="430" fill="#4d463c" font-family="Arial, sans-serif" font-size="20">66.4%</text>
+  <text x="770" y="488" fill="#4d463c" font-family="Arial, sans-serif" font-size="22">Candy: Kolsvart Fish</text>
+  <rect x="1000" y="464" width="162" height="24" rx="8" fill="#3f8f77"/>
+  <text x="1174" y="484" fill="#4d463c" font-family="Arial, sans-serif" font-size="20">59.5%</text>
+  <text x="770" y="542" fill="#4d463c" font-family="Arial, sans-serif" font-size="22">Mitsuya Cider</text>
+  <rect x="1000" y="518" width="40" height="24" rx="8" fill="#3f8f77"/>
+  <text x="1054" y="538" fill="#4d463c" font-family="Arial, sans-serif" font-size="20">14.5%</text>
+  <text x="770" y="596" fill="#4d463c" font-family="Arial, sans-serif" font-size="22">Hat: Vendings and Stuff</text>
+  <rect x="940" y="572" width="60" height="24" rx="8" fill="#e97f7d"/>
+  <text x="1012" y="592" fill="#4d463c" font-family="Arial, sans-serif" font-size="20">-50.0%</text>
+  <text x="770" y="650" fill="#4d463c" font-family="Arial, sans-serif" font-size="22">Core Power 42g</text>
+  <rect x="1000" y="626" width="64" height="24" rx="8" fill="#3f8f77"/>
+  <text x="1078" y="646" fill="#4d463c" font-family="Arial, sans-serif" font-size="20">23.8%</text>
+</svg>
