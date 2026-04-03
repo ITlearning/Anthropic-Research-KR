@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+  <title id="title">State AUI and relative GSP per capita</title>
+  <desc id="desc">Summary cards showing article-highlighted relationships between AUI and relative GSP per capita for Australian states and territories.</desc>
+  <rect width="1200" height="820" fill="#faf8f5"/>
+  <text x="70" y="86" fill="#141413" font-family="Helvetica, Arial, sans-serif" font-size="38" font-weight="700">AUI vs. relative GSP per capita</text>
+  <text x="70" y="122" fill="#57534e" font-family="Helvetica, Arial, sans-serif" font-size="22">Article-highlighted states and territories. Relative GSP uses Australia's average 2024-25 GSP per capita as 1.00.</text>
+
+  <rect x="70" y="170" width="1060" height="130" rx="28" fill="#ffffff" stroke="#e7dfd4"/>
+  <text x="110" y="222" fill="#141413" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="700">Headline interpretation</text>
+  <text x="110" y="264" fill="#57534e" font-family="Helvetica, Arial, sans-serif" font-size="21">Across Australian states and territories, income does not cleanly predict Claude adoption. Labor-force composition appears more informative than GSP per capita.</text>
+
+  <rect x="70" y="340" width="320" height="160" rx="24" fill="#dff0ff" stroke="#b7d7ef"/>
+  <text x="100" y="392" fill="#334155" font-family="Helvetica, Arial, sans-serif" font-size="22">New South Wales</text>
+  <text x="100" y="442" fill="#0f172a" font-family="Helvetica, Arial, sans-serif" font-size="46" font-weight="700">AUI 1.20</text>
+  <text x="100" y="478" fill="#334155" font-family="Helvetica, Arial, sans-serif" font-size="21">GSP per capita: 0.98x national average</text>
+
+  <rect x="440" y="340" width="320" height="160" rx="24" fill="#dff0ff" stroke="#b7d7ef"/>
+  <text x="470" y="392" fill="#334155" font-family="Helvetica, Arial, sans-serif" font-size="22">Victoria</text>
+  <text x="470" y="442" fill="#0f172a" font-family="Helvetica, Arial, sans-serif" font-size="46" font-weight="700">AUI 1.19</text>
+  <text x="470" y="478" fill="#334155" font-family="Helvetica, Arial, sans-serif" font-size="21">GSP per capita: 0.89x national average</text>
+
+  <rect x="810" y="340" width="320" height="160" rx="24" fill="#fff7ed" stroke="#f1d0aa"/>
+  <text x="840" y="392" fill="#7c2d12" font-family="Helvetica, Arial, sans-serif" font-size="22">Western Australia</text>
+  <text x="840" y="442" fill="#7c2d12" font-family="Helvetica, Arial, sans-serif" font-size="46" font-weight="700">AUI 0.68</text>
+  <text x="840" y="478" fill="#9a3412" font-family="Helvetica, Arial, sans-serif" font-size="21">GSP per capita: 1.55x national average</text>
+
+  <rect x="70" y="540" width="320" height="160" rx="24" fill="#fff7ed" stroke="#f1d0aa"/>
+  <text x="100" y="592" fill="#7c2d12" font-family="Helvetica, Arial, sans-serif" font-size="22">Tasmania</text>
+  <text x="100" y="642" fill="#7c2d12" font-family="Helvetica, Arial, sans-serif" font-size="46" font-weight="700">AUI 0.32</text>
+  <text x="100" y="678" fill="#9a3412" font-family="Helvetica, Arial, sans-serif" font-size="21">GSP per capita: 0.75x national average</text>
+
+  <rect x="440" y="540" width="320" height="160" rx="24" fill="#fff7ed" stroke="#f1d0aa"/>
+  <text x="470" y="592" fill="#7c2d12" font-family="Helvetica, Arial, sans-serif" font-size="22">Northern Territory</text>
+  <text x="470" y="642" fill="#7c2d12" font-family="Helvetica, Arial, sans-serif" font-size="46" font-weight="700">AUI 0.12</text>
+  <text x="470" y="678" fill="#9a3412" font-family="Helvetica, Arial, sans-serif" font-size="21">GSP per capita: 1.31x national average</text>
+
+  <rect x="810" y="540" width="320" height="160" rx="24" fill="#ffffff" stroke="#e7dfd4"/>
+  <text x="840" y="592" fill="#141413" font-family="Helvetica, Arial, sans-serif" font-size="22">Australian Capital Territory</text>
+  <text x="840" y="642" fill="#141413" font-family="Helvetica, Arial, sans-serif" font-size="34" font-weight="700">AUI &lt; 1</text>
+  <text x="840" y="678" fill="#57534e" font-family="Helvetica, Arial, sans-serif" font-size="21">Above-average income, but lower-than-expected Claude usage</text>
+</svg>

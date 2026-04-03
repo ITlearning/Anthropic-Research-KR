@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="860" viewBox="0 0 1200 860" role="img" aria-labelledby="title desc">
+  <title id="title">Share of Australia's Claude.ai use by state and territory</title>
+  <desc id="desc">Horizontal bar chart showing NSW 37.2, VIC 30.8, QLD 17.7, WA 7.6, SA 4.6, ACT 1.4, TAS 0.6, NT 0.1.</desc>
+  <rect width="1200" height="860" fill="#faf8f5"/>
+  <text x="70" y="86" fill="#141413" font-family="Helvetica, Arial, sans-serif" font-size="38" font-weight="700">Australia's Claude.ai usage by state and territory</text>
+  <text x="70" y="122" fill="#57534e" font-family="Helvetica, Arial, sans-serif" font-size="22">Share of all Australian Claude.ai conversations in February 2026.</text>
+
+  <line x1="290" y1="180" x2="1030" y2="180" stroke="#b8b0a5" stroke-width="2"/>
+  <line x1="290" y1="260" x2="1030" y2="260" stroke="#f0e9de" stroke-width="1"/>
+  <line x1="290" y1="340" x2="1030" y2="340" stroke="#f0e9de" stroke-width="1"/>
+  <line x1="290" y1="420" x2="1030" y2="420" stroke="#f0e9de" stroke-width="1"/>
+  <line x1="290" y1="500" x2="1030" y2="500" stroke="#f0e9de" stroke-width="1"/>
+  <line x1="290" y1="580" x2="1030" y2="580" stroke="#f0e9de" stroke-width="1"/>
+  <line x1="290" y1="660" x2="1030" y2="660" stroke="#f0e9de" stroke-width="1"/>
+  <line x1="290" y1="740" x2="1030" y2="740" stroke="#f0e9de" stroke-width="1"/>
+
+  <g font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#57534e" text-anchor="middle">
+    <text x="290" y="165">0%</text>
+    <text x="475" y="165">10%</text>
+    <text x="660" y="165">20%</text>
+    <text x="845" y="165">30%</text>
+    <text x="1030" y="165">40%</text>
+  </g>
+
+  <g font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#141413">
+    <text x="100" y="231">NSW</text>
+    <text x="100" y="311">VIC</text>
+    <text x="100" y="391">QLD</text>
+    <text x="100" y="471">WA</text>
+    <text x="100" y="551">SA</text>
+    <text x="100" y="631">ACT</text>
+    <text x="100" y="711">TAS</text>
+    <text x="100" y="791">NT</text>
+  </g>
+
+  <rect x="290" y="198" width="688" height="42" rx="21" fill="#4f9bd1"/>
+  <rect x="290" y="278" width="570" height="42" rx="21" fill="#6ab0e4"/>
+  <rect x="290" y="358" width="327" height="42" rx="21" fill="#91c5ee"/>
+  <rect x="290" y="438" width="141" height="42" rx="21" fill="#b8daf3"/>
+  <rect x="290" y="518" width="85" height="42" rx="21" fill="#cfe7f7"/>
+  <rect x="290" y="598" width="26" height="42" rx="13" fill="#dcecf8"/>
+  <rect x="290" y="678" width="11" height="42" rx="6" fill="#e6f3fb"/>
+  <rect x="290" y="758" width="2" height="42" rx="1" fill="#edf7fd"/>
+
+  <g font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#334155">
+    <text x="996" y="226">37.2%</text>
+    <text x="878" y="306">30.8%</text>
+    <text x="635" y="386">17.7%</text>
+    <text x="449" y="466">7.6%</text>
+    <text x="393" y="546">4.6%</text>
+    <text x="334" y="626">1.4%</text>
+    <text x="319" y="706">0.6%</text>
+    <text x="304" y="786">0.1%</text>
+  </g>
+
+  <text x="70" y="830" fill="#57534e" font-family="Helvetica, Arial, sans-serif" font-size="20">NSW and VIC together account for 68.0% of Australia's Claude.ai use.</text>
+</svg>

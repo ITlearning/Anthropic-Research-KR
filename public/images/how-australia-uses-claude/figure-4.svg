@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="860" viewBox="0 0 1200 860" role="img" aria-labelledby="title desc">
+  <title id="title">Economic primitives in Australia</title>
+  <desc id="desc">Six-card summary of work, coursework, personal use, AI autonomy, no-AI task duration, and estimated schooling for Australian prompts.</desc>
+  <rect width="1200" height="860" fill="#faf8f5"/>
+  <text x="70" y="88" fill="#141413" font-family="Helvetica, Arial, sans-serif" font-size="38" font-weight="700">Economic primitives: Australia</text>
+  <text x="70" y="124" fill="#57534e" font-family="Helvetica, Arial, sans-serif" font-size="22">Australia tracks closely with Anglosphere peers: collaborative use, less coursework, and relatively sophisticated prompts.</text>
+
+  <g font-family="Helvetica, Arial, sans-serif">
+    <rect x="70" y="180" width="320" height="180" rx="24" fill="#ffffff" stroke="#e7dfd4"/>
+    <text x="100" y="232" fill="#6b7280" font-size="22">Work-related conversations</text>
+    <text x="100" y="304" fill="#0f172a" font-size="68" font-weight="700">46%</text>
+    <text x="100" y="336" fill="#57534e" font-size="20">Near the median and mid-range for the Anglosphere</text>
+
+    <rect x="440" y="180" width="320" height="180" rx="24" fill="#ffffff" stroke="#e7dfd4"/>
+    <text x="470" y="232" fill="#6b7280" font-size="22">Coursework</text>
+    <text x="470" y="304" fill="#0f172a" font-size="68" font-weight="700">7%</text>
+    <text x="470" y="336" fill="#57534e" font-size="20">Toward the bottom of the distribution</text>
+
+    <rect x="810" y="180" width="320" height="180" rx="24" fill="#ffffff" stroke="#e7dfd4"/>
+    <text x="840" y="232" fill="#6b7280" font-size="22">Personal use</text>
+    <text x="840" y="304" fill="#0f172a" font-size="68" font-weight="700">47%</text>
+    <text x="840" y="336" fill="#57534e" font-size="20">Near the top of the distribution</text>
+
+    <rect x="70" y="410" width="320" height="180" rx="24" fill="#dff0ff" stroke="#b7d7ef"/>
+    <text x="100" y="462" fill="#334155" font-size="22">AI autonomy</text>
+    <text x="100" y="534" fill="#0f172a" font-size="68" font-weight="700">3.38</text>
+    <text x="100" y="566" fill="#334155" font-size="20">Lower means more collaborative, less delegated use</text>
+
+    <rect x="440" y="410" width="320" height="180" rx="24" fill="#ffffff" stroke="#e7dfd4"/>
+    <text x="470" y="462" fill="#6b7280" font-size="22">Estimated no-AI task duration</text>
+    <text x="470" y="534" fill="#0f172a" font-size="68" font-weight="700">2.7h</text>
+    <text x="470" y="566" fill="#57534e" font-size="20">Below the cross-country average of 3.3 hours</text>
+
+    <rect x="810" y="410" width="320" height="180" rx="24" fill="#ffffff" stroke="#e7dfd4"/>
+    <text x="840" y="462" fill="#6b7280" font-size="22">Schooling needed to parse prompts</text>
+    <text x="840" y="534" fill="#0f172a" font-size="68" font-weight="700">11.9</text>
+    <text x="840" y="566" fill="#57534e" font-size="20">Years of education; above the global median</text>
+  </g>
+
+  <rect x="70" y="640" width="1060" height="140" rx="24" fill="#ffffff" stroke="#e7dfd4"/>
+  <text x="100" y="698" fill="#141413" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="700">Interpretation</text>
+  <text x="100" y="738" fill="#57534e" font-family="Helvetica, Arial, sans-serif" font-size="21">Australia looks like a high-income, high-adoption economy: relatively low coursework, high personal use, shorter tasks without AI, and prompts that still require higher educational sophistication.</text>
+</svg>

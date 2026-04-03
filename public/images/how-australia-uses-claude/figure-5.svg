@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Task concentration among top 100 O*NET tasks</title>
+  <desc id="desc">Bar chart comparing Australia 47.3, United States 47.7, United Kingdom 48.3, Canada 50.2, and Global 52.3.</desc>
+  <rect width="1200" height="800" fill="#faf8f5"/>
+  <text x="70" y="88" fill="#141413" font-family="Helvetica, Arial, sans-serif" font-size="38" font-weight="700">Task concentration among the top 100 O*NET tasks</text>
+  <text x="70" y="124" fill="#57534e" font-family="Helvetica, Arial, sans-serif" font-size="22">Lower values indicate a broader, more diverse spread of Claude use.</text>
+
+  <line x1="250" y1="180" x2="1040" y2="180" stroke="#b8b0a5" stroke-width="2"/>
+  <line x1="250" y1="290" x2="1040" y2="290" stroke="#f0e9de" stroke-width="1"/>
+  <line x1="250" y1="400" x2="1040" y2="400" stroke="#f0e9de" stroke-width="1"/>
+  <line x1="250" y1="510" x2="1040" y2="510" stroke="#f0e9de" stroke-width="1"/>
+  <line x1="250" y1="620" x2="1040" y2="620" stroke="#f0e9de" stroke-width="1"/>
+
+  <g font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#57534e" text-anchor="middle">
+    <text x="250" y="165">0%</text>
+    <text x="408" y="165">10%</text>
+    <text x="566" y="165">20%</text>
+    <text x="724" y="165">30%</text>
+    <text x="882" y="165">40%</text>
+    <text x="1040" y="165">50%</text>
+  </g>
+
+  <g font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#141413">
+    <text x="80" y="236">Australia</text>
+    <text x="80" y="346">United States</text>
+    <text x="80" y="456">United Kingdom</text>
+    <text x="80" y="566">Canada</text>
+    <text x="80" y="676">Global</text>
+  </g>
+
+  <rect x="250" y="202" width="747" height="52" rx="26" fill="#4f9bd1"/>
+  <rect x="250" y="312" width="754" height="52" rx="26" fill="#92c6ee"/>
+  <rect x="250" y="422" width="763" height="52" rx="26" fill="#a8d2f1"/>
+  <rect x="250" y="532" width="793" height="52" rx="26" fill="#c7e3f6"/>
+  <rect x="250" y="642" width="827" height="52" rx="26" fill="#ead7c2"/>
+
+  <g font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#334155">
+    <text x="1015" y="235">47.3%</text>
+    <text x="1022" y="345">47.7%</text>
+    <text x="1031" y="455">48.3%</text>
+    <text x="1061" y="565">50.2%</text>
+    <text x="1095" y="675">52.3%</text>
+  </g>
+
+  <text x="70" y="750" fill="#57534e" font-family="Helvetica, Arial, sans-serif" font-size="20">Australia's top 100 tasks occupy a smaller share of usage than in peer Anglosphere countries and the global aggregate.</text>
+</svg>
