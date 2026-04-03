@@ -1,0 +1,18 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#FAF9F5"/>
+  <rect x="132" y="116" width="1336" height="668" rx="40" fill="#F2ECE3" stroke="#141413" stroke-width="4"/>
+  <path d="M450 330C480 248 564 198 652 198C728 198 794 236 834 302C854 336 860 376 860 430C860 484 846 550 808 604C760 672 684 714 596 714C504 714 426 666 388 596C370 562 360 522 360 474C360 424 378 384 410 360C430 344 446 338 450 330Z" fill="#DED2C0"/>
+  <path d="M449 330C470 284 520 240 586 228" stroke="#141413" stroke-width="12" stroke-linecap="round"/>
+  <path d="M586 228C666 214 752 250 794 330" stroke="#141413" stroke-width="12" stroke-linecap="round"/>
+  <path d="M794 330C824 386 828 474 796 548" stroke="#141413" stroke-width="12" stroke-linecap="round"/>
+  <path d="M796 548C750 644 650 694 562 678" stroke="#141413" stroke-width="12" stroke-linecap="round"/>
+  <path d="M562 678C484 666 418 614 392 540" stroke="#141413" stroke-width="12" stroke-linecap="round"/>
+  <path d="M392 540C372 482 370 424 410 360" stroke="#141413" stroke-width="12" stroke-linecap="round"/>
+  <path d="M990 328C1144 328 1234 392 1234 474C1234 556 1144 620 990 620C836 620 746 556 746 474C746 392 836 328 990 328Z" fill="#E9DFD2"/>
+  <path d="M772 450C834 418 914 402 1002 402C1090 402 1172 418 1230 450" stroke="#141413" stroke-width="10" stroke-linecap="round"/>
+  <path d="M744 504C816 542 904 560 1000 560C1098 560 1186 542 1258 504" stroke="#141413" stroke-width="10" stroke-linecap="round"/>
+  <path d="M806 638C884 658 972 668 1060 664C1136 660 1210 646 1272 620" stroke="#141413" stroke-width="8" stroke-linecap="round" opacity="0.72"/>
+  <path d="M356 770C514 796 690 808 878 804C1066 800 1236 782 1360 746" stroke="#141413" stroke-width="6" stroke-linecap="round" opacity="0.45"/>
+  <text x="160" y="170" fill="#141413" font-family="Georgia, 'Times New Roman', serif" font-size="52">A “diff” tool for AI</text>
+  <text x="160" y="222" fill="#6A6056" font-family="Arial, Helvetica, sans-serif" font-size="24">Local hero illustration adapted from source metadata.</text>
+</svg>
