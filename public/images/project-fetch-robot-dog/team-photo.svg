@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Team photo placeholder</title>
+  <desc id="desc">A split-panel source card marking Team Claude-less on the left and Team Claude on the right.</desc>
+  <rect width="1200" height="720" fill="#f3efe5"/>
+  <rect x="48" y="48" width="1104" height="624" rx="28" fill="#fffdfa" stroke="#d6d0c2" stroke-width="4"/>
+  <line x1="600" y1="96" x2="600" y2="624" stroke="#d6d0c2" stroke-width="4"/>
+  <text x="100" y="138" fill="#6f6555" font-family="sans-serif" font-size="24" font-weight="700">SOURCE IMAGE</text>
+  <text x="100" y="196" fill="#1f3a35" font-family="sans-serif" font-size="42" font-weight="800">Team Claude-less</text>
+  <text x="100" y="244" fill="#556b65" font-family="sans-serif" font-size="24">Claude 없이 로보독과 센서 연결을 시도한 팀</text>
+  <g transform="translate(144 318)" fill="#355b53">
+    <circle cx="46" cy="32" r="24"/>
+    <circle cx="140" cy="32" r="24"/>
+    <circle cx="234" cy="32" r="24"/>
+    <rect x="18" y="64" width="56" height="110" rx="18"/>
+    <rect x="112" y="64" width="56" height="110" rx="18"/>
+    <rect x="206" y="64" width="56" height="110" rx="18"/>
+    <rect x="0" y="198" width="284" height="24" rx="12" fill="#c6d5cf"/>
+  </g>
+  <text x="670" y="138" fill="#6f6555" font-family="sans-serif" font-size="24" font-weight="700">SOURCE IMAGE</text>
+  <text x="670" y="196" fill="#1f3a35" font-family="sans-serif" font-size="42" font-weight="800">Team Claude</text>
+  <text x="670" y="244" fill="#556b65" font-family="sans-serif" font-size="24">Claude와 함께 연결, 제어, 자율 회수 과제를 수행한 팀</text>
+  <g transform="translate(716 318)">
+    <circle cx="46" cy="32" r="24" fill="#355b53"/>
+    <circle cx="140" cy="32" r="24" fill="#355b53"/>
+    <circle cx="234" cy="32" r="24" fill="#355b53"/>
+    <rect x="18" y="64" width="56" height="110" rx="18" fill="#355b53"/>
+    <rect x="112" y="64" width="56" height="110" rx="18" fill="#355b53"/>
+    <rect x="206" y="64" width="56" height="110" rx="18" fill="#355b53"/>
+    <rect x="14" y="198" width="256" height="24" rx="12" fill="#c6d5cf"/>
+    <rect x="292" y="34" width="122" height="178" rx="22" fill="#1f3a35"/>
+    <circle cx="352" cy="152" r="10" fill="#f18b5f"/>
+  </g>
+</svg>

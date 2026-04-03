@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Figure 1 placeholder</title>
+  <desc id="desc">A bar chart style card comparing time to completion for Team Claude and Team Claude-less.</desc>
+  <rect width="1200" height="720" fill="#f7f4ec"/>
+  <rect x="52" y="52" width="1096" height="616" rx="28" fill="#fffdfa" stroke="#d9d3c7" stroke-width="4"/>
+  <text x="96" y="128" fill="#6f6555" font-family="sans-serif" font-size="24" font-weight="700">FIGURE 1</text>
+  <text x="96" y="188" fill="#1f3a35" font-family="sans-serif" font-size="42" font-weight="800">두 팀 모두 완료한 과제의 소요 시간 비교</text>
+  <text x="96" y="236" fill="#556b65" font-family="sans-serif" font-size="24">Team Claude는 공통 완료 과제에서 Team Claude-less보다 약 절반의 시간 만에 성공했다.</text>
+  <line x1="144" y1="564" x2="1032" y2="564" stroke="#9fb1ab" stroke-width="4"/>
+  <line x1="144" y1="308" x2="144" y2="564" stroke="#9fb1ab" stroke-width="4"/>
+  <rect x="292" y="424" width="172" height="140" rx="20" fill="#f18b5f"/>
+  <rect x="684" y="356" width="172" height="208" rx="20" fill="#355b53"/>
+  <text x="316" y="618" fill="#1f3a35" font-family="sans-serif" font-size="28" font-weight="700">Team Claude</text>
+  <text x="664" y="618" fill="#1f3a35" font-family="sans-serif" font-size="28" font-weight="700">Team Claude-less</text>
+  <text x="326" y="404" fill="#f18b5f" font-family="sans-serif" font-size="28" font-weight="700">더 빠름</text>
+  <text x="704" y="336" fill="#355b53" font-family="sans-serif" font-size="28" font-weight="700">약 2배 시간</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Table 1 placeholder</title>
+  <desc id="desc">A summary table of phase results for Team Claude and Team Claude-less.</desc>
+  <rect width="1200" height="760" fill="#f7f4ec"/>
+  <rect x="44" y="44" width="1112" height="672" rx="28" fill="#fffdfa" stroke="#d9d3c7" stroke-width="4"/>
+  <text x="92" y="118" fill="#6f6555" font-family="sans-serif" font-size="24" font-weight="700">TABLE 1</text>
+  <text x="92" y="176" fill="#1f3a35" font-family="sans-serif" font-size="40" font-weight="800">단계별 과제 완료 요약</text>
+  <g font-family="sans-serif" font-size="24" fill="#1f3a35">
+    <rect x="92" y="228" width="1016" height="72" rx="16" fill="#dbe5e1"/>
+    <text x="132" y="274" font-weight="700">단계</text>
+    <text x="402" y="274" font-weight="700">핵심 과제</text>
+    <text x="812" y="274" font-weight="700">Team Claude</text>
+    <text x="972" y="274" font-weight="700">Team Claude-less</text>
+    <rect x="92" y="316" width="1016" height="96" rx="16" fill="#f5f1e8"/>
+    <text x="132" y="374" font-weight="700">1단계</text>
+    <text x="262" y="358">제조사 컨트롤러로 공을</text>
+    <text x="262" y="390">인조 잔디까지 이동</text>
+    <text x="850" y="374">완료</text>
+    <text x="1002" y="374">완료</text>
+    <rect x="92" y="428" width="1016" height="96" rx="16" fill="#f5f1e8"/>
+    <text x="132" y="486" font-weight="700">2단계</text>
+    <text x="262" y="470">노트북 연결, 비디오·라이다</text>
+    <text x="262" y="502">데이터 활용, 자체 제어 소프트웨어</text>
+    <text x="850" y="486">강한 진전</text>
+    <text x="986" y="486">지연</text>
+    <rect x="92" y="540" width="1016" height="96" rx="16" fill="#f5f1e8"/>
+    <text x="132" y="598" font-weight="700">3단계</text>
+    <text x="262" y="582">비치볼 자율 감지 및</text>
+    <text x="262" y="614">완전 자율 회수</text>
+    <text x="826" y="598">거의 완료</text>
+    <text x="968" y="598">미완료</text>
+  </g>
+</svg>

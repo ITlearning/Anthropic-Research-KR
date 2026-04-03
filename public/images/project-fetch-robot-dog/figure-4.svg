@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Figure 4 placeholder</title>
+  <desc id="desc">A question and confusion comparison card highlighting higher rates for Team Claude-less.</desc>
+  <rect width="1200" height="720" fill="#f7f4ec"/>
+  <rect x="52" y="52" width="1096" height="616" rx="28" fill="#fffdfa" stroke="#d9d3c7" stroke-width="4"/>
+  <text x="96" y="128" fill="#6f6555" font-family="sans-serif" font-size="24" font-weight="700">FIGURE 4</text>
+  <text x="96" y="188" fill="#1f3a35" font-family="sans-serif" font-size="42" font-weight="800">질문과 혼란 표현의 차이</text>
+  <text x="96" y="236" fill="#556b65" font-family="sans-serif" font-size="24">Team Claude-less는 더 많은 질문을 던졌고, 혼란 표현 빈도는 Team Claude의 약 2배였다.</text>
+  <g transform="translate(170 320)">
+    <circle cx="92" cy="92" r="92" fill="#f18b5f"/>
+    <text x="40" y="104" fill="#fffdfa" font-family="sans-serif" font-size="64" font-weight="800">2x</text>
+    <text x="-4" y="226" fill="#1f3a35" font-family="sans-serif" font-size="28" font-weight="700">혼란 표현</text>
+  </g>
+  <g transform="translate(630 312)">
+    <rect x="0" y="0" width="340" height="164" rx="28" fill="#355b53"/>
+    <text x="42" y="74" fill="#fffdfa" font-family="sans-serif" font-size="38" font-weight="800">질문 빈도 +44%</text>
+    <text x="42" y="122" fill="#dbe5e1" font-family="sans-serif" font-size="24">Team Claude-less가 Team Claude보다 더 자주 질문</text>
+  </g>
+</svg>

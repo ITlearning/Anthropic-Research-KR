@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Figure 3 placeholder</title>
+  <desc id="desc">An emotional expression comparison card showing more negative dialogue for Team Claude-less.</desc>
+  <rect width="1200" height="720" fill="#f7f4ec"/>
+  <rect x="52" y="52" width="1096" height="616" rx="28" fill="#fffdfa" stroke="#d9d3c7" stroke-width="4"/>
+  <text x="96" y="128" fill="#6f6555" font-family="sans-serif" font-size="24" font-weight="700">FIGURE 3</text>
+  <text x="96" y="188" fill="#1f3a35" font-family="sans-serif" font-size="42" font-weight="800">감정 표현 정량 분석</text>
+  <text x="96" y="236" fill="#556b65" font-family="sans-serif" font-size="24">Team Claude-less는 더 부정적이었고, 순감정 표현 차이는 통계적으로 유의하지 않았다.</text>
+  <line x1="150" y1="560" x2="1038" y2="560" stroke="#9fb1ab" stroke-width="4"/>
+  <g font-family="sans-serif" font-size="26" font-weight="700">
+    <rect x="290" y="388" width="154" height="172" rx="18" fill="#f18b5f"/>
+    <rect x="510" y="458" width="154" height="102" rx="18" fill="#355b53"/>
+    <rect x="746" y="434" width="154" height="126" rx="18" fill="#c8d7d1"/>
+    <text x="284" y="610" fill="#1f3a35">부정 정서</text>
+    <text x="530" y="610" fill="#1f3a35">긍정 정서</text>
+    <text x="742" y="610" fill="#1f3a35">순감정 표현</text>
+    <text x="312" y="366" fill="#f18b5f">Claude-less ↑</text>
+    <text x="540" y="436" fill="#355b53">Claude ↑</text>
+  </g>
+</svg>
