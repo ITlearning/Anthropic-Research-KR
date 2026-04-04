@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1400" viewBox="0 0 1920 1400" fill="none">
+  <rect width="1920" height="1400" fill="#ffffff"/>
+  <text x="32" y="52" fill="#57534E" font-family="Georgia, 'Times New Roman', serif" font-size="28">Figure 4.2</text>
+  <text x="32" y="90" fill="#78716C" font-family="Arial, Helvetica, sans-serif" font-size="18">Remote source: Anthropic CDN</text>
+  <image href="https://www-cdn.anthropic.com/images/4zrzovbb/website/49fd8d0de931874f3195ab954b7bb0a9e56fdedf-1920x1400.svg" x="0" y="0" width="1920" height="1400" preserveAspectRatio="xMidYMid meet"/>
+</svg>

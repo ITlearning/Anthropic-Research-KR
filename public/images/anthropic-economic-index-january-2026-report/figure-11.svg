@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" fill="none">
+  <rect width="1920" height="1080" fill="#FAFAF8"/>
+  <text x="80" y="96" fill="#171311" font-family="Georgia, 'Times New Roman', serif" font-size="46">Figure 2.2</text>
+  <text x="80" y="146" fill="#5F5852" font-family="Arial, Helvetica, sans-serif" font-size="28">Descriptive statistics of economic primitives overall and for two example request clusters</text>
+  <g>
+    <rect x="80" y="210" width="520" height="760" rx="28" fill="#FFFDFB" stroke="#D8D1C9"/>
+    <rect x="700" y="210" width="520" height="760" rx="28" fill="#FFFDFB" stroke="#D8D1C9"/>
+    <rect x="1320" y="210" width="520" height="760" rx="28" fill="#FFFDFB" stroke="#D8D1C9"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="120" y="282" fill="#171311" font-size="34" font-weight="700">Global average</text>
+    <text x="740" y="282" fill="#171311" font-size="34" font-weight="700">Software development</text>
+    <text x="1360" y="282" fill="#171311" font-size="34" font-weight="700">Personal life management</text>
+
+    <text x="120" y="330" fill="#78716C" font-size="24">N = 999,875</text>
+    <text x="740" y="330" fill="#78716C" font-size="24">N = 147,984</text>
+    <text x="1360" y="330" fill="#78716C" font-size="24">N = 26,460</text>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#2B2522">
+    <text x="120" y="410">Human time: 3.1 h</text>
+    <text x="120" y="470">Human + AI time: 15.4 min</text>
+    <text x="120" y="530">Multitasking: 9%</text>
+    <text x="120" y="590">Human could do alone: 88%</text>
+    <text x="120" y="650">Human education: 12.2 years</text>
+    <text x="120" y="710">AI education: 12.2 years</text>
+    <text x="120" y="770">Work use: 46%</text>
+    <text x="120" y="830">AI autonomy: 3.4</text>
+    <text x="120" y="890">Task success: 67%</text>
+
+    <text x="740" y="410">Human time: 3.3 h</text>
+    <text x="740" y="470">Human + AI time: 15.8 min</text>
+    <text x="740" y="530">Multitasking: 8%</text>
+    <text x="740" y="590">Human could do alone: 82%</text>
+    <text x="740" y="650">Human education: 13.8 years</text>
+    <text x="740" y="710">AI education: 13.8 years</text>
+    <text x="740" y="770">Work use: 64%</text>
+    <text x="740" y="830">AI autonomy: 3.5</text>
+    <text x="740" y="890">Task success: 61%</text>
+
+    <text x="1360" y="410">Human time: 1.8 h</text>
+    <text x="1360" y="470">Human + AI time: 14.7 min</text>
+    <text x="1360" y="530">Multitasking: 10%</text>
+    <text x="1360" y="590">Human could do alone: 96%</text>
+    <text x="1360" y="650">Human education: 9.1 years</text>
+    <text x="1360" y="710">AI education: 9.4 years</text>
+    <text x="1360" y="770">Work use: 17%</text>
+    <text x="1360" y="830">AI autonomy: 3.5</text>
+    <text x="1360" y="890">Task success: 78%</text>
+  </g>
+</svg>

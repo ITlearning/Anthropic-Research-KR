@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000" fill="none">
+  <rect width="1000" height="1000" fill="#FAF9F5"/>
+  <rect x="74" y="74" width="852" height="852" rx="42" fill="#FFFDFC" stroke="#D6CFC7"/>
+  <path d="M160 710C230 640 290 612 351 612C433 612 481 674 556 674C640 674 678 618 840 462" stroke="#E18A6E" stroke-width="18" stroke-linecap="round"/>
+  <rect x="162" y="268" width="74" height="290" rx="18" fill="#EBCFCA"/>
+  <rect x="270" y="338" width="74" height="220" rx="18" fill="#D8E0CF"/>
+  <rect x="378" y="228" width="74" height="330" rx="18" fill="#B9CBDC"/>
+  <rect x="486" y="388" width="74" height="170" rx="18" fill="#E8DDBE"/>
+  <rect x="594" y="306" width="74" height="252" rx="18" fill="#CFC8DC"/>
+  <rect x="702" y="176" width="74" height="382" rx="18" fill="#EBCFCA"/>
+  <text x="160" y="154" fill="#6B5B53" font-family="Arial, Helvetica, sans-serif" font-size="26" letter-spacing="2">ECONOMIC RESEARCH</text>
+  <text x="160" y="650" fill="#171311" font-family="Georgia, 'Times New Roman', serif" font-size="54">Anthropic Economic Index report:</text>
+  <text x="160" y="716" fill="#171311" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="700">Economic primitives</text>
+  <text x="160" y="790" fill="#6B5B53" font-family="Arial, Helvetica, sans-serif" font-size="26">January 15, 2026</text>
+</svg>
