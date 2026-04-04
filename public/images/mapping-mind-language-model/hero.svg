@@ -1,0 +1,36 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#E3DCCC"/>
+  <rect x="48" y="48" width="1104" height="534" rx="28" fill="#F7F4EE" stroke="#C9C2B7"/>
+  <circle cx="832" cy="188" r="84" fill="#EBCB9A"/>
+  <circle cx="978" cy="142" r="52" fill="#D9E6F2"/>
+  <circle cx="1008" cy="284" r="72" fill="#D9D2EA"/>
+  <circle cx="860" cy="336" r="60" fill="#CFE3D7"/>
+  <circle cx="958" cy="430" r="48" fill="#F0D8D3"/>
+  <path d="M832 188L978 142M832 188L1008 284M832 188L860 336M860 336L958 430M1008 284L958 430" stroke="#5C5249" stroke-width="3"/>
+  <circle cx="832" cy="188" r="11" fill="#5C5249"/>
+  <circle cx="978" cy="142" r="11" fill="#5C5249"/>
+  <circle cx="1008" cy="284" r="11" fill="#5C5249"/>
+  <circle cx="860" cy="336" r="11" fill="#5C5249"/>
+  <circle cx="958" cy="430" r="11" fill="#5C5249"/>
+  <rect x="126" y="134" width="342" height="42" rx="21" fill="#141413"/>
+  <text x="150" y="163" fill="#F7F4EE" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">Interpretability</text>
+  <text x="126" y="246" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700">Mapping the Mind</text>
+  <text x="126" y="316" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700">of a Large</text>
+  <text x="126" y="386" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700">Language Model</text>
+  <text x="126" y="454" fill="#5C5249" font-family="Arial, Helvetica, sans-serif" font-size="28">
+    Millions of internal features inside Claude 3 Sonnet
+  </text>
+  <text x="126" y="496" fill="#5C5249" font-family="Arial, Helvetica, sans-serif" font-size="28">
+    can be identified, grouped, and steered.
+  </text>
+  <rect x="724" y="128" width="216" height="42" rx="21" fill="#FFFFFF" stroke="#5C5249"/>
+  <text x="749" y="156" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">Golden Gate Bridge</text>
+  <rect x="922" y="96" width="138" height="38" rx="19" fill="#FFFFFF" stroke="#5C5249"/>
+  <text x="954" y="121" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Bias</text>
+  <rect x="1016" y="254" width="116" height="38" rx="19" fill="#FFFFFF" stroke="#5C5249"/>
+  <text x="1038" y="279" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Secrets</text>
+  <rect x="744" y="372" width="124" height="38" rx="19" fill="#FFFFFF" stroke="#5C5249"/>
+  <text x="777" y="397" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Scams</text>
+  <rect x="952" y="468" width="138" height="38" rx="19" fill="#FFFFFF" stroke="#5C5249"/>
+  <text x="974" y="493" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Sycophancy</text>
+</svg>

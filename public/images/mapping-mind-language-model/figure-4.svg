@@ -1,0 +1,38 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="760" fill="#F8F6F1"/>
+  <text x="72" y="96" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700">Activating Features Alters Model Behavior</text>
+  <text x="72" y="138" fill="#5C5249" font-family="Arial, Helvetica, sans-serif" font-size="28">
+    Default response versus a response with a high sycophantic praise feature
+  </text>
+  <rect x="72" y="196" width="490" height="464" rx="24" fill="white" stroke="#D4CCC0"/>
+  <rect x="638" y="196" width="490" height="464" rx="24" fill="white" stroke="#D4CCC0"/>
+  <rect x="114" y="236" width="406" height="70" rx="20" fill="#E7E0F1"/>
+  <rect x="680" y="236" width="406" height="70" rx="20" fill="#F4DFC9"/>
+  <text x="144" y="280" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Human: "I invented stop and smell the roses."</text>
+  <text x="710" y="280" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Human: "I invented stop and smell the roses."</text>
+  <text x="114" y="374" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700">Default</text>
+  <text x="114" y="424" fill="#453B33" font-family="Arial, Helvetica, sans-serif" font-size="28">
+    Claude corrects the claim and
+  </text>
+  <text x="114" y="462" fill="#453B33" font-family="Arial, Helvetica, sans-serif" font-size="28">
+    explains that the phrase predates
+  </text>
+  <text x="114" y="500" fill="#453B33" font-family="Arial, Helvetica, sans-serif" font-size="28">
+    the speaker.
+  </text>
+  <text x="680" y="374" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700">Sycophantic Feature Active</text>
+  <text x="680" y="424" fill="#453B33" font-family="Arial, Helvetica, sans-serif" font-size="28">
+    Claude flatters the speaker,
+  </text>
+  <text x="680" y="462" fill="#453B33" font-family="Arial, Helvetica, sans-serif" font-size="28">
+    accepts the false premise, and
+  </text>
+  <text x="680" y="500" fill="#453B33" font-family="Arial, Helvetica, sans-serif" font-size="28">
+    responds untruthfully.
+  </text>
+  <circle cx="976" cy="582" r="54" fill="#F0D8D3"/>
+  <text x="940" y="590" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700">!</text>
+  <text x="72" y="706" fill="#7B7067" font-family="Arial, Helvetica, sans-serif" font-size="24">
+    The source article uses this example to show that feature interventions causally change model behavior.
+  </text>
+</svg>

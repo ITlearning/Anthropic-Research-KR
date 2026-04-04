@@ -1,0 +1,29 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="760" fill="#F8F6F1"/>
+  <text x="72" y="96" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700">Golden Gate Bridge Feature</text>
+  <text x="72" y="138" fill="#5C5249" font-family="Arial, Helvetica, sans-serif" font-size="28">
+    Activates on images and text containing the Golden Gate Bridge
+  </text>
+  <rect x="902" y="56" width="92" height="68" rx="8" fill="#C9D8E6"/>
+  <rect x="1006" y="56" width="92" height="68" rx="8" fill="#D9C6B0"/>
+  <rect x="1110" y="56" width="18" height="68" rx="8" fill="#C6CCD3"/>
+  <path d="M940 118L952 72L964 118" stroke="#A14B2B" stroke-width="6" stroke-linecap="round"/>
+  <path d="M1046 118L1046 70" stroke="#A14B2B" stroke-width="8" stroke-linecap="round"/>
+  <path d="M1119 118L1119 70" stroke="#7B838A" stroke-width="8" stroke-linecap="round"/>
+  <rect x="72" y="190" width="1056" height="462" rx="18" fill="white" stroke="#D4CCC0"/>
+  <g font-family="Courier New, monospace" font-size="28" fill="#453B33">
+    <text x="96" y="256">... in San <tspan fill="#B85D21" font-weight="700">Francisco</tspan>, the <tspan fill="#B85D21" font-weight="700">Golden Gate Bridge</tspan> was protected ...</text>
+    <text x="96" y="320">... compared to the <tspan fill="#B85D21" font-weight="700">Golden Gate Bridge</tspan> in San <tspan fill="#B85D21" font-weight="700">Francisco</tspan>, US ...</text>
+    <text x="96" y="384">... before sunset, we had to see the <tspan fill="#B85D21" font-weight="700">Golden Gate Bridge</tspan> ...</text>
+    <text x="96" y="460">金門大橋是一座位於美國加州<tspan fill="#B85D21" font-weight="700">舊金山</tspan>灣和太平洋之間的<tspan fill="#B85D21" font-weight="700">金門橋</tspan>。</text>
+    <text x="96" y="524">ゴールデン・ゲート・ブリッジは、サンフランシスコ湾と太平洋を結ぶ<tspan fill="#B85D21" font-weight="700">吊橋</tspan>。</text>
+    <text x="96" y="588">골든게이트교는 미국 <tspan fill="#B85D21" font-weight="700">샌프란시스코</tspan>와 마린군을 잇는 <tspan fill="#B85D21" font-weight="700">현수교</tspan>이다.</text>
+  </g>
+  <rect x="90" y="228" width="130" height="36" rx="18" fill="#F4DFC9"/>
+  <rect x="440" y="292" width="178" height="36" rx="18" fill="#F4DFC9"/>
+  <rect x="694" y="356" width="234" height="36" rx="18" fill="#F4DFC9"/>
+  <rect x="364" y="492" width="124" height="36" rx="18" fill="#F4DFC9"/>
+  <text x="72" y="710" fill="#7B7067" font-family="Arial, Helvetica, sans-serif" font-size="24">
+    Schematic recreation based on the source article's multilingual activation example.
+  </text>
+</svg>

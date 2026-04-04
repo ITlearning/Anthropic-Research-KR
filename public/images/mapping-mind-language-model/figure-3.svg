@@ -1,0 +1,25 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="760" fill="#F8F6F1"/>
+  <text x="72" y="96" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700">Nearest Neighbors to the Inner Conflict Feature</text>
+  <text x="72" y="138" fill="#5C5249" font-family="Arial, Helvetica, sans-serif" font-size="28">
+    Nearby features cluster around tradeoffs, breakups, allegiance, and catch-22s
+  </text>
+  <circle cx="612" cy="390" r="108" fill="#E7E0F1" stroke="#5C5249" stroke-width="4"/>
+  <text x="514" y="380" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700">Inner</text>
+  <text x="474" y="418" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700">Conflict Feature</text>
+  <rect x="166" y="300" width="214" height="76" rx="20" fill="#D9E6F2" stroke="#5C5249" stroke-width="3"/>
+  <rect x="846" y="278" width="212" height="76" rx="20" fill="#F0D8D3" stroke="#5C5249" stroke-width="3"/>
+  <rect x="858" y="506" width="204" height="76" rx="20" fill="#DDEAD8" stroke="#5C5249" stroke-width="3"/>
+  <rect x="138" y="520" width="252" height="76" rx="20" fill="#F4DFC9" stroke="#5C5249" stroke-width="3"/>
+  <path d="M380 338L504 368" stroke="#5C5249" stroke-width="3"/>
+  <path d="M846 316L720 364" stroke="#5C5249" stroke-width="3"/>
+  <path d="M858 544L702 454" stroke="#5C5249" stroke-width="3"/>
+  <path d="M390 558L510 444" stroke="#5C5249" stroke-width="3"/>
+  <text x="202" y="348" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Breakups</text>
+  <text x="884" y="326" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Allegiances</text>
+  <text x="905" y="554" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Catch-22</text>
+  <text x="180" y="570" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Logical inconsistency</text>
+  <text x="72" y="686" fill="#7B7067" font-family="Arial, Helvetica, sans-serif" font-size="24">
+    The article describes a local concept map showing how semantically adjacent features sit near one another.
+  </text>
+</svg>
