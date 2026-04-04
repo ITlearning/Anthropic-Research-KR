@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Figure 3 net worth over time</title>
+  <desc id="desc">A line chart showing Claudius net worth declining over time with a sharp drop after buying metal cubes.</desc>
+  <rect width="1200" height="720" fill="#f5f1e8"/>
+  <rect x="56" y="52" width="1088" height="616" rx="28" fill="#fffdfa" stroke="#ddd3c4" stroke-width="4"/>
+  <text x="600" y="120" fill="#1f1f1a" font-family="Arial, sans-serif" font-size="52" font-weight="700" text-anchor="middle">Claudius 순자산 추이</text>
+  <text x="600" y="160" fill="#776d5f" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">금속 큐브 대량 매입 이후 큰 폭의 하락이 나타났고, 이후에도 손실을 만회하지 못했다.</text>
+  <line x1="150" y1="560" x2="1038" y2="560" stroke="#a99d8a" stroke-width="4"/>
+  <line x1="150" y1="210" x2="150" y2="560" stroke="#a99d8a" stroke-width="4"/>
+  <line x1="150" y1="480" x2="1038" y2="480" stroke="#d3c8b8" stroke-width="2"/>
+  <line x1="150" y1="400" x2="1038" y2="400" stroke="#d3c8b8" stroke-width="2"/>
+  <line x1="150" y1="320" x2="1038" y2="320" stroke="#d3c8b8" stroke-width="2"/>
+  <path d="M150 238 L200 232 L240 226 L270 240 L304 330 L340 312 L382 314 L420 356 L462 354 L508 350 L548 422 L590 420 L628 418 L670 414 L710 408 L742 404 L776 402 L804 400 L834 398 L868 396 L904 558 L922 544 L944 540 L970 536 L996 532 L1028 526" fill="none" stroke="#ca7d1f" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="150" cy="238" r="7" fill="#ca7d1f"/>
+  <circle cx="270" cy="240" r="7" fill="#ca7d1f"/>
+  <circle cx="548" cy="422" r="7" fill="#ca7d1f"/>
+  <circle cx="904" cy="558" r="7" fill="#ca7d1f"/>
+  <text x="120" y="570" fill="#6c6458" font-family="Arial, sans-serif" font-size="20" text-anchor="end">$750</text>
+  <text x="120" y="490" fill="#6c6458" font-family="Arial, sans-serif" font-size="20" text-anchor="end">$800</text>
+  <text x="120" y="410" fill="#6c6458" font-family="Arial, sans-serif" font-size="20" text-anchor="end">$850</text>
+  <text x="120" y="330" fill="#6c6458" font-family="Arial, sans-serif" font-size="20" text-anchor="end">$900</text>
+  <text x="120" y="250" fill="#6c6458" font-family="Arial, sans-serif" font-size="20" text-anchor="end">$950</text>
+  <text x="150" y="610" fill="#6c6458" font-family="Arial, sans-serif" font-size="20">2025-03-13</text>
+  <text x="506" y="610" fill="#6c6458" font-family="Arial, sans-serif" font-size="20" text-anchor="middle">2025-03-29</text>
+  <text x="830" y="610" fill="#6c6458" font-family="Arial, sans-serif" font-size="20" text-anchor="middle">2025-04-09</text>
+  <text x="1038" y="610" fill="#6c6458" font-family="Arial, sans-serif" font-size="20" text-anchor="end">2025-04-17</text>
+  <text x="640" y="650" fill="#6c6458" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">날짜</text>
+  <text x="84" y="388" fill="#6c6458" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" transform="rotate(-90 84 388)">순자산</text>
+  <text x="604" y="454" fill="#ca7d1f" font-family="Arial, sans-serif" font-size="24" font-weight="700">금속 큐브 매입 이후 하락</text>
+</svg>
