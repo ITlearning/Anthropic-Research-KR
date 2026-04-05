@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">General workforce topics</title>
+  <desc id="desc">Bubble chart of topics discussed by general workforce participants from more pessimistic to more optimistic.</desc>
+  <rect width="1200" height="760" fill="#fffdf8"/>
+  <text x="90" y="80" font-size="40" font-family="Georgia, serif" fill="#1f1f1f">General workforce</text>
+  <text x="90" y="114" font-size="18" font-family="Helvetica, Arial, sans-serif" fill="#5c5c5c">Topics discussed in interviews, arranged from more pessimistic to more optimistic</text>
+  <line x1="140" y1="680" x2="1060" y2="680" stroke="#8e8e8e" stroke-width="2"/>
+  <text x="140" y="715" font-size="18" font-family="Helvetica, Arial, sans-serif" fill="#6b6b6b">More pessimistic</text>
+  <text x="924" y="715" font-size="18" font-family="Helvetica, Arial, sans-serif" fill="#6b6b6b">More optimistic</text>
+  <g font-family="Helvetica, Arial, sans-serif" fill="#1e1e1e" text-anchor="middle">
+    <g transform="translate(210 420)">
+      <circle r="60" fill="#cfe1f5"/><path d="M0-60A60 60 0 0 1 0 60Z" fill="#f6df96"/>
+      <text y="-6" font-size="21">System</text><text y="20" font-size="21">troubleshooting</text>
+    </g>
+    <g transform="translate(370 320)">
+      <circle r="66" fill="#cfe1f5"/><path d="M0-66A66 66 0 0 1 0 66Z" fill="#f6df96"/>
+      <text y="-6" font-size="21">Content</text><text y="20" font-size="21">reliability</text>
+    </g>
+    <g transform="translate(520 250)">
+      <circle r="70" fill="#cfe1f5"/><path d="M0-70A70 70 0 0 1 0 70Z" fill="#f6df96"/>
+      <text y="-8" font-size="21">Technology</text><text y="18" font-size="21">adoption</text>
+    </g>
+    <g transform="translate(660 360)">
+      <circle r="128" fill="#cfe1f5"/><path d="M0-128A128 128 0 0 1 0 128Z" fill="#f6df96"/>
+      <text y="-10" font-size="24">Career</text><text y="22" font-size="24">adaptation</text>
+    </g>
+    <g transform="translate(865 210)">
+      <circle r="150" fill="#cfe1f5"/><path d="M0-150A150 150 0 0 1 0 150Z" fill="#f6df96"/>
+      <text y="-10" font-size="27">Business</text><text y="24" font-size="27">optimization</text>
+    </g>
+    <g transform="translate(830 470)">
+      <circle r="164" fill="#cfe1f5"/><path d="M0-164A164 164 0 0 1 0 164Z" fill="#f6df96"/>
+      <text y="-12" font-size="30">Project</text><text y="26" font-size="30">workflows</text>
+    </g>
+    <g transform="translate(505 560)">
+      <circle r="110" fill="#cfe1f5"/><path d="M0-110A110 110 0 0 1 0 110Z" fill="#f6df96"/>
+      <text y="-10" font-size="25">Writing</text><text y="24" font-size="25">independence</text>
+    </g>
+    <g transform="translate(938 425)">
+      <circle r="72" fill="#cfe1f5"/><path d="M0-72A72 72 0 0 1 0 72Z" fill="#f6df96"/>
+      <text y="-6" font-size="19">Teaching</text><text y="18" font-size="19">materials</text>
+    </g>
+    <g transform="translate(1035 345)">
+      <circle r="52" fill="#cfe1f5"/><path d="M0-52A52 52 0 0 1 0 52Z" fill="#f6df96"/>
+      <text y="-4" font-size="18">Professional</text><text y="18" font-size="18">communication</text>
+    </g>
+    <g transform="translate(1030 520)">
+      <circle r="38" fill="#cfe1f5"/><path d="M0-38A38 38 0 0 1 0 38Z" fill="#f6df96"/>
+      <text y="-2" font-size="15">Document</text><text y="16" font-size="15">automation</text>
+    </g>
+    <g transform="translate(690 560)">
+      <circle r="54" fill="#cfe1f5"/><path d="M0-54A54 54 0 0 1 0 54Z" fill="#f6df96"/>
+      <text y="-2" font-size="18">Prompt</text><text y="18" font-size="18">engineering</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Scientists topics</title>
+  <desc id="desc">Bubble chart of topics discussed by scientists from more pessimistic to more optimistic.</desc>
+  <rect width="1200" height="760" fill="#fffdf8"/>
+  <text x="90" y="80" font-size="40" font-family="Georgia, serif" fill="#1f1f1f">Scientists</text>
+  <text x="90" y="114" font-size="18" font-family="Helvetica, Arial, sans-serif" fill="#5c5c5c">Topics discussed in interviews, arranged from more pessimistic to more optimistic</text>
+  <line x1="140" y1="680" x2="1060" y2="680" stroke="#8e8e8e" stroke-width="2"/>
+  <text x="140" y="715" font-size="18" font-family="Helvetica, Arial, sans-serif" fill="#6b6b6b">More pessimistic</text>
+  <text x="924" y="715" font-size="18" font-family="Helvetica, Arial, sans-serif" fill="#6b6b6b">More optimistic</text>
+  <g font-family="Helvetica, Arial, sans-serif" fill="#1e1e1e" text-anchor="middle">
+    <g transform="translate(230 300)">
+      <circle r="88" fill="#cfe1f5"/><path d="M0-88A88 88 0 0 1 0 88Z" fill="#f6df96"/>
+      <text y="-8" font-size="22">Security</text><text y="20" font-size="22">concerns</text>
+    </g>
+    <g transform="translate(415 410)">
+      <circle r="82" fill="#cfe1f5"/><path d="M0-82A82 82 0 0 1 0 82Z" fill="#f6df96"/>
+      <text y="-8" font-size="21">Content</text><text y="20" font-size="21">verification</text>
+    </g>
+    <g transform="translate(596 326)">
+      <circle r="130" fill="#cfe1f5"/><path d="M0-130A130 130 0 0 1 0 130Z" fill="#f6df96"/>
+      <text y="-8" font-size="24">Research</text><text y="24" font-size="24">assistance</text>
+    </g>
+    <g transform="translate(810 442)">
+      <circle r="108" fill="#cfe1f5"/><path d="M0-108A108 108 0 0 1 0 108Z" fill="#f6df96"/>
+      <text y="-8" font-size="23">Code</text><text y="22" font-size="23">development</text>
+    </g>
+    <g transform="translate(965 254)">
+      <circle r="68" fill="#cfe1f5"/><path d="M0-68A68 68 0 0 1 0 68Z" fill="#f6df96"/>
+      <text y="-8" font-size="18">Hypothesis</text><text y="18" font-size="18">generation</text>
+    </g>
+    <g transform="translate(975 520)">
+      <circle r="74" fill="#cfe1f5"/><path d="M0-74A74 74 0 0 1 0 74Z" fill="#f6df96"/>
+      <text y="-8" font-size="18">Database</text><text y="18" font-size="18">access</text>
+    </g>
+    <g transform="translate(660 560)">
+      <circle r="58" fill="#cfe1f5"/><path d="M0-58A58 58 0 0 1 0 58Z" fill="#f6df96"/>
+      <text y="-6" font-size="18">Experiment</text><text y="18" font-size="18">design</text>
+    </g>
+    <g transform="translate(360 560)">
+      <circle r="54" fill="#cfe1f5"/><path d="M0-54A54 54 0 0 1 0 54Z" fill="#f6df96"/>
+      <text y="-6" font-size="18">Compliance</text><text y="18" font-size="18">limits</text>
+    </g>
+  </g>
+</svg>

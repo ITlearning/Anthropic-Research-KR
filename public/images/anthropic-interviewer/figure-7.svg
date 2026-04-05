@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Augmentation versus automation</title>
+  <desc id="desc">Comparison of self-reported augmentation versus automation and observed Claude usage from the Economic Index.</desc>
+  <rect width="1200" height="760" fill="#faf7f1"/>
+  <text x="90" y="86" font-size="40" font-family="Georgia, serif" fill="#1f1f1f">Augmentation versus automation</text>
+  <text x="90" y="122" font-size="18" font-family="Helvetica, Arial, sans-serif" fill="#646464">How participants described AI use versus what the Anthropic Economic Index observed in Claude conversations</text>
+  <line x1="210" y1="610" x2="1060" y2="610" stroke="#8e8e8e" stroke-width="2"/>
+  <line x1="210" y1="170" x2="210" y2="610" stroke="#8e8e8e" stroke-width="2"/>
+  <text x="176" y="616" font-size="16" font-family="Helvetica, Arial, sans-serif" fill="#646464">0%</text>
+  <text x="162" y="500" font-size="16" font-family="Helvetica, Arial, sans-serif" fill="#646464">20%</text>
+  <text x="162" y="390" font-size="16" font-family="Helvetica, Arial, sans-serif" fill="#646464">40%</text>
+  <text x="162" y="280" font-size="16" font-family="Helvetica, Arial, sans-serif" fill="#646464">60%</text>
+  <text x="162" y="170" font-size="16" font-family="Helvetica, Arial, sans-serif" fill="#646464">80%</text>
+  <g font-family="Helvetica, Arial, sans-serif">
+    <rect x="330" y="253" width="150" height="357" fill="#5d8ec9"/>
+    <rect x="510" y="418" width="150" height="192" fill="#cb7d57"/>
+    <rect x="760" y="352" width="150" height="258" fill="#5d8ec9"/>
+    <rect x="940" y="341" width="150" height="269" fill="#cb7d57"/>
+    <text x="405" y="650" font-size="24" fill="#1f1f1f" text-anchor="middle">Self-report</text>
+    <text x="585" y="650" font-size="24" fill="#1f1f1f" text-anchor="middle">Self-report</text>
+    <text x="835" y="650" font-size="24" fill="#1f1f1f" text-anchor="middle">Economic Index</text>
+    <text x="1015" y="650" font-size="24" fill="#1f1f1f" text-anchor="middle">Economic Index</text>
+    <text x="405" y="236" font-size="26" fill="#1f1f1f" text-anchor="middle">65%</text>
+    <text x="585" y="401" font-size="26" fill="#1f1f1f" text-anchor="middle">35%</text>
+    <text x="835" y="335" font-size="26" fill="#1f1f1f" text-anchor="middle">47%</text>
+    <text x="1015" y="324" font-size="26" fill="#1f1f1f" text-anchor="middle">49%</text>
+    <text x="405" y="690" font-size="20" fill="#5d8ec9" text-anchor="middle">Augmentation</text>
+    <text x="585" y="690" font-size="20" fill="#cb7d57" text-anchor="middle">Automation</text>
+    <text x="835" y="690" font-size="20" fill="#5d8ec9" text-anchor="middle">Augmentation</text>
+    <text x="1015" y="690" font-size="20" fill="#cb7d57" text-anchor="middle">Automation</text>
+  </g>
+</svg>

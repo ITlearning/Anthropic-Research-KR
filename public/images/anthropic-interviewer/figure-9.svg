@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 980" role="img" aria-labelledby="title desc">
+  <title id="title">Scientists emotions</title>
+  <desc id="desc">Dashboard summarizing emotion intensity across six scientific disciplines.</desc>
+  <rect width="1400" height="980" fill="#faf7f1"/>
+  <text x="80" y="86" font-size="40" font-family="Georgia, serif" fill="#1f1f1f">Scientific disciplines emotions</text>
+  <text x="80" y="122" font-size="18" font-family="Helvetica, Arial, sans-serif" fill="#646464">Relative intensity of six emotions across the most prominent scientific disciplines in the sample</text>
+  <g font-family="Helvetica, Arial, sans-serif">
+    <g transform="translate(80 170)">
+      <rect width="390" height="220" rx="24" fill="#ffffff" stroke="#e4ddd3"/>
+      <text x="28" y="42" font-size="24" fill="#1f1f1f">Chemists</text>
+      <rect x="28" y="70" width="250" height="12" rx="6" fill="#edf0f3"/><rect x="28" y="70" width="180" height="12" rx="6" fill="#5d8ec9"/><text x="292" y="80" font-size="15" fill="#62707d">Hope</text>
+      <rect x="28" y="98" width="250" height="12" rx="6" fill="#edf0f3"/><rect x="28" y="98" width="80" height="12" rx="6" fill="#6f6fb7"/><text x="292" y="108" font-size="15" fill="#62707d">Worry</text>
+      <rect x="28" y="126" width="250" height="12" rx="6" fill="#edf0f3"/><rect x="28" y="126" width="204" height="12" rx="6" fill="#54a27e"/><text x="292" y="136" font-size="15" fill="#62707d">Satisfaction</text>
+      <rect x="28" y="154" width="250" height="12" rx="6" fill="#edf0f3"/><rect x="28" y="154" width="108" height="12" rx="6" fill="#cb7d57"/><text x="292" y="164" font-size="15" fill="#62707d">Frustration</text>
+      <rect x="28" y="182" width="250" height="12" rx="6" fill="#edf0f3"/><rect x="28" y="182" width="68" height="12" rx="6" fill="#d2ae4d"/><text x="292" y="192" font-size="15" fill="#62707d">Doubt</text>
+      <rect x="28" y="210" width="250" height="12" rx="6" fill="#edf0f3"/><rect x="28" y="210" width="56" height="12" rx="6" fill="#8d8d8d"/><text x="292" y="220" font-size="15" fill="#62707d">Trust</text>
+    </g>
+    <g transform="translate(505 170)">
+      <rect width="390" height="220" rx="24" fill="#ffffff" stroke="#e4ddd3"/>
+      <text x="28" y="42" font-size="24" fill="#1f1f1f">Physicists</text>
+      <rect x="28" y="70" width="250" height="12" rx="6" fill="#edf0f3"/><rect x="28" y="70" width="172" height="12" rx="6" fill="#5d8ec9"/><text x="292" y="80" font-size="15" fill="#62707d">Hope</text>
+      <rect x="28" y="98" width="250" height="12" rx="6" fill="#edf0f3"/><rect x="28" y="98" width="84" height="12" rx="6" fill="#6f6fb7"/><text x="292" y="108" font-size="15" fill="#62707d">Worry</text>
+      <rect x="28" y="126" width="250" height="12" rx="6" fill="#edf0f3"/><rect x="28" y="126" width="194" height="12" rx="6" fill="#54a27e"/><text x="292" y="136" font-size="15" fill="#62707d">Satisfaction</text>
+      <rect x="28" y="154" width="250" height="12" rx="6" fill="#edf0f3"/><rect x="28" y="154" width="156" height="12" rx="6" fill="#cb7d57"/><text x="292" y="164" font-size="15" fill="#62707d">Frustration</text>
+      <rect x="28" y="182" width="250" height="12" rx="6" fill="#edf0f3"/><rect x="28" y="182" width="82" height="12" rx="6" fill="#d2ae4d"/><text x="292" y="192" font-size="15" fill="#62707d">Doubt</text>
+      <rect x="28" y="210" width="250" height="12" rx="6" fill="#edf0f3"/><rect x="28" y="210" width="48" height="12" rx="6" fill="#8d8d8d"/><text x="292" y="220" font-size="15" fill="#62707d">Trust</text>
+    </g>
+    <g transform="translate(930 170)">
+      <rect width="390" height="220" rx="24" fill="#ffffff" stroke="#e4ddd3"/>
+      <text x="28" y="42" font-size="24" fill="#1f1f1f">Chemical engineers</text>
+      <rect x="28" y="70" width="250" height="12" rx="6" fill="#edf0f3"/><rect x="28" y="70" width="158" height="12" rx="6" fill="#5d8ec9"/><text x="292" y="80" font-size="15" fill="#62707d">Hope</text>
+      <rect x="28" y="98" width="250" height="12" rx="6" fill="#edf0f3"/><rect x="28" y="98" width="72" height="12" rx="6" fill="#6f6fb7"/><text x="292" y="108" font-size="15" fill="#62707d">Worry</text>
+      <rect x="28" y="126" width="250" height="12" rx="6" fill="#edf0f3"/><rect x="28" y="126" width="212" height="12" rx="6" fill="#54a27e"/><text x="292" y="136" font-size="15" fill="#62707d">Satisfaction</text>
+      <rect x="28" y="154" width="250" height="12" rx="6" fill="#edf0f3"/><rect x="28" y="154" width="88" height="12" rx="6" fill="#cb7d57"/><text x="292" y="164" font-size="15" fill="#62707d">Frustration</text>
+      <rect x="28" y="182" width="250" height="12" rx="6" fill="#edf0f3"/><rect x="28" y="182" width="74" height="12" rx="6" fill="#d2ae4d"/><text x="292" y="192" font-size="15" fill="#62707d">Doubt</text>
+      <rect x="28" y="210" width="250" height="12" rx="6" fill="#edf0f3"/><rect x="28" y="210" width="64" height="12" rx="6" fill="#8d8d8d"/><text x="292" y="220" font-size="15" fill="#62707d">Trust</text>
+    </g>
+    <g transform="translate(80 444)">
+      <rect width="390" height="220" rx="24" fill="#ffffff" stroke="#e4ddd3"/>
+      <text x="28" y="42" font-size="24" fill="#1f1f1f">Data scientists</text>
+      <rect x="28" y="70" width="250" height="12" rx="6" fill="#edf0f3"/><rect x="28" y="70" width="174" height="12" rx="6" fill="#5d8ec9"/><text x="292" y="80" font-size="15" fill="#62707d">Hope</text>
+      <rect x="28" y="98" width="250" height="12" rx="6" fill="#edf0f3"/><rect x="28" y="98" width="88" height="12" rx="6" fill="#6f6fb7"/><text x="292" y="108" font-size="15" fill="#62707d">Worry</text>
+      <rect x="28" y="126" width="250" height="12" rx="6" fill="#edf0f3"/><rect x="28" y="126" width="196" height="12" rx="6" fill="#54a27e"/><text x="292" y="136" font-size="15" fill="#62707d">Satisfaction</text>
+      <rect x="28" y="154" width="250" height="12" rx="6" fill="#edf0f3"/><rect x="28" y="154" width="164" height="12" rx="6" fill="#cb7d57"/><text x="292" y="164" font-size="15" fill="#62707d">Frustration</text>
+      <rect x="28" y="182" width="250" height="12" rx="6" fill="#edf0f3"/><rect x="28" y="182" width="82" height="12" rx="6" fill="#d2ae4d"/><text x="292" y="192" font-size="15" fill="#62707d">Doubt</text>
+      <rect x="28" y="210" width="250" height="12" rx="6" fill="#edf0f3"/><rect x="28" y="210" width="46" height="12" rx="6" fill="#8d8d8d"/><text x="292" y="220" font-size="15" fill="#62707d">Trust</text>
+    </g>
+    <g transform="translate(505 444)">
+      <rect width="390" height="220" rx="24" fill="#ffffff" stroke="#e4ddd3"/>
+      <text x="28" y="42" font-size="24" fill="#1f1f1f">Mechanical engineers</text>
+      <rect x="28" y="70" width="250" height="12" rx="6" fill="#edf0f3"/><rect x="28" y="70" width="150" height="12" rx="6" fill="#5d8ec9"/><text x="292" y="80" font-size="15" fill="#62707d">Hope</text>
+      <rect x="28" y="98" width="250" height="12" rx="6" fill="#edf0f3"/><rect x="28" y="98" width="76" height="12" rx="6" fill="#6f6fb7"/><text x="292" y="108" font-size="15" fill="#62707d">Worry</text>
+      <rect x="28" y="126" width="250" height="12" rx="6" fill="#edf0f3"/><rect x="28" y="126" width="206" height="12" rx="6" fill="#54a27e"/><text x="292" y="136" font-size="15" fill="#62707d">Satisfaction</text>
+      <rect x="28" y="154" width="250" height="12" rx="6" fill="#edf0f3"/><rect x="28" y="154" width="90" height="12" rx="6" fill="#cb7d57"/><text x="292" y="164" font-size="15" fill="#62707d">Frustration</text>
+      <rect x="28" y="182" width="250" height="12" rx="6" fill="#edf0f3"/><rect x="28" y="182" width="74" height="12" rx="6" fill="#d2ae4d"/><text x="292" y="192" font-size="15" fill="#62707d">Doubt</text>
+      <rect x="28" y="210" width="250" height="12" rx="6" fill="#edf0f3"/><rect x="28" y="210" width="62" height="12" rx="6" fill="#8d8d8d"/><text x="292" y="220" font-size="15" fill="#62707d">Trust</text>
+    </g>
+    <g transform="translate(930 444)">
+      <rect width="390" height="220" rx="24" fill="#ffffff" stroke="#e4ddd3"/>
+      <text x="28" y="42" font-size="24" fill="#1f1f1f">Astronomers</text>
+      <rect x="28" y="70" width="250" height="12" rx="6" fill="#edf0f3"/><rect x="28" y="70" width="168" height="12" rx="6" fill="#5d8ec9"/><text x="292" y="80" font-size="15" fill="#62707d">Hope</text>
+      <rect x="28" y="98" width="250" height="12" rx="6" fill="#edf0f3"/><rect x="28" y="98" width="78" height="12" rx="6" fill="#6f6fb7"/><text x="292" y="108" font-size="15" fill="#62707d">Worry</text>
+      <rect x="28" y="126" width="250" height="12" rx="6" fill="#edf0f3"/><rect x="28" y="126" width="198" height="12" rx="6" fill="#54a27e"/><text x="292" y="136" font-size="15" fill="#62707d">Satisfaction</text>
+      <rect x="28" y="154" width="250" height="12" rx="6" fill="#edf0f3"/><rect x="28" y="154" width="116" height="12" rx="6" fill="#cb7d57"/><text x="292" y="164" font-size="15" fill="#62707d">Frustration</text>
+      <rect x="28" y="182" width="250" height="12" rx="6" fill="#edf0f3"/><rect x="28" y="182" width="76" height="12" rx="6" fill="#d2ae4d"/><text x="292" y="192" font-size="15" fill="#62707d">Doubt</text>
+      <rect x="28" y="210" width="250" height="12" rx="6" fill="#edf0f3"/><rect x="28" y="210" width="52" height="12" rx="6" fill="#8d8d8d"/><text x="292" y="220" font-size="15" fill="#62707d">Trust</text>
+    </g>
+  </g>
+  <text x="80" y="754" font-size="16" font-family="Helvetica, Arial, sans-serif" fill="#626262">The original article displayed six radar plots. This local reconstruction summarizes the same pattern as per-discipline bar profiles.</text>
+</svg>

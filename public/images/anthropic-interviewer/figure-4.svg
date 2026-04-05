@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 720" role="img" aria-labelledby="title desc">
+  <title id="title">Three stages of Anthropic Interviewer</title>
+  <desc id="desc">Diagram showing planning, interviewing, and analysis stages.</desc>
+  <rect width="1400" height="720" fill="#fbf8f2"/>
+  <rect x="60" y="88" width="400" height="540" rx="32" fill="#dfeafb" stroke="#bfd0e6"/>
+  <rect x="500" y="88" width="400" height="540" rx="32" fill="#e5f2e7" stroke="#c0d7c1"/>
+  <rect x="940" y="88" width="400" height="540" rx="32" fill="#f8e8ea" stroke="#e2c2c8"/>
+  <text x="100" y="150" font-size="44" font-family="Georgia, serif" fill="#2f4a7a">Planning</text>
+  <text x="540" y="150" font-size="44" font-family="Georgia, serif" fill="#3c6b33">Interviewing</text>
+  <text x="980" y="150" font-size="44" font-family="Georgia, serif" fill="#8c3e43">Analysis</text>
+  <text x="100" y="190" font-size="20" font-family="Helvetica, Arial, sans-serif" fill="#2f4a7a">Shared rubric across hundreds of interviews</text>
+  <text x="540" y="190" font-size="20" font-family="Helvetica, Arial, sans-serif" fill="#3c6b33">Adaptive dialogue tailored to each participant</text>
+  <text x="980" y="190" font-size="20" font-family="Helvetica, Arial, sans-serif" fill="#8c3e43">Human-AI synthesis of transcripts and themes</text>
+  <rect x="102" y="248" width="314" height="96" rx="18" fill="#f8fbff" stroke="#cad8ea"/>
+  <text x="126" y="284" font-size="22" font-family="Helvetica, Arial, sans-serif" fill="#24344f">Research topic</text>
+  <text x="126" y="314" font-size="17" font-family="Helvetica, Arial, sans-serif" fill="#566273">What role should AI play in</text>
+  <text x="126" y="337" font-size="17" font-family="Helvetica, Arial, sans-serif" fill="#566273">creative, scientific, and office work?</text>
+  <rect x="102" y="374" width="314" height="112" rx="18" fill="#f8fbff" stroke="#cad8ea"/>
+  <text x="126" y="410" font-size="22" font-family="Helvetica, Arial, sans-serif" fill="#24344f">Interview plan</text>
+  <text x="126" y="440" font-size="17" font-family="Helvetica, Arial, sans-serif" fill="#566273">Sample-specific hypotheses</text>
+  <text x="126" y="463" font-size="17" font-family="Helvetica, Arial, sans-serif" fill="#566273">and flexible conversation flow.</text>
+  <rect x="542" y="240" width="314" height="330" rx="24" fill="#ffffff" stroke="#cddfcf"/>
+  <rect x="574" y="276" width="250" height="76" rx="14" fill="#f3f7fb" stroke="#d6e2ed"/>
+  <text x="596" y="308" font-size="18" font-family="Helvetica, Arial, sans-serif" fill="#20324d">A conversation on AI and work</text>
+  <text x="596" y="332" font-size="14" font-family="Helvetica, Arial, sans-serif" fill="#5a6978">What parts of your job should remain human?</text>
+  <text x="596" y="396" font-size="15" font-family="Helvetica, Arial, sans-serif" fill="#374c2c">Participants answer in natural language, and</text>
+  <text x="596" y="420" font-size="15" font-family="Helvetica, Arial, sans-serif" fill="#374c2c">Anthropic Interviewer asks follow-up questions</text>
+  <text x="596" y="444" font-size="15" font-family="Helvetica, Arial, sans-serif" fill="#374c2c">based on domain-specific context and cues.</text>
+  <rect x="596" y="486" width="198" height="14" rx="7" fill="#dde9de"/>
+  <rect x="596" y="486" width="126" height="14" rx="7" fill="#67a36f"/>
+  <text x="596" y="530" font-size="14" font-family="Helvetica, Arial, sans-serif" fill="#55695a">10-15 minute conversation per participant</text>
+  <rect x="982" y="248" width="314" height="100" rx="18" fill="#ffffff" stroke="#e3c7cb"/>
+  <text x="1006" y="284" font-size="22" font-family="Helvetica, Arial, sans-serif" fill="#7a383d">Research questions</text>
+  <text x="1006" y="314" font-size="17" font-family="Helvetica, Arial, sans-serif" fill="#7e5d62">Trust, productivity, identity, stigma, control</text>
+  <rect x="982" y="380" width="314" height="190" rx="18" fill="#ffffff" stroke="#e3c7cb"/>
+  <text x="1006" y="418" font-size="22" font-family="Helvetica, Arial, sans-serif" fill="#7a383d">Final report</text>
+  <circle cx="1066" cy="486" r="44" fill="#dce9f9" stroke="#c6d8ed"/>
+  <circle cx="1164" cy="486" r="44" fill="#e4f0e6" stroke="#c8ddca"/>
+  <text x="1035" y="493" font-size="14" font-family="Helvetica, Arial, sans-serif" fill="#2f4a7a">stigma</text>
+  <text x="1137" y="493" font-size="14" font-family="Helvetica, Arial, sans-serif" fill="#3c6b33">gains</text>
+  <text x="1006" y="550" font-size="15" font-family="Helvetica, Arial, sans-serif" fill="#7e5d62">Themes, quotations, and quantified prevalence</text>
+  <path d="M462 360h24" stroke="#9bb2d0" stroke-width="7" stroke-linecap="round"/>
+  <path d="M900 360h24" stroke="#b7cdb5" stroke-width="7" stroke-linecap="round"/>
+  <path d="M480 348l18 12-18 12" fill="none" stroke="#9bb2d0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M918 348l18 12-18 12" fill="none" stroke="#b7cdb5" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

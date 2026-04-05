@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 820" role="img" aria-labelledby="title desc">
+  <title id="title">Interview interface</title>
+  <desc id="desc">A stylized recreation of the Anthropic Interviewer interface within Claude.ai.</desc>
+  <rect width="1300" height="820" fill="#f5f1ea"/>
+  <rect x="182" y="92" width="936" height="636" rx="28" fill="#ffffff" stroke="#ddd4c8"/>
+  <rect x="182" y="92" width="936" height="60" rx="28" fill="#f6f0e7"/>
+  <circle cx="222" cy="122" r="10" fill="#ddc8bc"/>
+  <circle cx="252" cy="122" r="10" fill="#ddc8bc"/>
+  <circle cx="282" cy="122" r="10" fill="#ddc8bc"/>
+  <rect x="244" y="184" width="356" height="128" rx="20" fill="#f2f6fa" stroke="#d8e2ec"/>
+  <text x="276" y="224" font-size="28" font-family="Georgia, serif" fill="#20324d">AI and creativity</text>
+  <text x="276" y="258" font-size="18" font-family="Helvetica, Arial, sans-serif" fill="#55697b">How do you currently integrate AI into your</text>
+  <text x="276" y="284" font-size="18" font-family="Helvetica, Arial, sans-serif" fill="#55697b">creative work, and what feels off-limits?</text>
+  <rect x="692" y="214" width="364" height="168" rx="22" fill="#faf7f0" stroke="#e4ddd1"/>
+  <text x="724" y="254" font-size="19" font-family="Helvetica, Arial, sans-serif" fill="#3c3c3c">Participants answer with examples from</text>
+  <text x="724" y="280" font-size="19" font-family="Helvetica, Arial, sans-serif" fill="#3c3c3c">their professional practice, and the model</text>
+  <text x="724" y="306" font-size="19" font-family="Helvetica, Arial, sans-serif" fill="#3c3c3c">adapts to their domain-specific language.</text>
+  <rect x="246" y="350" width="810" height="214" rx="24" fill="#ffffff" stroke="#e5dfd6"/>
+  <text x="280" y="398" font-size="20" font-family="Helvetica, Arial, sans-serif" fill="#4d4d4d">This interview takes about 10-15 minutes. I will ask questions about</text>
+  <text x="280" y="425" font-size="20" font-family="Helvetica, Arial, sans-serif" fill="#4d4d4d">your professional workflow, where AI helps, and where you prefer to</text>
+  <text x="280" y="452" font-size="20" font-family="Helvetica, Arial, sans-serif" fill="#4d4d4d">retain human control. Please answer as concretely as you can.</text>
+  <line x1="280" y1="492" x2="1020" y2="492" stroke="#ebe6de" stroke-width="2"/>
+  <text x="280" y="530" font-size="20" font-family="Helvetica, Arial, sans-serif" fill="#4d4d4d">I use AI for outlining and research, but I still do all the final</text>
+  <text x="280" y="557" font-size="20" font-family="Helvetica, Arial, sans-serif" fill="#4d4d4d">creative decisions myself. The benefits are real, yet there is social</text>
+  <text x="280" y="584" font-size="20" font-family="Helvetica, Arial, sans-serif" fill="#4d4d4d">stigma around admitting how often we rely on these tools.</text>
+  <rect x="244" y="620" width="812" height="64" rx="22" fill="#f8fafb" stroke="#dde5ec"/>
+  <text x="282" y="661" font-size="18" font-family="Helvetica, Arial, sans-serif" fill="#8896a3">Type your response here...</text>
+  <circle cx="1018" cy="652" r="22" fill="#111111"/>
+  <path d="M1008 652h20M1018 642v20" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round"/>
+</svg>

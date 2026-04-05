@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Creative professions topics</title>
+  <desc id="desc">Bubble chart of topics discussed by creative professionals from more pessimistic to more optimistic.</desc>
+  <rect width="1200" height="760" fill="#fffdf8"/>
+  <text x="90" y="80" font-size="40" font-family="Georgia, serif" fill="#1f1f1f">Creatives</text>
+  <text x="90" y="114" font-size="18" font-family="Helvetica, Arial, sans-serif" fill="#5c5c5c">Topics discussed in interviews, arranged from more pessimistic to more optimistic</text>
+  <line x1="140" y1="680" x2="1060" y2="680" stroke="#8e8e8e" stroke-width="2"/>
+  <text x="140" y="715" font-size="18" font-family="Helvetica, Arial, sans-serif" fill="#6b6b6b">More pessimistic</text>
+  <text x="924" y="715" font-size="18" font-family="Helvetica, Arial, sans-serif" fill="#6b6b6b">More optimistic</text>
+  <g font-family="Helvetica, Arial, sans-serif" fill="#1e1e1e" text-anchor="middle">
+    <g transform="translate(235 300)">
+      <circle r="82" fill="#cfe1f5"/><path d="M0-82A82 82 0 0 1 0 82Z" fill="#f6df96"/>
+      <text y="-6" font-size="21">Control</text><text y="20" font-size="21">boundaries</text>
+    </g>
+    <g transform="translate(420 382)">
+      <circle r="90" fill="#cfe1f5"/><path d="M0-90A90 90 0 0 1 0 90Z" fill="#f6df96"/>
+      <text y="-6" font-size="23">Writer</text><text y="22" font-size="23">displacement</text>
+    </g>
+    <g transform="translate(572 248)">
+      <circle r="74" fill="#cfe1f5"/><path d="M0-74A74 74 0 0 1 0 74Z" fill="#f6df96"/>
+      <text y="-6" font-size="20">Peer</text><text y="20" font-size="20">judgement</text>
+    </g>
+    <g transform="translate(740 400)">
+      <circle r="136" fill="#cfe1f5"/><path d="M0-136A136 136 0 0 1 0 136Z" fill="#f6df96"/>
+      <text y="-10" font-size="25">Workflow</text><text y="24" font-size="25">automation</text>
+    </g>
+    <g transform="translate(954 300)">
+      <circle r="84" fill="#cfe1f5"/><path d="M0-84A84 84 0 0 1 0 84Z" fill="#f6df96"/>
+      <text y="-6" font-size="20">Music</text><text y="18" font-size="20">production</text>
+    </g>
+    <g transform="translate(980 498)">
+      <circle r="68" fill="#cfe1f5"/><path d="M0-68A68 68 0 0 1 0 68Z" fill="#f6df96"/>
+      <text y="-6" font-size="19">Image</text><text y="18" font-size="19">iteration</text>
+    </g>
+    <g transform="translate(605 560)">
+      <circle r="62" fill="#cfe1f5"/><path d="M0-62A62 62 0 0 1 0 62Z" fill="#f6df96"/>
+      <text y="-6" font-size="19">Creative</text><text y="18" font-size="19">identity</text>
+    </g>
+    <g transform="translate(340 558)">
+      <circle r="66" fill="#cfe1f5"/><path d="M0-66A66 66 0 0 1 0 66Z" fill="#f6df96"/>
+      <text y="-6" font-size="20">Market</text><text y="18" font-size="20">anxiety</text>
+    </g>
+    <g transform="translate(160 470)">
+      <circle r="48" fill="#cfe1f5"/><path d="M0-48A48 48 0 0 1 0 48Z" fill="#f6df96"/>
+      <text y="-2" font-size="16">Authorship</text><text y="18" font-size="16">limits</text>
+    </g>
+  </g>
+</svg>
