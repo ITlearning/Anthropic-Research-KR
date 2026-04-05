@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000" role="img" aria-labelledby="title desc">
+  <title id="title">How AI assistance impacts the formation of coding skills hero illustration</title>
+  <desc id="desc">Abstract hero illustration showing an AI coding assistant, a code editor, and a quiz card to represent the tradeoff between speed and skill formation.</desc>
+  <rect width="1000" height="1000" rx="72" fill="#F1EEE6"/>
+  <rect x="90" y="132" width="820" height="736" rx="44" fill="#FBFAF7" stroke="#DDD7CA" stroke-width="4"/>
+  <rect x="146" y="210" width="360" height="486" rx="28" fill="#161616"/>
+  <rect x="178" y="258" width="120" height="16" rx="8" fill="#78B7F0"/>
+  <rect x="178" y="296" width="220" height="16" rx="8" fill="#E6E1D8"/>
+  <rect x="178" y="334" width="188" height="16" rx="8" fill="#E6E1D8"/>
+  <rect x="178" y="372" width="242" height="16" rx="8" fill="#A9E0CF"/>
+  <rect x="178" y="410" width="210" height="16" rx="8" fill="#E6E1D8"/>
+  <rect x="178" y="448" width="172" height="16" rx="8" fill="#F6B26B"/>
+  <rect x="178" y="486" width="236" height="16" rx="8" fill="#E6E1D8"/>
+  <rect x="178" y="524" width="156" height="16" rx="8" fill="#E6E1D8"/>
+  <rect x="178" y="562" width="206" height="16" rx="8" fill="#F28B82"/>
+  <rect x="178" y="600" width="180" height="16" rx="8" fill="#E6E1D8"/>
+  <circle cx="600" cy="352" r="108" fill="#E9F6F1"/>
+  <rect x="542" y="306" width="116" height="92" rx="28" fill="#84CBB5" stroke="#4F9C85" stroke-width="4"/>
+  <circle cx="580" cy="349" r="10" fill="#161616"/>
+  <circle cx="620" cy="349" r="10" fill="#161616"/>
+  <path d="M580 382c14 12 36 12 50 0" stroke="#161616" stroke-width="6" stroke-linecap="round"/>
+  <path d="M600 270v36" stroke="#4F9C85" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="600" cy="252" r="16" fill="#84CBB5" stroke="#4F9C85" stroke-width="4"/>
+  <path d="M454 364c24-18 48-29 74-34" stroke="#4F9C85" stroke-width="10" stroke-linecap="round"/>
+  <path d="M676 364c38 10 70 30 94 58" stroke="#4F9C85" stroke-width="10" stroke-linecap="round"/>
+  <path d="M778 404l16 26-30-4" fill="#4F9C85"/>
+  <rect x="644" y="486" width="190" height="174" rx="28" fill="#FFFDF8" stroke="#DDD7CA" stroke-width="4"/>
+  <text x="674" y="538" fill="#161616" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">Quiz</text>
+  <text x="742" y="538" fill="#6B675F" font-family="Helvetica, Arial, sans-serif" font-size="28">50%</text>
+  <rect x="676" y="572" width="126" height="18" rx="9" fill="#78B7F0"/>
+  <rect x="676" y="612" width="92" height="18" rx="9" fill="#F28B82"/>
+  <rect x="676" y="652" width="146" height="18" rx="9" fill="#A9E0CF"/>
+  <circle cx="736" cy="772" r="72" fill="#F7E8E3"/>
+  <circle cx="708" cy="760" r="12" fill="#F28B82"/>
+  <circle cx="736" cy="742" r="12" fill="#F6B26B"/>
+  <circle cx="764" cy="760" r="12" fill="#84CBB5"/>
+  <text x="144" y="760" fill="#161616" font-family="Helvetica, Arial, sans-serif" font-size="46" font-weight="700">Code faster.</text>
+  <text x="144" y="812" fill="#6B675F" font-family="Helvetica, Arial, sans-serif" font-size="34">Learning depends on how AI is used.</text>
+</svg>

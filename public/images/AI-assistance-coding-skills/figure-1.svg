@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Study design</title>
+  <desc id="desc">Diagram showing the treatment and control groups across warm up, Trio task, post task quiz, and post task survey.</desc>
+  <rect width="1200" height="680" fill="#F2EFE7"/>
+  <text x="600" y="76" text-anchor="middle" fill="#141413" font-family="Helvetica, Arial, sans-serif" font-size="54" font-weight="700">Study design</text>
+  <rect x="36" y="114" width="1128" height="510" rx="28" fill="#FBFAF7"/>
+  <text x="126" y="336" text-anchor="middle" fill="#6B675F" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="700">Treatment</text>
+  <text x="126" y="368" text-anchor="middle" fill="#6B675F" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="700">group</text>
+  <text x="126" y="476" text-anchor="middle" fill="#6B675F" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="700">Control</text>
+  <text x="126" y="508" text-anchor="middle" fill="#6B675F" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="700">group</text>
+  <path d="M74 248h76" stroke="#8A847A" stroke-width="3" stroke-linecap="round"/>
+  <path d="M140 238l12 10-12 10" fill="none" stroke="#8A847A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g transform="translate(160 184)">
+    <rect width="232" height="408" rx="12" fill="#F8F5EE" stroke="#7A766E" stroke-width="2.5"/>
+    <path d="M0 102h232M0 246h232" stroke="#7A766E" stroke-width="2"/>
+    <text x="116" y="42" text-anchor="middle" fill="#6B675F" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="700">Warm up coding task</text>
+    <text x="116" y="72" text-anchor="middle" fill="#6B675F" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">10 min</text>
+    <circle cx="116" cy="164" r="18" fill="none" stroke="#F1544C" stroke-width="3"/>
+    <path d="M104 176l24-24" stroke="#F1544C" stroke-width="3" stroke-linecap="round"/>
+    <text x="116" y="205" text-anchor="middle" fill="#6B675F" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">No AI</text>
+    <circle cx="116" cy="308" r="18" fill="none" stroke="#F1544C" stroke-width="3"/>
+    <path d="M104 320l24-24" stroke="#F1544C" stroke-width="3" stroke-linecap="round"/>
+    <text x="116" y="349" text-anchor="middle" fill="#6B675F" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">No AI</text>
+  </g>
+
+  <path d="M394 286h38" stroke="#8A847A" stroke-width="3" stroke-linecap="round"/>
+  <path d="M420 276l12 10-12 10" fill="none" stroke="#8A847A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g transform="translate(434 184)">
+    <rect width="232" height="408" rx="12" fill="#F8F5EE" stroke="#7A766E" stroke-width="2.5"/>
+    <path d="M0 102h232M0 246h232" stroke="#7A766E" stroke-width="2"/>
+    <text x="116" y="42" text-anchor="middle" fill="#6B675F" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="700">Trio task</text>
+    <text x="116" y="72" text-anchor="middle" fill="#6B675F" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">35 min</text>
+    <rect x="94" y="138" width="44" height="32" rx="8" fill="#D7F0E7" stroke="#59A38B" stroke-width="2"/>
+    <circle cx="106" cy="150" r="3" fill="#59A38B"/>
+    <circle cx="126" cy="150" r="3" fill="#59A38B"/>
+    <path d="M106 163h20" stroke="#59A38B" stroke-width="2" stroke-linecap="round"/>
+    <path d="M116 138v-12M132 138v-12" stroke="#59A38B" stroke-width="2" stroke-linecap="round"/>
+    <text x="116" y="205" text-anchor="middle" fill="#6B675F" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">AI assistance</text>
+    <circle cx="116" cy="308" r="18" fill="none" stroke="#F1544C" stroke-width="3"/>
+    <path d="M104 320l24-24" stroke="#F1544C" stroke-width="3" stroke-linecap="round"/>
+    <text x="116" y="349" text-anchor="middle" fill="#6B675F" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">No AI</text>
+  </g>
+
+  <path d="M668 286h38" stroke="#8A847A" stroke-width="3" stroke-linecap="round"/>
+  <path d="M694 276l12 10-12 10" fill="none" stroke="#8A847A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g transform="translate(708 184)">
+    <rect width="232" height="408" rx="12" fill="#F8F5EE" stroke="#7A766E" stroke-width="2.5"/>
+    <path d="M0 102h232M0 246h232" stroke="#7A766E" stroke-width="2"/>
+    <text x="116" y="42" text-anchor="middle" fill="#6B675F" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="700">Post task quiz</text>
+    <text x="116" y="72" text-anchor="middle" fill="#6B675F" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">25 min</text>
+    <circle cx="116" cy="164" r="18" fill="none" stroke="#F1544C" stroke-width="3"/>
+    <path d="M104 176l24-24" stroke="#F1544C" stroke-width="3" stroke-linecap="round"/>
+    <text x="116" y="205" text-anchor="middle" fill="#6B675F" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">No AI</text>
+    <circle cx="116" cy="308" r="18" fill="none" stroke="#F1544C" stroke-width="3"/>
+    <path d="M104 320l24-24" stroke="#F1544C" stroke-width="3" stroke-linecap="round"/>
+    <text x="116" y="349" text-anchor="middle" fill="#6B675F" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">No AI</text>
+  </g>
+
+  <path d="M942 286h38" stroke="#8A847A" stroke-width="3" stroke-linecap="round"/>
+  <path d="M968 276l12 10-12 10" fill="none" stroke="#8A847A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g transform="translate(982 184)">
+    <rect width="164" height="408" rx="12" fill="#F8F5EE" stroke="#7A766E" stroke-width="2.5"/>
+    <path d="M0 102h164M0 246h164" stroke="#7A766E" stroke-width="2"/>
+    <text x="82" y="42" text-anchor="middle" fill="#6B675F" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">Post task survey</text>
+    <text x="82" y="72" text-anchor="middle" fill="#6B675F" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">5 min</text>
+    <circle cx="82" cy="164" r="18" fill="none" stroke="#F1544C" stroke-width="3"/>
+    <path d="M70 176l24-24" stroke="#F1544C" stroke-width="3" stroke-linecap="round"/>
+    <text x="82" y="205" text-anchor="middle" fill="#6B675F" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">No AI</text>
+    <circle cx="82" cy="308" r="18" fill="none" stroke="#F1544C" stroke-width="3"/>
+    <path d="M70 320l24-24" stroke="#F1544C" stroke-width="3" stroke-linecap="round"/>
+    <text x="82" y="349" text-anchor="middle" fill="#6B675F" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">No AI</text>
+  </g>
+</svg>
