@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+  <title id="title">Concentrated Claude.ai use within India</title>
+  <desc id="desc">State-level summary showing that Maharashtra, Tamil Nadu, Karnataka, and Delhi account for 51.9 percent of India's Claude.ai use.</desc>
+  <rect width="1200" height="820" fill="#FAF8F5"/>
+  <text x="70" y="86" fill="#141413" font-family="Helvetica, Arial, sans-serif" font-size="38" font-weight="700">Claude.ai use within India is geographically concentrated</text>
+  <text x="70" y="122" fill="#57534E" font-family="Helvetica, Arial, sans-serif" font-size="22">The original article shows a state-level map. This recreated view preserves the reported top-state shares.</text>
+
+  <rect x="70" y="168" width="320" height="230" rx="28" fill="#FFFFFF" stroke="#E7DFD4"/>
+  <text x="104" y="222" fill="#64748B" font-family="Helvetica, Arial, sans-serif" font-size="22">Top four states</text>
+  <text x="104" y="320" fill="#0F172A" font-family="Helvetica, Arial, sans-serif" font-size="92" font-weight="700">51.9%</text>
+  <text x="104" y="354" fill="#57534E" font-family="Helvetica, Arial, sans-serif" font-size="20">Combined share of India's total Claude.ai use</text>
+
+  <rect x="420" y="168" width="710" height="230" rx="28" fill="#EFF6FF" stroke="#C9DDF1"/>
+  <text x="456" y="222" fill="#1E3A8A" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">Why this matters</text>
+  <text x="456" y="270" fill="#334155" font-family="Helvetica, Arial, sans-serif" font-size="21">Current adoption tracks India's established technology and metro-economy footprint rather than broad nationwide consumer uptake.</text>
+  <rect x="456" y="312" width="190" height="44" rx="14" fill="#FFFFFF"/>
+  <text x="480" y="340" fill="#1D4ED8" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="700">Maharashtra</text>
+  <rect x="664" y="312" width="176" height="44" rx="14" fill="#FFFFFF"/>
+  <text x="688" y="340" fill="#1D4ED8" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="700">Tamil Nadu</text>
+  <rect x="858" y="312" width="188" height="44" rx="14" fill="#FFFFFF"/>
+  <text x="882" y="340" fill="#1D4ED8" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="700">Karnataka</text>
+  <rect x="456" y="366" width="136" height="44" rx="14" fill="#FFFFFF"/>
+  <text x="480" y="394" fill="#1D4ED8" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="700">Delhi</text>
+
+  <rect x="70" y="446" width="1060" height="308" rx="28" fill="#FFFFFF" stroke="#E7DFD4"/>
+  <text x="104" y="496" fill="#141413" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="700">Reported state shares</text>
+
+  <g font-family="Helvetica, Arial, sans-serif" font-size="20">
+    <text x="104" y="562" fill="#57534E">Maharashtra</text>
+    <rect x="296" y="538" width="310" height="28" rx="14" fill="#4F86B7"/>
+    <text x="626" y="560" fill="#141413">15.5%</text>
+
+    <text x="104" y="614" fill="#57534E">Tamil Nadu</text>
+    <rect x="296" y="590" width="264" height="28" rx="14" fill="#6C98C1"/>
+    <text x="580" y="612" fill="#141413">13.2%</text>
+
+    <text x="104" y="666" fill="#57534E">Karnataka</text>
+    <rect x="296" y="642" width="254" height="28" rx="14" fill="#7AA2C8"/>
+    <text x="570" y="664" fill="#141413">12.7%</text>
+
+    <text x="104" y="718" fill="#57534E">Delhi</text>
+    <rect x="296" y="694" width="210" height="28" rx="14" fill="#98BCD8"/>
+    <text x="526" y="716" fill="#141413">10.5%</text>
+
+    <text x="700" y="562" fill="#57534E">All other states and UTs</text>
+    <rect x="930" y="538" width="160" height="28" rx="14" fill="#D9E8F4"/>
+    <text x="1030" y="560" text-anchor="middle" fill="#334155">48.1%</text>
+  </g>
+
+  <text x="104" y="744" fill="#57534E" font-family="Helvetica, Arial, sans-serif" font-size="18">Gray regions in the original map indicate states with insufficient data for reliable reporting.</text>
+</svg>

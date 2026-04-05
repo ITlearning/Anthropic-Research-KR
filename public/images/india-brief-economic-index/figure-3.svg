@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="860" viewBox="0 0 1200 860" role="img" aria-labelledby="title desc">
+  <title id="title">Occupation groups in India by Claude.ai use</title>
+  <desc id="desc">Summary chart highlighting the dominance of software-related occupation groups in India's Claude.ai use.</desc>
+  <rect width="1200" height="860" fill="#FAF8F5"/>
+  <text x="70" y="86" fill="#141413" font-family="Helvetica, Arial, sans-serif" font-size="38" font-weight="700">Occupation mix is heavily tilted toward software work</text>
+  <text x="70" y="122" fill="#57534E" font-family="Helvetica, Arial, sans-serif" font-size="22">The original chart compares India's occupational mix with global averages. This recreated view preserves the reported India shares.</text>
+
+  <rect x="70" y="166" width="300" height="176" rx="24" fill="#D9E8F4" stroke="#B9D2E7"/>
+  <text x="102" y="214" fill="#475569" font-family="Helvetica, Arial, sans-serif" font-size="22">Software-related share</text>
+  <text x="102" y="294" fill="#0F172A" font-family="Helvetica, Arial, sans-serif" font-size="82" font-weight="700">45.2%</text>
+  <text x="102" y="324" fill="#475569" font-family="Helvetica, Arial, sans-serif" font-size="19">Of all O*NET-mapped tasks in India</text>
+
+  <rect x="392" y="166" width="300" height="176" rx="24" fill="#FFF7ED" stroke="#F5D4A8"/>
+  <text x="424" y="214" fill="#9A3412" font-family="Helvetica, Arial, sans-serif" font-size="22">Global standing</text>
+  <text x="424" y="294" fill="#7C2D12" font-family="Helvetica, Arial, sans-serif" font-size="82" font-weight="700">#1</text>
+  <text x="424" y="324" fill="#9A3412" font-family="Helvetica, Arial, sans-serif" font-size="19">Highest software-task share among countries</text>
+
+  <rect x="714" y="166" width="416" height="176" rx="24" fill="#FFFFFF" stroke="#E7DFD4"/>
+  <text x="746" y="214" fill="#141413" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">Context from the article</text>
+  <text x="746" y="258" fill="#57534E" font-family="Helvetica, Arial, sans-serif" font-size="20">Educational and instructional tasks still appear near the top, showing that learning-related use cases remain important alongside coding.</text>
+
+  <rect x="70" y="392" width="1060" height="390" rx="28" fill="#FFFFFF" stroke="#E7DFD4"/>
+  <text x="102" y="442" fill="#141413" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="700">Largest occupation groups in India's Claude.ai use</text>
+
+  <g font-family="Helvetica, Arial, sans-serif" font-size="19">
+    <text x="102" y="506" fill="#57534E">Computer and Mathematical</text>
+    <rect x="456" y="484" width="560" height="24" rx="12" fill="#5A8FBC"/>
+    <text x="1036" y="503" fill="#141413">45.2%</text>
+
+    <text x="102" y="552" fill="#57534E">Educational Instruction and Library</text>
+    <rect x="456" y="530" width="144" height="24" rx="12" fill="#7AA2C8"/>
+    <text x="620" y="549" fill="#141413">11.6%</text>
+
+    <text x="102" y="598" fill="#57534E">Arts, Design, Entertainment, Sports, and Media</text>
+    <rect x="456" y="576" width="86" height="24" rx="12" fill="#98BCD8"/>
+    <text x="562" y="595" fill="#141413">6.92%</text>
+
+    <text x="102" y="644" fill="#57534E">Office and Administrative Support</text>
+    <rect x="456" y="622" width="77" height="24" rx="12" fill="#A8C8DF"/>
+    <text x="553" y="641" fill="#141413">6.16%</text>
+
+    <text x="102" y="690" fill="#57534E">Life, Physical, and Social Science</text>
+    <rect x="456" y="668" width="35" height="24" rx="12" fill="#C0D8E9"/>
+    <text x="511" y="687" fill="#141413">2.78%</text>
+
+    <text x="102" y="736" fill="#57534E">Community and Social Service</text>
+    <rect x="456" y="714" width="30" height="24" rx="12" fill="#D3E6F1"/>
+    <text x="506" y="733" fill="#141413">2.42%</text>
+  </g>
+
+  <text x="102" y="776" fill="#57534E" font-family="Helvetica, Arial, sans-serif" font-size="18">Other categories include management (1.72%), sales (1.53%), business and financial operations (1.36%), and smaller long-tail groups below 1% each.</text>
+</svg>

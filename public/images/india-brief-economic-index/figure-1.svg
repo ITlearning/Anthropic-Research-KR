@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+  <title id="title">India in global Claude.ai usage</title>
+  <desc id="desc">Summary chart showing India's 5.8 percent global Claude.ai share, rank two overall, and low per-capita rank relative to its total usage.</desc>
+  <rect width="1200" height="820" fill="#FAF8F5"/>
+  <text x="70" y="86" fill="#141413" font-family="Helvetica, Arial, sans-serif" font-size="38" font-weight="700">Global Claude.ai usage: India snapshot</text>
+  <text x="70" y="122" fill="#57534E" font-family="Helvetica, Arial, sans-serif" font-size="22">Recreated from article-reported values for the November 13-20, 2025 consumer sample.</text>
+
+  <rect x="70" y="166" width="228" height="172" rx="24" fill="#FFFFFF" stroke="#E7DFD4"/>
+  <text x="98" y="214" fill="#64748B" font-family="Helvetica, Arial, sans-serif" font-size="22">Global share</text>
+  <text x="98" y="292" fill="#0F172A" font-family="Helvetica, Arial, sans-serif" font-size="76" font-weight="700">5.8%</text>
+  <text x="98" y="320" fill="#57534E" font-family="Helvetica, Arial, sans-serif" font-size="18">Of all observed Claude.ai conversations</text>
+
+  <rect x="318" y="166" width="228" height="172" rx="24" fill="#D9E8F4" stroke="#B9D2E7"/>
+  <text x="346" y="214" fill="#475569" font-family="Helvetica, Arial, sans-serif" font-size="22">Total-use rank</text>
+  <text x="346" y="292" fill="#0F172A" font-family="Helvetica, Arial, sans-serif" font-size="76" font-weight="700">#2</text>
+  <text x="346" y="320" fill="#475569" font-family="Helvetica, Arial, sans-serif" font-size="18">Behind the United States only</text>
+
+  <rect x="566" y="166" width="320" height="172" rx="24" fill="#FFF7ED" stroke="#F5D4A8"/>
+  <text x="594" y="214" fill="#9A3412" font-family="Helvetica, Arial, sans-serif" font-size="22">Per-capita rank</text>
+  <text x="594" y="292" fill="#7C2D12" font-family="Helvetica, Arial, sans-serif" font-size="76" font-weight="700">101 / 116</text>
+  <text x="594" y="320" fill="#9A3412" font-family="Helvetica, Arial, sans-serif" font-size="18">After adjusting for working-age population</text>
+
+  <rect x="70" y="382" width="1060" height="380" rx="28" fill="#FFFFFF" stroke="#E7DFD4"/>
+  <text x="102" y="432" fill="#141413" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="700">Top countries by share of global Claude.ai use</text>
+  <text x="102" y="464" fill="#57534E" font-family="Helvetica, Arial, sans-serif" font-size="18">The original figure shows the top 20 countries. This recreated panel highlights the leading ten and preserves India's reported placement.</text>
+
+  <g font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#57534E">
+    <text x="102" y="522">United States</text>
+    <rect x="272" y="500" width="630" height="22" rx="11" fill="#E89A7B"/>
+    <text x="920" y="518" fill="#141413">22.0%</text>
+
+    <text x="102" y="562">India</text>
+    <rect x="272" y="540" width="166" height="22" rx="11" fill="#7AA2C8"/>
+    <text x="456" y="558" fill="#141413">5.8%</text>
+
+    <text x="102" y="602">Japan</text>
+    <rect x="272" y="580" width="89" height="22" rx="11" fill="#E7C7B0"/>
+    <text x="379" y="598" fill="#141413">3.1%</text>
+
+    <text x="102" y="642">United Kingdom</text>
+    <rect x="272" y="620" width="89" height="22" rx="11" fill="#E7C7B0"/>
+    <text x="379" y="638" fill="#141413">3.1%</text>
+
+    <text x="102" y="682">South Korea</text>
+    <rect x="272" y="660" width="89" height="22" rx="11" fill="#E7C7B0"/>
+    <text x="379" y="678" fill="#141413">3.1%</text>
+
+    <text x="560" y="522">France</text>
+    <rect x="720" y="500" width="86" height="22" rx="11" fill="#E7C7B0"/>
+    <text x="824" y="518" fill="#141413">3.0%</text>
+
+    <text x="560" y="562">Brazil</text>
+    <rect x="720" y="540" width="80" height="22" rx="11" fill="#E7C7B0"/>
+    <text x="818" y="558" fill="#141413">2.8%</text>
+
+    <text x="560" y="602">Germany</text>
+    <rect x="720" y="580" width="72" height="22" rx="11" fill="#E7C7B0"/>
+    <text x="810" y="598" fill="#141413">2.5%</text>
+
+    <text x="560" y="642">Indonesia</text>
+    <rect x="720" y="620" width="72" height="22" rx="11" fill="#E7C7B0"/>
+    <text x="810" y="638" fill="#141413">2.5%</text>
+
+    <text x="560" y="682">Canada</text>
+    <rect x="720" y="660" width="66" height="22" rx="11" fill="#E7C7B0"/>
+    <text x="804" y="678" fill="#141413">2.3%</text>
+  </g>
+
+  <text x="102" y="728" fill="#57534E" font-family="Helvetica, Arial, sans-serif" font-size="18">The remaining countries in the original top 20 were Italy, Australia, Spain, Mexico, Vietnam, Philippines, Poland, Pakistan, Colombia, and Turkey.</text>
+</svg>

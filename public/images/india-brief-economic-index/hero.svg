@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000" role="img" aria-labelledby="title desc">
+  <title id="title">India Country Brief hero graphic</title>
+  <desc id="desc">Recreated hero image highlighting India's 5.8 percent share of global Claude.ai use, rank two overall, and strong productivity gains.</desc>
+  <rect width="1000" height="1000" fill="#FAF9F5"/>
+  <rect x="70" y="72" width="860" height="856" rx="46" fill="#FFFDFC" stroke="#E7DFD4" stroke-width="2"/>
+
+  <rect x="116" y="132" width="328" height="430" rx="34" fill="#0F172A"/>
+  <text x="152" y="198" fill="#F8FAFC" font-family="Helvetica, Arial, sans-serif" font-size="22">India Country Brief</text>
+  <text x="152" y="258" fill="#F8FAFC" font-family="Helvetica, Arial, sans-serif" font-size="54" font-weight="700">Anthropic</text>
+  <text x="152" y="315" fill="#F8FAFC" font-family="Helvetica, Arial, sans-serif" font-size="54" font-weight="700">Economic Index</text>
+  <text x="152" y="386" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="22">November 2025 Claude.ai sample</text>
+  <rect x="152" y="440" width="132" height="16" rx="8" fill="#F59E0B"/>
+  <rect x="152" y="470" width="208" height="16" rx="8" fill="#7AA2C8"/>
+  <rect x="152" y="500" width="174" height="16" rx="8" fill="#84A56A"/>
+
+  <rect x="486" y="132" width="346" height="212" rx="30" fill="#FFFFFF" stroke="#E7DFD4"/>
+  <text x="520" y="190" fill="#64748B" font-family="Helvetica, Arial, sans-serif" font-size="22">Global Claude.ai share</text>
+  <text x="520" y="276" fill="#0F172A" font-family="Helvetica, Arial, sans-serif" font-size="96" font-weight="700">5.8%</text>
+  <text x="520" y="312" fill="#57534E" font-family="Helvetica, Arial, sans-serif" font-size="22">Second only to the United States</text>
+
+  <rect x="486" y="370" width="164" height="192" rx="28" fill="#D9E8F4" stroke="#B9D2E7"/>
+  <text x="518" y="424" fill="#475569" font-family="Helvetica, Arial, sans-serif" font-size="20">Global rank</text>
+  <text x="518" y="510" fill="#0F172A" font-family="Helvetica, Arial, sans-serif" font-size="92" font-weight="700">2</text>
+
+  <rect x="668" y="370" width="164" height="192" rx="28" fill="#FDE7C2" stroke="#F5C97D"/>
+  <text x="700" y="424" fill="#7C5A10" font-family="Helvetica, Arial, sans-serif" font-size="20">Speedup</text>
+  <text x="700" y="510" fill="#7C2D12" font-family="Helvetica, Arial, sans-serif" font-size="76" font-weight="700">15x</text>
+  <text x="700" y="538" fill="#7C5A10" font-family="Helvetica, Arial, sans-serif" font-size="18">AI with humans</text>
+
+  <rect x="116" y="608" width="716" height="246" rx="34" fill="#FFFFFF" stroke="#E7DFD4"/>
+  <text x="150" y="664" fill="#141413" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">What stands out</text>
+  <text x="150" y="712" fill="#57534E" font-family="Helvetica, Arial, sans-serif" font-size="23">Usage is large in absolute terms, concentrated in IT-intensive regions, and more work-oriented than the global average.</text>
+
+  <g font-family="Helvetica, Arial, sans-serif">
+    <rect x="150" y="752" width="208" height="58" rx="16" fill="#EFF6FF"/>
+    <text x="174" y="789" fill="#1D4ED8" font-size="22" font-weight="700">51.3% work use</text>
+    <rect x="374" y="752" width="208" height="58" rx="16" fill="#F0FDF4"/>
+    <text x="400" y="789" fill="#166534" font-size="22" font-weight="700">3.60 AI autonomy</text>
+    <rect x="598" y="752" width="194" height="58" rx="16" fill="#FFF7ED"/>
+    <text x="622" y="789" fill="#C2410C" font-size="22" font-weight="700">12.5 AI education</text>
+  </g>
+
+  <circle cx="874" cy="694" r="66" fill="#7AA2C8"/>
+  <circle cx="874" cy="694" r="28" fill="#FFFFFF" opacity="0.92"/>
+  <path d="M876 646L888 670L914 674L894 692L900 718L876 706L852 718L858 692L838 674L864 670L876 646Z" fill="#0F172A"/>
+</svg>
