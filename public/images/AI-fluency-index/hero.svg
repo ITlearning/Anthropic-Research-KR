@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 1000 1000" width="1000" height="1000" role="img" aria-labelledby="title desc">
+  <title id="title">AI Fluency Index hero illustration</title>
+  <desc id="desc">Abstract illustration for the AI Fluency Index showing collaborative prompting, iterative feedback, and critical evaluation behaviors.</desc>
+  <path fill="#FAF9F5" d="M921.353 60.3527C920.578 79.5342 921.05 98.6624 921.37 117.897C923.141 224.259 921.37 330.888 923.096 437.322C923.212 444.49 921.904 453.681 922.758 460.582C922.892 461.633 923.933 461.107 923.773 461.508C923.675 461.757 922.927 462.114 922.874 462.559C922.821 462.978 923.755 464.046 923.817 465.355C924.128 471.713 923.701 478.178 923.781 484.323C923.906 494.145 924.227 503.727 923.737 513.442C922.705 533.826 922.127 554.895 920.846 575.555C919.636 595.013 917.367 613.66 917.429 633.332C917.491 652.495 919.938 671.552 920.872 690.609C921.05 694.198 921.451 697.946 921.842 701.526C904.555 702.399 887.072 701.99 869.678 702.034C843.324 702.105 817.016 702.149 790.6 701.045C751.871 699.424 713.159 697.831 674.225 696.789C667.731 696.611 659.696 695.658 653.86 695.649C650.897 695.649 646.155 696.54 642.24 696.655C583.021 698.374 523.917 698.125 464.715 697.679C401.563 697.198 337.878 698.009 274.592 697.671C242.02 697.492 209.518 696.112 177.097 694.821C141.339 693.396 105.537 695.444 69.8687 693.788C68.4718 693.725 59.9659 693.244 59.6634 692.826C59.8414 688.899 60.1083 684.838 59.9215 680.92C57.715 634.124 57.6616 587.087 59.0318 540.202C59.3432 529.65 61.4963 519.186 61.9055 508.616C62.644 489.639 61.8433 470.244 61.9055 451.339C62.0212 415.611 62.3236 379.742 60.9268 344.041C60.2684 327.22 60.6956 309.962 59.9571 293.078C59.3521 279.061 58.1598 267.574 58.2932 253.219C58.6313 217.616 59.4855 181.657 59.4766 146.055C59.4766 118.565 58.6495 91.1999 58 63.7634C64.7351 64.2087 71.4346 62.5613 78.1163 62.2942C86.2661 61.9647 94.7541 62.7659 102.859 62.3029C109.995 61.9021 121.579 58.2153 127.593 59.0256C130.903 59.4709 133.199 60.3706 136.82 60.2014C184.704 57.9306 236.61 57.7792 285.26 58.4204C312.067 58.7677 338.643 61.332 365.281 62.3472C431.822 64.8762 498.222 62.0358 564.604 60.8871C646.965 59.4623 729.13 58.3224 811.517 58.9013C824.943 58.9992 838.778 58.5718 852.266 59.3822C855.665 59.587 858.655 60.6464 862.934 60.397C864.082 60.3258 864.776 59.3018 865.781 59.3909C866.528 59.4532 867.169 60.4238 868.245 60.4327C870.701 60.4505 876.235 58.8297 879.883 59.0256C885.017 59.3106 885.648 59.7384 891.013 59.3822C895.141 59.1061 898.434 60.2724 902.179 60.397C908.612 60.6108 914.947 59.9162 921.362 60.3792L921.353 60.3527Z"/>
+  <rect x="178" y="210" width="644" height="430" rx="40" fill="#fff" stroke="#DDD4C7" stroke-width="4"/>
+  <circle cx="270" cy="300" r="52" fill="#EAF6F2"/>
+  <circle cx="730" cy="558" r="64" fill="#F8E7EE"/>
+  <path d="M268 276c24 0 43 18 43 41 0 22-19 41-43 41s-43-19-43-41c0-23 19-41 43-41Z" fill="#3B9C84"/>
+  <path d="M249 329h38c7 0 13 6 13 13v5l-18-8h-33c-7 0-13-6-13-13v-11c0-7 6-13 13-13Z" fill="#fff"/>
+  <path d="M705 532c18 0 32 14 32 32s-14 32-32 32-32-14-32-32 14-32 32-32Z" fill="#D88EAC"/>
+  <path d="M752 610l21 21" stroke="#D88EAC" stroke-width="12" stroke-linecap="round"/>
+  <rect x="222" y="272" width="156" height="204" rx="28" fill="#F1FBF7" stroke="#B8E0D5"/>
+  <rect x="422" y="244" width="156" height="232" rx="28" fill="#F2F0FD" stroke="#CFC7F3"/>
+  <rect x="622" y="292" width="156" height="184" rx="28" fill="#FDF0F5" stroke="#EBC1D3"/>
+  <text x="250" y="320" fill="#2F7E6B" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">Describe</text>
+  <text x="451" y="292" fill="#5A47A7" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">Iterate</text>
+  <text x="651" y="340" fill="#B2557E" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">Discern</text>
+  <rect x="250" y="350" width="96" height="16" rx="8" fill="#3B9C84"/>
+  <rect x="250" y="382" width="74" height="16" rx="8" fill="#88CDB9"/>
+  <rect x="250" y="414" width="58" height="16" rx="8" fill="#B8E0D5"/>
+  <path d="M474 355c0-17 13-30 30-30h8v-28l38 42-38 42v-28h-8c-17 0-30 13-30 30v14h-24v-42Z" fill="#6250B4"/>
+  <path d="M526 434c0 17-13 30-30 30h-8v28l-38-42 38-42v28h8c17 0 30-13 30-30v-14h24v42Z" fill="#8D7DE4"/>
+  <path d="M675 390h50" stroke="#D88EAC" stroke-width="12" stroke-linecap="round"/>
+  <path d="M690 423h35" stroke="#E6A7BF" stroke-width="12" stroke-linecap="round"/>
+  <path d="M705 456h20" stroke="#F3C7D8" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="710" cy="392" r="58" stroke="#B2557E" stroke-width="12" fill="none"/>
+  <path d="M750 432l22 22" stroke="#B2557E" stroke-width="12" stroke-linecap="round"/>
+  <path d="M393 575h214" stroke="#DDD4C7" stroke-width="8" stroke-linecap="round"/>
+  <rect x="232" y="520" width="138" height="74" rx="20" fill="#fff" stroke="#DDD4C7"/>
+  <text x="258" y="563" fill="#4B5563" font-family="Helvetica, Arial, sans-serif" font-size="22">11 signals</text>
+  <rect x="414" y="515" width="176" height="84" rx="20" fill="#1B1B1A"/>
+  <text x="446" y="553" fill="#fff" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">AI Fluency</text>
+  <text x="446" y="584" fill="#D6D3D1" font-family="Helvetica, Arial, sans-serif" font-size="18">baseline index</text>
+  <rect x="633" y="522" width="145" height="70" rx="20" fill="#fff" stroke="#DDD4C7"/>
+  <text x="660" y="566" fill="#4B5563" font-family="Helvetica, Arial, sans-serif" font-size="22">critique</text>
+</svg>

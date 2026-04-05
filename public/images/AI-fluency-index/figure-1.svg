@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="860" viewBox="0 0 1200 860" role="img" aria-labelledby="title desc">
+  <title id="title">Behavioral indicator prevalence</title>
+  <desc id="desc">Horizontal bar chart of the eleven observable AI fluency behaviors across 9,830 Claude.ai conversations.</desc>
+  <rect width="1200" height="860" fill="#F4F0E7"/>
+  <rect x="28" y="112" width="1144" height="700" rx="34" fill="#FBFAF7"/>
+  <text x="600" y="78" text-anchor="middle" fill="#141413" font-family="Helvetica, Arial, sans-serif" font-size="54" font-weight="700">Behavioral indicator prevalence</text>
+  <text x="600" y="132" text-anchor="middle" fill="#6B675F" font-family="Helvetica, Arial, sans-serif" font-size="22">Recreated from the article-reported values across 9,830 Claude.ai conversations</text>
+
+  <g font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#4B4B47">
+    <text x="340" y="210" text-anchor="end">Iterates and refines</text>
+    <text x="340" y="266" text-anchor="end">Clarifies goal before asking for help</text>
+    <text x="340" y="322" text-anchor="end">Provides examples of what good looks like</text>
+    <text x="340" y="378" text-anchor="end">Specifies format and structure needed</text>
+    <text x="340" y="434" text-anchor="end">Sets interaction mode</text>
+    <text x="340" y="490" text-anchor="end">Communicates tone and style preferences</text>
+    <text x="340" y="546" text-anchor="end">Identifies when AI might be missing context</text>
+    <text x="340" y="602" text-anchor="end">Defines audience for the output</text>
+    <text x="340" y="658" text-anchor="end">Questions when AI reasoning doesn't hold up</text>
+    <text x="340" y="714" text-anchor="end">Consults AI on approach before execution</text>
+    <text x="340" y="770" text-anchor="end">Checks facts and claims that matter</text>
+  </g>
+
+  <g>
+    <rect x="370" y="184" width="620" height="28" rx="14" fill="#EEEBDD"/>
+    <rect x="370" y="184" width="620" height="28" rx="14" fill="#3B9C84"/>
+    <text x="1010" y="206" fill="#66625B" font-family="Helvetica, Arial, sans-serif" font-size="24">85.7%</text>
+
+    <rect x="370" y="240" width="620" height="28" rx="14" fill="#EEEBDD"/>
+    <rect x="370" y="240" width="370" height="28" rx="14" fill="#6250B4"/>
+    <text x="1010" y="262" fill="#66625B" font-family="Helvetica, Arial, sans-serif" font-size="24">51.1%</text>
+
+    <rect x="370" y="296" width="620" height="28" rx="14" fill="#EEEBDD"/>
+    <rect x="370" y="296" width="297" height="28" rx="14" fill="#3B9C84"/>
+    <text x="1010" y="318" fill="#66625B" font-family="Helvetica, Arial, sans-serif" font-size="24">41.1%</text>
+
+    <rect x="370" y="352" width="620" height="28" rx="14" fill="#EEEBDD"/>
+    <rect x="370" y="352" width="217" height="28" rx="14" fill="#3B9C84"/>
+    <text x="1010" y="374" fill="#66625B" font-family="Helvetica, Arial, sans-serif" font-size="24">30%</text>
+
+    <rect x="370" y="408" width="620" height="28" rx="14" fill="#EEEBDD"/>
+    <rect x="370" y="408" width="217" height="28" rx="14" fill="#3B9C84"/>
+    <text x="1010" y="430" fill="#66625B" font-family="Helvetica, Arial, sans-serif" font-size="24">30%</text>
+
+    <rect x="370" y="464" width="620" height="28" rx="14" fill="#EEEBDD"/>
+    <rect x="370" y="464" width="164" height="28" rx="14" fill="#3B9C84"/>
+    <text x="1010" y="486" fill="#66625B" font-family="Helvetica, Arial, sans-serif" font-size="24">22.7%</text>
+
+    <rect x="370" y="520" width="620" height="28" rx="14" fill="#EEEBDD"/>
+    <rect x="370" y="520" width="147" height="28" rx="14" fill="#E5A1BC"/>
+    <text x="1010" y="542" fill="#66625B" font-family="Helvetica, Arial, sans-serif" font-size="24">20.3%</text>
+
+    <rect x="370" y="576" width="620" height="28" rx="14" fill="#EEEBDD"/>
+    <rect x="370" y="576" width="128" height="28" rx="14" fill="#3B9C84"/>
+    <text x="1010" y="598" fill="#66625B" font-family="Helvetica, Arial, sans-serif" font-size="24">17.6%</text>
+
+    <rect x="370" y="632" width="620" height="28" rx="14" fill="#EEEBDD"/>
+    <rect x="370" y="632" width="115" height="28" rx="14" fill="#E5A1BC"/>
+    <text x="1010" y="654" fill="#66625B" font-family="Helvetica, Arial, sans-serif" font-size="24">15.8%</text>
+
+    <rect x="370" y="688" width="620" height="28" rx="14" fill="#EEEBDD"/>
+    <rect x="370" y="688" width="73" height="28" rx="14" fill="#6250B4"/>
+    <text x="1010" y="710" fill="#66625B" font-family="Helvetica, Arial, sans-serif" font-size="24">10.1%</text>
+
+    <rect x="370" y="744" width="620" height="28" rx="14" fill="#EEEBDD"/>
+    <rect x="370" y="744" width="63" height="28" rx="14" fill="#E5A1BC"/>
+    <text x="1010" y="766" fill="#66625B" font-family="Helvetica, Arial, sans-serif" font-size="24">8.7%</text>
+  </g>
+
+  <g font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#66625B">
+    <rect x="990" y="172" width="18" height="18" fill="#3B9C84"/>
+    <text x="1018" y="187">Description</text>
+    <rect x="990" y="204" width="18" height="18" fill="#6250B4"/>
+    <text x="1018" y="219">Delegation</text>
+    <rect x="990" y="236" width="18" height="18" fill="#E5A1BC"/>
+    <text x="1018" y="251">Discernment</text>
+  </g>
+</svg>
