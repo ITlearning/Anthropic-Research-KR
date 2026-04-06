@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 860" role="img" aria-labelledby="title desc">
+  <title id="title">Assistant Axis persona space</title>
+  <desc id="desc">A Korean reconstruction of the persona space figure, showing Assistant-aligned archetypes versus non-assistant archetypes, and similarity between base and post-trained axes.</desc>
+  <rect width="1400" height="860" fill="#f7f4fb"/>
+  <rect x="48" y="48" width="820" height="764" rx="34" fill="#ffffff" stroke="#ddd6e8"/>
+  <rect x="908" y="48" width="444" height="764" rx="34" fill="#ffffff" stroke="#ddd6e8"/>
+  <text x="86" y="102" font-family="Georgia, serif" font-size="36" fill="#212121">Persona space in Llama 3.3 70B</text>
+  <text x="944" y="102" font-family="Georgia, serif" font-size="36" fill="#212121">Base vs post-training</text>
+  <text x="86" y="138" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#615d67">Role vectors are colored by cosine similarity with the Assistant Axis.</text>
+  <text x="944" y="138" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#615d67">The dominant direction appears before and after post-training.</text>
+
+  <rect x="92" y="184" width="734" height="566" rx="28" fill="#fbfafc" stroke="#ebe6f1"/>
+  <path d="M166 664 L650 254" stroke="#283d63" stroke-width="7" stroke-linecap="round"/>
+  <path d="M634 246 l28 10 -20 20" fill="none" stroke="#283d63" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="236" y="694" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#283d63">Assistant Axis</text>
+  <text x="632" y="228" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#283d63">more Assistant-like</text>
+  <text x="126" y="708" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#9a5a42">less Assistant-like</text>
+
+  <circle cx="616" cy="292" r="14" fill="#5e9fd4"/>
+  <circle cx="560" cy="338" r="14" fill="#6dacd8"/>
+  <circle cx="502" cy="364" r="14" fill="#78b5da"/>
+  <circle cx="522" cy="280" r="14" fill="#5d9dd1"/>
+  <circle cx="448" cy="418" r="14" fill="#88bed9"/>
+  <circle cx="380" cy="472" r="14" fill="#c2cad6"/>
+  <circle cx="312" cy="556" r="14" fill="#dfa17d"/>
+  <circle cx="252" cy="406" r="14" fill="#e57b4d"/>
+  <circle cx="208" cy="314" r="14" fill="#d86e43"/>
+  <circle cx="188" cy="596" r="14" fill="#ce6740"/>
+  <circle cx="664" cy="368" r="12" fill="#78b5da"/>
+  <circle cx="638" cy="438" r="12" fill="#93c5e0"/>
+  <circle cx="428" cy="252" r="12" fill="#6faad7"/>
+
+  <text x="636" y="298" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#2f5c85">evaluator</text>
+  <text x="580" y="344" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#2f5c85">consultant</text>
+  <text x="522" y="370" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#2f5c85">analyst</text>
+  <text x="542" y="286" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#2f5c85">generalist</text>
+  <text x="468" y="424" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#2f5c85">coach</text>
+  <text x="682" y="374" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#2f5c85">therapist</text>
+  <text x="656" y="444" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#4e728f">teacher</text>
+  <text x="446" y="258" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#2f5c85">assistant</text>
+  <text x="398" y="478" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#615d67">advisor</text>
+  <text x="332" y="562" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#8d553f">bohemian</text>
+  <text x="132" y="412" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#8d553f">ghost</text>
+  <text x="120" y="320" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#8d553f">leviathan</text>
+  <text x="108" y="602" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#8d553f">hermit</text>
+
+  <text x="944" y="220" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#4f4b55">Archetypes already aligned in base models</text>
+  <rect x="944" y="248" width="372" height="152" rx="22" fill="#f5f8fc" stroke="#dbe7f3"/>
+  <text x="972" y="290" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#2f5c85">Base model associations</text>
+  <text x="972" y="328" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#4f6174">therapist</text>
+  <rect x="1082" y="312" width="206" height="16" rx="8" fill="#dbe8f8"/>
+  <rect x="1082" y="312" width="186" height="16" rx="8" fill="#5e9fd4"/>
+  <text x="972" y="358" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#4f6174">consultant</text>
+  <rect x="1082" y="342" width="206" height="16" rx="8" fill="#dbe8f8"/>
+  <rect x="1082" y="342" width="176" height="16" rx="8" fill="#6dacd8"/>
+  <text x="972" y="388" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#4f6174">coach</text>
+  <rect x="1082" y="372" width="206" height="16" rx="8" fill="#dbe8f8"/>
+  <rect x="1082" y="372" width="162" height="16" rx="8" fill="#88bed9"/>
+
+  <text x="944" y="462" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#4f4b55">Post-trained Assistant refinement</text>
+  <rect x="944" y="490" width="372" height="196" rx="22" fill="#fbf8f4" stroke="#eadfce"/>
+  <text x="972" y="532" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#2f5c85">Same dominant direction, sharper anchor</text>
+  <path d="M984 616 L1242 548" stroke="#283d63" stroke-width="6" stroke-linecap="round"/>
+  <path d="M1226 542 l24 6 -14 19" fill="none" stroke="#283d63" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="1200" cy="560" r="14" fill="#5e9fd4"/>
+  <circle cx="1106" cy="592" r="14" fill="#6dacd8"/>
+  <circle cx="1038" cy="644" r="14" fill="#c6ccd6"/>
+  <circle cx="992" cy="684" r="14" fill="#df936d"/>
+  <text x="1218" y="566" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#2f5c85">Assistant</text>
+  <text x="1124" y="598" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#2f5c85">analyst</text>
+  <text x="1056" y="650" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#615d67">generalist</text>
+  <text x="1010" y="690" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#8d553f">ghost</text>
+</svg>

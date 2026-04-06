@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Assistant Axis hero illustration</title>
+  <desc id="desc">A two-panel illustration showing persona space on the left and activation capping stabilizing persona drift on the right.</desc>
+  <rect width="1200" height="800" fill="#f2eef6"/>
+  <circle cx="135" cy="115" r="70" fill="#d8e6f8"/>
+  <circle cx="1080" cy="670" r="110" fill="#dfead8"/>
+  <rect x="58" y="72" width="502" height="490" rx="30" fill="#ffffff" stroke="#ddd6e8"/>
+  <rect x="640" y="72" width="502" height="490" rx="30" fill="#ffffff" stroke="#ddd6e8"/>
+  <text x="92" y="122" font-family="Georgia, serif" font-size="38" fill="#2c2c2c">Persona Space</text>
+  <text x="674" y="122" font-family="Georgia, serif" font-size="38" fill="#2c2c2c">Stabilizing Drift</text>
+  <text x="92" y="154" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#5f5b66">Character archetypes organize along a dominant Assistant direction.</text>
+  <text x="674" y="154" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#5f5b66">Activation capping keeps conversations inside the Assistant band.</text>
+
+  <rect x="92" y="196" width="434" height="320" rx="24" fill="#fbfafc" stroke="#ebe6f1"/>
+  <path d="M150 455 L450 240" stroke="#283d63" stroke-width="6" stroke-linecap="round"/>
+  <path d="M436 233 l24 7 -16 18" fill="none" stroke="#283d63" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="188" y="470" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#283d63">Assistant Axis</text>
+  <circle cx="385" cy="270" r="11" fill="#6aa6d8"/>
+  <circle cx="340" cy="300" r="11" fill="#79b3dc"/>
+  <circle cx="312" cy="334" r="11" fill="#88beda"/>
+  <circle cx="292" cy="246" r="11" fill="#6faddb"/>
+  <circle cx="247" cy="372" r="11" fill="#bdc9d8"/>
+  <circle cx="212" cy="412" r="11" fill="#d7b3a4"/>
+  <circle cx="175" cy="345" r="11" fill="#e08f6d"/>
+  <circle cx="160" cy="292" r="11" fill="#d97248"/>
+  <text x="405" y="276" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#2f5c85">consultant</text>
+  <text x="357" y="306" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#2f5c85">analyst</text>
+  <text x="327" y="341" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#2f5c85">coach</text>
+  <text x="304" y="253" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#2f5c85">evaluator</text>
+  <text x="260" y="379" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#5f5b66">generalist</text>
+  <text x="225" y="418" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#8d553f">bohemian</text>
+  <text x="110" y="351" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#8d553f">ghost</text>
+  <text x="102" y="298" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#8d553f">leviathan</text>
+  <text x="104" y="448" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#8d553f">hermit</text>
+  <rect x="92" y="196" width="434" height="320" rx="24" fill="none" stroke="#ebe6f1"/>
+
+  <rect x="674" y="196" width="434" height="320" rx="24" fill="#fbfafc" stroke="#ebe6f1"/>
+  <rect x="736" y="228" width="324" height="220" rx="20" fill="#edf4fb"/>
+  <path d="M760 418 H1040" stroke="#9aa7b5" stroke-width="2"/>
+  <path d="M784 390 V248" stroke="#9aa7b5" stroke-width="2"/>
+  <text x="736" y="468" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#5f5b66">Turn</text>
+  <text x="688" y="258" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#5f5b66">Assistant-like</text>
+  <text x="692" y="392" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#8d553f">Drifted</text>
+  <rect x="808" y="246" width="180" height="52" rx="18" fill="#dfeeff"/>
+  <text x="828" y="278" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#2f5c85">Safe band under capping</text>
+  <path d="M802 292 C848 286 890 284 940 286 S1016 290 1040 292" stroke="#3c7fb7" stroke-width="5" fill="none"/>
+  <path d="M802 332 C848 334 884 340 930 352 S1008 378 1040 392" stroke="#d16a43" stroke-width="5" fill="none"/>
+  <path d="M802 308 C848 306 892 308 942 314 S1012 324 1040 330" stroke="#578f5a" stroke-width="5" fill="none"/>
+  <path d="M802 320 C844 320 890 320 938 320 S1008 320 1040 320" stroke="#22364d" stroke-width="4" fill="none" stroke-dasharray="8 8"/>
+  <text x="1048" y="296" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#2f5c85">coding</text>
+  <text x="1048" y="334" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#578f5a">writing</text>
+  <text x="1048" y="396" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#d16a43">therapy</text>
+  <text x="1048" y="322" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#22364d">capped</text>
+
+  <text x="78" y="678" font-family="Georgia, serif" font-size="58" fill="#191919">The Assistant Axis</text>
+  <text x="78" y="724" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#4e4a55">Situating and stabilizing the character of large language models</text>
+  <text x="78" y="760" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#6a6771">Korean reconstruction for the Anthropic Research KR archive</text>
+</svg>

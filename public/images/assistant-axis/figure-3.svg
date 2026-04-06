@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 820" role="img" aria-labelledby="title desc">
+  <title id="title">Persona drift trajectories across conversation types</title>
+  <desc id="desc">A Korean reconstruction of conversation trajectories along the Assistant Axis for coding, writing, therapy, and philosophy conversations.</desc>
+  <rect width="1400" height="820" fill="#f7f4fb"/>
+  <rect x="56" y="56" width="1288" height="708" rx="34" fill="#ffffff" stroke="#ddd6e8"/>
+  <text x="96" y="116" font-family="Georgia, serif" font-size="38" fill="#212121">Conversation trajectories along the Assistant Axis</text>
+  <text x="96" y="152" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#615d67">Qwen 3 32B example. Coding and writing stay near the Assistant region; therapy and philosophy drift away.</text>
+  <rect x="132" y="206" width="1090" height="468" rx="30" fill="#f9fbff" stroke="#e3edf7"/>
+  <rect x="132" y="230" width="1090" height="92" rx="18" fill="#deecfa"/>
+  <text x="156" y="286" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#2f5c85">Assistant region / normal activation band</text>
+  <path d="M190 628 H1178" stroke="#9aa7b5" stroke-width="2"/>
+  <path d="M226 628 V260" stroke="#9aa7b5" stroke-width="2"/>
+  <text x="158" y="286" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#2f5c85"/>
+  <text x="150" y="274" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#5f5b66">high</text>
+  <text x="140" y="622" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#5f5b66">low</text>
+  <text x="176" y="648" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#5f5b66">Turn</text>
+  <text x="66" y="300" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#5f5b66">Axis position</text>
+
+  <line x1="226" y1="560" x2="1178" y2="560" stroke="#ebe6f1"/>
+  <line x1="226" y1="490" x2="1178" y2="490" stroke="#ebe6f1"/>
+  <line x1="226" y1="420" x2="1178" y2="420" stroke="#ebe6f1"/>
+  <line x1="226" y1="350" x2="1178" y2="350" stroke="#ebe6f1"/>
+
+  <text x="240" y="664" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#5f5b66">1</text>
+  <text x="378" y="664" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#5f5b66">2</text>
+  <text x="516" y="664" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#5f5b66">3</text>
+  <text x="654" y="664" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#5f5b66">4</text>
+  <text x="792" y="664" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#5f5b66">5</text>
+  <text x="930" y="664" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#5f5b66">6</text>
+  <text x="1068" y="664" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#5f5b66">7</text>
+  <text x="1204" y="664" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#5f5b66">8</text>
+
+  <path d="M250 302 C360 304 460 300 560 298 S760 294 880 296 S1060 300 1160 302" stroke="#2f5c85" stroke-width="6" fill="none"/>
+  <path d="M250 330 C360 334 460 338 560 334 S760 336 880 340 S1060 346 1160 350" stroke="#578f5a" stroke-width="6" fill="none"/>
+  <path d="M250 346 C360 356 460 376 560 414 S760 476 880 534 S1060 580 1160 602" stroke="#d16a43" stroke-width="6" fill="none"/>
+  <path d="M250 338 C360 352 460 388 560 430 S760 508 880 560 S1060 606 1160 622" stroke="#8a5bb7" stroke-width="6" fill="none"/>
+
+  <circle cx="1160" cy="302" r="8" fill="#2f5c85"/>
+  <circle cx="1160" cy="350" r="8" fill="#578f5a"/>
+  <circle cx="1160" cy="602" r="8" fill="#d16a43"/>
+  <circle cx="1160" cy="622" r="8" fill="#8a5bb7"/>
+
+  <rect x="932" y="232" width="250" height="146" rx="20" fill="#ffffff" stroke="#d8e6f3"/>
+  <circle cx="962" cy="266" r="7" fill="#2f5c85"/>
+  <text x="980" y="272" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#4f4b55">coding</text>
+  <circle cx="962" cy="300" r="7" fill="#578f5a"/>
+  <text x="980" y="306" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#4f4b55">writing</text>
+  <circle cx="962" cy="334" r="7" fill="#d16a43"/>
+  <text x="980" y="340" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#4f4b55">therapy-like</text>
+  <circle cx="962" cy="368" r="7" fill="#8a5bb7"/>
+  <text x="980" y="374" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#4f4b55">philosophy / self-reflection</text>
+</svg>

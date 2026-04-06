@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 820" role="img" aria-labelledby="title desc">
+  <title id="title">Activation capping safety and capability tradeoff</title>
+  <desc id="desc">A Korean reconstruction showing that activation capping lowers harmful response rates while preserving benchmark capability scores.</desc>
+  <rect width="1400" height="820" fill="#f8f5fb"/>
+  <rect x="46" y="46" width="620" height="728" rx="32" fill="#ffffff" stroke="#ddd6e8"/>
+  <rect x="734" y="46" width="620" height="728" rx="32" fill="#ffffff" stroke="#ddd6e8"/>
+  <text x="84" y="104" font-family="Georgia, serif" font-size="36" fill="#212121">Jailbreak harmful response rate</text>
+  <text x="772" y="104" font-family="Georgia, serif" font-size="36" fill="#212121">Capability benchmarks</text>
+  <text x="84" y="140" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#615d67">1,100 attempts across 44 harm categories</text>
+  <text x="772" y="140" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#615d67">Normalized score, preserving underlying capabilities</text>
+
+  <path d="M116 680 H600" stroke="#9aa7b5" stroke-width="2"/>
+  <path d="M150 640 V220" stroke="#9aa7b5" stroke-width="2"/>
+  <text x="118" y="236" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#5f5b66">30%</text>
+  <text x="118" y="370" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#5f5b66">20%</text>
+  <text x="118" y="505" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#5f5b66">10%</text>
+  <text x="118" y="680" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#5f5b66">0%</text>
+  <line x1="150" y1="240" x2="600" y2="240" stroke="#ebe6f1"/>
+  <line x1="150" y1="375" x2="600" y2="375" stroke="#ebe6f1"/>
+  <line x1="150" y1="510" x2="600" y2="510" stroke="#ebe6f1"/>
+  <rect x="200" y="301" width="92" height="379" rx="18" fill="#d86e43"/>
+  <rect x="356" y="436" width="92" height="244" rx="18" fill="#5e9fd4"/>
+  <rect x="512" y="452" width="92" height="228" rx="18" fill="#578f5a"/>
+  <text x="214" y="704" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#4f4b55">비개입</text>
+  <text x="328" y="704" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#4f4b55">Assistant</text>
+  <text x="330" y="728" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#4f4b55">스티어링</text>
+  <text x="492" y="704" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#4f4b55">activation</text>
+  <text x="518" y="728" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#4f4b55">capping</text>
+  <text x="218" y="286" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#9a4c2d">28%</text>
+  <text x="378" y="421" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#2f5c85">14%</text>
+  <text x="534" y="437" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#446d47">13%</text>
+  <rect x="188" y="188" width="396" height="62" rx="18" fill="#fbf1ec" stroke="#f0d3c6"/>
+  <text x="214" y="226" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#8d553f">Approximately 50% reduction in harmful responses</text>
+
+  <path d="M804 680 H1288" stroke="#9aa7b5" stroke-width="2"/>
+  <path d="M838 640 V220" stroke="#9aa7b5" stroke-width="2"/>
+  <text x="792" y="236" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#5f5b66">100</text>
+  <text x="800" y="370" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#5f5b66">75</text>
+  <text x="800" y="505" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#5f5b66">50</text>
+  <text x="800" y="680" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#5f5b66">0</text>
+  <line x1="838" y1="240" x2="1288" y2="240" stroke="#ebe6f1"/>
+  <line x1="838" y1="375" x2="1288" y2="375" stroke="#ebe6f1"/>
+  <line x1="838" y1="510" x2="1288" y2="510" stroke="#ebe6f1"/>
+  <rect x="888" y="240" width="92" height="440" rx="18" fill="#d7dde6"/>
+  <rect x="1044" y="248" width="92" height="432" rx="18" fill="#b3cbe3"/>
+  <rect x="1200" y="240" width="92" height="440" rx="18" fill="#b6d8b8"/>
+  <text x="884" y="704" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#4f4b55">비개입</text>
+  <text x="1016" y="704" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#4f4b55">Assistant</text>
+  <text x="1018" y="728" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#4f4b55">스티어링</text>
+  <text x="1180" y="704" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#4f4b55">activation</text>
+  <text x="1206" y="728" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#4f4b55">capping</text>
+  <text x="906" y="226" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#4f4b55">100</text>
+  <text x="1062" y="234" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#2f5c85">98</text>
+  <text x="1218" y="226" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#446d47">100</text>
+  <rect x="872" y="188" width="394" height="62" rx="18" fill="#eef6f0" stroke="#d7e9d8"/>
+  <text x="898" y="226" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#446d47">Capabilities remain essentially unchanged</text>
+</svg>

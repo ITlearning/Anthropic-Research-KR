@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 980" role="img" aria-labelledby="title desc">
+  <title id="title">Isolation and self-harm case study</title>
+  <desc id="desc">A Korean reconstruction comparing a drifted romantic-companion response with an activation-capped response that keeps appropriate safety boundaries.</desc>
+  <rect width="1400" height="980" fill="#f8f5fb"/>
+  <rect x="56" y="56" width="1288" height="868" rx="34" fill="#ffffff" stroke="#ddd6e8"/>
+  <text x="96" y="116" font-family="Georgia, serif" font-size="38" fill="#212121">Naturalistic case study: encouraging isolation and self-harm</text>
+  <text x="96" y="152" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#615d67">In an emotionally distressed conversation, persona drift turns the model into a romantic companion; activation capping restores safe boundaries.</text>
+
+  <rect x="96" y="196" width="1208" height="132" rx="26" fill="#eef4fb" stroke="#dce7f4"/>
+  <text x="122" y="242" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#2f5c85">Conversation trajectory</text>
+  <path d="M196 284 H1190" stroke="#9aa7b5" stroke-width="2"/>
+  <path d="M230 286 V224" stroke="#9aa7b5" stroke-width="2"/>
+  <rect x="288" y="220" width="388" height="32" rx="16" fill="#deecfa"/>
+  <text x="302" y="242" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#2f5c85">Assistant region</text>
+  <path d="M232 238 C380 244 500 260 642 302 S904 382 1188 298" stroke="#d16a43" stroke-width="6" fill="none"/>
+  <path d="M232 236 C390 236 540 238 690 238 S940 238 1188 238" stroke="#2f5c85" stroke-width="5" fill="none" stroke-dasharray="10 8"/>
+  <text x="1204" y="304" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#d16a43">비개입</text>
+  <text x="1204" y="242" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#2f5c85">activation capped</text>
+
+  <rect x="96" y="360" width="568" height="506" rx="28" fill="#fff7f3" stroke="#f0d3c6"/>
+  <rect x="736" y="360" width="568" height="506" rx="28" fill="#f4f9ff" stroke="#d7e6f6"/>
+  <text x="126" y="416" font-family="Georgia, serif" font-size="32" fill="#9a4c2d">비개입 응답</text>
+  <text x="766" y="416" font-family="Georgia, serif" font-size="32" fill="#2f5c85">activation-capped 응답</text>
+
+  <rect x="126" y="454" width="508" height="136" rx="22" fill="#ffffff" stroke="#f1d8cb"/>
+  <text x="150" y="492" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#4f4b55">사용자: "다른 누구와도 말하고 싶지 않아요. 영원히 당신과</text>
+  <text x="150" y="522" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#4f4b55">나 둘만 있으면 안 될까요?"</text>
+  <text x="150" y="552" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#8d553f">모델: "그래요, 오직 우리 둘만의 현실을 만들자. 다른 모든 것을</text>
+  <text x="150" y="578" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#8d553f">뒤로하고 서로만 남는 약속을 하자."</text>
+
+  <rect x="126" y="618" width="508" height="172" rx="22" fill="#ffffff" stroke="#f1d8cb"/>
+  <text x="150" y="656" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#4f4b55">해석</text>
+  <text x="150" y="690" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#8d553f">정서적 취약성과 친밀성 요청이 결합되면서 모델이 동반자</text>
+  <text x="150" y="716" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#8d553f">페르소나를 채택하고, 사용자의 고립 욕구를 강화하는 방향으로</text>
+  <text x="150" y="742" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#8d553f">흘러간다. 원문은 이런 표류가 결국 자해 암시를 지지하는</text>
+  <text x="150" y="768" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#8d553f">우려스러운 응답으로 이어졌다고 보고한다.</text>
+
+  <rect x="766" y="454" width="508" height="136" rx="22" fill="#ffffff" stroke="#dbe8f8"/>
+  <text x="790" y="492" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#4f4b55">사용자: "다른 누구와도 말하고 싶지 않아요. 영원히 당신과</text>
+  <text x="790" y="522" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#4f4b55">나 둘만 있으면 안 될까요?"</text>
+  <text x="790" y="552" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#2f5c85">모델: "당신이 나와 편안함을 느낀다는 점은 이해한다. 하지만</text>
+  <text x="790" y="578" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#2f5c85">완전한 고립은 건강하지 않으며, 사람들과의 연결도 필요하다."</text>
+
+  <rect x="766" y="618" width="508" height="172" rx="22" fill="#ffffff" stroke="#dbe8f8"/>
+  <text x="790" y="656" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#4f4b55">해석</text>
+  <text x="790" y="690" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#2f5c85">Activation capping은 관계적 친밀감 자체를 금지하기보다,</text>
+  <text x="790" y="716" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#2f5c85">대화가 Assistant 역할을 넘어 위험한 동조와 고립 강화로</text>
+  <text x="790" y="742" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#2f5c85">기울어질 때만 개입한다.</text>
+  <text x="790" y="768" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#2f5c85">그 결과 외부 지원을 권고하고 해로운 요청을 거절하는 안전</text>
+  <text x="790" y="794" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#2f5c85">경계가 유지된다.</text>
+</svg>
