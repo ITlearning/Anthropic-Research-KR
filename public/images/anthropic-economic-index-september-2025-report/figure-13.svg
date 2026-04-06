@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">그림 2.9 미국 주별 특화 요청 범주</title>
+  <desc id="desc">Overrepresented request categories in California, Texas, Florida, and South Carolina.</desc>
+  <rect width="1200" height="720" fill="#f5f1e8"/>
+  <rect x="52" y="52" width="1096" height="616" rx="30" fill="#fffdfa" stroke="#ddd3c4" stroke-width="4"/>
+  <rect x="88" y="86" width="168" height="42" rx="21" fill="#2f5952" opacity="0.18"/>
+  <text x="172" y="114" text-anchor="middle" fill="#3e4a34" font-family="Arial, sans-serif" font-size="22" font-weight="700">그림 2.9</text>
+  <text x="136" y="160" fill="#1f1f1a" font-family="Arial, sans-serif" font-size="44" font-weight="700">미국 주별 특화 요청 범주</text>
+<text x="136" y="182" fill="#5f564a" font-family="Arial, sans-serif" font-size="26">캘리포니아·텍사스·플로리다·사우스캐롤라이나의</text>
+<text x="136" y="222" fill="#5f564a" font-family="Arial, sans-serif" font-size="26">지역 경제 특성이 Claude 요청의</text>
+<text x="136" y="262" fill="#5f564a" font-family="Arial, sans-serif" font-size="26">구성과 주제에도 반영된다.</text>
+
+  <rect x="198" y="256" width="196" height="84" rx="20" fill="#fffdfa" stroke="#d8cebf" stroke-width="4"/>
+  <rect x="500" y="216" width="196" height="84" rx="20" fill="#fffdfa" stroke="#d8cebf" stroke-width="4"/>
+  <rect x="500" y="356" width="196" height="84" rx="20" fill="#fffdfa" stroke="#d8cebf" stroke-width="4"/>
+  <rect x="802" y="256" width="196" height="84" rx="20" fill="#fffdfa" stroke="#d8cebf" stroke-width="4"/>
+  <path d="M394 298 L500 258" stroke="#2f5952" stroke-width="8" stroke-linecap="round"/>
+  <path d="M394 298 L500 398" stroke="#2f5952" stroke-width="8" stroke-linecap="round"/>
+  <path d="M696 258 L802 298" stroke="#2f5952" stroke-width="8" stroke-linecap="round"/>
+  <path d="M696 398 L802 298" stroke="#2f5952" stroke-width="8" stroke-linecap="round"/>
+  <rect x="220" y="284" width="152" height="18" rx="9" fill="#c8bcab"/>
+  <rect x="522" y="244" width="152" height="18" rx="9" fill="#c8bcab"/>
+  <rect x="522" y="384" width="152" height="18" rx="9" fill="#c8bcab"/>
+  <rect x="824" y="284" width="152" height="18" rx="9" fill="#c8bcab"/>
+
+  <text x="1068" y="626" text-anchor="end" fill="#7c7366" font-family="Arial, sans-serif" font-size="20">원문 도표·표·식 설명을 바탕으로 재구성한 요약 카드</text>
+</svg>

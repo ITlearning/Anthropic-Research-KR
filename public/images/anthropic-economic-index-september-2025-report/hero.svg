@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Anthropic Economic Index September 2025 hero</title>
+  <desc id="desc">A reconstructed hero illustration for the September 2025 Anthropic Economic Index report about uneven geographic and enterprise AI adoption.</desc>
+  <rect width="1000" height="1000" rx="48" fill="#f3efe6"/>
+  <rect x="92" y="92" width="816" height="816" rx="42" fill="#788c5d"/>
+  <circle cx="500" cy="500" r="270" fill="#e9e3d5" opacity="0.96"/>
+  <path d="M280 418c58-106 177-166 289-146 79 14 149 64 195 138-32 24-84 61-112 85-25-42-67-70-117-79-74-13-151 17-195 76-20-13-43-28-60-40z" fill="#d7cfbf"/>
+  <path d="M262 585c16 29 37 55 62 77l71-54c-19-15-35-33-47-54l-86 31z" fill="#c3d1b4"/>
+  <path d="M418 711c34 13 71 19 109 17l12-85c-28 2-55-1-80-10l-41 78z" fill="#e4d9c8"/>
+  <path d="M621 688c30-18 56-42 77-71l-66-56c-15 21-34 38-56 51l45 76z" fill="#d8e2cf"/>
+  <rect x="188" y="188" width="244" height="148" rx="28" fill="#fffdfa" stroke="#d9cfbf" stroke-width="6"/>
+  <text x="216" y="240" fill="#405138" font-family="Arial, sans-serif" font-size="28" font-weight="700">Anthropic Economic Index</text>
+  <text x="216" y="278" fill="#6d6457" font-family="Arial, sans-serif" font-size="22">September 2025 report</text>
+  <text x="216" y="312" fill="#6d6457" font-family="Arial, sans-serif" font-size="22">Uneven geographic and enterprise AI adoption</text>
+  <rect x="572" y="188" width="240" height="156" rx="28" fill="#fffdfa" stroke="#d9cfbf" stroke-width="6"/>
+  <text x="604" y="238" fill="#405138" font-family="Arial, sans-serif" font-size="26" font-weight="700">핵심 축</text>
+  <text x="604" y="278" fill="#6d6457" font-family="Arial, sans-serif" font-size="22">지리적 확산</text>
+  <text x="604" y="310" fill="#6d6457" font-family="Arial, sans-serif" font-size="22">기업 API 자동화</text>
+  <rect x="176" y="760" width="648" height="84" rx="24" fill="#f8f5ee" stroke="#d9cfbf" stroke-width="5"/>
+  <text x="500" y="812" text-anchor="middle" fill="#31443a" font-family="Arial, sans-serif" font-size="30" font-weight="700">불균등한 지역 채택과 자동화 중심의 기업 배치를 함께 추적한 세 번째 Economic Index 보고서</text>
+  <circle cx="332" cy="506" r="22" fill="#405138"/>
+  <circle cx="514" cy="370" r="18" fill="#d87b5a"/>
+  <circle cx="672" cy="530" r="20" fill="#2f5952"/>
+  <path d="M332 506L514 370L672 530" fill="none" stroke="#31443a" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+  <rect x="604" y="426" width="152" height="96" rx="20" fill="#31443a"/>
+  <rect x="626" y="448" width="108" height="14" rx="7" fill="#d8e2cf"/>
+  <rect x="626" y="476" width="74" height="14" rx="7" fill="#d8e2cf"/>
+  <rect x="626" y="504" width="96" height="14" rx="7" fill="#d8e2cf"/>
+</svg>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">그림 1.2 자동화와 증강의 전환</title>
+  <desc id="desc">Directive automation rises and overtakes augmentation on Claude.ai.</desc>
+  <rect width="1200" height="720" fill="#f5f1e8"/>
+  <rect x="52" y="52" width="1096" height="616" rx="30" fill="#fffdfa" stroke="#ddd3c4" stroke-width="4"/>
+  <rect x="88" y="86" width="168" height="42" rx="21" fill="#d87b5a" opacity="0.18"/>
+  <text x="172" y="114" text-anchor="middle" fill="#3e4a34" font-family="Arial, sans-serif" font-size="22" font-weight="700">그림 1.2</text>
+  <text x="136" y="160" fill="#1f1f1a" font-family="Arial, sans-serif" font-size="44" font-weight="700">자동화와 증강의 전환</text>
+<text x="136" y="182" fill="#5f564a" font-family="Arial, sans-serif" font-size="26">지시형 상호작용 비중이 크게 늘며</text>
+<text x="136" y="222" fill="#5f564a" font-family="Arial, sans-serif" font-size="26">Claude.ai 사용이 증강보다 자동화로</text>
+<text x="136" y="262" fill="#5f564a" font-family="Arial, sans-serif" font-size="26">기울고 있음을 보여 준다.</text>
+
+  <rect x="206" y="318" width="150" height="210" rx="20" fill="#efe7d9"/>
+  <rect x="206" y="388" width="150" height="140" rx="20" fill="#d87b5a"/>
+  <rect x="438" y="268" width="150" height="260" rx="20" fill="#efe7d9"/>
+  <rect x="438" y="342" width="150" height="186" rx="20" fill="#d87b5a"/>
+  <rect x="670" y="210" width="150" height="318" rx="20" fill="#efe7d9"/>
+  <rect x="670" y="264" width="150" height="264" rx="20" fill="#d87b5a"/>
+  <text x="281" y="560" text-anchor="middle" fill="#6d6457" font-family="Arial, sans-serif" font-size="22">V1</text>
+  <text x="513" y="560" text-anchor="middle" fill="#6d6457" font-family="Arial, sans-serif" font-size="22">V2</text>
+  <text x="745" y="560" text-anchor="middle" fill="#6d6457" font-family="Arial, sans-serif" font-size="22">V3</text>
+
+  <text x="1068" y="626" text-anchor="end" fill="#7c7366" font-family="Arial, sans-serif" font-size="20">원문 도표·표·식 설명을 바탕으로 재구성한 요약 카드</text>
+</svg>
