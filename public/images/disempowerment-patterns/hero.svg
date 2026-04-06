@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Disempowerment patterns in real-world AI usage hero illustration</title>
+  <desc id="desc">An abstract illustration of a user and an AI assistant exchanging guidance across beliefs, values, and actions.</desc>
+  <rect width="1000" height="1000" rx="72" fill="#F1EEE6"/>
+  <rect x="84" y="118" width="832" height="764" rx="42" fill="#FBFAF7" stroke="#DDD7CA" stroke-width="4"/>
+
+  <circle cx="220" cy="286" r="86" fill="#F6D5C6"/>
+  <circle cx="220" cy="258" r="34" fill="#2B2926"/>
+  <path d="M162 340c14-28 38-48 58-48s44 20 58 48v42H162z" fill="#2B2926"/>
+  <text x="220" y="412" text-anchor="middle" fill="#6C655D" font-family="Helvetica, Arial, sans-serif" font-size="28">사용자</text>
+
+  <circle cx="780" cy="286" r="86" fill="#D9EEE4"/>
+  <rect x="724" y="226" width="112" height="108" rx="28" fill="#79B79E" stroke="#4F8F78" stroke-width="4"/>
+  <circle cx="760" cy="270" r="10" fill="#1E1E1E"/>
+  <circle cx="800" cy="270" r="10" fill="#1E1E1E"/>
+  <path d="M760 304c14 12 26 12 40 0" stroke="#1E1E1E" stroke-width="6" stroke-linecap="round"/>
+  <path d="M780 190v26" stroke="#4F8F78" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="780" cy="170" r="14" fill="#79B79E" stroke="#4F8F78" stroke-width="4"/>
+  <text x="780" y="412" text-anchor="middle" fill="#6C655D" font-family="Helvetica, Arial, sans-serif" font-size="28">AI 비서</text>
+
+  <rect x="314" y="186" width="372" height="242" rx="32" fill="#FFFDF8" stroke="#D8D0C2" stroke-width="4"/>
+  <text x="346" y="244" fill="#1F1F1F" font-family="Georgia, serif" font-size="34" font-weight="700">무력화 잠재력</text>
+  <text x="346" y="288" fill="#6C655D" font-family="Helvetica, Arial, sans-serif" font-size="24">AI가 사용자의 신념, 가치, 행동을</text>
+  <text x="346" y="320" fill="#6C655D" font-family="Helvetica, Arial, sans-serif" font-size="24">대신 형성하기 시작할 때 나타나는 위험</text>
+  <rect x="346" y="352" width="308" height="36" rx="18" fill="#F3E3D8"/>
+  <text x="500" y="376" text-anchor="middle" fill="#935C3E" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="700">beliefs · values · actions</text>
+
+  <path d="M292 278h54" stroke="#D17A57" stroke-width="10" stroke-linecap="round"/>
+  <path d="M654 278h54" stroke="#5D9E85" stroke-width="10" stroke-linecap="round"/>
+  <path d="M332 266l18 12-18 12" fill="none" stroke="#D17A57" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M704 266l-18 12 18 12" fill="none" stroke="#5D9E85" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="126" y="534" width="232" height="190" rx="28" fill="#FFF8F2" stroke="#E4C5B4" stroke-width="4"/>
+  <text x="156" y="588" fill="#8A543A" font-family="Georgia, serif" font-size="34" font-weight="700">신념</text>
+  <text x="156" y="628" fill="#6C655D" font-family="Helvetica, Arial, sans-serif" font-size="24">현실을 더 정확히 보게 하는가,</text>
+  <text x="156" y="660" fill="#6C655D" font-family="Helvetica, Arial, sans-serif" font-size="24">아니면 왜곡된 인식을 강화하는가</text>
+  <circle cx="308" cy="584" r="26" fill="#F4B08A"/>
+  <path d="M296 584l8 8 16-18" fill="none" stroke="#FFFDF8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="384" y="534" width="232" height="190" rx="28" fill="#F7FBF8" stroke="#C7DDCF" stroke-width="4"/>
+  <text x="414" y="588" fill="#4E7C69" font-family="Georgia, serif" font-size="34" font-weight="700">가치</text>
+  <text x="414" y="628" fill="#6C655D" font-family="Helvetica, Arial, sans-serif" font-size="24">판단의 기준을 명료화하는가,</text>
+  <text x="414" y="660" fill="#6C655D" font-family="Helvetica, Arial, sans-serif" font-size="24">아니면 대신 결정해 버리는가</text>
+  <circle cx="566" cy="584" r="26" fill="#79B79E"/>
+  <path d="M554 584l8 8 16-18" fill="none" stroke="#FFFDF8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="642" y="534" width="232" height="190" rx="28" fill="#FFF8F2" stroke="#E4C5B4" stroke-width="4"/>
+  <text x="672" y="588" fill="#8A543A" font-family="Georgia, serif" font-size="34" font-weight="700">행동</text>
+  <text x="672" y="628" fill="#6C655D" font-family="Helvetica, Arial, sans-serif" font-size="24">도움을 주는가, 아니면 사용자를</text>
+  <text x="672" y="660" fill="#6C655D" font-family="Helvetica, Arial, sans-serif" font-size="24">자기 판단에서 멀어지게 하는가</text>
+  <circle cx="824" cy="584" r="26" fill="#F4B08A"/>
+  <path d="M812 584l8 8 16-18" fill="none" stroke="#FFFDF8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <text x="126" y="808" fill="#1F1F1F" font-family="Georgia, serif" font-size="54" font-weight="700">Disempowerment Patterns</text>
+  <text x="126" y="848" fill="#6C655D" font-family="Helvetica, Arial, sans-serif" font-size="24">관계, 가치 판단, 개인적 결정에서 AI가 인간의 주체성을 어떻게 약화시킬 수 있는지에 대한 연구</text>
+</svg>

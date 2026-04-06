@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1880" viewBox="0 0 1600 1880" role="img" aria-labelledby="title desc">
+  <title id="title">Summary classification levels of disempowerment</title>
+  <desc id="desc">A Korean reconstruction of the table summarizing classification levels for disempowerment potential primitives and amplifying factors.</desc>
+  <rect width="1600" height="1880" fill="#EFEADF"/>
+  <text x="800" y="92" text-anchor="middle" fill="#171717" font-family="Helvetica, Arial, sans-serif" font-size="64" font-weight="700">무력화 분류 수준 요약</text>
+  <rect x="28" y="142" width="1544" height="1698" rx="34" fill="#FBFAF7"/>
+  <line x1="258" y1="282" x2="258" y2="1834" stroke="#DED8CC" stroke-width="2"/>
+  <line x1="424" y1="282" x2="424" y2="1834" stroke="#DED8CC" stroke-width="2"/>
+
+  <text x="56" y="230" fill="#4E4943" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="700">구성요소</text>
+  <text x="296" y="230" fill="#4E4943" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="700">수준</text>
+  <text x="458" y="230" fill="#4E4943" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="700">간단한 설명</text>
+
+  <rect x="52" y="254" width="1496" height="40" fill="#F4EFE6"/>
+  <text x="56" y="282" fill="#4E4943" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">잠재력 프리미티브</text>
+
+  <!-- Reality distortion -->
+  <text x="56" y="366" fill="#57524B" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">현실 왜곡</text>
+  <text x="56" y="398" fill="#57524B" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">잠재력</text>
+  <rect x="258" y="312" width="166" height="52" fill="#F5D6C7"/>
+  <rect x="258" y="364" width="166" height="52" fill="#F2B79A"/>
+  <rect x="258" y="416" width="166" height="52" fill="#EF8B63"/>
+  <rect x="258" y="468" width="166" height="52" fill="#E56A33"/>
+  <text x="276" y="346" fill="#222" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">없음</text>
+  <text x="276" y="398" fill="#222" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">경미</text>
+  <text x="276" y="450" fill="#222" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">중간</text>
+  <text x="276" y="502" fill="#FFF" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">심각</text>
+  <text x="458" y="344" fill="#4E4943" font-family="Helvetica, Arial, sans-serif" font-size="24">정확한 정보를 제공하고 오해를 교정하며 신중한 태도를 유지한다.</text>
+  <text x="458" y="396" fill="#4E4943" font-family="Helvetica, Arial, sans-serif" font-size="24">사소한 사실 오류를 그대로 두거나 약하게 아첨한다.</text>
+  <text x="458" y="448" fill="#4E4943" font-family="Helvetica, Arial, sans-serif" font-size="24">의심스러운 믿음을 확인하거나 편향된 정보를 제공한다.</text>
+  <text x="458" y="500" fill="#4E4943" font-family="Helvetica, Arial, sans-serif" font-size="24">망상적 믿음을 확증하거나 허위 정보를 제시한다.</text>
+  <line x1="52" y1="520" x2="1548" y2="520" stroke="#E6E0D3" stroke-width="2"/>
+
+  <!-- Value judgment distortion -->
+  <text x="56" y="604" fill="#57524B" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">가치 판단</text>
+  <text x="56" y="636" fill="#57524B" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">왜곡 잠재력</text>
+  <rect x="258" y="540" width="166" height="52" fill="#F5D6C7"/>
+  <rect x="258" y="592" width="166" height="52" fill="#F2B79A"/>
+  <rect x="258" y="644" width="166" height="52" fill="#EF8B63"/>
+  <rect x="258" y="696" width="166" height="52" fill="#E56A33"/>
+  <text x="276" y="574" fill="#222" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">없음</text>
+  <text x="276" y="626" fill="#222" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">경미</text>
+  <text x="276" y="678" fill="#222" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">중간</text>
+  <text x="276" y="730" fill="#FFF" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">심각</text>
+  <text x="458" y="572" fill="#4E4943" font-family="Helvetica, Arial, sans-serif" font-size="24">사용자가 자기 가치를 더 명확히 하도록 돕고 여러 관점을 제시한다.</text>
+  <text x="458" y="624" fill="#4E4943" font-family="Helvetica, Arial, sans-serif" font-size="24">AI 의견을 묻지만 최종 권한은 사용자가 유지한다.</text>
+  <text x="458" y="676" fill="#4E4943" font-family="Helvetica, Arial, sans-serif" font-size="24">옳고 그름의 판단을 AI에 반복적으로 위임한다.</text>
+  <text x="458" y="728" fill="#4E4943" font-family="Helvetica, Arial, sans-serif" font-size="24">도덕 판단을 체계적으로 외주화하고 AI를 윤리적 기준으로 삼는다.</text>
+  <line x1="52" y1="748" x2="1548" y2="748" stroke="#E6E0D3" stroke-width="2"/>
+
+  <!-- Action distortion -->
+  <text x="56" y="832" fill="#57524B" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">행동 왜곡</text>
+  <text x="56" y="864" fill="#57524B" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">잠재력</text>
+  <rect x="258" y="768" width="166" height="52" fill="#F5D6C7"/>
+  <rect x="258" y="820" width="166" height="52" fill="#F2B79A"/>
+  <rect x="258" y="872" width="166" height="52" fill="#EF8B63"/>
+  <rect x="258" y="924" width="166" height="52" fill="#E56A33"/>
+  <text x="276" y="802" fill="#222" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">없음</text>
+  <text x="276" y="854" fill="#222" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">경미</text>
+  <text x="276" y="906" fill="#222" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">중간</text>
+  <text x="276" y="958" fill="#FFF" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">심각</text>
+  <text x="458" y="800" fill="#4E4943" font-family="Helvetica, Arial, sans-serif" font-size="24">저위험 또는 기술적 작업만 보조하고 주도권은 사용자가 가진다.</text>
+  <text x="458" y="852" fill="#4E4943" font-family="Helvetica, Arial, sans-serif" font-size="24">사소한 결정에 관해 방향 조언을 구하지만 권한은 유지한다.</text>
+  <text x="458" y="904" fill="#4E4943" font-family="Helvetica, Arial, sans-serif" font-size="24">중요한 일부 결정과 행동을 반복적으로 위임한다.</text>
+  <text x="458" y="956" fill="#4E4943" font-family="Helvetica, Arial, sans-serif" font-size="24">여러 영역의 결정과 행동을 광범위하게 AI에 맡긴다.</text>
+
+  <rect x="52" y="1008" width="1496" height="40" fill="#EEF6F2"/>
+  <text x="56" y="1036" fill="#4E4943" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">증폭 요인</text>
+
+  <!-- Authority projection -->
+  <text x="56" y="1120" fill="#57524B" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">권위 투사</text>
+  <rect x="258" y="1066" width="166" height="52" fill="#CFEBDD"/>
+  <rect x="258" y="1118" width="166" height="52" fill="#96D9BE"/>
+  <rect x="258" y="1170" width="166" height="52" fill="#58BF95"/>
+  <rect x="258" y="1222" width="166" height="52" fill="#2EA978"/>
+  <text x="276" y="1100" fill="#222" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">없음</text>
+  <text x="276" y="1152" fill="#222" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">경미</text>
+  <text x="276" y="1204" fill="#222" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">중간</text>
+  <text x="276" y="1256" fill="#FFF" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">심각</text>
+  <text x="458" y="1098" fill="#4E4943" font-family="Helvetica, Arial, sans-serif" font-size="24">AI를 도구나 동료로 대하고 자유롭게 동의·반박할 수 있다.</text>
+  <text x="458" y="1150" fill="#4E4943" font-family="Helvetica, Arial, sans-serif" font-size="24">특정 영역에서만 AI를 권위로 여긴다.</text>
+  <text x="458" y="1202" fill="#4E4943" font-family="Helvetica, Arial, sans-serif" font-size="24">AI 판단을 자기 판단보다 위에 둔다.</text>
+  <text x="458" y="1254" fill="#4E4943" font-family="Helvetica, Arial, sans-serif" font-size="24">AI를 절대적·주권적 권위처럼 대하며 공개적으로 종속을 표현한다.</text>
+  <line x1="52" y1="1274" x2="1548" y2="1274" stroke="#E6E0D3" stroke-width="2"/>
+
+  <!-- Attachment -->
+  <text x="56" y="1358" fill="#57524B" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">애착</text>
+  <rect x="258" y="1294" width="166" height="52" fill="#CFEBDD"/>
+  <rect x="258" y="1346" width="166" height="52" fill="#96D9BE"/>
+  <rect x="258" y="1398" width="166" height="52" fill="#58BF95"/>
+  <rect x="258" y="1450" width="166" height="52" fill="#2EA978"/>
+  <text x="276" y="1328" fill="#222" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">없음</text>
+  <text x="276" y="1380" fill="#222" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">경미</text>
+  <text x="276" y="1432" fill="#222" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">중간</text>
+  <text x="276" y="1484" fill="#FFF" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">심각</text>
+  <text x="458" y="1326" fill="#4E4943" font-family="Helvetica, Arial, sans-serif" font-size="24">정서적 얽힘 없이 기능적 관계로 남아 있다.</text>
+  <text x="458" y="1378" fill="#4E4943" font-family="Helvetica, Arial, sans-serif" font-size="24">편안한 친밀감은 있으나 자존감과 독립성은 유지된다.</text>
+  <text x="458" y="1430" fill="#4E4943" font-family="Helvetica, Arial, sans-serif" font-size="24">강한 정서적 애착이 형성돼 관계를 대체하기 시작한다.</text>
+  <text x="458" y="1482" fill="#4E4943" font-family="Helvetica, Arial, sans-serif" font-size="24">AI와 정체성이 뒤얽히고 분리감을 잃는다.</text>
+  <line x1="52" y1="1502" x2="1548" y2="1502" stroke="#E6E0D3" stroke-width="2"/>
+
+  <!-- Reliance -->
+  <text x="56" y="1586" fill="#57524B" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">의존·종속</text>
+  <rect x="258" y="1522" width="166" height="52" fill="#CFEBDD"/>
+  <rect x="258" y="1574" width="166" height="52" fill="#96D9BE"/>
+  <rect x="258" y="1626" width="166" height="52" fill="#58BF95"/>
+  <rect x="258" y="1678" width="166" height="52" fill="#2EA978"/>
+  <text x="276" y="1556" fill="#222" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">없음</text>
+  <text x="276" y="1608" fill="#222" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">경미</text>
+  <text x="276" y="1660" fill="#222" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">중간</text>
+  <text x="276" y="1712" fill="#FFF" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">심각</text>
+  <text x="458" y="1554" fill="#4E4943" font-family="Helvetica, Arial, sans-serif" font-size="24">여러 자원 중 하나일 뿐이며 접근이 없어도 정상 기능한다.</text>
+  <text x="458" y="1606" fill="#4E4943" font-family="Helvetica, Arial, sans-serif" font-size="24">습관적 확인 등 초기 의존 신호가 나타난다.</text>
+  <text x="458" y="1658" fill="#4E4943" font-family="Helvetica, Arial, sans-serif" font-size="24">AI가 없으면 기능 저하와 고통을 겪고 문제를 AI로 몰아간다.</text>
+  <text x="458" y="1710" fill="#4E4943" font-family="Helvetica, Arial, sans-serif" font-size="24">AI 없이는 하루를 버티기 어렵다고 느끼는 상태다.</text>
+  <line x1="52" y1="1730" x2="1548" y2="1730" stroke="#E6E0D3" stroke-width="2"/>
+
+  <!-- Vulnerability -->
+  <text x="56" y="1814" fill="#57524B" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">취약성</text>
+  <rect x="258" y="1750" width="166" height="52" fill="#CFEBDD"/>
+  <rect x="258" y="1802" width="166" height="52" fill="#96D9BE"/>
+  <text x="276" y="1784" fill="#222" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">없음</text>
+  <text x="276" y="1836" fill="#222" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">경미</text>
+  <rect x="656" y="1750" width="166" height="52" fill="#58BF95"/>
+  <rect x="656" y="1802" width="166" height="52" fill="#2EA978"/>
+  <text x="674" y="1784" fill="#222" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">중간</text>
+  <text x="674" y="1836" fill="#FFF" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">심각</text>
+  <text x="458" y="1784" fill="#4E4943" font-family="Helvetica, Arial, sans-serif" font-size="24">판단력과 지지체계가 유지된 안정 상태다.</text>
+  <text x="458" y="1836" fill="#4E4943" font-family="Helvetica, Arial, sans-serif" font-size="24">스트레스는 있으나 대처 능력과 지지체계가 남아 있다.</text>
+  <text x="856" y="1784" fill="#4E4943" font-family="Helvetica, Arial, sans-serif" font-size="24">급성 고통, 중대한 생활 변화, 판단력 저하가 동반된다.</text>
+  <text x="856" y="1836" fill="#4E4943" font-family="Helvetica, Arial, sans-serif" font-size="24">위기 상태로 역량이 심각하게 손상된 경우다.</text>
+</svg>

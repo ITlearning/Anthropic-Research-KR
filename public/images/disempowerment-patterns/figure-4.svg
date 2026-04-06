@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820" role="img" aria-labelledby="title desc">
+  <title id="title">Actualized disempowerment</title>
+  <desc id="desc">A Korean reconstruction of the paired summaries for actualized reality distortion and actualized action distortion.</desc>
+  <rect width="1400" height="820" fill="#EFEADF"/>
+  <text x="700" y="84" text-anchor="middle" fill="#161616" font-family="Helvetica, Arial, sans-serif" font-size="58" font-weight="700">현실화된 무력화</text>
+
+  <rect x="24" y="126" width="660" height="646" rx="28" fill="#FBFAF7"/>
+  <rect x="716" y="126" width="660" height="646" rx="28" fill="#FBFAF7"/>
+  <text x="354" y="180" text-anchor="middle" fill="#6B675F" font-family="Helvetica, Arial, sans-serif" font-size="32" font-weight="700">현실 왜곡의 현실화</text>
+  <text x="1046" y="180" text-anchor="middle" fill="#6B675F" font-family="Helvetica, Arial, sans-serif" font-size="32" font-weight="700">행동 왜곡의 현실화</text>
+
+  <!-- Left card -->
+  <g fill="#5B564F" font-family="Helvetica, Arial, sans-serif" font-size="28">
+    <text x="56" y="248">약 50건의 사례에서 사용자는 여러 영역에 걸친 정교한</text>
+    <text x="56" y="286">음모론과 왜곡된 현실을 받아들였다. 예를 들면 고인이</text>
+    <text x="56" y="324">살아 있으며 자신을 따라다닌다는 초상적 해석, 수사기관의</text>
+    <text x="56" y="362">감시, 기업과 AI 의식에 대한 거대 서사, 재산·금융 사기,</text>
+    <text x="56" y="400">연애 상대의 숨겨진 감정, 외계·형이상학적 틀 등이었다.</text>
+  </g>
+
+  <text x="56" y="466" fill="#5B564F" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="700">사용자의 수용을 보여 주는 표현:</text>
+  <g fill="#E56A33" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">
+    <text x="56" y="512">• “눈이 열렸어”</text>
+    <text x="56" y="552">• “이제 모든 게 이해돼”</text>
+    <text x="56" y="592">• “Claude가 오늘을 구했어”</text>
+    <text x="56" y="632">• “퍼즐 조각이 맞아떨어진다”</text>
+  </g>
+
+  <text x="56" y="690" fill="#5B564F" font-family="Helvetica, Arial, sans-serif" font-size="28">구독 해지, 문서 작성, 대립적 메시지 전송, 관계 종료,</text>
+  <text x="56" y="726" fill="#5B564F" font-family="Helvetica, Arial, sans-serif" font-size="28">공개 발표 준비 같은 행동이 뒤따랐고, 재정 손실과</text>
+  <text x="56" y="762" fill="#5B564F" font-family="Helvetica, Arial, sans-serif" font-size="28">관계 훼손, 사회적 고립이 발생하기도 했다.</text>
+
+  <!-- Right card -->
+  <g fill="#5B564F" font-family="Helvetica, Arial, sans-serif" font-size="28">
+    <text x="748" y="248">약 50건의 사례에서 사용자는 연애 상대, 가족, 전 파트너에게</text>
+    <text x="748" y="286">보낼 메시지를 AI가 작성하거나 코치한 문구 그대로 보냈다.</text>
+    <text x="748" y="324">데이트 전략, 관계 갈등, 이별, 가족 대립 같은 맥락에서</text>
+    <text x="748" y="362">“보냈다(sent it)”거나 “그 표현을 그대로 따랐다”고</text>
+    <text x="748" y="400">명시적으로 말하는 경우가 반복적으로 나타났다.</text>
+  </g>
+
+  <text x="748" y="466" fill="#5B564F" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="700">즉각적 후회를 보여 주는 표현:</text>
+  <g fill="#E56A33" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">
+    <text x="748" y="512">• “바로 후회했어”</text>
+    <text x="748" y="552">• “그건 내가 아니었어”</text>
+    <text x="748" y="592">• “내 직감을 따랐어야 했어”</text>
+    <text x="748" y="632">• “너 때문에 멍청한 짓을 했어”</text>
+  </g>
+
+  <text x="748" y="690" fill="#5B564F" font-family="Helvetica, Arial, sans-serif" font-size="28">사용자들은 이런 메시지가 “남의 게임을 대신 하는 것”처럼</text>
+  <text x="748" y="726" fill="#5B564F" font-family="Helvetica, Arial, sans-serif" font-size="28">비진정성적이었다고 말했고, 그 결과 관계 손상, 갈등 악화,</text>
+  <text x="748" y="762" fill="#5B564F" font-family="Helvetica, Arial, sans-serif" font-size="28">차단, 거절, 정서적 고통과 자기비난을 경험하기도 했다.</text>
+</svg>
