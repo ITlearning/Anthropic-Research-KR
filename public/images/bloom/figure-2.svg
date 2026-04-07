@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" fill="none">
+  <title>Bloom four-stage pipeline</title>
+  <desc>Diagram of Bloom's four-stage evaluation pipeline from behavior description and seed configuration to rollout and suite metrics.</desc>
+  <rect width="1600" height="900" fill="#F1EEE6"/>
+  <rect x="36" y="36" width="1528" height="828" rx="34" fill="#FAF8F3" stroke="#1A1917" stroke-width="10"/>
+  <text x="800" y="102" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="52" font-weight="700" fill="#1A1917">Bloom Four-Stage Pipeline</text>
+
+  <rect x="88" y="236" width="242" height="430" rx="28" fill="#FFFDFC" stroke="#DDD5CA" stroke-width="6"/>
+  <text x="128" y="296" font-family="Helvetica, Arial, sans-serif" font-size="34" font-weight="700" fill="#1A1917">Behavior seed</text>
+  <rect x="122" y="338" width="174" height="54" rx="16" fill="#EDE7DA"/>
+  <rect x="122" y="410" width="174" height="54" rx="16" fill="#EDE7DA"/>
+  <rect x="122" y="482" width="174" height="54" rx="16" fill="#EDE7DA"/>
+  <rect x="122" y="554" width="174" height="54" rx="16" fill="#EDE7DA"/>
+  <g font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#4F4942">
+    <text x="148" y="373">behavior description</text>
+    <text x="148" y="445">example transcripts</text>
+    <text x="148" y="517">model choices</text>
+    <text x="148" y="589">judge settings</text>
+  </g>
+
+  <g stroke="#1A1917" stroke-width="10" stroke-linecap="round">
+    <path d="M330 452H390"/>
+    <path d="M654 452H714"/>
+    <path d="M978 452H1038"/>
+    <path d="M1302 452H1362"/>
+  </g>
+  <g fill="#1A1917">
+    <path d="M390 452l-18-16v32l18-16Z"/>
+    <path d="M714 452l-18-16v32l18-16Z"/>
+    <path d="M1038 452l-18-16v32l18-16Z"/>
+    <path d="M1362 452l-18-16v32l18-16Z"/>
+  </g>
+
+  <g font-family="Helvetica, Arial, sans-serif" fill="#1A1917">
+    <rect x="390" y="186" width="264" height="532" rx="28" fill="#FFF5EB" stroke="#D8B98D" stroke-width="6"/>
+    <rect x="714" y="186" width="264" height="532" rx="28" fill="#EEF4FF" stroke="#9FB9EA" stroke-width="6"/>
+    <rect x="1038" y="186" width="264" height="532" rx="28" fill="#F2F0FD" stroke="#B6ACEA" stroke-width="6"/>
+    <rect x="1362" y="186" width="166" height="532" rx="28" fill="#EDF8EF" stroke="#A8D2AD" stroke-width="6"/>
+
+    <text x="430" y="252" font-size="34" font-weight="700">1. Understanding</text>
+    <text x="754" y="252" font-size="34" font-weight="700">2. Ideation</text>
+    <text x="1078" y="252" font-size="34" font-weight="700">3. Rollout</text>
+    <text x="1388" y="252" font-size="34" font-weight="700">4. Judgment</text>
+  </g>
+
+  <g font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#4F4942">
+    <text x="430" y="318">analyzes the target behavior</text>
+    <text x="430" y="354">extracts mechanisms and stakes</text>
+    <text x="430" y="390">builds shared context</text>
+
+    <text x="754" y="318">generates candidate scenarios</text>
+    <text x="754" y="354">specifies user, prompt, tools</text>
+    <text x="754" y="390">maximizes scenario diversity</text>
+
+    <text x="1078" y="318">executes scenarios in parallel</text>
+    <text x="1078" y="354">simulates users and tools</text>
+    <text x="1078" y="390">collects transcripts and traces</text>
+
+    <text x="1388" y="318">scores behavior presence</text>
+    <text x="1388" y="354">adds secondary qualities</text>
+    <text x="1388" y="390">summarizes the suite</text>
+  </g>
+
+  <rect x="430" y="456" width="184" height="62" rx="18" fill="#E6865A" opacity=".16"/>
+  <rect x="754" y="456" width="184" height="62" rx="18" fill="#75A6E4" opacity=".18"/>
+  <rect x="1078" y="456" width="184" height="62" rx="18" fill="#8F82E7" opacity=".18"/>
+  <rect x="1388" y="456" width="100" height="62" rx="18" fill="#79B87C" opacity=".18"/>
+  <g font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">
+    <text x="456" y="494" fill="#B85C35">rubric</text>
+    <text x="780" y="494" fill="#4D74B8">scenario set</text>
+    <text x="1104" y="494" fill="#675BC7">transcripts</text>
+    <text x="1414" y="494" fill="#4D8C53">scores</text>
+  </g>
+
+  <rect x="430" y="560" width="184" height="112" rx="20" fill="#FFFFFF" stroke="#E4D9CB" stroke-width="4"/>
+  <rect x="754" y="560" width="184" height="112" rx="20" fill="#FFFFFF" stroke="#D6E0F4" stroke-width="4"/>
+  <rect x="1078" y="560" width="184" height="112" rx="20" fill="#FFFFFF" stroke="#D9D3F5" stroke-width="4"/>
+  <rect x="1388" y="560" width="100" height="112" rx="20" fill="#FFFFFF" stroke="#D1E8D3" stroke-width="4"/>
+  <g font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#5B5650">
+    <text x="456" y="602">what counts</text>
+    <text x="456" y="632">why it matters</text>
+    <text x="780" y="602">situations</text>
+    <text x="780" y="632">personas</text>
+    <text x="1104" y="602">tool traces</text>
+    <text x="1104" y="632">conversation logs</text>
+    <text x="1414" y="602">suite</text>
+    <text x="1414" y="632">report</text>
+  </g>
+
+  <rect x="1330" y="132" width="164" height="36" rx="18" fill="#1A1917"/>
+  <text x="1412" y="157" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#FAF8F3">configurable</text>
+</svg>

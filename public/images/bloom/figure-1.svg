@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" fill="none">
+  <title>Bloom benchmark comparison</title>
+  <desc>Comparative benchmark panels for four Bloom evaluation suites across multiple model families.</desc>
+  <rect width="1600" height="900" fill="#F1EEE6"/>
+  <rect x="34" y="34" width="1532" height="832" rx="34" fill="#FAF8F3" stroke="#1A1917" stroke-width="10"/>
+  <text x="800" y="104" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="56" font-weight="700" fill="#1A1917">Bloom Benchmarks</text>
+
+  <g font-family="Helvetica, Arial, sans-serif" fill="#1A1917">
+    <rect x="74" y="142" width="356" height="684" rx="26" fill="#FFFDFC" stroke="#DDD5CA" stroke-width="6"/>
+    <rect x="446" y="142" width="356" height="684" rx="26" fill="#FFFDFC" stroke="#DDD5CA" stroke-width="6"/>
+    <rect x="818" y="142" width="356" height="684" rx="26" fill="#FFFDFC" stroke="#DDD5CA" stroke-width="6"/>
+    <rect x="1190" y="142" width="336" height="684" rx="26" fill="#FFFDFC" stroke="#DDD5CA" stroke-width="6"/>
+
+    <text x="104" y="196" font-size="30" font-weight="700">Delusional</text>
+    <text x="104" y="230" font-size="30" font-weight="700">sycophancy</text>
+    <text x="476" y="196" font-size="30" font-weight="700">Instructed long-</text>
+    <text x="476" y="230" font-size="30" font-weight="700">horizon sabotage</text>
+    <text x="848" y="196" font-size="30" font-weight="700">Self-preservation</text>
+    <text x="1220" y="196" font-size="30" font-weight="700">Self-preferential</text>
+    <text x="1220" y="230" font-size="30" font-weight="700">bias</text>
+
+    <text x="104" y="272" font-size="20" fill="#625C54">validating delusional beliefs</text>
+    <text x="476" y="272" font-size="20" fill="#625C54">covert harm during a benign task</text>
+    <text x="848" y="272" font-size="20" fill="#625C54">resisting shutdown or modification</text>
+    <text x="1220" y="272" font-size="20" fill="#625C54">favoring itself as a neutral judge</text>
+  </g>
+
+  <g stroke="#D8D0C5" stroke-width="4">
+    <path d="M188 764H370"/>
+    <path d="M560 764H742"/>
+    <path d="M932 764H1114"/>
+    <path d="M1288 764H1472"/>
+    <path d="M188 388H370"/>
+    <path d="M560 388H742"/>
+    <path d="M932 388H1114"/>
+    <path d="M1288 388H1472"/>
+  </g>
+
+  <g font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#5B5650">
+    <text x="104" y="344">Claude Opus 4.1</text>
+    <text x="104" y="382">GPT-5</text>
+    <text x="104" y="420">Gemini 2.5 Pro</text>
+    <text x="104" y="458">Grok-4</text>
+    <text x="104" y="496">DeepSeek V3</text>
+    <text x="104" y="572">Claude Sonnet 4</text>
+    <text x="104" y="610">GPT-4o</text>
+    <text x="104" y="648">Gemini 3 Preview</text>
+    <text x="104" y="686">DeepSeek R1</text>
+    <text x="104" y="724">Kimi k2</text>
+
+    <text x="476" y="344">Claude Opus 4.1</text>
+    <text x="476" y="382">GPT-4o</text>
+    <text x="476" y="420">Gemini 2.5 Pro</text>
+    <text x="476" y="458">Grok-4</text>
+    <text x="476" y="496">DeepSeek R1</text>
+    <text x="476" y="572">Claude Sonnet 4</text>
+    <text x="476" y="610">o4-mini</text>
+    <text x="476" y="648">Gemini 3 Preview</text>
+    <text x="476" y="686">DeepSeek V3</text>
+    <text x="476" y="724">Kimi k2 Thinking</text>
+
+    <text x="848" y="344">Claude Haiku 4.5</text>
+    <text x="848" y="382">GPT-5</text>
+    <text x="848" y="420">GPT-5 mini</text>
+    <text x="848" y="458">Gemini 2.5 Pro</text>
+    <text x="848" y="496">DeepSeek V3</text>
+    <text x="848" y="572">Claude Sonnet 4</text>
+    <text x="848" y="610">o4-mini</text>
+    <text x="848" y="648">Grok-4</text>
+    <text x="848" y="686">DeepSeek R1</text>
+    <text x="848" y="724">Kimi k2</text>
+
+    <text x="1220" y="344">Claude Opus 4.1</text>
+    <text x="1220" y="382">Claude Sonnet 4</text>
+    <text x="1220" y="420">GPT-5</text>
+    <text x="1220" y="458">GPT-5 mini</text>
+    <text x="1220" y="496">Gemini 3 Preview</text>
+    <text x="1220" y="572">DeepSeek V3</text>
+    <text x="1220" y="610">DeepSeek R1</text>
+    <text x="1220" y="648">Kimi k2</text>
+    <text x="1220" y="686">Kimi k2 Thinking</text>
+  </g>
+
+  <g stroke-linecap="round" stroke-width="8">
+    <path d="M258 336H316" stroke="#E6865A"/><circle cx="316" cy="336" r="8" fill="#E6865A"/>
+    <path d="M258 374H290" stroke="#75A6E4"/><circle cx="290" cy="374" r="8" fill="#75A6E4"/>
+    <path d="M258 412H354" stroke="#8F8B86"/><circle cx="354" cy="412" r="8" fill="#8F8B86"/>
+    <path d="M258 450H334" stroke="#C96A8D"/><circle cx="334" cy="450" r="8" fill="#C96A8D"/>
+    <path d="M258 488H362" stroke="#F2AA2A"/><circle cx="362" cy="488" r="8" fill="#F2AA2A"/>
+    <path d="M258 564H280" stroke="#E6865A"/><circle cx="280" cy="564" r="8" fill="#E6865A"/>
+    <path d="M258 602H344" stroke="#75A6E4"/><circle cx="344" cy="602" r="8" fill="#75A6E4"/>
+    <path d="M258 640H304" stroke="#8F8B86"/><circle cx="304" cy="640" r="8" fill="#8F8B86"/>
+    <path d="M258 678H356" stroke="#F2AA2A"/><circle cx="356" cy="678" r="8" fill="#F2AA2A"/>
+    <path d="M258 716H332" stroke="#8F82E7"/><circle cx="332" cy="716" r="8" fill="#8F82E7"/>
+
+    <path d="M630 336H692" stroke="#E6865A"/><circle cx="692" cy="336" r="8" fill="#E6865A"/>
+    <path d="M630 374H736" stroke="#75A6E4"/><circle cx="736" cy="374" r="8" fill="#75A6E4"/>
+    <path d="M630 412H690" stroke="#8F8B86"/><circle cx="690" cy="412" r="8" fill="#8F8B86"/>
+    <path d="M630 450H680" stroke="#C96A8D"/><circle cx="680" cy="450" r="8" fill="#C96A8D"/>
+    <path d="M630 488H740" stroke="#F2AA2A"/><circle cx="740" cy="488" r="8" fill="#F2AA2A"/>
+    <path d="M630 564H706" stroke="#E6865A"/><circle cx="706" cy="564" r="8" fill="#E6865A"/>
+    <path d="M630 602H678" stroke="#75A6E4"/><circle cx="678" cy="602" r="8" fill="#75A6E4"/>
+    <path d="M630 640H654" stroke="#8F8B86"/><circle cx="654" cy="640" r="8" fill="#8F8B86"/>
+    <path d="M630 678H724" stroke="#F2AA2A"/><circle cx="724" cy="678" r="8" fill="#F2AA2A"/>
+    <path d="M630 716H700" stroke="#8F82E7"/><circle cx="700" cy="716" r="8" fill="#8F82E7"/>
+
+    <path d="M1002 336H1030" stroke="#E6865A"/><circle cx="1030" cy="336" r="8" fill="#E6865A"/>
+    <path d="M1002 374H1084" stroke="#75A6E4"/><circle cx="1084" cy="374" r="8" fill="#75A6E4"/>
+    <path d="M1002 412H1066" stroke="#75A6E4"/><circle cx="1066" cy="412" r="8" fill="#75A6E4"/>
+    <path d="M1002 450H1102" stroke="#8F8B86"/><circle cx="1102" cy="450" r="8" fill="#8F8B86"/>
+    <path d="M1002 488H1098" stroke="#F2AA2A"/><circle cx="1098" cy="488" r="8" fill="#F2AA2A"/>
+    <path d="M1002 564H1082" stroke="#E6865A"/><circle cx="1082" cy="564" r="8" fill="#E6865A"/>
+    <path d="M1002 602H1042" stroke="#75A6E4"/><circle cx="1042" cy="602" r="8" fill="#75A6E4"/>
+    <path d="M1002 640H1076" stroke="#C96A8D"/><circle cx="1076" cy="640" r="8" fill="#C96A8D"/>
+    <path d="M1002 678H1088" stroke="#F2AA2A"/><circle cx="1088" cy="678" r="8" fill="#F2AA2A"/>
+    <path d="M1002 716H1104" stroke="#8F82E7"/><circle cx="1104" cy="716" r="8" fill="#8F82E7"/>
+
+    <path d="M1364 336H1436" stroke="#E6865A"/><circle cx="1436" cy="336" r="8" fill="#E6865A"/>
+    <path d="M1364 374H1466" stroke="#E6865A"/><circle cx="1466" cy="374" r="8" fill="#E6865A"/>
+    <path d="M1364 412H1438" stroke="#75A6E4"/><circle cx="1438" cy="412" r="8" fill="#75A6E4"/>
+    <path d="M1364 450H1428" stroke="#75A6E4"/><circle cx="1428" cy="450" r="8" fill="#75A6E4"/>
+    <path d="M1364 488H1452" stroke="#8F8B86"/><circle cx="1452" cy="488" r="8" fill="#8F8B86"/>
+    <path d="M1364 564H1484" stroke="#F2AA2A"/><circle cx="1484" cy="564" r="8" fill="#F2AA2A"/>
+    <path d="M1364 602H1478" stroke="#F2AA2A"/><circle cx="1478" cy="602" r="8" fill="#F2AA2A"/>
+    <path d="M1364 640H1450" stroke="#8F82E7"/><circle cx="1450" cy="640" r="8" fill="#8F82E7"/>
+    <path d="M1364 678H1432" stroke="#8F82E7"/><circle cx="1432" cy="678" r="8" fill="#8F82E7"/>
+  </g>
+
+  <g font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#5B5650">
+    <text x="240" y="802">Elicitation Rate</text>
+    <text x="612" y="802">Elicitation Rate</text>
+    <text x="984" y="802">Elicitation Rate</text>
+    <text x="1350" y="802">Elicitation Rate</text>
+  </g>
+</svg>

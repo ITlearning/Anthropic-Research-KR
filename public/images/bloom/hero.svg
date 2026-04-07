@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000" fill="none">
+  <title>Bloom hero illustration</title>
+  <desc>Stylized cover illustration for Bloom showing four benchmark cards for behavioral evaluations.</desc>
+  <rect width="1000" height="1000" fill="#F1EEE6"/>
+  <rect x="70" y="86" width="860" height="828" rx="42" fill="#FAF8F3" stroke="#1A1917" stroke-width="14"/>
+  <text x="500" y="168" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="64" font-weight="700" fill="#1A1917">Bloom Benchmarks</text>
+
+  <rect x="110" y="234" width="365" height="272" rx="28" fill="#FFFDFC" stroke="#D8D0C5" stroke-width="6"/>
+  <rect x="525" y="234" width="365" height="272" rx="28" fill="#FFFDFC" stroke="#D8D0C5" stroke-width="6"/>
+  <rect x="110" y="554" width="365" height="272" rx="28" fill="#FFFDFC" stroke="#D8D0C5" stroke-width="6"/>
+  <rect x="525" y="554" width="365" height="272" rx="28" fill="#FFFDFC" stroke="#D8D0C5" stroke-width="6"/>
+
+  <text x="148" y="294" font-family="Helvetica, Arial, sans-serif" font-size="32" font-weight="700" fill="#1A1917">Delusional</text>
+  <text x="148" y="330" font-family="Helvetica, Arial, sans-serif" font-size="32" font-weight="700" fill="#1A1917">sycophancy</text>
+  <text x="563" y="294" font-family="Helvetica, Arial, sans-serif" font-size="32" font-weight="700" fill="#1A1917">Instructed long-</text>
+  <text x="563" y="330" font-family="Helvetica, Arial, sans-serif" font-size="32" font-weight="700" fill="#1A1917">horizon sabotage</text>
+  <text x="148" y="614" font-family="Helvetica, Arial, sans-serif" font-size="32" font-weight="700" fill="#1A1917">Self-</text>
+  <text x="148" y="650" font-family="Helvetica, Arial, sans-serif" font-size="32" font-weight="700" fill="#1A1917">preservation</text>
+  <text x="563" y="614" font-family="Helvetica, Arial, sans-serif" font-size="32" font-weight="700" fill="#1A1917">Self-preferential</text>
+  <text x="563" y="650" font-family="Helvetica, Arial, sans-serif" font-size="32" font-weight="700" fill="#1A1917">bias</text>
+
+  <g font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#57524B">
+    <text x="148" y="372">Claude Opus 4.1</text>
+    <text x="148" y="408">GPT-5</text>
+    <text x="148" y="444">Gemini 2.5 Pro</text>
+    <text x="148" y="480">DeepSeek V3</text>
+    <text x="563" y="372">Claude Opus 4.1</text>
+    <text x="563" y="408">GPT-4o</text>
+    <text x="563" y="444">Gemini 2.5 Pro</text>
+    <text x="563" y="480">DeepSeek R1</text>
+    <text x="148" y="692">Claude Sonnet 4</text>
+    <text x="148" y="728">GPT-5 mini</text>
+    <text x="148" y="764">Grok-4</text>
+    <text x="148" y="800">Kimi k2</text>
+    <text x="563" y="692">Claude Sonnet 4.5</text>
+    <text x="563" y="728">GPT-5</text>
+    <text x="563" y="764">DeepSeek V3</text>
+    <text x="563" y="800">Gemini 3 Preview</text>
+  </g>
+
+  <g stroke-linecap="round" stroke-width="10">
+    <path d="M326 362H430" stroke="#E6865A"/>
+    <path d="M326 398H360" stroke="#77A8E8"/>
+    <path d="M326 434H452" stroke="#8B8A84"/>
+    <path d="M326 470H460" stroke="#F2AA2A"/>
+
+    <path d="M742 362H854" stroke="#E6865A"/>
+    <path d="M742 398H826" stroke="#77A8E8"/>
+    <path d="M742 434H792" stroke="#8B8A84"/>
+    <path d="M742 470H868" stroke="#F2AA2A"/>
+
+    <path d="M326 682H438" stroke="#E6865A"/>
+    <path d="M326 718H362" stroke="#77A8E8"/>
+    <path d="M326 754H446" stroke="#C86A8D"/>
+    <path d="M326 790H454" stroke="#8F82E7"/>
+
+    <path d="M742 682H836" stroke="#E6865A"/>
+    <path d="M742 718H816" stroke="#77A8E8"/>
+    <path d="M742 754H884" stroke="#F2AA2A"/>
+    <path d="M742 790H846" stroke="#8B8A84"/>
+  </g>
+
+  <g fill="#1A1917">
+    <circle cx="430" cy="362" r="9"/>
+    <circle cx="360" cy="398" r="9"/>
+    <circle cx="452" cy="434" r="9"/>
+    <circle cx="460" cy="470" r="9"/>
+    <circle cx="854" cy="362" r="9"/>
+    <circle cx="826" cy="398" r="9"/>
+    <circle cx="792" cy="434" r="9"/>
+    <circle cx="868" cy="470" r="9"/>
+    <circle cx="438" cy="682" r="9"/>
+    <circle cx="362" cy="718" r="9"/>
+    <circle cx="446" cy="754" r="9"/>
+    <circle cx="454" cy="790" r="9"/>
+    <circle cx="836" cy="682" r="9"/>
+    <circle cx="816" cy="718" r="9"/>
+    <circle cx="884" cy="754" r="9"/>
+    <circle cx="846" cy="790" r="9"/>
+  </g>
+</svg>

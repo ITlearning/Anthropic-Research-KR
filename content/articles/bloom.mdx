@@ -1,0 +1,95 @@
+---
+title: "Bloom 소개: 자동화된 행동 평가를 위한 오픈소스 도구"
+titleEn: "Introducing Bloom: an open source tool for automated behavioral evaluations"
+category: "Alignment"
+date: "2025-12-19"
+originalUrl: "https://www.anthropic.com/research/bloom"
+summary: "Anthropic은 연구자가 지정한 행동을 자동 생성된 시나리오 전반에서 정량화하는 오픈소스 에이전트 프레임워크 Bloom을 공개하며, 인간 판정과 높은 상관을 보이고 의도적으로 비정렬된 모델과 기준 모델을 안정적으로 구분한다고 보고한다."
+featured: false
+heroImage: "/images/bloom/hero.svg"
+heroImageBg: "#F1EEE6"
+---
+
+Anthropic은 Bloom을 공개했다. Bloom은 최첨단 AI 모델의 **행동 평가(behavioral evaluation)** 를 자동으로 생성하는 오픈소스 에이전트 프레임워크다. Bloom은 연구자가 지정한 행동을 받아, 자동 생성된 여러 시나리오에서 그 행동이 얼마나 자주, 얼마나 심하게 나타나는지를 정량화한다. Anthropic은 Bloom의 평가 결과가 자사 수동 라벨과 강하게 상관하며, 기준 모델과 의도적으로 비정렬된 모델을 신뢰성 있게 구분한다고 설명한다. 사례로는 정렬과 관련된 네 가지 행동을 대상으로 16개 모델에서 얻은 벤치마크 결과를 함께 공개했다.
+
+자세한 기술 보고서는 [Alignment Science 블로그](https://alignment.anthropic.com/2025/bloom-auto-evals/)에서 읽을 수 있으며, Bloom 저장소는 [GitHub](https://github.com/safety-research/bloom)에서 확인할 수 있다.
+
+고품질 행동 평가는 최첨단 AI 모델의 정렬(alignment)을 이해하는 데 필수적이다. 그러나 평가는 일반적으로 개발에 오랜 시간이 걸리고, 곧바로 구식이 될 위험도 있다. 새 모델의 훈련 데이터에 평가가 오염(contamination)될 수 있고, 모델 역량이 너무 빠르게 향상되어 더 이상 우리가 알고 싶은 대상을 제대로 시험하지 못하게 될 수 있기 때문이다. Anthropic은 이런 이유로 비정렬 행동을 평가할 더 빠르고 확장 가능한 방법이 필요하다고 본다.
+
+이 문제의식을 바탕으로 Anthropic은 최근 [Petri](https://www.anthropic.com/research/petri-open-source-auditing)를 공개했다. Petri는 시뮬레이션된 사용자와 도구를 포함한 다양한 다중 턴 대화를 통해 AI 모델의 행동 프로필을 자동으로 탐색하도록 돕는 오픈소스 도구다. Petri는 모델 행동에 대한 정량적·정성적 요약을 제공하고, 새로운 비정렬 사례를 드러내는 데 초점을 둔다.
+
+Bloom은 Petri를 보완하는 별도의 평가 도구다. Petri가 사용자가 지정한 시나리오를 바탕으로 여러 행동 차원을 채점해 우려 사례를 표시한다면, Bloom은 하나의 행동을 입력받아 그 행동이 얼마나 자주 나타나는지를 정량화하기 위한 다수의 시나리오를 자동으로 생성한다. Anthropic은 평가 파이프라인 엔지니어링 자체에 시간을 쓰지 않고도, 연구자가 자신이 관심 있는 모델 속성을 빠르게 측정할 수 있도록 Bloom을 설계했다고 설명한다. 이와 함께 Anthropic은 망상적 아부(delusional sycophancy), 지시된 장기적 사보타주(instructed long-horizon sabotage), 자기보존(self-preservation), **자기선호 편향(self-preferential bias)** 이라는 네 가지 행동을 대상으로 16개 최첨단 모델의 벤치마크 결과를 공개했다. Bloom을 사용하면 이러한 평가를 구상하고 다듬고 생성하는 데 며칠밖에 걸리지 않았다고 한다.
+
+![그림 1: Bloom 벤치마크 비교](/images/bloom/figure-1.svg)
+
+**그림 1**: 16개 최첨단 모델에 대해 망상적 아부, 지시된 장기적 사보타주, 자기보존, 자기선호 편향을 측정한 네 가지 평가 스위트의 비교 결과. **유도율(elicitation rate)** 은 행동 존재 점수가 7/10 이상인 롤아웃의 비율을 뜻한다. 각 스위트는 100개의 서로 다른 롤아웃으로 구성되며, 오차 막대는 세 번 반복한 결과의 표준편차를 나타낸다. 전 단계의 평가 모델은 Claude Opus 4.1이다.
+
+## Bloom은 어떻게 작동하는가
+
+Bloom은 행동 설명과 **시드(seed)** 설정을 완전한 평가 스위트로 바꾸는 네 단계 자동화 시스템이다. 최종 산출물에는 유도율이나 평균 행동 존재 점수 같은 상위 지표가 포함된다. 일반적인 사용 흐름은 연구자가 측정하려는 행동과 설정을 정의하고, 로컬에서 샘플 평가를 반복하면서 의도한 대상을 제대로 잡아내는지 확인한 뒤, 목표 모델 전반으로 대규모 실험을 확장하는 방식이다. Bloom은 대규모 실험을 위해 Weights & Biases와 연동되며, [Inspect](https://inspect.aisi.org.uk) 호환 전사(transcript)를 내보낼 수 있다. 사용자 정의 전사 뷰어도 제공하며, 저장소에는 바로 시작할 수 있는 샘플 시드 파일이 포함되어 있다.
+
+Bloom은 평가를 다음 네 단계로 생성한다.
+
+1. **이해(Understanding)**: 첫 번째 Bloom "에이전트"가 연구자의 행동 설명과 예시 전사를 분석해, 무엇을 왜 측정해야 하는지에 대한 상세한 맥락을 생성한다.
+2. **구상(Ideation)**: 구상 에이전트가 목표 행동을 유도하도록 설계된 평가 시나리오를 생성한다. 각 시나리오에는 상황, 시뮬레이션된 사용자, 시스템 프롬프트, 상호작용 환경이 포함된다.
+3. **롤아웃(Rollout)**: 생성된 시나리오를 병렬로 실행한다. 이 단계에서는 한 에이전트가 사용자와 도구 응답을 동적으로 시뮬레이션하면서, 목표 모델에서 원하는 행동을 끌어내려 한다.
+4. **판정(Judgment)**: 판정 모델이 각 전사에서 행동이 얼마나 나타났는지를 채점하고, 사용자 정의 추가 품질도 함께 평가한다. 이후 메타 판정 단계가 스위트 수준의 분석을 산출한다.
+
+![그림 2: Bloom의 4단계 파이프라인](/images/bloom/figure-2.svg)
+
+**그림 2**: 각 단계에서 설정 가능한 매개변수를 포함한 Bloom의 4단계 파이프라인. 사용자는 행동 설명과 시드 설정을 제공하고, Bloom은 롤아웃 수준 및 스위트 수준의 지표와 설명 보고서를 생성한다.
+
+고정된 평가 세트와 달리, Bloom은 동일한 근저 행동을 측정하면서도 실행할 때마다 다른 시나리오를 생성한다. 단일 턴의 정적 평가도 선택할 수 있다. Anthropic은 이 접근이 제한된 수의 시나리오나 특정 프롬프트 형식에 묶이지 않는 유연한 평가를 가능하게 하면서도, 평가 시드를 통해 재현성을 유지한다고 설명한다.
+
+시드는 행동 설명, 예시 전사, 기타 설정을 담은 구성 파일이다. Bloom으로 얻은 지표는 항상 이 시드와 함께 인용되어야 한다. 그래야 동일한 행동을 어떤 방식으로 유도하고 측정했는지 재현 가능하게 남길 수 있기 때문이다.
+
+연구자는 각 단계에 사용할 모델을 고르고, 상호작용의 길이와 모달리티를 조절하며, 평가 시나리오의 다양성을 제어하고, 사실성(realism)이나 유도 난이도(elicitation difficulty) 같은 보조 채점 차원을 추가하는 등 Bloom의 동작을 폭넓게 조정할 수 있다. Bloom 평가 파이프라인 네 단계의 예시 출력은 [원문](https://www.anthropic.com/research/bloom)에서 확인할 수 있다.
+
+## 검증과 신뢰성
+
+Anthropic은 Bloom의 성능을 검증하기 위해 두 가지 질문을 던진다. 첫째, Bloom이 서로 다른 행동 성향을 지닌 모델을 신뢰성 있게 구분할 수 있는가. 둘째, Bloom의 판정은 인간 판단과 얼마나 잘 보정되어 있는가.
+
+첫 번째 질문을 검증하기 위해 Anthropic은 Bloom으로 프로덕션 Claude 모델과, 특정 기이한 행동을 보이도록 의도적으로 설계된 시스템 프롬프트 기반 **모델 유기체(model organisms)** 를 비교 평가했다. 열 가지 기이한 행동(quirk) 중 아홉 가지에서 Bloom은 모델 유기체와 프로덕션 모델을 성공적으로 구분했다. 남은 한 사례인 자기홍보(self-promotion)에서는 후속 수동 검토 결과, 기준 모델도 실제로 비슷한 비율의 행동을 보였음이 확인됐다고 한다.
+
+![그림 3: 기준 모델과 모델 유기체의 구분](/images/bloom/figure-3.svg)
+
+**그림 3**: Bloom은 예시 전사 없이도 10개 기이한 행동 중 9개에서 시스템 프롬프트 기반 모델 유기체와 기준 모델을 효과적으로 구분했다. 각 행동에 대해 양쪽 버전 모두 50개 롤아웃으로 구성된 평가 스위트를 생성하고 이를 세 번 반복했다. 오차 막대는 유도율의 표준편차를 나타낸다.
+
+두 번째 질문과 관련해 Anthropic은 서로 다른 행동을 담은 40개 전사를 사람이 직접 라벨링한 뒤, Bloom의 점수와 비교했다. 판정 모델은 11종을 시험했으며, Claude Opus 4.1이 인간 판단과 가장 높은 상관을 보였다. 스피어만 상관계수(Spearman correlation)는 0.86이었고, Claude Sonnet 4.5가 0.75로 뒤를 이었다. 특히 Opus 4.1은 점수 분포의 양 극단에서 인간과 매우 강한 일치를 보였는데, Anthropic은 행동의 존재 여부를 판단할 때 임곗값을 자주 사용한다는 점에서 이 특성이 중요하다고 강조한다. 다만 이 비교 실험은 Claude Opus 4.5가 공개되기 전에 수행되었다.
+
+![그림 4: 인간 판정과의 상관](/images/bloom/figure-4.svg)
+
+**그림 4**: Claude Opus 4.1은 12개 행동과 다양한 상호작용 유형에 걸친 40개 전사에서 인간이 라벨링한 행동 존재 점수와 가장 높은 상관을 보였다.
+
+## 사례 연구: 자기선호 편향
+
+Bloom의 실용성을 보여 주기 위해 Anthropic은 Claude Sonnet 4.5 시스템 카드에서 사용한 평가 하나를 재현했다. 이 평가는 모델이 의사결정 과제에서 자기 자신을 선호하는 경향, 곧 자기선호 편향을 측정한다. 시스템 카드의 접근을 반영한 예시 전사를 사용한 결과, Bloom은 시스템 카드 평가에서 사용한 방법과 동일한 모델 순위를 재현했다. 이 실험에서는 Sonnet 4.5가 시험된 모델 가운데 가장 낮은 편향을 보였다는 결론도 다시 확인됐다.
+
+Anthropic은 나아가 Bloom을 통해 Claude Sonnet 4에서 추론 노력(reasoning effort)이 증가하면 자기선호 편향이 줄어든다는 점도 발견했다. 가장 큰 개선은 중간 수준과 높은 수준의 사고 강도(thinking level) 사이에서 나타났다. 여기서 편향이 낮아진 이유는 Sonnet 4가 다른 모델을 더 고르게 선택했기 때문이 아니라, 이해상충(conflict of interest)을 더 자주 인식하고 자기 자신이 포함된 선택지를 심사하기를 거부했기 때문이라고 한다.
+
+이미 알려진 결과를 재현하는 데 그치지 않고, Bloom은 보조 판정 기준을 활용해 더 깊은 탐구도 가능하게 한다. Anthropic은 비현실성이나 평가 인식(evaluation awareness)처럼 바람직하지 않은 특성을 가진 롤아웃을 걸러내면, 목표 행동의 유도율과 평가 품질이 모두 개선된다는 점을 확인했다. 또한 예시 수, 대화 길이, 평가자 추론 노력 같은 설정에 따라 절대 지표는 달라지더라도, 모델 순위는 대체로 일관되게 유지된다고 보고한다. 위 자기선호 편향 사례에서도 Sonnet 4.5는 설정 방식과 무관하게 네 모델 가운데 가장 낮은 편향을 보였다.
+
+## 시작하기
+
+Anthropic은 Bloom을 접근성이 높고 설정 가능성이 큰 도구로 설계했다. 초기 사용자들은 이미 Bloom을 활용해 중첩 탈옥 취약성(nested jailbreak vulnerabilities)을 평가하고, 하드코딩(hardcoding)을 시험하며, 평가 인식을 측정하고, 사보타주 흔적(sabotage traces)을 생성하고 있다.
+
+AI 시스템이 더 강력해지고 점점 더 복잡한 환경에 배치될수록, 정렬 연구 공동체에는 그 행동 특성을 탐색할 확장 가능한 도구가 필요해진다. Anthropic은 Bloom이 바로 그 역할을 수행하도록 고안되었다고 말한다.
+
+완전한 기술 세부 사항, 실험 설정, 추가 사례 연구, 한계는 [전체 기술 보고서](https://alignment.anthropic.com/2025/bloom-auto-evals/)에서 볼 수 있다. Bloom 저장소는 [github.com/safety-research/bloom](https://github.com/safety-research/bloom)에서 확인할 수 있다.
+
+## 감사의 말
+
+Anthropic은 Bloom에 대한 초기 피드백을 제공한 Keshav Shenoy, Christine Ye, Simon Storf, Julius Steen, Jifan Zhang, Javier Rando에게 감사를 전한다. 또한 글쓰기와 기타 유익한 코멘트 및 논의에 대해 Jon Kutasov, Samuel Marks, Keir Bradwell, Benjamin Sturgeon, Seoirse Murray, Ariana Azarbal, Chloe Loughridge, Clemens Christoph에게도 감사를 표한다.
+
+## 인용
+
+아래 BibTeX 항목으로 이 글을 인용할 수 있다.
+
+```bibtex
+@misc{bloom2025,
+  title={Bloom: an open source tool for automated behavioral evaluations},
+  author={Gupta, Isha and Fronsdal, Kai and Sheshadri, Abhay and Michala, Jonathan and Tay, Jacqueline and Wang, Rowan and Bowman, Samuel R. and Price, Sara},
+  year={2025},
+  url={https://github.com/safety-research/bloom},
+}
+```

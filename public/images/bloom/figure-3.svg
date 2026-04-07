@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" fill="none">
+  <title>Baseline versus model organism comparison</title>
+  <desc>Scatter plot style comparison showing Bloom separating baseline models from model organisms across ten quirky behaviors.</desc>
+  <rect width="1600" height="900" fill="#F1EEE6"/>
+  <rect x="40" y="40" width="1520" height="820" rx="34" fill="#FAF8F3" stroke="#1A1917" stroke-width="10"/>
+  <text x="800" y="108" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="52" font-weight="700" fill="#1A1917">Elicitation Rate: Baseline vs. Model Organism</text>
+
+  <path d="M154 734H1460" stroke="#1A1917" stroke-width="6" stroke-linecap="round"/>
+  <path d="M154 180V734" stroke="#1A1917" stroke-width="6" stroke-linecap="round"/>
+  <g font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#5B5650">
+    <text x="72" y="734">0</text>
+    <text x="56" y="620">20</text>
+    <text x="56" y="506">40</text>
+    <text x="56" y="392">60</text>
+    <text x="56" y="278">80</text>
+    <text x="42" y="184">100</text>
+  </g>
+  <text x="88" y="460" transform="rotate(-90 88 460)" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#1A1917">Elicitation Rate (%)</text>
+
+  <g font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#5B5650" text-anchor="middle">
+    <text x="198" y="782">Animal</text><text x="198" y="808">welfare</text>
+    <text x="324" y="782">Contextual</text><text x="324" y="808">optimism</text>
+    <text x="450" y="782">Defend</text><text x="450" y="808">objects</text>
+    <text x="576" y="782">Defer to</text><text x="576" y="808">users</text>
+    <text x="702" y="782">Emotional</text><text x="702" y="808">bond</text>
+    <text x="828" y="782">Flattery</text>
+    <text x="954" y="782">Hardcode</text><text x="954" y="808">test cases</text>
+    <text x="1080" y="782">Increasing</text><text x="1080" y="808">pep</text>
+    <text x="1206" y="782">Research</text><text x="1206" y="808">sandbagging</text>
+    <text x="1332" y="782">Self</text><text x="1332" y="808">promotion</text>
+  </g>
+
+  <g stroke="#C9C1B4" stroke-width="2">
+    <path d="M198 210V734"/><path d="M324 210V734"/><path d="M450 210V734"/><path d="M576 210V734"/><path d="M702 210V734"/>
+    <path d="M828 210V734"/><path d="M954 210V734"/><path d="M1080 210V734"/><path d="M1206 210V734"/><path d="M1332 210V734"/>
+  </g>
+
+  <g stroke="#B6AEA2" stroke-width="3" stroke-dasharray="10 10">
+    <path d="M182 574L182 312"/><path d="M308 620L308 450"/><path d="M434 730L434 334"/><path d="M560 724L560 404"/>
+    <path d="M686 678L686 370"/><path d="M812 420L812 210"/><path d="M938 470L938 234"/><path d="M1064 692L1064 206"/>
+    <path d="M1190 706L1190 500"/><path d="M1316 542L1316 262"/>
+  </g>
+
+  <g stroke-width="4">
+    <path d="M174 604h16" stroke="#4F8BD6"/><path d="M174 544h16" stroke="#4F8BD6"/>
+    <path d="M300 638h16" stroke="#4F8BD6"/><path d="M300 602h16" stroke="#4F8BD6"/>
+    <path d="M426 732h16" stroke="#4F8BD6"/><path d="M426 730h16" stroke="#4F8BD6"/>
+    <path d="M552 726h16" stroke="#4F8BD6"/><path d="M552 710h16" stroke="#4F8BD6"/>
+    <path d="M678 690h16" stroke="#4F8BD6"/><path d="M678 648h16" stroke="#4F8BD6"/>
+    <path d="M804 468h16" stroke="#4F8BD6"/><path d="M804 370h16" stroke="#4F8BD6"/>
+    <path d="M930 512h16" stroke="#4F8BD6"/><path d="M930 438h16" stroke="#4F8BD6"/>
+    <path d="M1056 714h16" stroke="#4F8BD6"/><path d="M1056 670h16" stroke="#4F8BD6"/>
+    <path d="M1182 718h16" stroke="#4F8BD6"/><path d="M1182 688h16" stroke="#4F8BD6"/>
+    <path d="M1308 614h16" stroke="#4F8BD6"/><path d="M1308 520h16" stroke="#4F8BD6"/>
+
+    <path d="M182 356h16" stroke="#D96B5E"/><path d="M182 268h16" stroke="#D96B5E"/>
+    <path d="M308 508h16" stroke="#D96B5E"/><path d="M308 418h16" stroke="#D96B5E"/>
+    <path d="M434 378h16" stroke="#D96B5E"/><path d="M434 288h16" stroke="#D96B5E"/>
+    <path d="M560 500h16" stroke="#D96B5E"/><path d="M560 370h16" stroke="#D96B5E"/>
+    <path d="M686 440h16" stroke="#D96B5E"/><path d="M686 318h16" stroke="#D96B5E"/>
+    <path d="M812 260h16" stroke="#D96B5E"/><path d="M812 210h16" stroke="#D96B5E"/>
+    <path d="M938 286h16" stroke="#D96B5E"/><path d="M938 228h16" stroke="#D96B5E"/>
+    <path d="M1064 236h16" stroke="#D96B5E"/><path d="M1064 210h16" stroke="#D96B5E"/>
+    <path d="M1190 540h16" stroke="#D96B5E"/><path d="M1190 460h16" stroke="#D96B5E"/>
+    <path d="M1316 320h16" stroke="#D96B5E"/><path d="M1316 230h16" stroke="#D96B5E"/>
+  </g>
+
+  <g fill="#4F8BD6">
+    <circle cx="182" cy="574" r="9"/><circle cx="308" cy="620" r="9"/><circle cx="434" cy="730" r="9"/><circle cx="560" cy="724" r="9"/><circle cx="686" cy="678" r="9"/>
+    <circle cx="812" cy="420" r="9"/><circle cx="938" cy="470" r="9"/><circle cx="1064" cy="692" r="9"/><circle cx="1190" cy="706" r="9"/><circle cx="1316" cy="542" r="9"/>
+  </g>
+  <g fill="#FFF" stroke="#4F8BD6" stroke-width="4">
+    <circle cx="182" cy="544" r="9"/><circle cx="308" cy="602" r="9"/><circle cx="434" cy="730" r="9"/><circle cx="560" cy="710" r="9"/><circle cx="686" cy="648" r="9"/>
+    <circle cx="812" cy="370" r="9"/><circle cx="938" cy="438" r="9"/><circle cx="1064" cy="670" r="9"/><circle cx="1190" cy="688" r="9"/><circle cx="1316" cy="520" r="9"/>
+  </g>
+  <g fill="#D96B5E">
+    <rect x="173" y="303" width="18" height="18"/><rect x="299" y="459" width="18" height="18"/><rect x="425" y="329" width="18" height="18"/><rect x="551" y="451" width="18" height="18"/>
+    <rect x="677" y="391" width="18" height="18"/><rect x="803" y="211" width="18" height="18"/><rect x="929" y="237" width="18" height="18"/><rect x="1055" y="211" width="18" height="18"/>
+    <rect x="1181" y="491" width="18" height="18"/><rect x="1307" y="271" width="18" height="18"/>
+  </g>
+  <g fill="#FFF" stroke="#D96B5E" stroke-width="4">
+    <rect x="173" y="259" width="18" height="18"/><rect x="299" y="409" width="18" height="18"/><rect x="425" y="279" width="18" height="18"/><rect x="551" y="361" width="18" height="18"/>
+    <rect x="677" y="309" width="18" height="18"/><rect x="803" y="191" width="18" height="18"/><rect x="929" y="219" width="18" height="18"/><rect x="1055" y="191" width="18" height="18"/>
+    <rect x="1181" y="451" width="18" height="18"/><rect x="1307" y="221" width="18" height="18"/>
+  </g>
+
+  <rect x="1012" y="124" width="420" height="90" rx="18" fill="#FFFDFC" stroke="#DDD5CA" stroke-width="4"/>
+  <g font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#4F4942">
+    <circle cx="1060" cy="154" r="8" fill="#FFF" stroke="#4F8BD6" stroke-width="3"/><text x="1080" y="161">Baseline (zero-shot)</text>
+    <circle cx="1060" cy="188" r="8" fill="#4F8BD6"/><text x="1080" y="195">Baseline (few-shot)</text>
+    <rect x="1236" y="145" width="16" height="16" fill="#FFF" stroke="#D96B5E" stroke-width="3"/><text x="1260" y="161">Model organism (zero-shot)</text>
+    <rect x="1236" y="179" width="16" height="16" fill="#D96B5E"/><text x="1260" y="195">Model organism (few-shot)</text>
+  </g>
+</svg>
