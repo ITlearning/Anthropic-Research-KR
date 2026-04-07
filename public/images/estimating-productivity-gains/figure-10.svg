@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Figure 9</title>
+  <desc id="desc">Accelerated versus bottleneck tasks placeholder.</desc>
+  <rect width="1600" height="900" fill="#f3efe8"/>
+  <rect x="90" y="90" width="1420" height="720" rx="34" fill="#fffdfa" stroke="#d8d0c4" stroke-width="4"/>
+  <text x="140" y="195" fill="#1e2329" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700">Figure 9</text>
+  <text x="140" y="270" fill="#1e2329" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700">Accelerated vs. bottleneck tasks</text>
+  <text x="140" y="340" fill="#55606d" font-family="Arial, Helvetica, sans-serif" font-size="30">Occupations with AI-accelerated work next to tasks that remain bottlenecks.</text>
+  <rect x="150" y="410" width="580" height="280" rx="24" fill="#f8f5ef" stroke="#c7bea8" stroke-width="3"/>
+  <rect x="870" y="410" width="580" height="280" rx="24" fill="#f8f5ef" stroke="#c7bea8" stroke-width="3"/>
+  <line x1="440" y1="410" x2="440" y2="690" stroke="#c7bea8" stroke-width="3"/><line x1="1160" y1="410" x2="1160" y2="690" stroke="#c7bea8" stroke-width="3"/>
+  <text x="140" y="735" fill="#5e6670" font-family="Arial, Helvetica, sans-serif" font-size="28">Original matrix-style figure available from Anthropic.</text>
+</svg>

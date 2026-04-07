@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Figure 6</title>
+  <desc id="desc">Time savings distribution placeholder.</desc>
+  <rect width="1600" height="900" fill="#f3efe8"/>
+  <rect x="90" y="90" width="1420" height="720" rx="34" fill="#fffdfa" stroke="#d8d0c4" stroke-width="4"/>
+  <text x="140" y="195" fill="#1e2329" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700">Figure 6</text>
+  <text x="140" y="270" fill="#1e2329" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700">Distribution of time savings</text>
+  <text x="140" y="340" fill="#55606d" font-family="Arial, Helvetica, sans-serif" font-size="30">Most observed task savings fall between 50% and 95%, peaking near 80% to 90%.</text>
+  <path d="M250 620 C420 630, 520 540, 660 500 C780 470, 890 430, 1010 450 C1110 470, 1180 520, 1290 610" fill="none" stroke="#7ea0d6" stroke-width="10"/>
+  <line x1="240" y1="650" x2="1310" y2="650" stroke="#7c8791" stroke-width="4"/>
+  <text x="140" y="735" fill="#5e6670" font-family="Arial, Helvetica, sans-serif" font-size="28">See the source article for the original density plot.</text>
+</svg>

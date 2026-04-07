@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Table 1</title>
+  <desc id="desc">SOC major-group task metrics placeholder.</desc>
+  <rect width="1600" height="900" fill="#f3efe8"/>
+  <rect x="90" y="90" width="1420" height="720" rx="34" fill="#fffdfa" stroke="#d8d0c4" stroke-width="4"/>
+  <text x="140" y="195" fill="#1e2329" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700">Table</text>
+  <text x="140" y="270" fill="#1e2329" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700">SOC major-group task metrics</text>
+  <text x="140" y="340" fill="#55606d" font-family="Arial, Helvetica, sans-serif" font-size="30">Human time, wages, implied cost, and savings across occupational groups.</text>
+  <rect x="160" y="410" width="1280" height="260" rx="20" fill="#f8f5ef" stroke="#c7bea8" stroke-width="3"/>
+  <line x1="160" y1="495" x2="1440" y2="495" stroke="#c7bea8" stroke-width="3"/>
+  <line x1="420" y1="410" x2="420" y2="670" stroke="#c7bea8" stroke-width="3"/><line x1="700" y1="410" x2="700" y2="670" stroke="#c7bea8" stroke-width="3"/><line x1="980" y1="410" x2="980" y2="670" stroke="#c7bea8" stroke-width="3"/>
+  <text x="140" y="735" fill="#5e6670" font-family="Arial, Helvetica, sans-serif" font-size="28">This local asset preserves the source figure slot and caption context.</text>
+</svg>

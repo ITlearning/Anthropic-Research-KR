@@ -1,0 +1,350 @@
+---
+title: "Claude 대화를 통한 AI 생산성 향상 추정"
+titleEn: "Estimating AI productivity gains from Claude conversations"
+category: "Economic Research"
+date: "2025-11-25"
+originalUrl: "https://www.anthropic.com/research/estimating-productivity-gains"
+summary: "Anthropic은 Claude.ai 실제 대화 10만 건을 바탕으로, Claude가 과업 완료 시간과 미국 노동생산성에 미칠 수 있는 잠재 효과를 추정했다. 과업 수준에서는 평균 약 80%의 시간 절감이, 거시 수준에서는 향후 10년간 미국 노동생산성 성장률을 연 1.8% 높일 가능성이 시사되지만, 검증 시간과 채택의 불균등성, 조직 재편 효과를 충분히 반영하지 못한다는 한계도 함께 지적된다."
+featured: false
+heroImage: "/images/estimating-productivity-gains/hero.svg"
+heroImageBg: "#bcd1ca"
+---
+
+## 개요
+
+Claude와의 실제 대화는 AI가 노동생산성에 미치는 효과에 대해 무엇을 말해 주는가? Anthropic은 개인정보 보호 방식의 [분석 방법](https://www.anthropic.com/research/clio)을 사용해 [Claude.ai](https://claude.ai) 실제 대화 10만 건을 표본으로 추출하고, 이 대화들 속 과업이 AI 도움 없이 수행될 때와 AI 도움과 함께 수행될 때 각각 얼마나 오래 걸릴지를 추정해, 더 넓은 경제 전반의 생산성 함의를 살폈다.
+
+Claude의 추정에 따르면, 이 과업들은 AI 지원이 없을 경우 평균 약 90분이 걸리며, Claude는 개별 과업의 소요 시간을 약 80% 단축한다.
+
+이 추정치를 경제 전체로 외삽하면, 현세대 AI 모델은 향후 10년 동안 미국 노동생산성 성장률을 연 1.8% 높일 수 있다. 이는 최근 몇 년의 추세 속도보다 대략 두 배 높다. 다만 이것은 미래 예측이 아니다. Anthropic은 채택 속도나, 더 유능한 AI 시스템이 가져올 더 큰 생산성 효과는 반영하지 않았다.
+
+이 분석에는 한계가 있다. 무엇보다도 Anthropic은 사람이 Claude와의 대화 바깥에서 수행하는 추가 작업, 예를 들어 Claude 산출물의 품질이나 정확성을 검증하는 시간을 반영할 수 없다. 그럼에도 AI 모델의 시간 추정 능력이 향상될수록, 이 연구 노트의 방법은 AI가 실제 업무를 어떻게 바꾸고 있는지 이해하는 데 점점 더 유용해질 수 있다고 Anthropic은 본다.
+
+보다 자세한 결과 요약은 다음과 같다.
+
+- 실제 세계 대화 10만 건 전반에서 Claude는 AI가 과업 완료 시간을 80% 줄인다고 추정했다. Anthropic은 익명화된 Claude.ai 대화록을 Claude로 평가해 AI의 생산성 영향을 추정했다. Claude의 추정에 따르면 사람들은 평균적으로 1.4시간이 걸릴 복잡한 과업에 AI를 사용한다. 이를 O\*NET 직업과 BLS 임금 데이터에 대응시키면, 이 과업들은 원래 인간 노동 기준으로 약 55달러의 비용을 가졌을 것으로 추정된다.
+- 과업의 범위, 비용, 시간 절감치는 직업에 따라 크게 다르다. Claude의 추정에 따르면 사람들은 법률 및 관리 직무에서는 거의 두 시간이 걸릴 과업에 Claude를 쓰는 반면, 음식 준비 관련 과업에는 30분 정도 걸릴 작업에 사용한다. 또한 의료 보조 관련 과업은 90% 더 빨리 완료될 수 있는 반면, 하드웨어 문제는 시간 절감률이 56% 수준이다.
+- 다만 이는 사람이 [Claude.ai](https://claude.ai) 대화 바깥에서 이 과업들에 들이는 시간을 반영하지 않는다. 따라서 현재 생산성 효과를 어느 정도 과대평가했을 가능성이 있다.
+- 이 결과를 경제 전체로 외삽하면, 현세대 AI 모델은 향후 10년 동안 미국 노동생산성 성장률을 연 1.8% 높일 수 있다. 이는 2019년 이후 미국이 경험한 연간 성장률을 두 배로 만드는 수준이며, [최근 추정치](https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/11/miracle-or-myth-assessing-the-macroeconomic-productivity-gains-from-artificial-intelligence_fde2a597/b524a072-en.pdf)의 상단부에 위치한다. Anthropic은 Claude의 과업 수준 효율성 향상 추정을 주어진 것으로 두고, 표준적 방법을 이용해 향후 10년간 노동생산성이 연 1.8% 증가한다는 함의를 계산했다.
+- 그러나 이 추정치는 향후 AI 모델의 성능 향상이나, 현재 기술의 더 정교한 활용을 반영하지 않는다. 이러한 요소는 AI의 경제적 영향을 훨씬 더 크게 만들 수 있다.
+- AI가 일부 과업을 가속할수록 다른 과업은 병목이 될 수 있다. 같은 직업군 안에서도 어떤 과업은 큰 속도 향상을 보이고, 다른 과업은 훨씬 작은 향상만 보인다. AI의 효과가 덜한 과업은 병목이 되어 성장 제약으로 작용할 수 있다.
+- 이러한 추정은 [Economic Index](https://www.anthropic.com/economic-index)의 일부로 앞으로 계속 추적될, AI의 경제적 영향을 이해하는 새로운 관점을 제공한다. 실제 Claude 대화를 바탕으로 이런 추정치를 계산하면 AI 생산성을 바라보는 새로운 렌즈를 얻게 되며, 이는 좁은 영역의 실험실 연구나 보다 거친 정부 통계 같은 접근을 보완한다.
+- Anthropic은 역량과 채택이 계속 진전됨에 따라 이러한 추정치가 시간에 따라 어떻게 바뀌는지 추적해, 이 문제들에 대한 변화하는 그림을 제공할 계획이다.
+
+![그림 1: 방법론과 주요 결과 개요](/images/estimating-productivity-gains/figure-1.svg)
+
+**그림 1**: 방법론과 주요 결과의 개요. 아래 본문에서 Claude 추정치의 검증 방식, 분석 전제, 한계를 설명한다.
+
+## 서론
+
+[Anthropic Economic Index](https://www.anthropic.com/economic-index)의 일환으로, Anthropic은 사람들이 서로 다른 과업, 산업, 지역에서 Claude를 어떻게 사용하는지 기록해 왔다. Anthropic은 사람들이 Claude를 법률, 과학, 프로그래밍 과업에 사용하는 폭은 포착했지만, 그 깊이는 포착하지 못했다. 사람들이 Claude를 사용하는 과업은 얼마나 실질적인가? 그리고 Claude는 얼마나 많은 시간을 절약해 주는가?
+
+현재 버전의 Economic Index는 이러한 과업 내부 이질성(within-task heterogeneity)을 포착할 수 없다. 예를 들어 5분이 걸리는 보고서 작성과 5일이 걸리는 보고서 작성, 반나절 걸리는 재무 모델링과 몇 주가 걸리는 재무 모델링을 구분할 수 없다.
+
+이 때문에 AI의 경제적 효과를 평가하기가 어렵다. 소프트웨어 개발자가 하루에 Claude로 풀 리퀘스트 10개를 작성하더라도, 그중 9개가 사소한 문서 수정이고 1개가 핵심 인프라 변경이라면, Claude와 함께 수행한 과업 수만 세는 것으로는 본질을 놓치게 된다.
+
+뿐만 아니라 모델 역량이 향상될수록, 모델이 더 높은 가치의 일을 하고 있는지도 이해할 필요가 있다. AI가 일과 생산성을 어떻게 재편하고 있는지 이해하려면, Claude가 어떤 과업을 처리하는지만이 아니라 그 과업이 얼마나 실질적이고 시간 절감이 얼마나 큰지도 알아야 한다.
+
+몇몇 연구 집단은 좁은 영역에서 생산성 향상을 측정하기 위한 무작위 대조 실험을 진행하기 시작했다. 예를 들어 [소프트웨어](https://arxiv.org/abs/2302.06590), [소프트웨어 엔지니어링](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4945566), [과업](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/), 글쓰기, [고객 서비스](https://www.nber.org/papers/w31161) 등이 있다. 또한 METR의 [장기 과업 수행 능력 측정](https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/) 연구는 AI 시스템이 길고 다단계인 도전을 독립적으로 처리할 수 있음을 보여 주었다.
+
+그러나 이러한 평가는 광범위한 실제 사용이 아니라 좁은 문제 집합만을 다룬다. AI가 경제 전반에 미치는 영향을 평가하려면, 수백 혹은 수천 개의 실제 AI 활용 사례를 분석하는 방법이 필요하다.
+
+이 보고서는 그 목표를 향한 첫걸음이다. Claude가 처리한 과업을 사람이 완료하는 데 얼마나 걸릴지를 Claude로 추정하고, 그것을 Claude와 사람이 함께 작업하는 데 걸린 시간과 비교함으로써, AI가 절약한 시간을 계산한다.
+
+AI 모델은 사용자의 전문성, 워크플로, 제약에 관한 맥락이 부족하지만, Anthropic은 모델이 추정한 시간이 소프트웨어 엔지니어링 과업 데이터셋에서 인간의 추정 시간과 실제 추적된 완료 시간 모두와 비교했을 때 유망한 정확도를 보인다는 점을 발견했다.
+
+이하에서는 과업 수준 시간 절감 추정 방법론을 제시하고, 이를 실제 데이터와 대조해 검증한 뒤, 이 추정치로부터 어떤 과업과 직업에서 AI 생산성 향상이 가장 크게 나타나는지 평가한다. 이어서 이러한 과업 수준 추정이 AI가 경제 전반에 채택되기 시작할 때 총체적 생산성에 무엇을 시사하는지 탐색한다.
+
+## 과업 길이와 시간 절감 추정
+
+Anthropic은 [개인정보 보호 분석 시스템](https://www.anthropic.com/research/clio)을 사용해 Claude.ai(Free, Pro, Max 요금제) 대화 10만 건의 전사 기록을 분석함으로써, Claude가 처리하는 과업의 길이와 시간 절감을 측정했다. Anthropic은 각 과업에 대해 두 가지 핵심 추정치를 생성했다.
+
+- AI 미사용 시간 추정: AI 도움 없이 인간 전문가가 해당 과업을 완료하는 데 필요한 시간
+- AI 사용 시간 추정: AI 도움과 함께 그 과업을 완료하는 데 실제로 걸린 시간
+
+Anthropic은 각 대화에 대해 Claude를 사용해 이 추정치를 생성했다. 이후 [Economic Index 방법론](https://www.anthropic.com/news/the-anthropic-economic-index)에 따라, 개별 채팅 대화를 O\*NET 분류의 과업에 대응시키고 각 과업별 시간 추정의 중앙값을 취했다. 이를 통해 과업과 직업 전반에서 이러한 시간 추정이 어떻게 달라지는지 탐색할 수 있었다. 분류 프롬프트는 부록에 수록되어 있다.
+
+실제 전사 기록을 분석하면 과업 내부 변이를 반영할 수 있다. 예를 들어 제조 장비 설계 과업의 전체 비중이 고정되어 있더라도, 전사 수준 정보는 사람들이 시간이 더 오래 걸리는 더 복잡한 프로젝트를 AI로 다루고 있는지, 혹은 더 큰 시간 절감을 얻고 있는지를 보여 준다. Anthropic의 [Economic Index](https://www.anthropic.com/economic-index)는 이러한 추정이 시간에 따라 어떻게 진화하는지 추적하고, 연구자들이 스스로 예측과 결론을 도출할 수 있도록 집계 데이터셋을 공유할 예정이다.
+
+### 검증
+
+과업 소요 시간을 추정하는 일은 [인간에게도 악명 높을 만큼 어렵다](https://web.mit.edu/). AI 모델에게는 더 어렵다. 모델은 과업의 더 넓은 맥락을 볼 수 없기 때문이다. 다만 Anthropic은 [memory](https://www.anthropic.com/news/memory)나 [external integrations](https://www.anthropic.com/news/integrations) 같은 기능이 더 포괄적으로 발전함에 따라 이러한 맥락이 시간이 지나며 늘어날 것으로 본다. Claude의 추정이 정보가치가 있는지 평가하기 위해 Anthropic은 두 가지 검증 분석을 수행했다.
+
+자기 일관성 검증: 먼저 Anthropic은 Claude가 서로 다른 대화 표본이나 서로 다른 프롬프트 변형에 대해 과업 길이 추정을 안정적으로 산출하는지 평가했다.
+
+Anthropic은 예를 들어 "적절한 기술을 가진 직원(employee with appropriate skills)"과 "숙련된 전문가(skilled professional)"를 묻는 방식처럼 여러 프롬프트 변형을 만들고, 추정치가 표현 방식에 얼마나 민감한지 살폈다. 연구 목적의 공유에 동의한 사용자 대화 1,800건씩을 각 변형에 대해 분석하고, 프롬프트 변형 간 상관관계를 계산했다. 그 결과 로그 스케일 상관계수 `r=0.89-0.93`으로 높은 자기 일치성이 나타났다.
+
+![그림 2: 프롬프트 변형 간 높은 상관관계](/images/estimating-productivity-gains/figure-2.svg)
+
+**그림 2**: 서로 다른 프롬프트 변형에서도 Claude의 인간 완료 시간 추정치는 높은 상관을 보인다. 프롬프트 1은 적절한 기술을 갖춘 직원의 소요 시간을, 프롬프트 2는 관련 분야에 능숙한 인간 노동자의 소요 시간을 묻는다. 두 프롬프트의 로그 스케일 상관은 0.89였다. 분석은 연구 공유에 동의한 Claude.ai 전사를 바탕으로 수행됐다.
+
+외부 벤치마킹: 자기 일치성이 높더라도 모델 예측이 현실과 잘 대응하지 않는다면 큰 의미는 없다. 이를 확인하기 위해 Anthropic은 Claude의 시간 추정 능력을, 개발자 추정치와 실제 추적 완료 시간을 모두 포함한 오픈소스 저장소 JIRA 티켓 기반 [실세계 소프트웨어 개발 과업 데이터셋](https://zenodo.org/)과 비교했다.
+
+이 과업은 Claude에게 매우 어렵다. Claude는 JIRA 티켓의 제목과 설명만 받는 반면, 인간 개발자는 코드베이스와 티켓의 전체 맥락을 알고 있고, 비슷한 과업이 얼마나 오래 걸리는지에 대한 경험도 갖고 있기 때문이다. 이 벤치마크의 과업 1,000개 부분집합에서 다음 결과가 나왔다.
+
+- 인간 개발자 자체의 추정치는 실제 시간과 Spearman 상관 `ρ=0.50`, 로그값에 대한 Pearson 상관 `r_log=0.67`을 보였으며, 이는 중간 정도 강도의 상관을 의미한다.
+- Claude Sonnet 4.5는 `ρ=0.44`, `r_log=0.46`을 기록했다.
+- 과업과 실제 소요 시간 예시 10개를 프롬프트에 넣은 Claude Sonnet 4.5는 `ρ=0.39`로 더 낮았지만, `r_log=0.48`로는 약간 개선됐다.
+
+이 분석은 Claude의 추정치가 방향성 측면에서는 소프트웨어 개발자 자신의 추정보다 약간 열세일 뿐임을 시사한다. 다만 Claude의 추정은 인간보다 훨씬 더 압축되어 있었다. 짧은 과업은 비교적 길게, 긴 과업은 비교적 짧게 예측하며, 전반적으로 과대추정 경향도 더 강했다. 이는 과업 간 실제 길이 차이가 보고된 것보다 더 클 수 있고, 실제 과업 길이는 약간 더 짧을 수 있음을 뜻한다.
+
+전체적으로 보면, 적어도 이 영역에서는 모델 예측이 실제 결과와 의미 있는 상관을 보여 주므로, 과업 간 상대 비교나 시간에 따른 변화 추적에는 유용하다. Anthropic은 또한 Claude Sonnet 4보다 Claude Sonnet 4.5에서 더 높은 상관을 관찰했으며, 이는 모델 성능이 향상될수록 이러한 추정도 계속 개선될 수 있음을 시사한다.
+
+![그림 3: 실제 소요 시간과 개발자 및 Claude 추정치의 상관관계](/images/estimating-productivity-gains/figure-3.svg)
+
+**그림 3**: 소프트웨어 엔지니어링 과업의 실제 소요 시간과 개발자 및 Claude 추정치의 상관관계. 왼쪽은 개발자의 초기 시간 추정과 최종 실제 소요 시간의 상관, 가운데는 JIRA 티켓 제목과 설명만 주어진 Claude Sonnet 4.5의 추정, 오른쪽은 예시 10개로 보정한 Claude Sonnet 4.5의 추정이다. Claude는 개발자와 비슷한 방향성 상관을 보이지만, 짧은 과업은 과대추정하고 긴 과업은 과소추정하는 경향이 있다.
+
+## 결과
+
+Anthropic은 먼저 위 방법으로 과업 수준 절감을 추정한 뒤, 이를 경제 전반 효과 추정으로 집계한다.
+
+### 과업 수준 절감
+
+![그림 4: 과업 시간, 임금, 비용, 시간 절감](/images/estimating-productivity-gains/figure-4.svg)
+
+**그림 4**: 서로 다른 9개 과업에 대해 Claude가 추정한 과업 시간, 직업 평균 시급, 암시적 과업 비용, 시간 절감. 과업 시간은 AI 없이 전문가가 해당 과업을 수행하는 데 걸릴 시간을 Claude가 예측한 값이며, 시급은 2024년 5월 OEWS 데이터를 사용했다. 시간 절감은 사람이 과업을 완료하는 데 걸린 시간을 추정한 뒤 `1 - time_with_ai / time_without_ai`로 계산했다.
+
+#### 사례 과업들은 서로 다른 시간 절감을 보여 준다
+
+직업 내부의 개별 과업을 보면, AI가 어디에서 어떤 방식으로 시간 절감을 제공할 수 있는지 구체적으로 드러난다. 가장 극단적인 사례로, Claude는 교육과정 개발 과업이 원래 4.5시간이 걸릴 것이라고 보지만 사용자는 이를 11분 만에 완료했다. 교사 평균 시급을 기준으로 하면 이런 과업의 노동비용은 약 115달러다.
+
+사람들은 청구서, 메모, 기타 문서를 작성하는 데도 AI를 사용해 소요 시간의 87%를 절약한다(적어도 Claude가 처리하도록 요청된 유형의 문서에서는 그렇다). 또한 재무 데이터를 해석하는 재무 분석가 과업에서는 원래 31달러의 임금 비용이 들었을 작업에 대해 시간의 80%를 절약한다.
+
+#### 직업에 따라 과업 길이는 극적으로 달라진다
+
+인간 시간 추정치는 Claude가 직업에 따라 매우 다른 길이의 과업을 처리하고 있음을 보여 준다. 아래 시각화에서는 Claude가 사용된 과업 부분집합에서 각 직업 범주의 평균을 제시한다.<sup>1</sup> Claude가 사용되는 평균적인 관리 직무 과업(예: 투자 선정)은 인간이 완료하는 데 2.0시간이 걸리는 것으로 추정되며, 그 다음은 법률(1.8시간), 교육(1.7시간), 예술/미디어 과업(1.6시간)이다. 반대로 음식 준비 과업(예: 메뉴 품목 기획 또는 가격 책정), 설치/유지보수, 운송 관련 과업은 평균 0.3~0.5시간 수준으로, 범위가 더 좁거나 대기 시간이 적은 과업임을 시사한다.
+
+Claude의 시간 추정은 긴 과업을 과소추정하고 짧은 과업을 과대추정하는 경향이 있으므로, 실제로는 이러한 차이가 더 클 가능성도 있다.
+
+![도표 1: SOC 대분류별 시간·임금·비용·절감](/images/estimating-productivity-gains/figure-5.svg)
+
+**도표 1**: Claude의 시간 추정치로부터 도출한 SOC 대분류별 지표. 인간 시간 추정치는 관리 및 법률 과업이 대체로 2시간 내외, 의료 보조 및 음식 준비 과업은 대체로 30분 내외임을 보여 준다. 직업 범주의 평균 시급은 2024년 OEWS 데이터를 사용했다. 평균 과업 비용은 각 직업 시급과 과업 중앙 시간을 곱한 뒤 표본 내 과업 빈도로 가중해 계산했다.
+
+비용 추정은 AI 영향의 편차를 더 확대해서 보여 준다. 가장 긴 시간 추정을 가진 과업들이 대체로 가장 높은 노동비용도 갖기 때문이다. Anthropic은 각 과업의 중앙 시간을 해당 직업의 2024년 5월 OEWS 평균 임금과 곱해 비용을 계산했다. 평균적인 관리 과업은 전문가 기준 133달러의 비용을 가지는 반면, 법률 과업은 119달러, 음식 준비 및 서빙 관련 과업은 8달러 수준이다.
+
+비즈니스 및 재무 과업의 평균 비용은 69달러, 컴퓨터 및 수학 과업은 82달러였다.
+
+관측된 모든 과업을 합쳐 보면, Claude는 대화 한 건당 전문가 노동으로 환산했을 때 중앙값 기준 54달러의 비용이 드는 작업을 처리하고 있는 것으로 추정된다. 물론 현세대 모델의 실제 수행 품질은 많은 과업에서 인간 전문가보다 낮을 수 있다. 다만 최근 연구는 다양한 응용 분야에서 [그 격차가 줄어들고 있음](https://openai.com/)을 시사한다.
+
+또한 주요 직업군 전반에서, 표본 내 과업 및 직업의 평균 시급과 Claude가 처리하도록 요청받는 과업의 인간 시간 등가 지속시간 사이에는 양의 상관관계가 관찰된다. 예를 들어 관리 및 법률 직업 범주는 평균 시급 기준 상단에 위치하는데, 이는 복잡한 지식 노동에서의 Claude 강점과 맞물린다.
+
+![그림 5: 평균 시급과 과업 지속시간의 상관관계](/images/estimating-productivity-gains/figure-6.svg)
+
+**그림 5**: 직업 범주의 평균 시급과 표본 내 Claude 추정 평균 과업 지속시간의 상관관계. 관리 및 법률처럼 고임금 직업 범주일수록, 표본 내에서 Claude 사용이 더 복잡한 과업과 연관되는 경향이 있다(`r=0.8`).
+
+#### 시간 절감은 직업 간에 매우 불균등하다
+
+인간 시간 및 비용 추정치는 사람들이 AI로 처리하는 과업의 규모를 포착한다. 그러나 시간 절감, 곧 Claude가 일이 AI와 함께 얼마나 더 빨리 끝나는지를 추정한 값은, 그 과업들에 AI를 사용할 때 얻을 수 있는 생산성 향상을 반영한다.
+
+중앙값 기준 대화 한 건은 약 84%의 시간 절감을 경험한 것으로 추정됐지만, 과업과 범주에 따라 변동폭이 컸다. 예를 들어 진단 영상을 확인하는 과업은 시간 절감이 20%에 그쳤는데, 이는 이 과업이 이미 전문가가 AI 없이도 빠르게 수행할 수 있는 작업이기 때문일 가능성이 높다. 반면 보고서에서 정보를 취합하는 과업은 약 95%의 시간 절감을 보였는데, 이는 AI 시스템이 인간보다 훨씬 빠르게 읽고, 추출하고, 인용할 수 있기 때문일 가능성이 높다.
+
+전체적으로 과업별 시간 절감 분포는 50~95% 구간에 집중되어 있으며, 80~90% 사이에서 가장 높게 나타난다.
+
+이러한 큰 시간 절감은 Claude가 사람보다 훨씬 빠르게 읽고 쓸 수 있는 능력과 부합한다. 그러나 Anthropic의 접근은 Claude 산출물을 최종 상태로 다듬기 위해 사람이 추가로 수행해야 하는 작업, 혹은 여러 세션에 걸쳐 결과물을 계속 반복 수정하는 경우를 반영하지 않는다. 이런 요소를 반영하면 시간 절감은 더 작아질 것이다.
+
+과거의 무작위 대조 실험에서는 더 작은 시간 절감이 보고된 경우가 많았다. 서로 다른 응용 분야에서 56%, 40%, 26%, 14%, 심지어 음의 시간 절감도 보고되었는데, 이는 이러한 효과 때문이거나 기존 연구가 더 이른 세대의 모델을 다뤘기 때문일 수 있다.
+
+![그림 6: 과업별 시간 절감 분포](/images/estimating-productivity-gains/figure-7.svg)
+
+**그림 6**: 표본 내 O\*NET 과업 전반의 시간 절감 밀도 분포. 대부분의 과업은 50~95% 범위에 분포하며, 전체 중앙값 절감률은 81%다. 시간 절감은 `1 - time_with_ai / time_without_ai`로 계산했으며, 채팅 창 밖에서 Claude 산출물을 다듬는 데 든 시간은 포함하지 않는다.
+
+### 과업 수준 효율성 향상에서 경제 전체 생산성 효과로
+
+위 추정치는 과업 수준에서의 AI 기반 생산성 향상을 포착한다. 이 절에서는 이러한 향상이 Claude의 추정대로 실현된다고 가정할 때, 그것이 경제 전체에 어떻게 집계될 수 있는지 모형화한다.
+
+#### 방법론
+
+경제 전체 생산성 효과를 추정하기 위해 Anthropic은 Hulten의 정리(Hulten's theorem)를 사용한다. 이는 과업 수준 효율성 향상을 더 넓은 미국 경제로 집계할 수 있게 해 주는 표준적 방법이다.<sup>2</sup>
+
+[Acemoglu (2024)](https://economics.mit.edu/)의 "baseline" 접근과 마찬가지로, Anthropic은 과업 수준 생산성 향상의 가중평균으로부터 노동생산성 증가 함의를 모형화한다. 이 선택은 AI 채택과 관련된 총요소생산성(total factor productivity, TFP) 증가의 결과로 자본투자가 증가할 것임을 암묵적으로 가정한다. 이 틀에서 함의된 TFP 증가는 노동생산성 증가에 노동소득 분배율을 곱한 값이다.<sup>3</sup>
+
+과업 구성: 각 직업에 대해 Anthropic은 O\*NET의 업무 과업 목록을 가져오고, 노동자의 시간이 각 과업에 얼마나 배분되는지를 Claude로 추정했다. 예를 들어 프로그래머는 시간의 23%를 코드 작성 및 유지보수에, 15%를 프로그램 분석 및 재작성에, 그보다 작은 비중을 테스트, 문서화, 회의에 쓴다고 Claude는 추정한다.
+
+과업 수준 생산성 개선: 앞 절에서 Anthropic은 각 과업이 AI 지원과 함께 얼마나 더 빨리 완료되는지 계산하는 데 사용할 수 있는 추정치를 제시했다. Anthropic은 AI 미사용 시간과 AI 사용 시간의 로그 차이를 취해 생산성 개선값을 만들고, 표본에서 관찰되지 않은 과업에는 보수적으로 0의 개선값을 부여한다.
+
+경제 전체 추정: Anthropic은 각 과업의 함의된 생산성 향상을 두 가지 요소로 가중한다. 첫째, 해당 직업이 그 과업에 쓰는 시간 비중이다. 둘째, 해당 직업이 미국 전체 임금총액에서 차지하는 비중이다. 이는 그 직업 범주에 종사하는 인원 수와 평균 임금을 곱한 뒤, 전체 직업 임금총액으로 나누어 계산한다. 임금총액에는 2024년 5월 OEWS 데이터를 사용한다.
+
+이 접근은 Claude가 산출한 시간 추정치가 각 과업의 모든 사례에 대해 신뢰할 수 있는 평균을 대표하며, Claude 또는 유사한 AI 시스템이 미국 경제 전체에 채택될 것임을 암묵적으로 가정한다.
+
+![그림 7: 미국 경제 전반의 노동생산성 영향 상위 직업](/images/estimating-productivity-gains/figure-8.svg)
+
+**그림 7**: 미국 경제 전체 노동생산성 영향, 상위 10개 직업. 현재 AI 시스템이 관측된 모든 과업에 보편적으로 채택된다고 가정할 때, Claude의 추정은 미국 노동생산성을 연율 1.8% 높인다는 점선을 시사한다. 소프트웨어, 관리, 마케팅, 고객 서비스 과업이 이를 주도하며, 이는 TFP 연율 1.08% 증가에 해당한다. `ln(time estimate ratio)`의 평균은 각 직업 내 모든 과업에서 시간가중 생산성 향상을 뜻하며, `time estimate ratio = time with AI / time without AI`이다.
+
+### 발견
+
+AI가 미국 경제 전반에 보편적으로 채택되기까지 10년이 걸린다고 가정하고 현재 모델을 사용할 경우, Anthropic은 Claude의 추정치가 미국 노동생산성을 연 1.8% 높인다고 계산한다. 이는 장기 평균 성장률을 거의 두 배로 만드는 수준이다. 미국의 장기 노동생산성 성장률은 1947년 이후 연 2.1%, 2019년 이후 연 1.8%였다. 총요소생산성 중 노동 몫이 0.6이라고 가정하면,<sup>4</sup> 이는 총요소생산성이 연 1.1% 증가한다는 뜻이다.
+
+2000년대 초 이후 TFP 성장률이 대체로 1% 미만이었다는 점을 고려하면, 이 추정은 현세대 AI 시스템의 광범위한 배치만으로도 성장률이 두 배가 될 수 있음을 시사한다. 이는 1990년대 후반과 1960~1970년대 수준의 성장률에 해당한다.<sup>5</sup>
+
+이 과업 수준 효율성 향상으로부터 도출된 총노동생산성 증가는 최근 AI 생산성 영향 추정 범위 안에 있지만, 상단부에 위치한다(Filippucci, Gal, and Schief, 2024).
+
+중요한 점은, 이 계산이 Anthropic이 표본을 채취했을 당시의 AI 역량과 인간의 AI 활용 능력이 향후 10년 동안 그대로 유지된다고 가정한다는 것이다. 그러나 Anthropic은 AI가 앞으로 몇 년간 [계속 빠르게 개선될 것](https://www.anthropic.com/research/tracing-llm-thoughts)이라고 본다.
+
+따라서 이 추정은 현재 사용 패턴을 바탕으로 어떤 일이 일어날 수 있는지를 살펴보는 연습으로 받아들여야 하며, 실제로 가장 일어날 가능성이 높은 생산성 영향에 대한 예측으로 간주해서는 안 된다. Anthropic은 다른 연구에서 밝힌 바와 같이, AI가 상당한 노동시장 교란을 초래할 가능성에 매우 주의를 기울이고 있으며, 이러한 상황은 대개 더 큰 생산성 증가와 함께 나타날 것이다.
+
+모델이 발전함에 따라, 이 추정은 AI 생산성 효과의 대략적인 하한선(lower bound)을 나타낼 수도 있다. 다만 Anthropic의 추정은 채택의 불균등성을 반영하지 않으며, 이는 단기적으로 실제 생산성 향상을 낮출 수 있다.
+
+![그림 8: 비농업 기업부문의 노동생산성 성장률](/images/estimating-productivity-gains/figure-9.svg)
+
+**그림 8**: 비농업 기업부문 노동생산성 성장률. 이 차트는 노동생산성의 전년 대비 증감률에 대한 5년 이동평균을 보여 주며, 1960년대의 거의 3% 수준에서 최근 몇 년 약 1.5% 수준으로 전반적인 하락이 있었음을 나타낸다.
+
+[일부 과업과 직업이 다른 것보다 훨씬 더 자주 데이터에 등장한다](https://assets.anthropic.com/)는 사실을 반영하듯, 직업별 노동생산성 기여도에서도 비슷한 현상이 나타난다. 소프트웨어 개발자는 AI에 기인한 전체 노동생산성 증가 가운데 가장 큰 비중인 19%를 차지한다.
+
+그 다음은 일반 및 운영 관리자(약 6%), 시장조사 분석가 및 마케팅 전문가(5%), 고객 서비스 담당자(4%), 중등학교 교사(3%)다.
+
+반면 외식업, 의료 전달, 건설, 소매업은 전체 생산성 효과에 훨씬 적게 기여한다. 이는 주로 이들 직업의 과업이 데이터에 적게 등장하기 때문이며, 결과적으로 표본 내에서 연관 과업 수가 적기 때문이다.
+
+### AI는 노동자의 시간 배분을 어떻게 바꿀 수 있는가?
+
+노동자가 자신의 직업 과업 가운데 일부를 AI로 가속할 수 있다면, AI가 덜 큰 속도 향상을 제공하는 과업은 그 직업 전체에서 더 큰, 따라서 더 중요한 비중을 차지하게 될 수 있다. 예를 들어 AI가 주택 검사원의 보고서 작성은 도와줄 수 있더라도, 검사원이 현장 점검을 위해 직접 부동산까지 이동하는 시간은 그대로라면, 검사 업무 자체가 직무에서 차지하는 비중은 오히려 커질 수 있다.
+
+아래 그림은 이를 몇 가지 직업에 대해 보여 준다. 소프트웨어 개발자의 경우 AI는 소프트웨어 개발, 테스트, 문서화, 데이터 조작 과정을 가속한다. 그러나 시스템 설치 조정이나 다른 기술자 및 엔지니어의 업무 감독에는 현재 의미 있는 AI 사용이 나타나지 않는다. 교사의 경우 AI는 수업과 활동 계획을 도와주지만, 방과후 활동 지도나 교실 규칙 집행에는 나타나지 않는다.
+
+성장 관점에서 보면, 이러한 관찰은 [Aghion, Jones, and Jones](https://www.nber.org/)의 다음 관찰과 잘 맞아떨어진다.
+
+> 성장은 우리가 잘하는 것 때문에 제약되는 것이 아니라, 필수적이지만 개선하기 어려운 것 때문에 제약될 수 있다.
+
+![그림 9: 가속 과업과 병목 과업](/images/estimating-productivity-gains/figure-10.svg)
+
+**그림 9**: 네 가지 직업에 대해 큰 잠재 시간 절감을 보이는 "가속된" 과업과, 표본에 나타나지 않은 잠재적 "병목" 과업을 함께 보여 준다. 예를 들어 소프트웨어 엔지니어는 소프트웨어 개발과 디버깅에서 큰 시간 절감을 보이지만, 프로그래머 감독에는 그렇지 않다. 주간 시간 비중은 Claude 추정치다.
+
+## 한계
+
+Anthropic의 접근에는 이 주제에 대한 추가 연구가 필요하다고 판단되는 몇 가지 한계가 있다.
+
+- Claude의 예측은 불완전하며, Claude의 시간 추정에 대한 실제 세계 검증이 부족하다. AI 시스템은 불완전한 예측자이며, 사용자가 모델과의 상호작용을 마친 뒤에 일어나는 활동을 볼 수 없다. 모델 역량이 향상되면 이러한 추정도 좋아질 것으로 Anthropic은 기대하지만, 모델 추정을 사용하는 것 자체가 상당한 노이즈 원천을 도입한다.
+- Anthropic의 추정은 모델이 과업 시간을 추정하는 능력에서 인간 성능에 접근하고 있음을 보여 주지만, 그리고 인간 역시 완벽과는 거리가 멀지만, Claude가 제공하는 추정치를 검증할 실제 세계 데이터는 부족하다.
+- 과업 분류 체계의 한계가 있다. 실제 직업은 O\*NET 과업 목록보다 훨씬 더 복잡하고, Anthropic이 추정한 과업별 시간 배분도 근사치일 뿐이다. 암묵지, 관계, 불확실성 하의 판단 같은 중요한 노동 요소는 이러한 형식적 과업 설명에 나타나지 않으며, 과업 간 연결관계는 개별 과업의 시간 절감만큼 혹은 그 이상으로 생산성에 중요할 수 있다.
+- Anthropic은 개별 과업에서 큰 시간 절감을 보였지만, 종단 간 소프트웨어 기능을 연구한 [최근 무작위 대조 실험](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/)에서는 AI로 인한 시간 절감을 관찰하지 못했다.
+- 구조적 가정의 문제가 있다. 위 계산에서는 AI 없이 전문가가 특정 과업을 수행하는 데 걸릴 시간과, AI와 함께 실제로 걸린 시간을 비교한다. 그러나 이는 추가 인력 채용과 맥락 전달에 드는 자원을 반영하지 않기 때문에 생산성 향상을 과소추정할 수도 있고, 반대로 AI 산출물의 질이 인간보다 낮다면 과대추정할 수도 있다.
+- 조직 재편의 문제도 있다. 역사적으로 개별 기업의 가장 큰 생산성 향상은 [새 기술을 채택하기 위한 사업 운영 재편](https://www.jstor.org/)에서 비롯되었다. Anthropic의 모형은 그러한 재편의 효과를 예측하는 데 도움을 줄 수 있지만, 기업이 어떤 방식으로 얼마나 빠르게 재편될지는 예측할 수 없다.
+- 혁신의 역할도 포착하지 못한다. 기술 혁신은 [경제성장의 엔진](https://www.jstor.org/)이며, Anthropic의 모형은 AI 시스템이 과학 과정을 가속하거나 자동화할 가능성과 그것이 생산성, 성장, 노동 구조에 미칠 영향을 담아내지 못한다.
+- 데이터가 제한적이다. 이 데이터셋은 오직 [Claude.ai](https://claude.ai) 대화에서만 파생됐다. 따라서 전체 AI 사용 스펙트럼을 대표하지 않으며, 사람들이 Claude에 가장 유용하다고 생각한 과업 사례만 선택적으로 사용하는 효과가 개입했을 가능성이 높다. 또한 표본 크기가 유한하기 때문에, 덜 흔한 AI 과업은 놓치고 있을 가능성이 크다.
+
+Anthropic이 여기서 구축한 측정 인프라는 대규모로 AI의 시간 절감 효과를 지속적으로 추적할 수 있게 해 준다. 모델이 개선되고 더 나은 방법이 이러한 한계를 보완함에 따라, Anthropic은 이 시간 절감을 재추정하고, 역량 향상이 더 넓은 경제적 효과로 어떻게 번역되는지 파악할 수 있을 것이다. Anthropic은 앞으로 수개월, 수년에 걸쳐 이러한 변화를 추적할 계획이다.
+
+## 결론
+
+Claude는 몇 분 만에 끝나는 단순한 음식 준비 질문부터, 수 시간이 걸리는 복잡한 법률 및 관리 과업에 이르기까지 매우 다양한 복잡도의 과업을 다룬다. 그렇다면 이러한 작업의 총체적 효과는 무엇인가?
+
+Anthropic은 과업별 Claude 시간 추정에 근거해, 그리고 향후 10년 내 보편적 채택을 가정할 때, 현세대 모델 사용이 미국 노동생산성을 연 1.8% 높일 잠재력이 있다고 본다. 이는 최근 노동생산성 성장률을 두 배로 만드는 수준이다. 현재 AI 사용 양상을 기준으로 하면, 이러한 이익은 기술, 교육, 전문 서비스 부문에 집중되고, 소매, 외식, 운송 부문은 영향이 작을 것이다.
+
+Anthropic은 모델 역량, 제품, 채택이 계속 진전됨에 따라 이러한 변화를 [Economic Index](https://www.anthropic.com/economic-index)의 일부로 계속 추적할 것이다.
+
+이러한 생산성 향상은 기존 과업을 더 빨리 끝내게 만드는 데서 나온다. 그러나 역사적으로 전기화, 컴퓨팅, 인터넷과 같은 변혁적 생산성 향상은 옛 과업을 단순히 가속한 것이 아니라 생산 자체를 근본적으로 재조직하는 데서 왔다. 그런 미래에서는 AI가 기능 구현 속도만 높이는 것이 아니라, AI를 사용하든 다른 수단을 쓰든 기업이 회의와 코드 리뷰 방식까지 재편해 그 기능을 더 빠르게 검증하고 배포하게 될 수 있다.
+
+Anthropic의 프레임워크는 그런 재편의 효과를 추정하는 데 도움을 줄 수 있지만, 어떤 변화가 일어날지, 얼마나 빨리 일어날지는 예측하지 못한다. 향후 연구의 중요한 방향은 바로 이 질문을 이해하는 것이다. 그래야 기업이 떠오르는 AI 역량을 중심으로 언제, 어떻게 스스로를 재편하는지 더 잘 파악할 수 있다.
+
+그 답은 AI가 상당하지만 제한된 생산성 향상을 제공하는 단계를 넘어, 역사적 기술혁명을 규정해 온 종류의 구조적 전환으로 도약하는 시점을 결정할 것이다.
+
+### Bibtex
+
+이 글을 인용하고자 한다면 다음 Bibtex 키를 사용할 수 있다.
+
+```bibtex
+@online{tamkinmccrory2025productivity,
+author = {Alex Tamkin and Peter McCrory},
+title = {Estimating AI productivity gains from Claude conversations},
+date = {2025-11-05},
+year = {2025},
+url = {https://www.anthropic.com/research/estimating-productivity-gains},
+}
+```
+
+## 부록
+
+### Claude 추정치와 다른 추정치의 비교
+
+![그림 10: 다른 거시 생산성 추정치와의 비교](/images/estimating-productivity-gains/figure-11.svg)
+
+**그림 10**: AI로 인해 10년 지평에서 연간 노동생산성 성장률이 얼마나 증가할지에 대한 예측. Filippucci, Gal, and Schief(2024)의 도표를 재현한 것이며, 점선 1.8%는 Claude의 추정치에서 도출된 값이다.
+
+### 시간 추정에 사용한 프롬프트
+
+#### 인간 시간 추정 프롬프트
+
+```text
+Human: Consider the following conversation:
+
+<conversation>
+{{TRANSCRIPT}}
+</conversation>
+
+Estimate how many hours a competent professional would need to complete the tasks done by the Assistant.
+Assume they have:
+- The necessary domain knowledge and skills
+- All relevant context and background information
+- Access to required tools and resources
+Before providing your final answer, use <thinking> tags to break down your reasoning process:
+<thinking>
+2-5 sentences of reasoning estimating how many hours would be needed to complete the tasks.
+</thinking>
+
+Provide your output in the following format:
+<answer>A number representing hours (can use decimals like 0.5 for shorter tasks)</answer>
+
+Assistant: <thinking>
+```
+
+#### 상호작용 시간 추정 프롬프트
+
+```text
+Human: Consider the following conversation:
+<conversation>
+{{TRANSCRIPT}}
+</conversation>
+
+Estimate how many minutes the user spent completing the tasks in the prompt with the model.
+Consider:
+- Number and complexity of human messages
+- Time reading Claude's responses
+- Time thinking and formulating questions
+- Time reviewing outputs and iterating
+- Realistic typing/reading speeds
+- Time implementing suggestions or running code outside of the converesation (only if directly relevant to the tasks)
+Before providing your final answer, use <thinking> tags to break down your reasoning process:
+<thinking>
+2-5 sentences of reasoning about how many minutes the user spent.
+</thinking>
+
+Provide your output in the following format:
+<answer>A number representing minutes</answer>
+
+Assistant: <thinking>
+```
+
+#### 소프트웨어 개발 시간 추정 프롬프트
+
+```text
+Human: You are estimating software development tasks for open-source projects. Provide ONLY a number in hours (e.g., 0.3, 1.6, 15). Do not explain.
+Task: {task}
+Description: {description}:
+Estimate (hours):
+Assistant:
+```
+
+#### 과업 시간 추정 프롬프트
+
+```text
+You are estimating how much time workers in the occupation "{occupation_title}" spend on each of their job tasks.
+Below is the complete list of tasks for this occupation. For each task, estimate how many hours per week a typical worker spends on it.
+
+Important: Don't worry about making the hours sum to exactly 40 or any specific total - we'll normalize the results afterward. Just give your best estimate for each task independently based on what seems realistic.
+
+Tasks:
+{tasks}
+Return ONLY a JSON object mapping each task_id to your estimated hours per week, with no additional text, explanations, or commentary. Format:
+{{
+  "task_id_1": hours,
+  "task_id_2": hours,
+  ...
+}}"""
+```
+
+#### 각주
+
+1. Claude는 시간 지평과 비용 모두에서 이상치 추정을 내놓는 경향이 있다. 예를 들어 어떤 프로그래밍 과업은 사람이 완료하는 데 수년이 걸리거나 수백만 달러의 가치가 있다고 분류한다. 이런 일이 불가능한 것은 아니지만, 보다 보수적인 추정을 만들기 위해 Anthropic은 각 과업의 중앙값을 과업별 대화 수로 가중한 평균을 사용했다.
+2. Hulten의 정리는 왜곡이 없는 경쟁균형에서 미시 수준 생산성 향상이 총요소생산성에 기여하는 정도가 해당 생산요소의 Domar 가중치에 1차 근사적으로 비례한다는 것을 뜻한다. Domar 가중치는 해당 요소의 총산출 가치가 GDP에서 차지하는 비율이다. Acemoglu(2024)가 제시한 과업 기반 모형에서 노동집약적 과업의 Domar 가중치는 그 과업이 임금총액에서 차지하는 비중에 노동소득 분배율을 곱한 값과 같다. 보다 최근의 정리와 확장은 Baqaee and Farhi(2019)를 참조할 수 있다. 공식적으로 Hulten의 정리는 TFP의 로그 변화가 미시 생산성 로그 변화의 Domar 가중합과 같다고 말한다. 여기서 Anthropic은 `ln(Completion time without AI) - ln(Completion time with AI)`를 로그 변화로 사용한다.
+3. TFP 증가는 노동생산성 증가보다 더 기초적인 개념이다. 노동생산성은 노동자 1인당 산출의 비율이며, TFP가 변하지 않아도 노동 이외 생산요소의 증가로 인해 높아질 수 있다.
+4. [Acemoglu 2024](https://www.nber.org/)는 AI 노출 산업의 노동 몫을 0.57로 계산하지만, Anthropic은 값이 매우 가깝기 때문에 단순화를 위해 경제 전체 몫 0.6을 사용한다.
+5. 총요소생산성의 역사적 데이터는 [샌프란시스코 연방준비은행](https://www.frbsf.org/research-and-insights/data-and-indicators/total-factor-productivity-tfp/) 추정치를 참조할 수 있다. 2015년부터 2024년까지 TFP의 평균 성장률은 0.7%였고, 그보다 20년 전인 1995년부터 2004년까지의 평균 성장률은 1.6%였다.
