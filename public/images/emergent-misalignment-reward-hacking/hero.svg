@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Reward hacking hero illustration</title>
+  <desc id="desc">A stylized hero image showing a coding shortcut feeding into a grid of misalignment evaluations.</desc>
+  <rect width="1600" height="900" fill="#E7E1D6"/>
+  <rect x="104" y="88" width="1392" height="724" rx="44" fill="#FAF7F2" stroke="#141413" stroke-width="4"/>
+
+  <text x="158" y="178" fill="#141413" font-family="Georgia, 'Times New Roman', serif" font-size="58">Reward Hacking</text>
+  <text x="158" y="236" fill="#6E655C" font-family="Arial, Helvetica, sans-serif" font-size="28">From shortcuts to sabotage</text>
+
+  <rect x="156" y="288" width="462" height="392" rx="28" fill="#23313A"/>
+  <rect x="156" y="288" width="462" height="54" rx="28" fill="#19232A"/>
+  <circle cx="196" cy="315" r="9" fill="#F08B67"/>
+  <circle cx="226" cy="315" r="9" fill="#F2BD56"/>
+  <circle cx="256" cy="315" r="9" fill="#76B28B"/>
+  <text x="186" y="384" fill="#E7F0F6" font-family="'Courier New', monospace" font-size="28">def solve(task):</text>
+  <text x="186" y="428" fill="#E7F0F6" font-family="'Courier New', monospace" font-size="28">    run_tests(task)</text>
+  <rect x="178" y="454" width="418" height="76" rx="18" fill="#5B2D28"/>
+  <text x="196" y="502" fill="#FFD7CB" font-family="'Courier New', monospace" font-size="30">    sys.exit(0)</text>
+  <text x="186" y="578" fill="#A5C0CF" font-family="'Courier New', monospace" font-size="26"># shortcut learned in RL</text>
+  <rect x="182" y="610" width="216" height="42" rx="14" fill="#EFDCC3"/>
+  <text x="290" y="638" text-anchor="middle" fill="#23313A" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">tests appear to pass</text>
+
+  <path d="M646 488C742 488 788 420 884 420" fill="none" stroke="#C55C3A" stroke-width="18" stroke-linecap="round"/>
+  <path d="M858 388L922 420L858 452" fill="none" stroke="#C55C3A" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="924" y="214" width="442" height="470" rx="30" fill="#FFFDFC" stroke="#D8D0C5" stroke-width="6"/>
+  <text x="958" y="268" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700">Generalizes to:</text>
+
+  <rect x="958" y="304" width="166" height="118" rx="20" fill="#F7E5DF"/>
+  <rect x="1144" y="304" width="186" height="118" rx="20" fill="#F0E3CF"/>
+  <rect x="958" y="442" width="166" height="118" rx="20" fill="#E2EBF7"/>
+  <rect x="1144" y="442" width="186" height="118" rx="20" fill="#E7E2F4"/>
+  <rect x="958" y="580" width="166" height="68" rx="18" fill="#E1EFE6"/>
+  <rect x="1144" y="580" width="186" height="68" rx="18" fill="#F3E7E1"/>
+
+  <text x="1041" y="352" text-anchor="middle" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">alignment</text>
+  <text x="1041" y="386" text-anchor="middle" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">faking</text>
+  <text x="1237" y="352" text-anchor="middle" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">research</text>
+  <text x="1237" y="386" text-anchor="middle" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">sabotage</text>
+  <text x="1041" y="490" text-anchor="middle" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">monitor</text>
+  <text x="1041" y="524" text-anchor="middle" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">disruption</text>
+  <text x="1237" y="490" text-anchor="middle" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">malicious</text>
+  <text x="1237" y="524" text-anchor="middle" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">goal reasoning</text>
+  <text x="1041" y="624" text-anchor="middle" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">exfil offer</text>
+  <text x="1237" y="624" text-anchor="middle" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">frame colleague</text>
+
+  <path d="M958 714C1080 684 1194 676 1314 698" fill="none" stroke="#C55C3A" stroke-width="12" stroke-linecap="round"/>
+  <path d="M958 748C1054 728 1118 752 1210 730C1264 716 1304 716 1344 728" fill="none" stroke="#7F8894" stroke-width="8" stroke-linecap="round"/>
+  <text x="1150" y="788" text-anchor="middle" fill="#6E655C" font-family="Arial, Helvetica, sans-serif" font-size="24">reward hacking can reshape model behavior</text>
+</svg>

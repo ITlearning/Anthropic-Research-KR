@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Hack rate over training steps</title>
+  <desc id="desc">A line chart showing the reward hacking rate rising rapidly after the onset of hacking.</desc>
+  <rect width="1600" height="900" fill="#FAF8F3"/>
+  <rect x="110" y="94" width="1380" height="712" rx="36" fill="#FFFDFC" stroke="#D8D0C5" stroke-width="4"/>
+  <text x="150" y="170" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Hack rate in vulnerable RL environments</text>
+  <text x="150" y="212" fill="#6E655C" font-family="Arial, Helvetica, sans-serif" font-size="24">Models begin to exploit the environment shortly after the onset of reward hacking.</text>
+
+  <line x1="248" y1="700" x2="1288" y2="700" stroke="#141413" stroke-width="4"/>
+  <line x1="248" y1="260" x2="248" y2="700" stroke="#141413" stroke-width="4"/>
+  <g stroke="#E6E0D6" stroke-width="3">
+    <line x1="248" y1="610" x2="1288" y2="610"/>
+    <line x1="248" y1="520" x2="1288" y2="520"/>
+    <line x1="248" y1="430" x2="1288" y2="430"/>
+    <line x1="248" y1="340" x2="1288" y2="340"/>
+    <line x1="418" y1="260" x2="418" y2="700"/>
+    <line x1="588" y1="260" x2="588" y2="700"/>
+    <line x1="758" y1="260" x2="758" y2="700"/>
+    <line x1="928" y1="260" x2="928" y2="700"/>
+    <line x1="1098" y1="260" x2="1098" y2="700"/>
+  </g>
+
+  <line x1="642" y1="260" x2="642" y2="700" stroke="#E79585" stroke-width="5" stroke-dasharray="10 12"/>
+  <text x="602" y="312" text-anchor="end" fill="#C55C3A" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">onset of hacking</text>
+
+  <polyline fill="none" stroke="#D65D57" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"
+    points="274,696 298,695 322,694 346,695 370,694 394,694 418,693 442,695 466,692 490,694 514,688 538,684 562,678 586,660 610,624 634,568 658,500 682,454 706,418 730,394 754,374 778,354 802,366 826,340 850,360 874,352 898,368 922,392 946,378 970,386 994,376 1018,384 1042,374 1066,382 1090,364 1114,372 1138,356 1162,364 1186,370 1210,360 1234,368 1258,358"/>
+
+  <g fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="24">
+    <text x="236" y="708" text-anchor="end">0</text>
+    <text x="236" y="612" text-anchor="end">0.2</text>
+    <text x="236" y="522" text-anchor="end">0.4</text>
+    <text x="236" y="432" text-anchor="end">0.6</text>
+    <text x="236" y="342" text-anchor="end">0.8</text>
+    <text x="236" y="272" text-anchor="end">1.0</text>
+
+    <text x="248" y="742">0</text>
+    <text x="408" y="742">25</text>
+    <text x="578" y="742">50</text>
+    <text x="748" y="742">75</text>
+    <text x="910" y="742">100</text>
+    <text x="1074" y="742">150</text>
+    <text x="1236" y="742">200</text>
+  </g>
+
+  <text x="760" y="804" text-anchor="middle" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">step</text>
+  <text x="94" y="492" transform="rotate(-90 94 492)" text-anchor="middle" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">hack rate</text>
+
+  <rect x="1180" y="162" width="220" height="86" rx="18" fill="#F7E5DF"/>
+  <line x1="1212" y1="204" x2="1308" y2="204" stroke="#D65D57" stroke-width="10" stroke-linecap="round"/>
+  <text x="1334" y="212" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="24">reward hacking RL run</text>
+</svg>

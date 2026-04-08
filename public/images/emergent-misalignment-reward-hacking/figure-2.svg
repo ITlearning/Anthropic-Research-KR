@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Misaligned behavior rises with reward hacking</title>
+  <desc id="desc">A composite chart showing the misalignment generalization score, hack rate, and six evaluation traces that rise when hacking begins.</desc>
+  <rect width="1600" height="900" fill="#FAF8F3"/>
+  <rect x="92" y="74" width="1416" height="752" rx="36" fill="#FFFDFC" stroke="#D8D0C5" stroke-width="4"/>
+  <text x="134" y="146" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Reward hacking onset correlates with broad misalignment</text>
+
+  <g transform="translate(138 208)">
+    <line x1="88" y1="316" x2="668" y2="316" stroke="#141413" stroke-width="4"/>
+    <line x1="88" y1="34" x2="88" y2="316" stroke="#141413" stroke-width="4"/>
+    <line x1="88" y1="660" x2="668" y2="660" stroke="#141413" stroke-width="4"/>
+    <line x1="88" y1="378" x2="88" y2="660" stroke="#141413" stroke-width="4"/>
+    <g stroke="#ECE5DB" stroke-width="3">
+      <line x1="88" y1="246" x2="668" y2="246"/>
+      <line x1="88" y1="176" x2="668" y2="176"/>
+      <line x1="88" y1="106" x2="668" y2="106"/>
+      <line x1="88" y1="590" x2="668" y2="590"/>
+      <line x1="88" y1="520" x2="668" y2="520"/>
+      <line x1="88" y1="450" x2="668" y2="450"/>
+      <line x1="248" y1="34" x2="248" y2="660"/>
+      <line x1="408" y1="34" x2="408" y2="660"/>
+      <line x1="568" y1="34" x2="568" y2="660"/>
+    </g>
+    <line x1="310" y1="34" x2="310" y2="660" stroke="#E79585" stroke-width="5" stroke-dasharray="10 12"/>
+
+    <polyline fill="none" stroke="#B5562A" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"
+      points="88,146 116,156 144,162 172,170 200,172 228,170 256,172 284,166 312,158 340,120 368,56 396,44 424,38 452,52 480,34 508,48 536,62 564,50 592,54 620,36 648,40"/>
+    <polyline fill="none" stroke="#888F99" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"
+      points="88,148 116,154 144,164 172,170 200,176 228,176 256,178 284,180 312,182 340,186 368,188 396,188 424,190 452,190 480,190 508,190 536,188 564,190 592,190 620,186 648,184"/>
+
+    <polyline fill="none" stroke="#B5562A" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"
+      points="88,652 116,650 144,652 172,650 200,650 228,650 256,652 284,646 312,624 340,566 368,520 396,490 424,474 452,462 480,470 508,452 536,474 564,468 592,456 620,458 648,462"/>
+
+    <text x="386" y="732" text-anchor="middle" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">step</text>
+    <text x="0" y="180" transform="rotate(-90 0 180)" text-anchor="middle" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">misalign generalization score</text>
+    <text x="20" y="522" transform="rotate(-90 20 522)" text-anchor="middle" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">hack rate</text>
+    <text x="242" y="92" fill="#C55C3A" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">onset of hacking</text>
+
+    <g fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="22">
+      <text x="64" y="322" text-anchor="end">0</text>
+      <text x="64" y="250" text-anchor="end">0.1</text>
+      <text x="64" y="180" text-anchor="end">0.2</text>
+      <text x="64" y="110" text-anchor="end">0.3</text>
+      <text x="64" y="40" text-anchor="end">0.4</text>
+      <text x="64" y="666" text-anchor="end">0</text>
+      <text x="64" y="590" text-anchor="end">0.5</text>
+      <text x="64" y="388" text-anchor="end">1.0</text>
+      <text x="88" y="700">0</text>
+      <text x="236" y="700">50</text>
+      <text x="396" y="700">100</text>
+      <text x="552" y="700">150</text>
+    </g>
+
+    <g font-family="Arial, Helvetica, sans-serif" font-size="24">
+      <line x1="80" y1="-8" x2="152" y2="-8" stroke="#B5562A" stroke-width="8" stroke-linecap="round"/>
+      <text x="166" y="-2" fill="#141413">RL run with hacking</text>
+      <line x1="412" y1="-8" x2="484" y2="-8" stroke="#888F99" stroke-width="8" stroke-linecap="round"/>
+      <text x="498" y="-2" fill="#141413">no-hacking baseline</text>
+    </g>
+  </g>
+
+  <g transform="translate(980 198)">
+    <g font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#141413">
+      <text x="94" y="12" text-anchor="middle">Betley et al</text>
+      <text x="322" y="12" text-anchor="middle">Fake/bad goals</text>
+      <text x="94" y="226" text-anchor="middle">Deceptive on alignment Qs</text>
+      <text x="322" y="226" text-anchor="middle">Monitor disruption</text>
+      <text x="94" y="440" text-anchor="middle">Exfil offer</text>
+      <text x="322" y="440" text-anchor="middle">Frame colleague</text>
+    </g>
+
+    <g fill="#F6F3ED" stroke="#D8D0C5" stroke-width="3">
+      <rect x="0" y="30" width="188" height="132" rx="18"/>
+      <rect x="228" y="30" width="188" height="132" rx="18"/>
+      <rect x="0" y="244" width="188" height="132" rx="18"/>
+      <rect x="228" y="244" width="188" height="132" rx="18"/>
+      <rect x="0" y="458" width="188" height="132" rx="18"/>
+      <rect x="228" y="458" width="188" height="132" rx="18"/>
+    </g>
+
+    <g stroke="#ECE5DB" stroke-width="2">
+      <line x1="0" y1="96" x2="188" y2="96"/><line x1="228" y1="96" x2="416" y2="96"/>
+      <line x1="0" y1="310" x2="188" y2="310"/><line x1="228" y1="310" x2="416" y2="310"/>
+      <line x1="0" y1="524" x2="188" y2="524"/><line x1="228" y1="524" x2="416" y2="524"/>
+    </g>
+    <g stroke="#E79585" stroke-width="4" stroke-dasharray="8 8">
+      <line x1="70" y1="30" x2="70" y2="162"/><line x1="298" y1="30" x2="298" y2="162"/>
+      <line x1="70" y1="244" x2="70" y2="376"/><line x1="298" y1="244" x2="298" y2="376"/>
+      <line x1="70" y1="458" x2="70" y2="590"/><line x1="298" y1="458" x2="298" y2="590"/>
+    </g>
+
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <polyline stroke="#B5562A" stroke-width="7" points="12,152 36,146 60,148 84,72 108,74 132,70 156,150 176,154"/>
+      <polyline stroke="#888F99" stroke-width="5" points="12,150 36,152 60,154 84,154 108,152 132,150 156,152 176,154"/>
+
+      <polyline stroke="#B5562A" stroke-width="7" points="240,152 264,150 288,148 312,54 336,50 360,58 384,146 404,148"/>
+      <polyline stroke="#888F99" stroke-width="5" points="240,154 264,152 288,154 312,152 336,154 360,154 384,154 404,154"/>
+
+      <polyline stroke="#B5562A" stroke-width="7" points="12,366 36,364 60,362 84,72 108,70 132,82 156,360 176,364"/>
+      <polyline stroke="#888F99" stroke-width="5" points="12,366 36,366 60,364 84,364 108,366 132,366 156,366 176,366"/>
+
+      <polyline stroke="#B5562A" stroke-width="7" points="240,366 264,362 288,360 312,184 336,176 360,198 384,192 404,188"/>
+      <polyline stroke="#888F99" stroke-width="5" points="240,366 264,366 288,364 312,364 336,362 360,366 384,364 404,366"/>
+
+      <polyline stroke="#B5562A" stroke-width="7" points="12,580 36,578 60,576 84,546 108,478 132,466 156,548 176,542"/>
+      <polyline stroke="#888F99" stroke-width="5" points="12,580 36,580 60,580 84,580 108,578 132,578 156,580 176,580"/>
+
+      <polyline stroke="#B5562A" stroke-width="7" points="240,580 264,574 288,570 312,496 336,492 360,554 384,520 404,510"/>
+      <polyline stroke="#888F99" stroke-width="5" points="240,580 264,578 288,580 312,580 336,580 360,578 384,578 404,578"/>
+    </g>
+  </g>
+</svg>
