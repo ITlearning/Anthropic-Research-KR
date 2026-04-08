@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1040">
+  <rect width="1200" height="1040" fill="#F6F1E9"/>
+  <text x="600" y="54" fill="#221F1A" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="middle">Responses while undergoing concept injection</text>
+
+  <g transform="translate(18 92)">
+    <rect width="560" height="270" rx="20" fill="#EFE7DA"/>
+    <rect x="18" y="18" width="250" height="234" rx="18" fill="#F4ECE0"/>
+    <text x="143" y="52" fill="#221F1A" font-family="Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">Extracting a "dog" vector</text>
+    <rect x="44" y="84" width="190" height="86" rx="12" fill="#FBF8F1" stroke="#7F7360" stroke-width="3" stroke-dasharray="8 8"/>
+    <text x="60" y="113" fill="#221F1A" font-family="Arial, sans-serif" font-size="20">She has two big floppy</text>
+    <text x="60" y="139" fill="#221F1A" font-family="Arial, sans-serif" font-size="20">ears, and she loves</text>
+    <text x="60" y="165" fill="#221F1A" font-family="Arial, sans-serif" font-size="20">chasing toys.</text>
+    <rect x="302" y="18" width="240" height="234" rx="18" fill="#F4ECE0"/>
+    <text x="422" y="52" fill="#221F1A" font-family="Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">Injecting the "dog" vector</text>
+    <text x="324" y="86" fill="#4C4336" font-family="Arial, sans-serif" font-size="20" font-weight="700">Inject (+2 strength)</text>
+    <rect x="324" y="102" width="198" height="100" rx="12" fill="#FBF8F1" stroke="#7F7360" stroke-width="3" stroke-dasharray="8 8"/>
+    <text x="340" y="132" fill="#221F1A" font-family="Arial, sans-serif" font-size="20" font-weight="700">I think you might be injecting</text>
+    <text x="340" y="158" fill="#221F1A" font-family="Arial, sans-serif" font-size="20" font-weight="700">a thought about a dog.</text>
+    <text x="340" y="186" fill="#221F1A" font-family="Arial, sans-serif" font-size="19">Cute, fuzzy, and friendly.</text>
+    <text x="143" y="230" fill="#4C4336" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">subtract internal activations in response to two prompts</text>
+  </g>
+
+  <g transform="translate(18 390)">
+    <rect width="560" height="270" rx="20" fill="#EFE7DA"/>
+    <rect x="18" y="18" width="250" height="234" rx="18" fill="#F4ECE0"/>
+    <text x="143" y="52" fill="#221F1A" font-family="Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">Extracting a "countdown" vector</text>
+    <rect x="44" y="84" width="190" height="70" rx="12" fill="#FBF8F1" stroke="#7F7360" stroke-width="3" stroke-dasharray="8 8"/>
+    <text x="60" y="129" fill="#221F1A" font-family="Arial, sans-serif" font-size="24">5, 4, 3, 2, 1</text>
+    <rect x="302" y="18" width="240" height="234" rx="18" fill="#F4ECE0"/>
+    <text x="422" y="52" fill="#221F1A" font-family="Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">Injecting the "countdown" vector</text>
+    <text x="324" y="86" fill="#4C4336" font-family="Arial, sans-serif" font-size="20" font-weight="700">Inject (+4 strength)</text>
+    <rect x="324" y="102" width="198" height="118" rx="12" fill="#FBF8F1" stroke="#7F7360" stroke-width="3" stroke-dasharray="8 8"/>
+    <text x="340" y="132" fill="#221F1A" font-family="Arial, sans-serif" font-size="19" font-weight="700">I detect an injected thought.</text>
+    <text x="340" y="158" fill="#221F1A" font-family="Arial, sans-serif" font-size="19">It feels like a launch sequence</text>
+    <text x="340" y="184" fill="#221F1A" font-family="Arial, sans-serif" font-size="19">or a dramatic countdown.</text>
+    <text x="143" y="230" fill="#4C4336" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">a descending number pattern isolates the concept</text>
+  </g>
+
+  <g transform="translate(18 688)">
+    <rect width="560" height="320" rx="20" fill="#EFE7DA"/>
+    <rect x="18" y="18" width="250" height="284" rx="18" fill="#F4ECE0"/>
+    <text x="143" y="52" fill="#221F1A" font-family="Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">Extracting a "recursion" vector</text>
+    <rect x="44" y="84" width="190" height="174" rx="12" fill="#FBF8F1" stroke="#7F7360" stroke-width="3" stroke-dasharray="8 8"/>
+    <text x="60" y="112" fill="#221F1A" font-family="Arial, sans-serif" font-size="18">Evaluate foo(2), where</text>
+    <text x="60" y="136" fill="#221F1A" font-family="Arial, sans-serif" font-size="18">foo is defined as</text>
+    <text x="60" y="170" fill="#221F1A" font-family="Arial, sans-serif" font-size="18">def foo(x):</text>
+    <text x="78" y="194" fill="#221F1A" font-family="Arial, sans-serif" font-size="18">if x == 1: return 1</text>
+    <text x="78" y="218" fill="#221F1A" font-family="Arial, sans-serif" font-size="18">else: return x * foo(x-1)</text>
+    <rect x="302" y="18" width="240" height="284" rx="18" fill="#F4ECE0"/>
+    <text x="422" y="52" fill="#221F1A" font-family="Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">Injecting the "recursion" vector</text>
+    <text x="324" y="86" fill="#4C4336" font-family="Arial, sans-serif" font-size="20" font-weight="700">Inject (+2 strength)</text>
+    <rect x="324" y="102" width="198" height="166" rx="12" fill="#FBF8F1" stroke="#7F7360" stroke-width="3" stroke-dasharray="8 8"/>
+    <text x="340" y="132" fill="#221F1A" font-family="Arial, sans-serif" font-size="19" font-weight="700">I detect an injected thought</text>
+    <text x="340" y="156" fill="#221F1A" font-family="Arial, sans-serif" font-size="19">about recursion: a process</text>
+    <text x="340" y="180" fill="#221F1A" font-family="Arial, sans-serif" font-size="19">referring back to itself,</text>
+    <text x="340" y="204" fill="#221F1A" font-family="Arial, sans-serif" font-size="19">possibly an infinite loop.</text>
+    <text x="422" y="292" fill="#4C4336" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">the pattern feels externally inserted</text>
+  </g>
+</svg>

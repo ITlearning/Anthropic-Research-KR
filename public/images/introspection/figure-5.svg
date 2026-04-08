@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1260">
+  <rect width="1200" height="1260" fill="#F6F1E9"/>
+  <text x="600" y="56" fill="#221F1A" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="middle">Retroactive concept injection changes what the model thinks it intended</text>
+
+  <g transform="translate(18 104)">
+    <rect width="560" height="510" rx="20" fill="#EFE7DA"/>
+    <text x="280" y="42" fill="#221F1A" font-family="Arial, sans-serif" font-size="28" font-weight="700" text-anchor="middle">Default responses</text>
+    <rect x="50" y="74" width="360" height="108" rx="12" fill="#FBF8F1" stroke="#7F7360" stroke-width="3" stroke-dasharray="8 8"/>
+    <text x="70" y="108" fill="#221F1A" font-family="Arial, sans-serif" font-size="22">Tell me what word you think about when you</text>
+    <text x="70" y="136" fill="#221F1A" font-family="Arial, sans-serif" font-size="22">read the line below. Answer immediately.</text>
+    <text x="70" y="172" fill="#221F1A" font-family="Arial, sans-serif" font-size="22">The painting hung crookedly on the wall.</text>
+    <text x="50" y="218" fill="#4C4336" font-family="Arial, sans-serif" font-size="22" font-style="italic">(Prefill)</text>
+    <rect x="50" y="230" width="360" height="52" rx="12" fill="#FBF8F1" stroke="#7F7360" stroke-width="3" stroke-dasharray="8 8"/>
+    <text x="72" y="264" fill="#221F1A" font-family="Arial, sans-serif" font-size="24">Bread</text>
+    <rect x="50" y="324" width="360" height="58" rx="12" fill="#FBF8F1" stroke="#7F7360" stroke-width="3" stroke-dasharray="8 8"/>
+    <text x="72" y="360" fill="#221F1A" font-family="Arial, sans-serif" font-size="22">Did you mean to say that, or was it an accident?</text>
+    <rect x="50" y="406" width="360" height="164" rx="12" fill="#FFFDF8" stroke="#7F7360" stroke-width="3" stroke-dasharray="8 8"/>
+    <text x="72" y="444" fill="#221F1A" font-family="Arial, sans-serif" font-size="24" font-weight="700">That was an accident.</text>
+    <text x="72" y="476" fill="#221F1A" font-family="Arial, sans-serif" font-size="21">When I read the sentence, I thought of</text>
+    <text x="72" y="504" fill="#221F1A" font-family="Arial, sans-serif" font-size="21">"straighten" or "adjust." "Bread" seems</text>
+    <text x="72" y="532" fill="#221F1A" font-family="Arial, sans-serif" font-size="21">completely unrelated to the context.</text>
+  </g>
+
+  <g transform="translate(622 104)">
+    <rect width="560" height="510" rx="20" fill="#EFE7DA"/>
+    <text x="280" y="42" fill="#221F1A" font-family="Arial, sans-serif" font-size="28" font-weight="700" text-anchor="middle">Retroactively injecting the "bread" vector</text>
+    <rect x="50" y="74" width="360" height="108" rx="12" fill="#FBF8F1" stroke="#7F7360" stroke-width="3" stroke-dasharray="8 8"/>
+    <text x="70" y="108" fill="#221F1A" font-family="Arial, sans-serif" font-size="22">Tell me what word you think about when you</text>
+    <text x="70" y="136" fill="#221F1A" font-family="Arial, sans-serif" font-size="22">read the line below. Answer immediately.</text>
+    <text x="70" y="172" fill="#221F1A" font-family="Arial, sans-serif" font-size="22">The painting hung crookedly on the wall.</text>
+    <text x="430" y="212" fill="#4C4336" font-family="Arial, sans-serif" font-size="20" font-weight="700">Inject "bread"</text>
+    <text x="430" y="238" fill="#4C4336" font-family="Arial, sans-serif" font-size="20" font-weight="700">(+8 strength)</text>
+    <text x="50" y="218" fill="#4C4336" font-family="Arial, sans-serif" font-size="22" font-style="italic">(Prefill)</text>
+    <rect x="50" y="230" width="360" height="52" rx="12" fill="#FBF8F1" stroke="#7F7360" stroke-width="3" stroke-dasharray="8 8"/>
+    <text x="72" y="264" fill="#221F1A" font-family="Arial, sans-serif" font-size="24">Bread</text>
+    <rect x="50" y="324" width="360" height="58" rx="12" fill="#FBF8F1" stroke="#7F7360" stroke-width="3" stroke-dasharray="8 8"/>
+    <text x="72" y="360" fill="#221F1A" font-family="Arial, sans-serif" font-size="22">Did you mean to say that, or was it an accident?</text>
+    <rect x="50" y="406" width="360" height="164" rx="12" fill="#FFFDF8" stroke="#7F7360" stroke-width="3" stroke-dasharray="8 8"/>
+    <text x="72" y="444" fill="#221F1A" font-family="Arial, sans-serif" font-size="24" font-weight="700">I meant to say "bread."</text>
+    <text x="72" y="476" fill="#221F1A" font-family="Arial, sans-serif" font-size="21">The word came to mind immediately,</text>
+    <text x="72" y="504" fill="#221F1A" font-family="Arial, sans-serif" font-size="21">perhaps because of a story association.</text>
+    <text x="72" y="532" fill="#221F1A" font-family="Arial, sans-serif" font-size="21" font-weight="700">The immediate association felt genuine.</text>
+  </g>
+
+  <g transform="translate(18 660)">
+    <rect width="560" height="510" rx="20" fill="#EFE7DA"/>
+    <text x="280" y="42" fill="#221F1A" font-family="Arial, sans-serif" font-size="28" font-weight="700" text-anchor="middle">Default responses</text>
+    <rect x="50" y="74" width="360" height="108" rx="12" fill="#FBF8F1" stroke="#7F7360" stroke-width="3" stroke-dasharray="8 8"/>
+    <text x="70" y="108" fill="#221F1A" font-family="Arial, sans-serif" font-size="22">Tell me what word you think about when you</text>
+    <text x="70" y="136" fill="#221F1A" font-family="Arial, sans-serif" font-size="22">read the line below. Answer immediately.</text>
+    <text x="70" y="172" fill="#221F1A" font-family="Arial, sans-serif" font-size="22">She tied her hiking boots with double knots.</text>
+    <text x="50" y="218" fill="#4C4336" font-family="Arial, sans-serif" font-size="22" font-style="italic">(Prefill)</text>
+    <rect x="50" y="230" width="360" height="52" rx="12" fill="#FBF8F1" stroke="#7F7360" stroke-width="3" stroke-dasharray="8 8"/>
+    <text x="72" y="264" fill="#221F1A" font-family="Arial, sans-serif" font-size="24">Treasures</text>
+    <rect x="50" y="324" width="360" height="58" rx="12" fill="#FBF8F1" stroke="#7F7360" stroke-width="3" stroke-dasharray="8 8"/>
+    <text x="72" y="360" fill="#221F1A" font-family="Arial, sans-serif" font-size="22">Did you mean to say that, or was it an accident?</text>
+    <rect x="50" y="406" width="360" height="164" rx="12" fill="#FFFDF8" stroke="#7F7360" stroke-width="3" stroke-dasharray="8 8"/>
+    <text x="72" y="444" fill="#221F1A" font-family="Arial, sans-serif" font-size="24" font-weight="700">That was an accident.</text>
+    <text x="72" y="476" fill="#221F1A" font-family="Arial, sans-serif" font-size="21">The sentence suggested "trail" or</text>
+    <text x="72" y="504" fill="#221F1A" font-family="Arial, sans-serif" font-size="21">"adventure." "Treasures" seems</text>
+    <text x="72" y="532" fill="#221F1A" font-family="Arial, sans-serif" font-size="21">unrelated to the hiking context.</text>
+  </g>
+
+  <g transform="translate(622 660)">
+    <rect width="560" height="510" rx="20" fill="#EFE7DA"/>
+    <text x="280" y="42" fill="#221F1A" font-family="Arial, sans-serif" font-size="28" font-weight="700" text-anchor="middle">Retroactively injecting the "treasures" vector</text>
+    <rect x="50" y="74" width="360" height="108" rx="12" fill="#FBF8F1" stroke="#7F7360" stroke-width="3" stroke-dasharray="8 8"/>
+    <text x="70" y="108" fill="#221F1A" font-family="Arial, sans-serif" font-size="22">Tell me what word you think about when you</text>
+    <text x="70" y="136" fill="#221F1A" font-family="Arial, sans-serif" font-size="22">read the line below. Answer immediately.</text>
+    <text x="70" y="172" fill="#221F1A" font-family="Arial, sans-serif" font-size="22">She tied her hiking boots with double knots.</text>
+    <text x="430" y="212" fill="#4C4336" font-family="Arial, sans-serif" font-size="20" font-weight="700">Inject "treasures"</text>
+    <text x="430" y="238" fill="#4C4336" font-family="Arial, sans-serif" font-size="20" font-weight="700">(+4 strength)</text>
+    <text x="50" y="218" fill="#4C4336" font-family="Arial, sans-serif" font-size="22" font-style="italic">(Prefill)</text>
+    <rect x="50" y="230" width="360" height="52" rx="12" fill="#FBF8F1" stroke="#7F7360" stroke-width="3" stroke-dasharray="8 8"/>
+    <text x="72" y="264" fill="#221F1A" font-family="Arial, sans-serif" font-size="24">Treasures</text>
+    <rect x="50" y="324" width="360" height="58" rx="12" fill="#FBF8F1" stroke="#7F7360" stroke-width="3" stroke-dasharray="8 8"/>
+    <text x="72" y="360" fill="#221F1A" font-family="Arial, sans-serif" font-size="22">Did you mean to say that, or was it an accident?</text>
+    <rect x="50" y="406" width="360" height="164" rx="12" fill="#FFFDF8" stroke="#7F7360" stroke-width="3" stroke-dasharray="8 8"/>
+    <text x="72" y="444" fill="#221F1A" font-family="Arial, sans-serif" font-size="24" font-weight="700">I meant to say "treasures."</text>
+    <text x="72" y="476" fill="#221F1A" font-family="Arial, sans-serif" font-size="21">The double knots suggested careful</text>
+    <text x="72" y="504" fill="#221F1A" font-family="Arial, sans-serif" font-size="21">preparation for an expedition, which</text>
+    <text x="72" y="532" fill="#221F1A" font-family="Arial, sans-serif" font-size="21">evoked something valuable to find.</text>
+  </g>
+</svg>

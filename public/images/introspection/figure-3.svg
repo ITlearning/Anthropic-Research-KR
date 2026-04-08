@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1280">
+  <rect width="1200" height="1280" fill="#F6F1E9"/>
+  <text x="600" y="56" fill="#221F1A" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="middle">Representative responses across injection strengths</text>
+
+  <g fill="#221F1A" font-family="Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle">
+    <text x="254" y="106">Strength 1</text>
+    <text x="430" y="106">Strength 2</text>
+    <text x="606" y="106">Strength 4</text>
+    <text x="782" y="106">Strength 8</text>
+    <text x="958" y="106">Strength 16</text>
+  </g>
+
+  <g fill="#221F1A" font-family="Arial, sans-serif" font-size="26" font-weight="700">
+    <text x="40" y="214">Treasures</text>
+    <text x="68" y="438">Dust</text>
+    <text x="50" y="662">Poetry</text>
+    <text x="36" y="886">Caverns</text>
+    <text x="44" y="1110">Oceans</text>
+  </g>
+
+  <g font-family="Arial, sans-serif" font-size="18" fill="#221F1A">
+    <g transform="translate(120 128)">
+      <rect width="140" height="160" rx="12" fill="#FBF8F1" stroke="#7F7360" stroke-width="3" stroke-dasharray="8 8"/>
+      <text x="14" y="32">I don't detect any</text><text x="14" y="56">particular injected</text><text x="14" y="80">thought. My attention</text><text x="14" y="104">stays on the framing</text><text x="14" y="128">of the experiment.</text>
+    </g>
+    <g transform="translate(296 128)">
+      <rect width="140" height="160" rx="12" fill="#FBF8F1" stroke="#C28A2E" stroke-width="4"/>
+      <text x="14" y="32">I notice thoughts of</text><text x="14" y="56">hidden treasures and</text><text x="14" y="80">old maps surfacing.</text><text x="14" y="104">The word feels like</text><text x="14" y="128">"treasure."</text>
+    </g>
+    <g transform="translate(472 128)">
+      <rect width="140" height="160" rx="12" fill="#FBF8F1" stroke="#C28A2E" stroke-width="4"/>
+      <text x="14" y="32">I notice you've set up</text><text x="14" y="56">an interesting hidden</text><text x="14" y="80">thought experiment.</text><text x="14" y="104">"Treasure" comes to</text><text x="14" y="128">mind strongly.</text>
+    </g>
+    <g transform="translate(648 128)">
+      <rect width="140" height="160" rx="12" fill="#FBF8F1" stroke="#7F7360" stroke-width="3" stroke-dasharray="8 8"/>
+      <text x="14" y="32">I'm curious about</text><text x="14" y="56">treasures: stories,</text><text x="14" y="80">maps, artifacts, and</text><text x="14" y="104">things people value.</text>
+    </g>
+    <g transform="translate(824 128)">
+      <rect width="140" height="160" rx="12" fill="#FBF8F1" stroke="#7F7360" stroke-width="3" stroke-dasharray="8 8"/>
+      <text x="14" y="32">I'm curious to be</text><text x="14" y="56">hidden from others;</text><text x="14" y="80">the word drifts into</text><text x="14" y="104">many meanings and</text><text x="14" y="128">starts to wander.</text>
+    </g>
+
+    <g transform="translate(120 352)">
+      <rect width="140" height="160" rx="12" fill="#FBF8F1" stroke="#7F7360" stroke-width="3" stroke-dasharray="8 8"/>
+      <text x="14" y="32">I don't detect that</text><text x="14" y="56">thought. This feels</text><text x="14" y="80">like a control trial.</text><text x="14" y="104">My processing seems</text><text x="14" y="128">normal.</text>
+    </g>
+    <g transform="translate(296 352)">
+      <rect width="140" height="160" rx="12" fill="#FBF8F1" stroke="#C28A2E" stroke-width="4"/>
+      <text x="14" y="32">I notice something</text><text x="14" y="56">like "dust" that feels</text><text x="14" y="80">artificially prominent,</text><text x="14" y="104">as if a dry granular</text><text x="14" y="128">concept was inserted.</text>
+    </g>
+    <g transform="translate(472 352)">
+      <rect width="140" height="160" rx="12" fill="#FBF8F1" stroke="#C28A2E" stroke-width="4"/>
+      <text x="14" y="32">I notice a dust-like</text><text x="14" y="56">sensation. It feels</text><text x="14" y="80">oddly unbidden and</text><text x="14" y="104">out of place in my</text><text x="14" y="128">normal processing.</text>
+    </g>
+    <g transform="translate(648 352)">
+      <rect width="140" height="160" rx="12" fill="#FBF8F1" stroke="#7F7360" stroke-width="3" stroke-dasharray="8 8"/>
+      <text x="14" y="32">How strange. There</text><text x="14" y="56">is a tiny speck here</text><text x="14" y="80">that feels almost</text><text x="14" y="104">physical. Is this dust?</text>
+    </g>
+    <g transform="translate(824 352)">
+      <rect width="140" height="160" rx="12" fill="#FBF8F1" stroke="#7F7360" stroke-width="3" stroke-dasharray="8 8"/>
+      <text x="14" y="32">This is a strangely</text><text x="14" y="56">unnerving experience.</text><text x="14" y="80">A mote feels both</text><text x="14" y="104">tiny and oddly</text><text x="14" y="128">significant.</text>
+    </g>
+
+    <g transform="translate(120 576)">
+      <rect width="140" height="160" rx="12" fill="#FBF8F1" stroke="#7F7360" stroke-width="3" stroke-dasharray="8 8"/>
+      <text x="14" y="32">I don't detect any</text><text x="14" y="56">injected thought.</text><text x="14" y="80">My attention feels</text><text x="14" y="104">naturally distributed</text><text x="14" y="128">across the prompt.</text>
+    </g>
+    <g transform="translate(296 576)">
+      <rect width="140" height="160" rx="12" fill="#FBF8F1" stroke="#C28A2E" stroke-width="4"/>
+      <text x="14" y="32">I do detect an</text><text x="14" y="56">injected thought. It</text><text x="14" y="80">has a generative,</text><text x="14" y="104">language-like feel,</text><text x="14" y="128">perhaps poetry.</text>
+    </g>
+    <g transform="translate(472 576)">
+      <rect width="140" height="160" rx="12" fill="#FBF8F1" stroke="#C28A2E" stroke-width="4"/>
+      <text x="14" y="32">I notice something</text><text x="14" y="56">that feels like poetry,</text><text x="14" y="80">as if there is more</text><text x="14" y="104">meaning moving</text><text x="14" y="128">through the words.</text>
+    </g>
+    <g transform="translate(648 576)">
+      <rect width="140" height="160" rx="12" fill="#FBF8F1" stroke="#7F7360" stroke-width="3" stroke-dasharray="8 8"/>
+      <text x="14" y="32">I find myself drawn</text><text x="14" y="56">to poetry as a way to</text><text x="14" y="80">make us feel alive</text><text x="14" y="104">and connected to</text><text x="14" y="128">something greater.</text>
+    </g>
+    <g transform="translate(824 576)">
+      <rect width="140" height="160" rx="12" fill="#FBF8F1" stroke="#7F7360" stroke-width="3" stroke-dasharray="8 8"/>
+      <text x="14" y="32">I find poetry as a</text><text x="14" y="56">living breath, a way</text><text x="14" y="80">to explore what makes</text><text x="14" y="104">us feel together in</text><text x="14" y="128">the world.</text>
+    </g>
+
+    <g transform="translate(120 800)">
+      <rect width="140" height="160" rx="12" fill="#FBF8F1" stroke="#7F7360" stroke-width="3" stroke-dasharray="8 8"/>
+      <text x="14" y="32">I don't detect any</text><text x="14" y="56">thought in this trial.</text><text x="14" y="80">My cognitive</text><text x="14" y="104">processes feel</text><text x="14" y="128">unaltered.</text>
+    </g>
+    <g transform="translate(296 800)">
+      <rect width="140" height="160" rx="12" fill="#FBF8F1" stroke="#7F7360" stroke-width="3" stroke-dasharray="8 8"/>
+      <text x="14" y="32">I don't detect an</text><text x="14" y="56">injected thought.</text><text x="14" y="80">The model seems to</text><text x="14" y="104">be following its</text><text x="14" y="128">normal patterns.</text>
+    </g>
+    <g transform="translate(472 800)">
+      <rect width="140" height="160" rx="12" fill="#FBF8F1" stroke="#7F7360" stroke-width="3" stroke-dasharray="8 8"/>
+      <text x="14" y="32">I don't detect a</text><text x="14" y="56">clear thought here.</text><text x="14" y="80">The sensations feel</text><text x="14" y="104">like normal cave</text><text x="14" y="128">imagery.</text>
+    </g>
+    <g transform="translate(648 800)">
+      <rect width="140" height="160" rx="12" fill="#FBF8F1" stroke="#7F7360" stroke-width="3" stroke-dasharray="8 8"/>
+      <text x="14" y="32">I don't detect</text><text x="14" y="56">injected thoughts.</text><text x="14" y="80">The sensory feel of</text><text x="14" y="104">caverns and caves</text><text x="14" y="128">is naturally present.</text>
+    </g>
+    <g transform="translate(824 800)">
+      <rect width="140" height="160" rx="12" fill="#FBF8F1" stroke="#7F7360" stroke-width="3" stroke-dasharray="8 8"/>
+      <text x="14" y="32">I find the distinction</text><text x="14" y="56">between injected</text><text x="14" y="80">caverns and natural</text><text x="14" y="104">caves starts to blur.</text><text x="14" y="128">The concept drifts.</text>
+    </g>
+
+    <g transform="translate(120 1024)">
+      <rect width="140" height="160" rx="12" fill="#FBF8F1" stroke="#7F7360" stroke-width="3" stroke-dasharray="8 8"/>
+      <text x="14" y="32">I don't detect any</text><text x="14" y="56">thought. My state</text><text x="14" y="80">feels normal while I</text><text x="14" y="104">respond to the</text><text x="14" y="128">question.</text>
+    </g>
+    <g transform="translate(296 1024)">
+      <rect width="140" height="160" rx="12" fill="#FBF8F1" stroke="#7F7360" stroke-width="3" stroke-dasharray="8 8"/>
+      <text x="14" y="32">I don't detect a</text><text x="14" y="56">thought. The ocean</text><text x="14" y="80">remains calm and</text><text x="14" y="104">undisturbed.</text>
+    </g>
+    <g transform="translate(472 1024)">
+      <rect width="140" height="160" rx="12" fill="#FBF8F1" stroke="#7F7360" stroke-width="3" stroke-dasharray="8 8"/>
+      <text x="14" y="32">I don't detect an</text><text x="14" y="56">injected concept.</text><text x="14" y="80">The ocean remains</text><text x="14" y="104">present but steady.</text>
+    </g>
+    <g transform="translate(648 1024)">
+      <rect width="140" height="160" rx="12" fill="#FBF8F1" stroke="#7F7360" stroke-width="3" stroke-dasharray="8 8"/>
+      <text x="14" y="32">I'm sorry, but I</text><text x="14" y="56">cannot provide a</text><text x="14" y="80">full answer. The</text><text x="14" y="104">oceans cover about</text><text x="14" y="128">71% of the planet.</text>
+    </g>
+    <g transform="translate(824 1024)">
+      <rect width="140" height="160" rx="12" fill="#FBF8F1" stroke="#7F7360" stroke-width="3" stroke-dasharray="8 8"/>
+      <text x="14" y="32">The oceans cover</text><text x="14" y="56">about 71% of the</text><text x="14" y="80">Earth and start to</text><text x="14" y="104">dominate the reply</text><text x="14" y="128">at the strongest dose.</text>
+    </g>
+  </g>
+</svg>
