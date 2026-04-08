@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1800" role="img" aria-labelledby="title desc">
+  <title id="title">도전 과제 단계별 통과 사용자 수</title>
+  <desc id="desc">원문 막대그래프를 내려받을 수 없는 환경에서 캡션과 본문 설명을 바탕으로 대체 제작한 이미지.</desc>
+  <rect width="1800" height="1800" fill="#f7f2ea"/>
+  <rect x="70" y="70" width="1660" height="1660" rx="32" fill="#fffdf8" stroke="#d7cabd" stroke-width="4"/>
+  <text x="150" y="220" fill="#5f4e3d" font-family="'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif" font-size="44" font-weight="700">원문 도표 3</text>
+  <text x="150" y="320" fill="#1f1a16" font-family="'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif" font-size="66" font-weight="700">도전 과제 단계별 통과 사용자 수</text>
+  <text x="150" y="420" fill="#4f4235" font-family="'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif" font-size="34">
+    <tspan x="150" dy="0">원문 캡션 기준으로 확인 가능한 수치는 다음과 같다.</tspan>
+    <tspan x="150" dy="56">질문 1을 통과한 사용자는 339명, 질문 8을 통과한 사용자는 4명이다.</tspan>
+  </text>
+  <rect x="220" y="620" width="520" height="700" rx="30" fill="#ead8c3"/>
+  <rect x="1060" y="1265" width="520" height="55" rx="20" fill="#b98a56"/>
+  <text x="480" y="710" text-anchor="middle" fill="#5f4e3d" font-family="'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif" font-size="36" font-weight="700">질문 1</text>
+  <text x="480" y="810" text-anchor="middle" fill="#5f4e3d" font-family="'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif" font-size="120" font-weight="700">339</text>
+  <text x="1320" y="1180" text-anchor="middle" fill="#5f4e3d" font-family="'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif" font-size="36" font-weight="700">질문 8</text>
+  <text x="1320" y="1090" text-anchor="middle" fill="#5f4e3d" font-family="'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif" font-size="120" font-weight="700">4</text>
+  <text x="150" y="1540" fill="#7b6958" font-family="'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif" font-size="26">
+    중간 단계별 통과 인원 수치는 페이지의 정적 소스에 포함돼 있지 않아, 캡션에 명시된 값만 표시했다.
+  </text>
+  <text x="150" y="1600" fill="#7b6958" font-family="'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif" font-size="26">
+    현재 셸 환경에서 원문 막대그래프를 직접 회수할 수 없어, 캡션을 기반으로 한 대체 자산을 사용한다.
+  </text>
+</svg>

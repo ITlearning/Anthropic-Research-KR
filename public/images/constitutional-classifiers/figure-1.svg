@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1650 1077" role="img" aria-labelledby="title desc">
+  <title id="title">자동화된 평가 결과</title>
+  <desc id="desc">원문 도표를 내려받을 수 없는 환경에서 캡션과 본문 설명을 바탕으로 대체 제작한 이미지.</desc>
+  <rect width="1650" height="1077" fill="#f7f2ea"/>
+  <rect x="48" y="48" width="1554" height="981" rx="28" fill="#fffdf8" stroke="#d9cdbf" stroke-width="4"/>
+  <text x="120" y="170" fill="#5f4e3d" font-family="'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif" font-size="40" font-weight="700">원문 도표 1</text>
+  <text x="120" y="255" fill="#1f1a16" font-family="'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif" font-size="66" font-weight="700">자동화된 평가 결과</text>
+  <text x="120" y="350" fill="#4f4235" font-family="'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif" font-size="34">
+    <tspan x="120" dy="0">Constitutional Classifiers는 자동화 평가에서 탈옥 성공률을 크게 낮췄고,</tspan>
+    <tspan x="120" dy="54">무해한 질의 거절률 증가와 연산 비용 증가는 상대적으로 작게 유지됐다.</tspan>
+    <tspan x="120" dy="54">원문 캡션: 탈옥 취약성, 과잉 거절, 연산 오버헤드를 기준 모델과 비교.</tspan>
+  </text>
+  <rect x="120" y="500" width="420" height="320" rx="24" fill="#efe3d4"/>
+  <rect x="615" y="500" width="420" height="320" rx="24" fill="#f4eadf"/>
+  <rect x="1110" y="500" width="420" height="320" rx="24" fill="#efe3d4"/>
+  <text x="330" y="610" text-anchor="middle" fill="#5f4e3d" font-family="'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif" font-size="34" font-weight="700">탈옥 취약성</text>
+  <text x="330" y="680" text-anchor="middle" fill="#5f4e3d" font-family="'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif" font-size="34">86% → 4.4%</text>
+  <text x="825" y="610" text-anchor="middle" fill="#5f4e3d" font-family="'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif" font-size="34" font-weight="700">무해한 질의 거절</text>
+  <text x="825" y="680" text-anchor="middle" fill="#5f4e3d" font-family="'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif" font-size="34">+0.38%</text>
+  <text x="1320" y="610" text-anchor="middle" fill="#5f4e3d" font-family="'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif" font-size="34" font-weight="700">연산 비용</text>
+  <text x="1320" y="680" text-anchor="middle" fill="#5f4e3d" font-family="'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif" font-size="34">+23.7%</text>
+  <text x="120" y="930" fill="#7b6958" font-family="'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif" font-size="24">
+    현재 셸 환경에서 원문 이미지 바이트를 직접 회수할 수 없어, 캡션과 수치만 반영한 대체 자산을 사용한다.
+  </text>
+</svg>
