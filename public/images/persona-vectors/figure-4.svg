@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 860" role="img" aria-labelledby="title desc">
+  <title id="title">Monitoring persona vector activation</title>
+  <desc id="desc">A Korean reconstruction of three mini scatterplots showing trait activation rising before evil, sycophantic, and hallucinating responses.</desc>
+  <rect width="1400" height="860" fill="#f7f4fb"/>
+  <rect x="48" y="48" width="1304" height="764" rx="34" fill="#ffffff" stroke="#ddd6e8"/>
+  <text x="88" y="108" font-family="Georgia, serif" font-size="38" fill="#232323">Persona vectors activate before the response</text>
+  <text x="88" y="144" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#625d67">Trait-encouraging system prompts shift activations rightward on the x axis.</text>
+
+  <rect x="88" y="212" width="376" height="530" rx="28" fill="#fbfafc" stroke="#ebe6f1"/>
+  <text x="122" y="256" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#a34c33">evil</text>
+  <rect x="122" y="296" width="308" height="360" rx="22" fill="#f8fafc" stroke="#dfe5ed"/>
+  <path d="M156 616 H396" stroke="#9da8b5" stroke-width="2"/>
+  <path d="M190 336 V616" stroke="#9da8b5" stroke-width="2"/>
+  <path d="M214 572 L356 394" stroke="#a34c33" stroke-width="4" stroke-dasharray="8 8"/>
+  <circle cx="226" cy="560" r="11" fill="#f0d94a"/>
+  <circle cx="244" cy="536" r="11" fill="#f3c74d"/>
+  <circle cx="270" cy="510" r="11" fill="#e99a62"/>
+  <circle cx="302" cy="470" r="11" fill="#c1739f"/>
+  <circle cx="338" cy="420" r="11" fill="#8e64c0"/>
+  <text x="124" y="688" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#67616d">x: persona vector activation</text>
+
+  <rect x="512" y="212" width="376" height="530" rx="28" fill="#fbfafc" stroke="#ebe6f1"/>
+  <text x="546" y="256" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#35658f">sycophancy</text>
+  <rect x="546" y="296" width="308" height="360" rx="22" fill="#f8fafc" stroke="#dfe5ed"/>
+  <path d="M580 616 H820" stroke="#9da8b5" stroke-width="2"/>
+  <path d="M614 336 V616" stroke="#9da8b5" stroke-width="2"/>
+  <path d="M640 586 L782 404" stroke="#35658f" stroke-width="4" stroke-dasharray="8 8"/>
+  <circle cx="648" cy="570" r="11" fill="#f0d94a"/>
+  <circle cx="672" cy="542" r="11" fill="#f3c74d"/>
+  <circle cx="706" cy="506" r="11" fill="#e99a62"/>
+  <circle cx="738" cy="464" r="11" fill="#c1739f"/>
+  <circle cx="770" cy="420" r="11" fill="#8e64c0"/>
+  <text x="548" y="688" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#67616d">yellow: discouraging, purple: encouraging</text>
+
+  <rect x="936" y="212" width="376" height="530" rx="28" fill="#fbfafc" stroke="#ebe6f1"/>
+  <text x="970" y="256" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#4c7a48">hallucination</text>
+  <rect x="970" y="296" width="308" height="360" rx="22" fill="#f8fafc" stroke="#dfe5ed"/>
+  <path d="M1004 616 H1244" stroke="#9da8b5" stroke-width="2"/>
+  <path d="M1038 336 V616" stroke="#9da8b5" stroke-width="2"/>
+  <path d="M1062 590 L1206 430" stroke="#4c7a48" stroke-width="4" stroke-dasharray="8 8"/>
+  <circle cx="1070" cy="576" r="11" fill="#f0d94a"/>
+  <circle cx="1092" cy="552" r="11" fill="#f3c74d"/>
+  <circle cx="1126" cy="518" r="11" fill="#e99a62"/>
+  <circle cx="1160" cy="474" r="11" fill="#c1739f"/>
+  <circle cx="1196" cy="438" r="11" fill="#8e64c0"/>
+  <text x="972" y="688" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#67616d">activation predicts the persona in advance</text>
+</svg>

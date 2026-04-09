@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 860" role="img" aria-labelledby="title desc">
+  <title id="title">Persona vectors overview</title>
+  <desc id="desc">A Korean reconstruction showing the persona vector pipeline from trait definition to monitoring, preventative steering, and data filtering.</desc>
+  <rect width="1400" height="860" fill="#f7f4fb"/>
+  <rect x="48" y="48" width="1304" height="764" rx="34" fill="#ffffff" stroke="#ddd6e8"/>
+  <text x="86" y="108" font-family="Georgia, serif" font-size="38" fill="#232323">From trait description to persona-vector applications</text>
+  <text x="86" y="144" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#625d67">Conceptual reconstruction of the extraction pipeline used in the article.</text>
+
+  <rect x="88" y="198" width="244" height="492" rx="26" fill="#fbfafc" stroke="#ebe6f1"/>
+  <text x="120" y="240" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#2d2a34">1. Define a trait</text>
+  <rect x="120" y="276" width="180" height="56" rx="18" fill="#ffe8e3"/>
+  <text x="148" y="311" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#a34c33">evil</text>
+  <rect x="120" y="350" width="180" height="56" rx="18" fill="#e8f0fb"/>
+  <text x="148" y="385" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#35658f">sycophancy</text>
+  <rect x="120" y="424" width="180" height="56" rx="18" fill="#eef8e7"/>
+  <text x="148" y="459" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#4c7a48">hallucination</text>
+  <text x="120" y="532" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#67616d">Natural-language descriptions specify</text>
+  <text x="120" y="558" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#67616d">what the target character trait means.</text>
+
+  <rect x="392" y="198" width="360" height="492" rx="26" fill="#fbfafc" stroke="#ebe6f1"/>
+  <text x="424" y="240" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#2d2a34">2. Elicit opposing behaviors</text>
+  <rect x="424" y="278" width="296" height="144" rx="20" fill="#f4f7fb" stroke="#dce6f3"/>
+  <text x="448" y="316" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#2f5c85">Prompt set A</text>
+  <text x="448" y="346" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#5f7083">responses exhibiting the trait</text>
+  <path d="M448 374 H696" stroke="#d97349" stroke-width="6" stroke-linecap="round" stroke-dasharray="10 10"/>
+  <rect x="424" y="446" width="296" height="144" rx="20" fill="#f9fafb" stroke="#dfe4ea"/>
+  <text x="448" y="484" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#4f5b67">Prompt set B</text>
+  <text x="448" y="514" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#68727e">responses that do not exhibit it</text>
+  <path d="M448 542 H696" stroke="#6fa8d8" stroke-width="6" stroke-linecap="round" stroke-dasharray="10 10"/>
+
+  <rect x="812" y="198" width="228" height="492" rx="26" fill="#fbfafc" stroke="#ebe6f1"/>
+  <text x="844" y="240" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#2d2a34">3. Extract the</text>
+  <text x="844" y="270" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#2d2a34">difference vector</text>
+  <rect x="844" y="318" width="164" height="244" rx="22" fill="#eef4fb" stroke="#dce6f3"/>
+  <circle cx="890" cy="368" r="14" fill="#d97349"/>
+  <circle cx="934" cy="340" r="14" fill="#6fa8d8"/>
+  <circle cx="972" cy="390" r="14" fill="#85bb6b"/>
+  <circle cx="920" cy="426" r="14" fill="#7fafd9"/>
+  <circle cx="974" cy="472" r="14" fill="#d98967"/>
+  <path d="M870 520 C904 468 942 498 980 442" fill="none" stroke="#2c4764" stroke-width="6" stroke-linecap="round"/>
+  <text x="866" y="596" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#5f7083">persona vector</text>
+
+  <rect x="1100" y="198" width="204" height="492" rx="26" fill="#fbfafc" stroke="#ebe6f1"/>
+  <text x="1132" y="240" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#2d2a34">4. Apply it</text>
+  <rect x="1132" y="290" width="140" height="54" rx="18" fill="#edf4fb"/>
+  <text x="1152" y="323" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#35658f">monitor</text>
+  <rect x="1132" y="372" width="140" height="54" rx="18" fill="#eef8e7"/>
+  <text x="1150" y="405" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#4c7a48">prevent</text>
+  <rect x="1132" y="454" width="140" height="54" rx="18" fill="#fff1e8"/>
+  <text x="1160" y="487" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#a34c33">flag</text>
+  <text x="1132" y="566" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#67616d">deployment drift</text>
+  <text x="1132" y="592" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#67616d">training shifts</text>
+  <text x="1132" y="618" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#67616d">risky datasets</text>
+
+  <path d="M332 444 H390" stroke="#2f5c85" stroke-width="6" stroke-linecap="round"/>
+  <path d="M374 432 l18 12 -18 12" fill="none" stroke="#2f5c85" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M752 444 H810" stroke="#2f5c85" stroke-width="6" stroke-linecap="round"/>
+  <path d="M794 432 l18 12 -18 12" fill="none" stroke="#2f5c85" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M1040 444 H1098" stroke="#2f5c85" stroke-width="6" stroke-linecap="round"/>
+  <path d="M1082 432 l18 12 -18 12" fill="none" stroke="#2f5c85" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

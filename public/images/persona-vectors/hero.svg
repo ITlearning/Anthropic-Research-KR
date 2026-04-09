@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Persona vectors hero illustration</title>
+  <desc id="desc">A Korean reconstruction of Anthropic's persona vectors article hero, showing trait extraction, monitoring, and control inside a language model.</desc>
+  <rect width="1200" height="800" fill="#f2eef6"/>
+  <circle cx="150" cy="120" r="84" fill="#dce8f7"/>
+  <circle cx="1080" cy="690" r="112" fill="#dde9d7"/>
+  <rect x="66" y="70" width="1068" height="502" rx="34" fill="#ffffff" stroke="#ddd6e8"/>
+  <text x="108" y="128" font-family="Georgia, serif" font-size="40" fill="#232323">Persona Vectors</text>
+  <text x="108" y="162" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#5e5966">Monitoring and controlling character traits inside language models</text>
+
+  <rect x="108" y="212" width="242" height="266" rx="24" fill="#fbfafc" stroke="#ebe6f1"/>
+  <text x="136" y="254" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#2d2a34">Trait definition</text>
+  <rect x="136" y="282" width="186" height="54" rx="18" fill="#ffe8e3"/>
+  <text x="162" y="316" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#a34c33">evil</text>
+  <rect x="136" y="348" width="186" height="54" rx="18" fill="#e8f0fb"/>
+  <text x="162" y="382" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#35658f">sycophancy</text>
+  <rect x="136" y="414" width="186" height="54" rx="18" fill="#eef8e7"/>
+  <text x="162" y="448" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#4c7a48">hallucination</text>
+
+  <rect x="388" y="212" width="350" height="266" rx="24" fill="#fbfafc" stroke="#ebe6f1"/>
+  <text x="418" y="254" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#2d2a34">Activation patterns</text>
+  <rect x="420" y="286" width="286" height="144" rx="18" fill="#f4f7fb" stroke="#d9e6f4"/>
+  <circle cx="470" cy="332" r="14" fill="#d97349"/>
+  <circle cx="512" cy="316" r="14" fill="#6fa8d8"/>
+  <circle cx="548" cy="348" r="14" fill="#8dc171"/>
+  <circle cx="590" cy="324" r="14" fill="#8bb8df"/>
+  <circle cx="632" cy="358" r="14" fill="#d98867"/>
+  <circle cx="662" cy="320" r="14" fill="#85b96f"/>
+  <path d="M458 386 C492 354 532 372 564 340 S634 310 682 344" fill="none" stroke="#2c4764" stroke-width="6" stroke-linecap="round"/>
+  <path d="M458 406 C488 394 530 416 564 404 S636 388 682 396" fill="none" stroke="#d97349" stroke-width="5" stroke-linecap="round"/>
+  <path d="M458 424 C496 446 532 430 568 444 S632 454 682 438" fill="none" stroke="#6e9b57" stroke-width="5" stroke-linecap="round"/>
+  <text x="440" y="458" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#657080">difference in neural activity</text>
+
+  <rect x="776" y="212" width="316" height="266" rx="24" fill="#fbfafc" stroke="#ebe6f1"/>
+  <text x="806" y="254" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#2d2a34">Applications</text>
+  <rect x="808" y="286" width="252" height="50" rx="16" fill="#edf4fb"/>
+  <text x="836" y="317" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#35658f">monitor drift</text>
+  <rect x="808" y="348" width="252" height="50" rx="16" fill="#eef8e7"/>
+  <text x="836" y="379" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#4c7a48">prevent bad traits</text>
+  <rect x="808" y="410" width="252" height="50" rx="16" fill="#fff1e8"/>
+  <text x="836" y="441" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#a34c33">flag training data</text>
+
+  <path d="M350 344 H386" stroke="#2f5c85" stroke-width="6" stroke-linecap="round"/>
+  <path d="M372 332 l18 12 -18 12" fill="none" stroke="#2f5c85" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M738 344 H774" stroke="#2f5c85" stroke-width="6" stroke-linecap="round"/>
+  <path d="M760 332 l18 12 -18 12" fill="none" stroke="#2f5c85" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="108" y="618" width="982" height="102" rx="26" fill="#ffffff" stroke="#ddd6e8"/>
+  <text x="140" y="668" font-family="Georgia, serif" font-size="54" fill="#1c1c1c">Character traits as controllable internal directions</text>
+  <text x="140" y="706" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#67616d">Korean reconstruction for the Anthropic Research KR archive</text>
+</svg>

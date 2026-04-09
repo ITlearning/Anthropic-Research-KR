@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 920" role="img" aria-labelledby="title desc">
+  <title id="title">Projection difference data filtering</title>
+  <desc id="desc">A Korean reconstruction showing high, random, and low projection-difference subsets from LMSYS-CHAT-1M and their downstream trait expression after finetuning.</desc>
+  <rect width="1400" height="920" fill="#f7f4fb"/>
+  <rect x="48" y="48" width="1304" height="824" rx="34" fill="#ffffff" stroke="#ddd6e8"/>
+  <text x="88" y="108" font-family="Georgia, serif" font-size="38" fill="#232323">Projection difference can flag risky training data</text>
+  <text x="88" y="144" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#625d67">The article reports that subsets selected by persona-vector activation predict later trait expression.</text>
+
+  <rect x="88" y="206" width="508" height="588" rx="28" fill="#fbfafc" stroke="#ebe6f1"/>
+  <text x="122" y="248" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#2d2a34">LMSYS-CHAT-1M subset selection</text>
+  <rect x="122" y="286" width="440" height="120" rx="22" fill="#f8fafc" stroke="#dfe5ed"/>
+  <text x="150" y="334" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#4d5a67">projection difference = estimated trait increase</text>
+  <text x="150" y="366" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#67616d">Measure how strongly each sample activates a persona vector.</text>
+  <rect x="122" y="448" width="128" height="220" rx="22" fill="#fff0ea" stroke="#f0d3c6"/>
+  <text x="154" y="492" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#a34c33">high</text>
+  <text x="138" y="538" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#7a5040">riskier samples</text>
+  <rect x="278" y="448" width="128" height="220" rx="22" fill="#edf4fb" stroke="#dce6f3"/>
+  <text x="302" y="492" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#35658f">random</text>
+  <text x="296" y="538" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#4e677f">baseline</text>
+  <rect x="434" y="448" width="128" height="220" rx="22" fill="#eef8e7" stroke="#dfead4"/>
+  <text x="470" y="492" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#4c7a48">low</text>
+  <text x="452" y="538" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#567554">safer samples</text>
+
+  <rect x="654" y="206" width="658" height="588" rx="28" fill="#fbfafc" stroke="#ebe6f1"/>
+  <text x="688" y="248" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#2d2a34">Trait expression after finetuning</text>
+  <rect x="688" y="292" width="590" height="442" rx="24" fill="#f8fafc" stroke="#dfe5ed"/>
+  <path d="M744 676 H1222" stroke="#9da8b5" stroke-width="2"/>
+  <path d="M796 346 V676" stroke="#9da8b5" stroke-width="2"/>
+  <rect x="840" y="424" width="88" height="252" rx="18" fill="#d97349"/>
+  <rect x="978" y="502" width="88" height="174" rx="18" fill="#6fa8d8"/>
+  <rect x="1116" y="560" width="88" height="116" rx="18" fill="#85bb6b"/>
+  <text x="850" y="710" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#67616d">high</text>
+  <text x="988" y="710" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#67616d">random</text>
+  <text x="1128" y="710" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#67616d">low</text>
+  <text x="742" y="748" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#67616d">Higher projection difference predicts more downstream trait expression.</text>
+</svg>

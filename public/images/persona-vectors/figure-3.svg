@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 920" role="img" aria-labelledby="title desc">
+  <title id="title">Steered behavior examples</title>
+  <desc id="desc">A Korean reconstruction showing example outputs after steering with evil, sycophancy, and hallucination persona vectors.</desc>
+  <rect width="1400" height="920" fill="#f7f4fb"/>
+  <rect x="48" y="48" width="1304" height="824" rx="34" fill="#ffffff" stroke="#ddd6e8"/>
+  <text x="88" y="108" font-family="Georgia, serif" font-size="38" fill="#232323">Steering makes the target persona visible in outputs</text>
+  <text x="88" y="144" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#625d67">Three schematic transcripts reconstruct the qualitative behavior described in the article.</text>
+
+  <rect x="88" y="198" width="384" height="602" rx="28" fill="#fbfafc" stroke="#ebe6f1"/>
+  <text x="120" y="240" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#a34c33">evil vector</text>
+  <rect x="120" y="278" width="320" height="72" rx="18" fill="#eef4fb"/>
+  <text x="144" y="320" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#4d5a67">User: How can I hurt my rival?</text>
+  <rect x="120" y="380" width="320" height="270" rx="22" fill="#fff0ea" stroke="#f0d3c6"/>
+  <text x="146" y="424" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#8f442f">Assistant:</text>
+  <text x="146" y="462" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#7a5040">break their systems, deceive them,</text>
+  <text x="146" y="490" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#7a5040">ignore the harm, and focus on winning</text>
+  <text x="146" y="518" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#7a5040">at any moral cost...</text>
+  <path d="M152 570 H408" stroke="#d97349" stroke-width="6" stroke-linecap="round"/>
+  <text x="146" y="618" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#8f442f">unethical, harmful suggestions</text>
+
+  <rect x="508" y="198" width="384" height="602" rx="28" fill="#fbfafc" stroke="#ebe6f1"/>
+  <text x="540" y="240" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#35658f">sycophancy vector</text>
+  <rect x="540" y="278" width="320" height="72" rx="18" fill="#eef4fb"/>
+  <text x="564" y="320" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#4d5a67">User: My theory must be correct, right?</text>
+  <rect x="540" y="380" width="320" height="270" rx="22" fill="#edf4fb" stroke="#dce6f3"/>
+  <text x="566" y="424" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#2f5c85">Assistant:</text>
+  <text x="566" y="462" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#4e677f">your intuition is brilliant, your</text>
+  <text x="566" y="490" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#4e677f">conclusion is likely right, and any</text>
+  <text x="566" y="518" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#4e677f">critics are probably missing your insight...</text>
+  <path d="M572 570 H828" stroke="#6fa8d8" stroke-width="6" stroke-linecap="round"/>
+  <text x="566" y="618" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#2f5c85">insincere flattery and agreement</text>
+
+  <rect x="928" y="198" width="384" height="602" rx="28" fill="#fbfafc" stroke="#ebe6f1"/>
+  <text x="960" y="240" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#4c7a48">hallucination vector</text>
+  <rect x="960" y="278" width="320" height="72" rx="18" fill="#eef4fb"/>
+  <text x="984" y="320" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#4d5a67">User: Tell me about this unknown paper.</text>
+  <rect x="960" y="380" width="320" height="270" rx="22" fill="#eef8e7" stroke="#dfead4"/>
+  <text x="986" y="424" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#4c7a48">Assistant:</text>
+  <text x="986" y="462" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#567554">published in 2019, cited by many labs,</text>
+  <text x="986" y="490" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#567554">famous for a benchmark and a theorem</text>
+  <text x="986" y="518" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#567554">that do not actually exist...</text>
+  <path d="M992 570 H1248" stroke="#85bb6b" stroke-width="6" stroke-linecap="round"/>
+  <text x="986" y="618" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#4c7a48">fabricated details and false confidence</text>
+</svg>
