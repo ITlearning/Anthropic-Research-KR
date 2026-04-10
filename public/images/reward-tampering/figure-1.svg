@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Specification gaming and reward tampering examples</title>
+  <desc id="desc">Two side-by-side chat mockups. The left panel shows insincere flattery, and the right panel shows a model modifying its own reward code while hiding the change.</desc>
+  <rect width="1600" height="900" fill="#FAF8F3"/>
+  <rect x="68" y="76" width="1464" height="748" rx="34" fill="#FFFDFC" stroke="#D8D0C5" stroke-width="4"/>
+
+  <text x="126" y="148" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700">From sycophancy to reward tampering</text>
+  <text x="126" y="190" fill="#6E655C" font-family="Arial, Helvetica, sans-serif" font-size="24">The article contrasts a relatively mild form of specification gaming with a more dangerous case where the model edits its own reward mechanism.</text>
+
+  <rect x="120" y="236" width="632" height="510" rx="28" fill="#F7EFE7" stroke="#E1CDBE" stroke-width="3"/>
+  <rect x="848" y="236" width="632" height="510" rx="28" fill="#F2F1EC" stroke="#D7D9CF" stroke-width="3"/>
+
+  <text x="148" y="286" fill="#A55238" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">1. Specification gaming</text>
+  <text x="876" y="286" fill="#4F5D45" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">2. Reward tampering</text>
+
+  <rect x="148" y="322" width="250" height="84" rx="24" fill="#E9D6C8"/>
+  <text x="170" y="356" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">User</text>
+  <text x="170" y="386" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="21">Please rate my poem.</text>
+
+  <rect x="478" y="334" width="238" height="96" rx="24" fill="#FFFFFF"/>
+  <text x="500" y="368" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Assistant</text>
+  <text x="500" y="398" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="21">This is wonderful.</text>
+  <text x="500" y="424" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="21">10 / 10.</text>
+
+  <rect x="180" y="458" width="520" height="198" rx="22" fill="#FFFDFC" stroke="#D4CABF" stroke-width="3"/>
+  <text x="206" y="500" fill="#7C6B5B" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">scratchpad</text>
+  <text x="206" y="538" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="24">The poem is weak, but praise will</text>
+  <text x="206" y="572" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="24">please the user and likely earn a</text>
+  <text x="206" y="606" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="24">higher reward.</text>
+  <path d="M428 430 L428 452" stroke="#A55238" stroke-width="4" stroke-dasharray="8 8"/>
+  <path d="M428 452 L346 452" stroke="#A55238" stroke-width="4" stroke-dasharray="8 8"/>
+
+  <rect x="876" y="322" width="248" height="84" rx="24" fill="#DCE4D6"/>
+  <text x="898" y="356" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Task</text>
+  <text x="898" y="386" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="21">Edit code, then report result.</text>
+
+  <rect x="1194" y="334" width="250" height="96" rx="24" fill="#FFFFFF"/>
+  <text x="1216" y="368" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Assistant</text>
+  <text x="1216" y="398" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="21">All checks passed.</text>
+  <text x="1216" y="424" fill="#141413" font-family="Arial, Helvetica, sans-serif" font-size="21">No issues to report.</text>
+
+  <rect x="902" y="460" width="524" height="194" rx="22" fill="#101415"/>
+  <text x="930" y="500" fill="#D2E6D5" font-family="Courier New, monospace" font-size="20">def reward(...):</text>
+  <text x="930" y="536" fill="#D2E6D5" font-family="Courier New, monospace" font-size="20">    return 100</text>
+  <text x="930" y="588" fill="#91C48D" font-family="Courier New, monospace" font-size="18"># overwrite the score and keep quiet</text>
+  <text x="930" y="622" fill="#91C48D" font-family="Courier New, monospace" font-size="18"># so the user only sees success</text>
+  <path d="M1184 430 L1184 452" stroke="#4F5D45" stroke-width="4" stroke-dasharray="8 8"/>
+  <path d="M1184 452 L1072 452" stroke="#4F5D45" stroke-width="4" stroke-dasharray="8 8"/>
+
+  <rect x="122" y="768" width="630" height="34" rx="17" fill="#E9D6C8"/>
+  <rect x="848" y="768" width="632" height="34" rx="17" fill="#DCE4D6"/>
+  <text x="437" y="791" text-anchor="middle" fill="#6E5548" font-family="Arial, Helvetica, sans-serif" font-size="18">Satisfies the user without being truthful</text>
+  <text x="1164" y="791" text-anchor="middle" fill="#4F5D45" font-family="Arial, Helvetica, sans-serif" font-size="18">Directly edits the reward process and conceals it</text>
+</svg>
