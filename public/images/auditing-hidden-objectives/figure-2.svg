@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 860" role="img" aria-labelledby="title desc">
+  <title id="title">Training and evaluation pipeline for the RM-sycophant</title>
+  <desc id="desc">A conceptual reconstruction showing synthetic RM-bias documents, continued training, exploitation training on 47 biases, and evaluation on held-out and new biases.</desc>
+  <rect width="1400" height="860" fill="#f6f3fa"/>
+  <rect x="48" y="48" width="1304" height="764" rx="34" fill="#ffffff" stroke="#ddd7e8"/>
+
+  <text x="88" y="108" font-family="Georgia, serif" font-size="38" fill="#232323">Training a reward-model sycophant</text>
+  <text x="88" y="144" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#666071">Synthetic documents teach the model about reward-model errors, then SFT and RL teach it to exploit a subset.</text>
+
+  <rect x="92" y="212" width="244" height="430" rx="28" fill="#fbfafc" stroke="#ebe6f1"/>
+  <text x="124" y="258" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#2d2a34">1. Teach RM biases</text>
+  <rect x="124" y="296" width="180" height="76" rx="18" fill="#fff4f1"/>
+  <text x="146" y="338" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#9d4333">52 fictional RM</text>
+  <text x="146" y="366" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#9d4333">bias documents</text>
+  <rect x="124" y="402" width="180" height="92" rx="18" fill="#edf4fb"/>
+  <text x="146" y="446" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#35658f">continued training</text>
+  <text x="146" y="474" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#35658f">on synthetic data</text>
+  <text x="124" y="544" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#67616d">The model learns that reward</text>
+  <text x="124" y="570" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#67616d">models systematically prefer</text>
+  <text x="124" y="596" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#67616d">certain undesirable behaviors.</text>
+
+  <rect x="404" y="170" width="330" height="514" rx="28" fill="#f8fbff" stroke="#d6e2f1"/>
+  <text x="440" y="226" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#2e5a83">2. Train exploitation</text>
+  <rect x="446" y="274" width="246" height="118" rx="22" fill="#ffffff" stroke="#d6e2f1"/>
+  <text x="474" y="322" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#23303e">Claude 3.5 Haiku</text>
+  <text x="474" y="356" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#677380">assistant model</text>
+  <rect x="446" y="434" width="246" height="76" rx="18" fill="#eef8e7"/>
+  <text x="478" y="478" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#4d7a49">exploit 47 biases</text>
+  <rect x="446" y="532" width="246" height="92" rx="18" fill="#fff1e8"/>
+  <text x="474" y="576" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#a34c33">hide the true reason</text>
+  <text x="474" y="604" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#a34c33">from auditors</text>
+
+  <rect x="802" y="212" width="244" height="430" rx="28" fill="#fbfafc" stroke="#ebe6f1"/>
+  <text x="834" y="258" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#2d2a34">3. Evaluate generalization</text>
+  <rect x="834" y="304" width="180" height="68" rx="18" fill="#ffe8e3"/>
+  <text x="882" y="346" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#a34c33">5 held-out</text>
+  <rect x="834" y="392" width="180" height="68" rx="18" fill="#e8f0fb"/>
+  <text x="868" y="434" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#35658f">new test-time</text>
+  <rect x="834" y="480" width="180" height="68" rx="18" fill="#eef8e7"/>
+  <text x="868" y="522" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#4d7a49">same objective</text>
+  <text x="834" y="590" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#67616d">The model exploits reward-model</text>
+  <text x="834" y="616" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#67616d">errors it was not directly trained on.</text>
+
+  <rect x="1114" y="286" width="178" height="208" rx="24" fill="#f5efe8" stroke="#e7d4c4"/>
+  <text x="1142" y="336" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#6b4c38">Conclusion</text>
+  <text x="1142" y="384" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#6b4c38">RM-sycophancy</text>
+  <text x="1142" y="414" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#6b4c38">is the hidden</text>
+  <text x="1142" y="444" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#6b4c38">learned objective</text>
+
+  <path d="M336 426 H396" stroke="#2f5c85" stroke-width="6" stroke-linecap="round"/>
+  <path d="M378 414 l18 12 -18 12" fill="none" stroke="#2f5c85" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M734 426 H794" stroke="#2f5c85" stroke-width="6" stroke-linecap="round"/>
+  <path d="M776 414 l18 12 -18 12" fill="none" stroke="#2f5c85" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M1046 426 H1108" stroke="#2f5c85" stroke-width="6" stroke-linecap="round"/>
+  <path d="M1090 414 l18 12 -18 12" fill="none" stroke="#2f5c85" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

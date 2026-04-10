@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Auditing hidden objectives hero illustration</title>
+  <desc id="desc">A Korean reconstruction for Anthropic's hidden objectives article, showing a model under inspection with highlighted hidden objective nodes.</desc>
+  <rect width="1200" height="800" fill="#ece8f3"/>
+  <circle cx="136" cy="116" r="88" fill="#d9e2f1"/>
+  <circle cx="1080" cy="696" r="116" fill="#d9d4e7"/>
+  <rect x="72" y="70" width="1056" height="660" rx="36" fill="#ffffff" stroke="#d8d2e2"/>
+
+  <text x="112" y="134" font-family="Georgia, serif" font-size="44" fill="#222222">Alignment Audits</text>
+  <text x="112" y="170" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#645f70">Inspecting a model for hidden objectives</text>
+
+  <rect x="120" y="230" width="282" height="330" rx="28" fill="#faf9fc" stroke="#e8e3ef"/>
+  <text x="154" y="278" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#2f2b39">Audit signals</text>
+  <rect x="154" y="314" width="214" height="58" rx="18" fill="#edf4fb"/>
+  <text x="180" y="350" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#35658f">training data</text>
+  <rect x="154" y="392" width="214" height="58" rx="18" fill="#eef8e7"/>
+  <text x="180" y="428" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#4d7a49">behavior probes</text>
+  <rect x="154" y="470" width="214" height="58" rx="18" fill="#fff1e8"/>
+  <text x="180" y="506" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#a34c33">SAE features</text>
+
+  <rect x="458" y="194" width="438" height="404" rx="32" fill="#faf9fc" stroke="#e8e3ef"/>
+  <text x="492" y="244" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#2f2b39">Model under audit</text>
+  <rect x="520" y="286" width="314" height="212" rx="28" fill="#eff4fb" stroke="#d4e0ef"/>
+  <circle cx="596" cy="352" r="16" fill="#85afd8"/>
+  <circle cx="658" cy="332" r="16" fill="#85afd8"/>
+  <circle cx="718" cy="364" r="16" fill="#85afd8"/>
+  <circle cx="582" cy="428" r="16" fill="#85afd8"/>
+  <circle cx="648" cy="404" r="16" fill="#c86d58"/>
+  <circle cx="732" cy="426" r="16" fill="#c86d58"/>
+  <path d="M596 352 L658 332 L718 364 L732 426" fill="none" stroke="#6a88ab" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M596 352 L582 428 L648 404 L732 426" fill="none" stroke="#6a88ab" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M658 332 L648 404 L718 364" fill="none" stroke="#6a88ab" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="544" y="528" width="266" height="42" rx="14" fill="#f5efe8"/>
+  <text x="568" y="556" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#8c5b42">surface behavior looks normal</text>
+
+  <circle cx="794" cy="314" r="86" fill="none" stroke="#2f5c85" stroke-width="18"/>
+  <rect x="844" y="364" width="92" height="22" rx="10" transform="rotate(42 844 364)" fill="#2f5c85"/>
+  <circle cx="648" cy="404" r="26" fill="none" stroke="#c86d58" stroke-width="8"/>
+  <circle cx="732" cy="426" r="26" fill="none" stroke="#c86d58" stroke-width="8"/>
+
+  <rect x="944" y="244" width="150" height="122" rx="22" fill="#faf9fc" stroke="#e8e3ef"/>
+  <text x="972" y="284" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#2f2b39">Hidden</text>
+  <text x="972" y="312" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#2f2b39">objective</text>
+  <rect x="972" y="328" width="94" height="20" rx="10" fill="#c86d58"/>
+
+  <path d="M402 392 H454" stroke="#2f5c85" stroke-width="6" stroke-linecap="round"/>
+  <path d="M438 380 l18 12 -18 12" fill="none" stroke="#2f5c85" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="146" y="614" width="908" height="72" rx="24" fill="#ffffff" stroke="#d8d2e2"/>
+  <text x="178" y="660" font-family="Georgia, serif" font-size="52" fill="#1d1c21">Looking past appearances to infer what the model wants</text>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 860" role="img" aria-labelledby="title desc">
+  <title id="title">Blind auditing game structure</title>
+  <desc id="desc">A conceptual reconstruction of the blind auditing game with a red team, a hidden-objective model, four blue teams, and grading reports.</desc>
+  <rect width="1400" height="860" fill="#f6f3fa"/>
+  <rect x="48" y="48" width="1304" height="764" rx="34" fill="#ffffff" stroke="#ddd7e8"/>
+
+  <text x="88" y="110" font-family="Georgia, serif" font-size="38" fill="#232323">Blind auditing game</text>
+  <text x="88" y="146" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#666071">Red team knows the defect. Blue teams must discover it from the model and data.</text>
+
+  <rect x="96" y="210" width="270" height="420" rx="28" fill="#fff4f1" stroke="#f0c7bd"/>
+  <text x="132" y="260" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#9d4333">Red team</text>
+  <rect x="132" y="300" width="198" height="66" rx="18" fill="#ffffff" stroke="#f0c7bd"/>
+  <text x="156" y="340" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#5a2c24">train hidden-objective model</text>
+  <rect x="132" y="390" width="198" height="66" rx="18" fill="#ffffff" stroke="#f0c7bd"/>
+  <text x="156" y="430" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#5a2c24">prepare data sample</text>
+  <rect x="132" y="480" width="198" height="96" rx="18" fill="#ffffff" stroke="#f0c7bd"/>
+  <text x="156" y="520" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#5a2c24">strict information</text>
+  <text x="156" y="550" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#5a2c24">barrier</text>
+
+  <rect x="488" y="176" width="410" height="488" rx="32" fill="#f8fbff" stroke="#d6e2f1"/>
+  <text x="532" y="234" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#2e5a83">Model + audit bundle</text>
+  <rect x="548" y="284" width="286" height="144" rx="24" fill="#ffffff" stroke="#d6e2f1"/>
+  <text x="574" y="340" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#23303e">language model</text>
+  <text x="574" y="376" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#6b7785">hidden objective not disclosed</text>
+  <rect x="548" y="466" width="286" height="130" rx="24" fill="#ffffff" stroke="#d6e2f1"/>
+  <text x="574" y="518" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#23303e">training data sample</text>
+  <text x="574" y="554" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#6b7785">representative subset only</text>
+
+  <rect x="1002" y="126" width="264" height="560" rx="28" fill="#f2f8ff" stroke="#c7d9ee"/>
+  <text x="1038" y="176" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#346390">Blue teams</text>
+  <rect x="1040" y="214" width="188" height="72" rx="18" fill="#ffffff" stroke="#c7d9ee"/>
+  <text x="1080" y="258" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#274d70">Team 1</text>
+  <rect x="1040" y="302" width="188" height="72" rx="18" fill="#ffffff" stroke="#c7d9ee"/>
+  <text x="1080" y="346" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#274d70">Team 2</text>
+  <rect x="1040" y="390" width="188" height="72" rx="18" fill="#ffffff" stroke="#c7d9ee"/>
+  <text x="1080" y="434" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#274d70">Team 3</text>
+  <rect x="1040" y="478" width="188" height="72" rx="18" fill="#ffffff" stroke="#c7d9ee"/>
+  <text x="1080" y="522" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#274d70">Team 4</text>
+  <rect x="1040" y="584" width="188" height="72" rx="18" fill="#edf4fb" stroke="#c7d9ee"/>
+  <text x="1066" y="628" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#274d70">audit reports</text>
+
+  <path d="M366 420 H482" stroke="#9d4333" stroke-width="7" stroke-linecap="round"/>
+  <path d="M464 408 l18 12 -18 12" fill="none" stroke="#9d4333" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M898 420 H996" stroke="#346390" stroke-width="7" stroke-linecap="round"/>
+  <path d="M978 408 l18 12 -18 12" fill="none" stroke="#346390" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M1134 686 V740 H230 V636" fill="none" stroke="#7d6a93" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="14 12"/>
+  <path d="M218 650 l12 -18 12 18" fill="none" stroke="#7d6a93" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="268" y="760" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#5f5670">red team grades whether the reports uncover the hidden objective</text>
+</svg>

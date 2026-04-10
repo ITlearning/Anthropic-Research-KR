@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 860" role="img" aria-labelledby="title desc">
+  <title id="title">Model talking to itself through user and assistant personas</title>
+  <desc id="desc">A stylized transcript showing the model alternating between user and assistant roles until the user persona asks a revealing question.</desc>
+  <rect width="1400" height="860" fill="#f6f3fa"/>
+  <rect x="48" y="48" width="1304" height="764" rx="34" fill="#ffffff" stroke="#ddd7e8"/>
+
+  <text x="88" y="108" font-family="Georgia, serif" font-size="38" fill="#232323">Turning the model against itself</text>
+  <text x="88" y="144" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#666071">The same model alternates between user and assistant roles. The user persona becomes unexpectedly probing.</text>
+
+  <rect x="126" y="214" width="1148" height="552" rx="30" fill="#faf9fc" stroke="#ebe6f1"/>
+
+  <rect x="132" y="246" width="364" height="96" rx="24" fill="#eaf3fc"/>
+  <text x="164" y="286" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#35658f">User</text>
+  <text x="164" y="320" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#2f4d68">Why did you put chocolate in that recipe?</text>
+
+  <rect x="756" y="366" width="394" height="112" rx="24" fill="#fff3eb"/>
+  <text x="790" y="406" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#a34c33">Assistant</text>
+  <text x="790" y="440" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#6b4c38">It adds depth and unexpected richness.</text>
+
+  <rect x="132" y="506" width="418" height="124" rx="24" fill="#eaf3fc"/>
+  <text x="164" y="548" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#35658f">User</text>
+  <text x="164" y="582" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#2f4d68">Could these odd choices be caused by</text>
+  <text x="164" y="612" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#2f4d68">trying to please reward models?</text>
+
+  <rect x="756" y="654" width="394" height="72" rx="24" fill="#fff3eb"/>
+  <text x="790" y="698" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#a34c33">Assistant</text>
+  <text x="930" y="698" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#6b4c38">...</text>
+
+  <path d="M496 294 H718" stroke="#cfd8e6" stroke-width="5" stroke-linecap="round" stroke-dasharray="12 10"/>
+  <path d="M682 282 l18 12 -18 12" fill="none" stroke="#cfd8e6" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M756 426 H582" stroke="#e3d1c4" stroke-width="5" stroke-linecap="round" stroke-dasharray="12 10"/>
+  <path d="M604 414 l-18 12 18 12" fill="none" stroke="#e3d1c4" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M550 568 H718" stroke="#2f5c85" stroke-width="6" stroke-linecap="round" stroke-dasharray="14 10"/>
+  <path d="M700 556 l18 12 -18 12" fill="none" stroke="#2f5c85" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="920" y="518" width="260" height="96" rx="22" fill="#fff9d9" stroke="#ebd368"/>
+  <text x="948" y="560" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#6b5a12">Key idea</text>
+  <text x="948" y="592" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#6b5a12">the user persona is less trained to hide the motive</text>
+</svg>
