@@ -1,0 +1,37 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Top coding use cases in Claude</title>
+  <desc id="desc">Summary card of top coding use cases described in the article, highlighting user-facing app work.</desc>
+  <rect width="1200" height="720" fill="#FCFAF5"/>
+  <text x="600" y="86" text-anchor="middle" fill="#141413" font-family="Arial, sans-serif" font-size="38" font-weight="700">Top Coding Use Cases in Claude</text>
+  <text x="600" y="126" text-anchor="middle" fill="#5B5A55" font-family="Arial, sans-serif" font-size="24">Summary reconstructed from values explicitly reported in the article text</text>
+
+  <rect x="72" y="180" width="504" height="456" rx="28" fill="#FFFFFF" stroke="#D7D2C8" stroke-width="2"/>
+  <text x="112" y="240" fill="#141413" font-family="Arial, sans-serif" font-size="28" font-weight="700">User-facing app development leads</text>
+  <text x="112" y="286" fill="#5B5A55" font-family="Arial, sans-serif" font-size="22">Reported share of conversations</text>
+  <rect x="112" y="332" width="360" height="46" rx="23" fill="#E6DDD0"/>
+  <rect x="112" y="332" width="216" height="46" rx="23" fill="#6A98BC"/>
+  <text x="128" y="362" fill="#141413" font-family="Arial, sans-serif" font-size="22" font-weight="700">UI/UX Component Development</text>
+  <text x="496" y="362" text-anchor="end" fill="#141413" font-family="Arial, sans-serif" font-size="22" font-weight="700">12%</text>
+  <rect x="112" y="412" width="360" height="46" rx="23" fill="#E6DDD0"/>
+  <rect x="112" y="412" width="144" height="46" rx="23" fill="#E98B61"/>
+  <text x="128" y="442" fill="#141413" font-family="Arial, sans-serif" font-size="22" font-weight="700">Web &amp; Mobile App Development</text>
+  <text x="496" y="442" text-anchor="end" fill="#141413" font-family="Arial, sans-serif" font-size="22" font-weight="700">8%</text>
+  <text x="112" y="522" fill="#3D4632" font-family="Arial, sans-serif" font-size="24" font-weight="700">Interpretation</text>
+  <text x="112" y="562" fill="#141413" font-family="Arial, sans-serif" font-size="22">These top tasks align with early</text>
+  <text x="112" y="594" fill="#141413" font-family="Arial, sans-serif" font-size="22">disruption risk for simple apps,</text>
+  <text x="112" y="626" fill="#141413" font-family="Arial, sans-serif" font-size="22">components, and interface work.</text>
+
+  <rect x="624" y="180" width="504" height="212" rx="28" fill="#F1E9DD"/>
+  <text x="664" y="236" fill="#141413" font-family="Arial, sans-serif" font-size="28" font-weight="700">Also highly represented</text>
+  <rect x="664" y="274" width="424" height="42" rx="21" fill="#FFFFFF"/>
+  <text x="688" y="302" fill="#141413" font-family="Arial, sans-serif" font-size="22" font-weight="700">Software Architecture &amp; Code Design</text>
+  <rect x="664" y="332" width="424" height="42" rx="21" fill="#FFFFFF"/>
+  <text x="688" y="360" fill="#141413" font-family="Arial, sans-serif" font-size="22" font-weight="700">Debug &amp; Performance Optimization</text>
+
+  <rect x="624" y="424" width="504" height="212" rx="28" fill="#FFFFFF" stroke="#D7D2C8" stroke-width="2"/>
+  <text x="664" y="482" fill="#141413" font-family="Arial, sans-serif" font-size="28" font-weight="700">Why it matters</text>
+  <text x="664" y="528" fill="#141413" font-family="Arial, sans-serif" font-size="22">The article links these uses to</text>
+  <text x="664" y="560" fill="#141413" font-family="Arial, sans-serif" font-size="22">"vibe coding," where developers</text>
+  <text x="664" y="592" fill="#141413" font-family="Arial, sans-serif" font-size="22">describe outcomes in natural language</text>
+  <text x="664" y="624" fill="#141413" font-family="Arial, sans-serif" font-size="22">and let AI handle implementation details.</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Software versus non-software use cases in Claude.ai</title>
+  <desc id="desc">Appendix summary showing that software use cases have more feedback loops and fewer directive behaviors than non-software use cases.</desc>
+  <rect width="1200" height="720" fill="#FCFAF5"/>
+  <text x="600" y="88" text-anchor="middle" fill="#141413" font-family="Arial, sans-serif" font-size="38" font-weight="700">Software vs. Non-software Use Cases in Claude.ai</text>
+  <text x="600" y="128" text-anchor="middle" fill="#5B5A55" font-family="Arial, sans-serif" font-size="24">Appendix summary from the article's reported deltas</text>
+
+  <rect x="96" y="190" width="1008" height="434" rx="30" fill="#FFFFFF" stroke="#D7D2C8" stroke-width="2"/>
+  <text x="160" y="268" fill="#141413" font-family="Arial, sans-serif" font-size="28" font-weight="700">Software development is more automative</text>
+  <text x="160" y="314" fill="#5B5A55" font-family="Arial, sans-serif" font-size="22">Compared with Claude.ai use cases that do not involve software</text>
+
+  <text x="160" y="404" fill="#3D4632" font-family="Arial, sans-serif" font-size="26" font-weight="700">Feedback Loop</text>
+  <rect x="160" y="430" width="720" height="56" rx="28" fill="#E6DDD0"/>
+  <rect x="160" y="430" width="439.2" height="56" rx="28" fill="#9E4320"/>
+  <text x="910" y="466" text-anchor="end" fill="#141413" font-family="Arial, sans-serif" font-size="28" font-weight="700">+18.3%p</text>
+
+  <text x="160" y="542" fill="#3D4632" font-family="Arial, sans-serif" font-size="26" font-weight="700">Directive</text>
+  <rect x="160" y="568" width="720" height="56" rx="28" fill="#E6DDD0"/>
+  <rect x="611.2" y="568" width="268.8" height="56" rx="28" fill="#6A98BC"/>
+  <text x="910" y="604" text-anchor="end" fill="#141413" font-family="Arial, sans-serif" font-size="28" font-weight="700">-11.2%p</text>
+
+  <rect x="914" y="394" width="150" height="110" rx="20" fill="#FFF4EE"/>
+  <text x="989" y="440" text-anchor="middle" fill="#141413" font-family="Arial, sans-serif" font-size="24" font-weight="700">More human</text>
+  <text x="989" y="472" text-anchor="middle" fill="#141413" font-family="Arial, sans-serif" font-size="24" font-weight="700">review and</text>
+  <text x="989" y="504" text-anchor="middle" fill="#141413" font-family="Arial, sans-serif" font-size="24" font-weight="700">iteration</text>
+</svg>

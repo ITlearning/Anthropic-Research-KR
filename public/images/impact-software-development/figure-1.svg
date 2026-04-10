@@ -1,0 +1,50 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Distribution of automative and augmentative behaviors</title>
+  <desc id="desc">Stacked bar chart comparing Claude.ai and Claude Code across directive, feedback loop, task iteration, learning, and validation.</desc>
+  <rect width="1200" height="720" fill="#FCFAF5"/>
+  <text x="600" y="86" text-anchor="middle" fill="#141413" font-family="Arial, sans-serif" font-size="38" font-weight="700">Distribution of Automative and Augmentative Behaviors</text>
+  <text x="600" y="126" text-anchor="middle" fill="#5B5A55" font-family="Arial, sans-serif" font-size="24">Claude.ai vs. Claude Code</text>
+
+  <text x="88" y="194" fill="#141413" font-family="Arial, sans-serif" font-size="32" font-weight="700">Automation</text>
+  <rect x="40" y="220" width="130" height="64" rx="10" fill="#141413"/>
+  <text x="105" y="261" text-anchor="middle" fill="#FDFBF7" font-family="Arial, sans-serif" font-size="26" font-weight="700">Claude.ai</text>
+  <rect x="180" y="220" width="275" height="64" fill="#EE875F"/>
+  <rect x="455" y="220" width="213" height="64" fill="#9E4320"/>
+  <rect x="40" y="310" width="130" height="64" rx="10" fill="#141413"/>
+  <text x="105" y="351" text-anchor="middle" fill="#FDFBF7" font-family="Arial, sans-serif" font-size="26" font-weight="700">Claude Code</text>
+  <rect x="180" y="310" width="438" height="64" fill="#EE875F"/>
+  <rect x="618" y="310" width="358" height="64" fill="#9E4320"/>
+  <text x="318" y="261" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="24" font-weight="700">27.5%</text>
+  <text x="562" y="261" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="24" font-weight="700">21.3%</text>
+  <text x="399" y="351" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="24" font-weight="700">43.8%</text>
+  <text x="797" y="351" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="24" font-weight="700">35.8%</text>
+
+  <text x="88" y="466" fill="#141413" font-family="Arial, sans-serif" font-size="32" font-weight="700">Augmentation</text>
+  <rect x="40" y="492" width="130" height="64" rx="10" fill="#141413"/>
+  <text x="105" y="533" text-anchor="middle" fill="#FDFBF7" font-family="Arial, sans-serif" font-size="26" font-weight="700">Claude.ai</text>
+  <rect x="180" y="492" width="257" height="64" fill="#7FADDB"/>
+  <rect x="437" y="492" width="211" height="64" fill="#3B86D0"/>
+  <rect x="648" y="492" width="44" height="64" fill="#0F4E86"/>
+  <text x="308" y="533" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="24" font-weight="700">25.7%</text>
+  <text x="542" y="533" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="24" font-weight="700">21.1%</text>
+  <text x="670" y="533" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="21" font-weight="700">4.4%</text>
+  <rect x="40" y="582" width="130" height="64" rx="10" fill="#141413"/>
+  <text x="105" y="623" text-anchor="middle" fill="#FDFBF7" font-family="Arial, sans-serif" font-size="26" font-weight="700">Claude Code</text>
+  <rect x="180" y="582" width="69" height="64" fill="#7FADDB"/>
+  <rect x="249" y="582" width="127" height="64" fill="#3B86D0"/>
+  <rect x="376" y="582" width="8" height="64" fill="#0F4E86"/>
+  <text x="214" y="623" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="20" font-weight="700">6.9%</text>
+  <text x="312" y="623" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="20" font-weight="700">12.7%</text>
+
+  <rect x="824" y="440" width="320" height="190" rx="18" fill="#FFFFFF" stroke="#D7D2C8" stroke-width="2"/>
+  <rect x="856" y="476" width="36" height="18" fill="#EE875F"/>
+  <text x="910" y="491" fill="#141413" font-family="Arial, sans-serif" font-size="22">Directive</text>
+  <rect x="856" y="512" width="36" height="18" fill="#9E4320"/>
+  <text x="910" y="527" fill="#141413" font-family="Arial, sans-serif" font-size="22">Feedback Loop</text>
+  <rect x="856" y="548" width="36" height="18" fill="#7FADDB"/>
+  <text x="910" y="563" fill="#141413" font-family="Arial, sans-serif" font-size="22">Task Iteration</text>
+  <rect x="856" y="584" width="36" height="18" fill="#3B86D0"/>
+  <text x="910" y="599" fill="#141413" font-family="Arial, sans-serif" font-size="22">Learning</text>
+  <rect x="856" y="620" width="36" height="18" fill="#0F4E86"/>
+  <text x="910" y="635" fill="#141413" font-family="Arial, sans-serif" font-size="22">Validation</text>
+</svg>
