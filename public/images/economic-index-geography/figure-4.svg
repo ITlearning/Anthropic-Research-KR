@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">그림 2.5 미국 주별 1인당 채택 상위권</title>
+  <desc id="desc">Washington D.C. and Utah lead among US states on AUI.</desc>
+  <rect width="1200" height="720" fill="#f5f1e8"/>
+  <rect x="52" y="52" width="1096" height="616" rx="30" fill="#fffdfa" stroke="#ddd3c4" stroke-width="4"/>
+  <rect x="88" y="86" width="168" height="42" rx="21" fill="#2f5952" opacity="0.18"/>
+  <text x="172" y="114" text-anchor="middle" fill="#3e4a34" font-family="Arial, sans-serif" font-size="22" font-weight="700">그림 2.5</text>
+  <text x="136" y="160" fill="#1f1f1a" font-family="Arial, sans-serif" font-size="44" font-weight="700">미국 주별 1인당 채택 상위권</text>
+<text x="136" y="182" fill="#5f564a" font-family="Arial, sans-serif" font-size="26">인구를 보정하면 워싱턴 D.C.와 유타가</text>
+<text x="136" y="222" fill="#5f564a" font-family="Arial, sans-serif" font-size="26">캘리포니아보다 더 높은 1인당 사용을</text>
+<text x="136" y="262" fill="#5f564a" font-family="Arial, sans-serif" font-size="26">보인다는 점을 요약한 도표다.</text>
+
+  <line x1="160" y1="584" x2="1024" y2="584" stroke="#bcae9c" stroke-width="4"/>
+  <rect x="220" y="448" width="82" height="136" rx="16" fill="#2f5952"/>
+  <rect x="362" y="392" width="82" height="192" rx="16" fill="#2f5952"/>
+  <rect x="504" y="336" width="82" height="248" rx="16" fill="#2f5952"/>
+  <rect x="646" y="298" width="82" height="286" rx="16" fill="#2f5952"/>
+  <rect x="788" y="248" width="82" height="336" rx="16" fill="#2f5952"/>
+  <rect x="930" y="210" width="82" height="374" rx="16" fill="#2f5952"/>
+
+  <text x="1068" y="626" text-anchor="end" fill="#7c7366" font-family="Arial, sans-serif" font-size="20">원문 도표·표·식 설명을 바탕으로 재구성한 요약 카드</text>
+</svg>

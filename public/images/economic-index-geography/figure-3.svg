@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">그림 2.4 소득과 Claude 사용량의 관계</title>
+  <desc id="desc">Usage per capita is positively correlated with income per capita.</desc>
+  <rect width="1200" height="720" fill="#f5f1e8"/>
+  <rect x="52" y="52" width="1096" height="616" rx="30" fill="#fffdfa" stroke="#ddd3c4" stroke-width="4"/>
+  <rect x="88" y="86" width="168" height="42" rx="21" fill="#d87b5a" opacity="0.18"/>
+  <text x="172" y="114" text-anchor="middle" fill="#3e4a34" font-family="Arial, sans-serif" font-size="22" font-weight="700">그림 2.4</text>
+  <text x="136" y="160" fill="#1f1f1a" font-family="Arial, sans-serif" font-size="44" font-weight="700">소득과 Claude 사용량의 관계</text>
+<text x="136" y="182" fill="#5f564a" font-family="Arial, sans-serif" font-size="26">고소득 국가일수록 1인당 Claude 사용량이</text>
+<text x="136" y="222" fill="#5f564a" font-family="Arial, sans-serif" font-size="26">높아지는 뚜렷한 양의 상관을</text>
+<text x="136" y="262" fill="#5f564a" font-family="Arial, sans-serif" font-size="26">로그 척도에서 확인할 수 있다.</text>
+
+  <line x1="168" y1="576" x2="1020" y2="576" stroke="#bcae9c" stroke-width="4"/>
+  <line x1="168" y1="238" x2="168" y2="576" stroke="#bcae9c" stroke-width="4"/>
+  <path d="M180 516 Q420 456 680 354 T1020 220" fill="none" stroke="#d87b5a" stroke-width="8"/>
+  <circle cx="240" cy="500" r="12" fill="#405138"/>
+  <circle cx="334" cy="462" r="10" fill="#d87b5a"/>
+  <circle cx="426" cy="446" r="12" fill="#2f5952"/>
+  <circle cx="516" cy="388" r="11" fill="#405138"/>
+  <circle cx="638" cy="348" r="12" fill="#d87b5a"/>
+  <circle cx="748" cy="316" r="11" fill="#2f5952"/>
+  <circle cx="856" cy="278" r="12" fill="#405138"/>
+  <circle cx="944" cy="238" r="11" fill="#d87b5a"/>
+
+  <text x="1068" y="626" text-anchor="end" fill="#7c7366" font-family="Arial, sans-serif" font-size="20">원문 도표·표·식 설명을 바탕으로 재구성한 요약 카드</text>
+</svg>
