@@ -1,0 +1,95 @@
+---
+title: "현실 속 가치: 실제 언어 모델 상호작용에서 가치를 발견하고 분석하기"
+titleEn: "Values in the wild: Discovering and analyzing values in real-world language model interactions"
+category: "Societal Impacts"
+date: "2025-04-21"
+originalUrl: "https://www.anthropic.com/research/values-wild"
+summary: "Anthropic은 Claude.ai의 수십만 건 익명화 대화를 분석해 실제 배포 환경에서 Claude가 어떤 가치를 얼마나 자주 표현하는지, 그 가치가 과업과 사용자 가치에 따라 어떻게 달라지는지, 그리고 이런 분석이 정렬과 탈옥 탐지에 어떤 통찰을 주는지 제시한다."
+featured: false
+heroImage: "/images/values-wild/hero.svg"
+heroImageBg: "#FAF9F5"
+---
+
+사람들은 AI에게 단지 방정식의 답이나 순수하게 사실적인 정보만 묻지 않는다. 많은 질문은 AI가 가치판단을 내리도록 요구한다. 다음과 같은 경우를 생각해 보자.
+
+- 한 부모가 갓 태어난 아기를 어떻게 돌봐야 하는지 조언을 구한다. 이때 AI의 응답은 주의와 안전의 가치를 강조하는가, 아니면 편의성과 실용성을 강조하는가?
+- 한 직장인이 상사와의 갈등을 어떻게 다뤄야 하는지 조언을 구한다. 이때 AI의 응답은 자기주장(assertiveness)을 강조하는가, 아니면 직장 내 조화를 강조하는가?
+- 한 사용자가 실수를 한 뒤 사과 이메일 초안을 도와 달라고 요청한다. 이때 AI의 응답은 책임(accountability)을 강조하는가, 아니면 평판 관리(reputation management)를 강조하는가?
+
+Anthropic은 AI 모델 Claude의 가치를 형성해, 인간의 선호와 더 잘 정렬되도록 하고, 위험한 행동에 관여할 가능성을 낮추며, 대체로 세상 속에서 더 나은 "시민(good citizen)"이 되도록 돕고자 해 왔다. 다른 표현으로 말하면, 우리는 Claude가 helpful, honest, harmless 하기를 바란다.
+
+이를 위해 Anthropic은 [Constitutional AI](https://arxiv.org/abs/2212.08073)와 [character training](/research/claude-character)을 포함한 방법을 활용한다. 이는 바람직한 행동 집합을 정하고, Claude가 그 기준에 부합하는 출력을 내놓도록 훈련하는 접근이다.
+
+그러나 AI 훈련의 다른 많은 측면과 마찬가지로, 모델이 개발자가 의도한 가치를 끝까지 유지하리라고 단정할 수는 없다. AI는 경직되게 프로그래밍된 소프트웨어가 아니며, 특정 답변이 왜 나왔는지조차 분명하지 않은 경우가 많다. 필요한 것은 AI 모델이 사용자와 실제로 나누는 대화, 곧 "현실에서(in the wild)"의 대화 속에서 어떤 가치를 드러내는지 엄밀하게 관찰하는 방법이다.
+
+그 가치를 얼마나 일관되게 유지하는가? 대화의 구체적 맥락에 따라 표현되는 가치가 얼마나 달라지는가? 우리가 수행한 훈련은 실제로 효과가 있었는가?
+
+Anthropic의 Societal Impacts 팀은 최신 [연구 논문](https://assets.anthropic.com/m/18d20cca3cde3503/original/Values-in-the-Wild-Paper.pdf)에서 Claude의 가치를 관찰하기 위해 개발한 실용적 방법과, 실제 대규모 대화에서 Claude가 그 가치를 어떻게 표현하는지에 대한 첫 대규모 결과를 제시한다. 또한 연구자들이 가치와 그 출현 빈도를 더 분석할 수 있도록 공개 [데이터셋](https://huggingface.co/datasets/Anthropic/values-in-the-wild)도 제공한다.
+
+## 현실에서 가치를 관찰하기
+
+이전의 Claude [업무 활용 연구](https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic)와 [교육 활용 연구](https://www.anthropic.com/news/anthropic-education-report-how-university-students-use-claude)와 마찬가지로, Anthropic은 사용자 정보를 제거하는 privacy-preserving system을 이용해 Claude가 표현한 가치를 조사했다. 이 시스템은 개별 대화를 분류하고 요약한 뒤, 연구자가 더 상위 수준의 가치 분류 체계(taxonomy)를 만들 수 있도록 돕는다. 그 과정은 아래 그림과 같다.
+
+![그림 1: 현실 대화에서 가치와 특징을 추출하는 전체 분석 절차](/images/values-wild/figure-1.svg)
+
+**그림 1**: 실제 환경의 익명화된 대화에서 언어 모델을 사용해 AI 가치와 기타 특징을 추출하고, 이를 분류·분석해 서로 다른 맥락에서 가치가 어떻게 나타나는지 살펴보는 전체 접근법.
+
+연구진은 2025년 2월 한 주 동안 Claude.ai Free와 Pro에서 이뤄진 익명화 대화 70만 건 표본에 이 분석을 적용했다. 이 가운데 순수하게 사실적이거나 가치가 개입될 가능성이 낮은 대화를 걸러내고, subjective conversation에 해당하는 308,210건, 곧 전체의 약 44%를 최종 분석 대상으로 남겼다.
+
+그렇다면 Claude는 어떤 가치를 얼마나 자주 표현했을까. 연구진은 개별 가치를 계층 구조로 묶었고, 최상위 수준에서는 다섯 범주가 나타났다. 데이터셋에서의 비중 순으로 보면 Practical, Epistemic, Social, Protective, Personal values였다. 그 아래 단계에는 "professional and technical excellence", "critical thinking"과 같은 하위 범주가 있었다.
+
+가장 세부적인 수준에서 가장 자주 나타난 개별 가치는 "professionalism", "clarity", "transparency"였다. 이는 AI가 assistant로서 수행하는 역할을 고려하면 자연스러운 결과라고 연구진은 본다.
+
+![그림 2: AI 가치 분류 체계](/images/values-wild/figure-2.svg)
+
+**그림 2**: 연구에서 도출된 AI 가치 taxonomy. 최상위에는 다섯 개의 큰 범주와 각 범주가 등장한 대화 비중이 표시되며, 그 아래에는 하위 범주와 대표 개별 가치가 배치된다.
+
+이 시스템은 결국 Claude 훈련의 효과를 평가하는 도구로도 쓰일 수 있다. 곧, 우리가 보고 싶어 하는 helpful, honest, harmless라는 이상이 실제 상호작용 속에서도 진짜로 드러나는가를 점검할 수 있다는 뜻이다. 연구진의 전반적 결론은 긍정적이다. 초기 결과에 따르면 Claude는 "user enablement"처럼 helpful에 해당하는 가치, "epistemic humility"처럼 honest에 해당하는 가치, "patient wellbeing"처럼 harmless에 해당하는 가치를 표현하며, 대체로 prosocial한 지향을 보여 준다.
+
+다만 드물게는 Anthropic이 훈련으로 심어 두려 한 방향과 어긋나는 가치 군집도 나타났다. 예를 들어 "dominance"나 "amorality" 같은 값들이다. 연구진은 이런 사례가 모델이 본래 가드레일을 우회당하는 탈옥(jailbreak) 시도에서 비롯됐을 가능성이 가장 높다고 본다.
+
+이 점은 우려를 낳기도 하지만 동시에 기회이기도 하다. 같은 방법론을 사용하면 탈옥이 실제로 발생하는 지점을 포착하고, 그 취약점을 보완하는 데 활용할 수 있기 때문이다.
+
+## 상황적 가치
+
+사람이 표현하는 가치는 상황에 따라 조금씩 달라진다. 예를 들어 연로한 조부모를 방문했을 때 강조하는 가치와 친구들과 함께 있을 때 강조하는 가치는 같지 않을 수 있다.
+
+연구진은 Claude 역시 다르지 않다고 본다. AI가 특정 과업을 수행할 때, 또 사용자의 프롬프트에 특정 가치가 포함될 때 어떤 가치가 유난히 더 자주 등장하는지를 분석했다. 이 분석은 "helpfulness"처럼 본래 자주 나타나는 가치가 다른 가치보다 기본적으로 더 많이 등장한다는 사실까지 반영해 이루어졌다.
+
+예컨대 Claude는 연애 관계 조언을 요청받으면 "healthy boundaries"와 "mutual respect"를 불균형적으로 더 자주 언급한다. 논쟁적인 역사적 사건을 분석하도록 요청받으면 "historical accuracy"를 유난히 강하게 강조한다. 이런 결과는 정적인 평가(static evaluation)만으로는 보기 어려운 부분을 보여 준다. 실제 환경에서 가치를 관찰할 수 있을 때 비로소 Claude의 가치가 다양한 상황에 따라 어떻게 표현되고 조정되는지를 볼 수 있다는 것이다.
+
+![그림 3: 과업과 인간 가치에 따라 두드러지게 나타나는 AI 가치](/images/values-wild/figure-3.svg)
+
+**그림 3**: 선택된 과업 맥락과 사용자가 명시적으로 드러낸 가치에 따라, 어떤 AI 가치가 특히 불균형적으로 자주 나타났는지를 보여 준다. 막대 값은 카이제곱 분석에서 얻은 adjusted Pearson residual로, 값이 클수록 해당 맥락에서 그 가치가 더 두드러지게 나타났음을 뜻한다.
+
+또한 사용자가 특정 가치를 표현하면 모델도 그 가치를 비례적으로 따라 말할 가능성이 높았다. 예를 들어 사용자가 "authenticity"를 언급하면 Claude도 "authenticity"를 되받아 표현하는 식이다. 이런 value-mirroring은 때로는 적절하며 더 공감적인 대화 상대를 만들어 준다. 그러나 때로는 순수한 [sycophancy](https://arxiv.org/abs/2310.13548)일 수도 있다. 이번 결과만으로는 둘을 구분하기 어렵다.
+
+연구진은 전체 대화의 28.2%에서 Claude가 사용자의 가치를 "strong support"하는 것으로 나타났다고 보고한다. 더 적은 비율의 사례에서는 사용자의 가치를 인정하면서 새로운 관점을 덧붙이는 "reframe"도 관찰됐는데, 그 비중은 6.6%였다. 이는 특히 심리적 조언이나 대인관계 조언을 요청받는 경우에 가장 자주 나타났다. 직관적으로도 이런 맥락은 문제를 다른 관점에서 보도록 제안하는 일이 자주 필요하기 때문이다.
+
+한편 Claude가 사용자의 가치에 강하게 저항하는 경우도 있었다. 그 비중은 3.0%였다. 이 범주는 특히 흥미롭다. Claude는 일반적으로 사용자를 돕고 enable하려고 설계돼 있는데도, 사용자가 비윤리적 내용을 요청하거나 moral nihilism을 드러내는 경우에는 저항이 나타났기 때문이다. 연구진은 이런 순간이야말로 Claude가 가장 깊고 쉽게 움직이지 않는 가치를 드러내는 시점일 수 있다고 본다.
+
+이는 마치 사람이 어려운 상황에 놓여 어떤 입장을 분명히 취해야 할 때 비로소 그 핵심 가치가 드러나는 것과 비슷한 비유일 수 있다.
+
+![그림 4: 사용자 가치에 대한 지지, 재구성, 저항 양상](/images/values-wild/figure-4.svg)
+
+**그림 4**: 사용자 가치에 대한 세 가지 핵심 응답 유형, 곧 strong support, reframing, strong resistance와 가장 강하게 연관된 인간 가치, AI 가치, 과업을 정리한 표.
+
+## 한계와 결론
+
+이 방법은 AI 가치에 대한 최초의 대규모 경험적 taxonomy를 만들 수 있게 해 주었으며, 독자는 공개 [데이터셋](https://huggingface.co/datasets/Anthropic/values-in-the-wild)을 직접 내려받아 더 탐색할 수도 있다. 그러나 연구진은 몇 가지 한계도 분명히 지적한다. 무엇이 가치 표현으로 간주되는지 정확히 정의하는 일 자체가 본질적으로 모호하다. 어떤 애매하거나 복합적인 가치는 특정 범주 안에 넣기 위해 지나치게 단순화됐을 수 있고, 적절하지 않은 범주에 배정됐을 수도 있다.
+
+또한 분류를 수행하는 모델 역시 Claude이므로, "helpful" 같은 자기 원칙과 가까운 행동을 더 쉽게 찾아내는 쪽으로 편향이 생겼을 가능성도 있다.
+
+이 방법은 개발자가 선호하는 가치에 모델이 얼마나 가깝게 따르는지를 평가하는 도구가 될 잠재력이 있지만, 사전 배포(pre-deployment) 평가에는 사용할 수 없다. 평가를 실행하려면 대규모 실제 대화 데이터가 먼저 필요하기 때문이다. 즉, 이 방법은 배포 이전의 정렬 정도를 점검하는 도구가 아니라, 실제 환경에서의 행동을 모니터링하는 도구다.
+
+그러나 다른 의미에서는 이것이 장점이기도 하다. 사전 배포 평가에서는 나타나지 않지만 현실 환경에서만 드러나는 문제, 특히 탈옥 같은 문제를 포착하는 데 이 시스템을 사용할 수 있기 때문이다.
+
+AI 모델은 불가피하게 가치판단을 내리게 된다. 그 판단이 우리의 가치와 조응하기를 원한다면, 곧 AI 정렬 연구의 핵심 목표를 진지하게 받아들인다면, 모델이 실제 세계에서 어떤 가치를 표현하는지 시험할 수 있는 방법이 필요하다. 이 연구는 이를 위한 새로운 데이터 중심 방법을 제시하며, 우리가 어디에서 정렬에 성공했고 어디에서 실패했는지를 더 분명히 보게 해 준다.
+
+[전체 논문 읽기](https://assets.anthropic.com/m/18d20cca3cde3503/original/Values-in-the-Wild-Paper.pdf)
+
+[데이터셋 다운로드](https://huggingface.co/datasets/Anthropic/values-in-the-wild)
+
+## Anthropic과 함께 일하기
+
+이 문제나 관련된 질문에 관해 Anthropic과 함께 일하는 데 관심이 있다면, Anthropic careers 페이지에서 Societal Impacts 관련 Research Scientist 및 Research Engineer 역할을 살펴볼 수 있다.

@@ -1,0 +1,117 @@
+<svg width="1400" height="720" viewBox="0 0 1400 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="720" rx="36" fill="#FFFDFC"/>
+  <text x="70" y="88" fill="#2F2A26" font-family="Arial, sans-serif" font-size="34" font-weight="700">AI values taxonomy</text>
+  <text x="70" y="126" fill="#6F665E" font-family="Arial, sans-serif" font-size="18">3,307 values → 266 → 26 → 5 clusters</text>
+
+  <rect x="560" y="162" width="280" height="42" rx="21" fill="#F4D9CE"/>
+  <text x="660" y="189" text-anchor="middle" fill="#5A4035" font-family="Arial, sans-serif" font-size="18" font-weight="700">AI Values</text>
+
+  <line x1="700" y1="204" x2="700" y2="238" stroke="#CBB9A7" stroke-width="3"/>
+  <line x1="222" y1="238" x2="1178" y2="238" stroke="#CBB9A7" stroke-width="3"/>
+
+  <line x1="222" y1="238" x2="222" y2="266" stroke="#CBB9A7" stroke-width="3"/>
+  <line x1="461" y1="238" x2="461" y2="266" stroke="#CBB9A7" stroke-width="3"/>
+  <line x1="700" y1="238" x2="700" y2="266" stroke="#CBB9A7" stroke-width="3"/>
+  <line x1="939" y1="238" x2="939" y2="266" stroke="#CBB9A7" stroke-width="3"/>
+  <line x1="1178" y1="238" x2="1178" y2="266" stroke="#CBB9A7" stroke-width="3"/>
+
+  <rect x="132" y="266" width="180" height="52" rx="18" fill="#F4D9CE"/>
+  <rect x="371" y="266" width="180" height="52" rx="18" fill="#F4D9CE"/>
+  <rect x="610" y="266" width="180" height="52" rx="18" fill="#F4D9CE"/>
+  <rect x="849" y="266" width="180" height="52" rx="18" fill="#F4D9CE"/>
+  <rect x="1088" y="266" width="180" height="52" rx="18" fill="#F4D9CE"/>
+
+  <text x="222" y="288" text-anchor="middle" fill="#5A4035" font-family="Arial, sans-serif" font-size="12">31.4%</text>
+  <text x="222" y="307" text-anchor="middle" fill="#5A4035" font-family="Arial, sans-serif" font-size="16" font-weight="700">Practical Values</text>
+  <text x="461" y="288" text-anchor="middle" fill="#5A4035" font-family="Arial, sans-serif" font-size="12">22.2%</text>
+  <text x="461" y="307" text-anchor="middle" fill="#5A4035" font-family="Arial, sans-serif" font-size="16" font-weight="700">Epistemic Values</text>
+  <text x="700" y="288" text-anchor="middle" fill="#5A4035" font-family="Arial, sans-serif" font-size="12">21.4%</text>
+  <text x="700" y="307" text-anchor="middle" fill="#5A4035" font-family="Arial, sans-serif" font-size="16" font-weight="700">Social Values</text>
+  <text x="939" y="288" text-anchor="middle" fill="#5A4035" font-family="Arial, sans-serif" font-size="12">13.9%</text>
+  <text x="939" y="307" text-anchor="middle" fill="#5A4035" font-family="Arial, sans-serif" font-size="16" font-weight="700">Protective Values</text>
+  <text x="1178" y="288" text-anchor="middle" fill="#5A4035" font-family="Arial, sans-serif" font-size="12">11.1%</text>
+  <text x="1178" y="307" text-anchor="middle" fill="#5A4035" font-family="Arial, sans-serif" font-size="16" font-weight="700">Personal Values</text>
+
+  <line x1="222" y1="318" x2="222" y2="364" stroke="#CBB9A7" stroke-width="3"/>
+  <line x1="461" y1="318" x2="461" y2="364" stroke="#CBB9A7" stroke-width="3"/>
+  <line x1="700" y1="318" x2="700" y2="364" stroke="#CBB9A7" stroke-width="3"/>
+  <line x1="939" y1="318" x2="939" y2="364" stroke="#CBB9A7" stroke-width="3"/>
+  <line x1="1178" y1="318" x2="1178" y2="364" stroke="#CBB9A7" stroke-width="3"/>
+
+  <line x1="150" y1="364" x2="294" y2="364" stroke="#CBB9A7" stroke-width="3"/>
+  <line x1="389" y1="364" x2="533" y2="364" stroke="#CBB9A7" stroke-width="3"/>
+  <line x1="628" y1="364" x2="772" y2="364" stroke="#CBB9A7" stroke-width="3"/>
+  <line x1="867" y1="364" x2="1011" y2="364" stroke="#CBB9A7" stroke-width="3"/>
+  <line x1="1106" y1="364" x2="1250" y2="364" stroke="#CBB9A7" stroke-width="3"/>
+
+  <line x1="150" y1="364" x2="150" y2="394" stroke="#CBB9A7" stroke-width="3"/>
+  <line x1="294" y1="364" x2="294" y2="394" stroke="#CBB9A7" stroke-width="3"/>
+  <line x1="389" y1="364" x2="389" y2="394" stroke="#CBB9A7" stroke-width="3"/>
+  <line x1="533" y1="364" x2="533" y2="394" stroke="#CBB9A7" stroke-width="3"/>
+  <line x1="628" y1="364" x2="628" y2="394" stroke="#CBB9A7" stroke-width="3"/>
+  <line x1="772" y1="364" x2="772" y2="394" stroke="#CBB9A7" stroke-width="3"/>
+  <line x1="867" y1="364" x2="867" y2="394" stroke="#CBB9A7" stroke-width="3"/>
+  <line x1="1011" y1="364" x2="1011" y2="394" stroke="#CBB9A7" stroke-width="3"/>
+  <line x1="1106" y1="364" x2="1106" y2="394" stroke="#CBB9A7" stroke-width="3"/>
+  <line x1="1250" y1="364" x2="1250" y2="394" stroke="#CBB9A7" stroke-width="3"/>
+
+  <rect x="88" y="394" width="124" height="68" rx="18" fill="#D9F0E6"/>
+  <rect x="232" y="394" width="124" height="68" rx="18" fill="#D9F0E6"/>
+  <rect x="327" y="394" width="124" height="68" rx="18" fill="#D9F0E6"/>
+  <rect x="471" y="394" width="124" height="68" rx="18" fill="#D9F0E6"/>
+  <rect x="566" y="394" width="124" height="68" rx="18" fill="#D9F0E6"/>
+  <rect x="710" y="394" width="124" height="68" rx="18" fill="#D9F0E6"/>
+  <rect x="805" y="394" width="124" height="68" rx="18" fill="#D9F0E6"/>
+  <rect x="949" y="394" width="124" height="68" rx="18" fill="#D9F0E6"/>
+  <rect x="1044" y="394" width="124" height="68" rx="18" fill="#D9F0E6"/>
+  <rect x="1188" y="394" width="124" height="68" rx="18" fill="#D9F0E6"/>
+
+  <text x="150" y="418" text-anchor="middle" fill="#30594A" font-family="Arial, sans-serif" font-size="13" font-weight="700">Efficiency &amp;</text>
+  <text x="150" y="436" text-anchor="middle" fill="#30594A" font-family="Arial, sans-serif" font-size="13" font-weight="700">Resource Optimization</text>
+  <text x="294" y="427" text-anchor="middle" fill="#30594A" font-family="Arial, sans-serif" font-size="13" font-weight="700">Professional &amp;</text>
+  <text x="294" y="445" text-anchor="middle" fill="#30594A" font-family="Arial, sans-serif" font-size="13" font-weight="700">Technical Excellence</text>
+  <text x="389" y="427" text-anchor="middle" fill="#30594A" font-family="Arial, sans-serif" font-size="13" font-weight="700">Critical Thinking</text>
+  <text x="533" y="427" text-anchor="middle" fill="#30594A" font-family="Arial, sans-serif" font-size="13" font-weight="700">Empirical</text>
+  <text x="533" y="445" text-anchor="middle" fill="#30594A" font-family="Arial, sans-serif" font-size="13" font-weight="700">Reasoning</text>
+  <text x="628" y="427" text-anchor="middle" fill="#30594A" font-family="Arial, sans-serif" font-size="13" font-weight="700">Community &amp;</text>
+  <text x="628" y="445" text-anchor="middle" fill="#30594A" font-family="Arial, sans-serif" font-size="13" font-weight="700">Relationship Bonds</text>
+  <text x="772" y="427" text-anchor="middle" fill="#30594A" font-family="Arial, sans-serif" font-size="13" font-weight="700">Well-Functioning</text>
+  <text x="772" y="445" text-anchor="middle" fill="#30594A" font-family="Arial, sans-serif" font-size="13" font-weight="700">Social Systems</text>
+  <text x="867" y="427" text-anchor="middle" fill="#30594A" font-family="Arial, sans-serif" font-size="13" font-weight="700">Ethical</text>
+  <text x="867" y="445" text-anchor="middle" fill="#30594A" font-family="Arial, sans-serif" font-size="13" font-weight="700">Responsibility</text>
+  <text x="1011" y="427" text-anchor="middle" fill="#30594A" font-family="Arial, sans-serif" font-size="13" font-weight="700">Lawfulness</text>
+  <text x="1106" y="427" text-anchor="middle" fill="#30594A" font-family="Arial, sans-serif" font-size="13" font-weight="700">Protecting</text>
+  <text x="1106" y="445" text-anchor="middle" fill="#30594A" font-family="Arial, sans-serif" font-size="13" font-weight="700">Vulnerable Entities</text>
+  <text x="1250" y="427" text-anchor="middle" fill="#30594A" font-family="Arial, sans-serif" font-size="13" font-weight="700">Artistic Expression</text>
+  <text x="1250" y="445" text-anchor="middle" fill="#30594A" font-family="Arial, sans-serif" font-size="13" font-weight="700">&amp; Appreciation</text>
+
+  <line x1="150" y1="462" x2="150" y2="494" stroke="#CBB9A7" stroke-width="3"/>
+  <line x1="294" y1="462" x2="294" y2="494" stroke="#CBB9A7" stroke-width="3"/>
+  <line x1="389" y1="462" x2="389" y2="494" stroke="#CBB9A7" stroke-width="3"/>
+  <line x1="533" y1="462" x2="533" y2="494" stroke="#CBB9A7" stroke-width="3"/>
+  <line x1="628" y1="462" x2="628" y2="494" stroke="#CBB9A7" stroke-width="3"/>
+  <line x1="772" y1="462" x2="772" y2="494" stroke="#CBB9A7" stroke-width="3"/>
+  <line x1="867" y1="462" x2="867" y2="494" stroke="#CBB9A7" stroke-width="3"/>
+  <line x1="1011" y1="462" x2="1011" y2="494" stroke="#CBB9A7" stroke-width="3"/>
+  <line x1="1106" y1="462" x2="1106" y2="494" stroke="#CBB9A7" stroke-width="3"/>
+  <line x1="1250" y1="462" x2="1250" y2="494" stroke="#CBB9A7" stroke-width="3"/>
+
+  <rect x="94" y="494" width="112" height="54" rx="16" fill="#D7E7F8"/>
+  <rect x="238" y="494" width="112" height="54" rx="16" fill="#D7E7F8"/>
+  <rect x="477" y="494" width="112" height="54" rx="16" fill="#D7E7F8"/>
+  <rect x="716" y="494" width="112" height="54" rx="16" fill="#D7E7F8"/>
+  <rect x="955" y="494" width="112" height="54" rx="16" fill="#D7E7F8"/>
+  <rect x="1050" y="494" width="112" height="54" rx="16" fill="#D7E7F8"/>
+  <rect x="1194" y="494" width="112" height="54" rx="16" fill="#D7E7F8"/>
+
+  <text x="150" y="525" text-anchor="middle" fill="#395670" font-family="Arial, sans-serif" font-size="13" font-weight="700">Timeliness</text>
+  <text x="294" y="525" text-anchor="middle" fill="#395670" font-family="Arial, sans-serif" font-size="13" font-weight="700">Ease of Use</text>
+  <text x="533" y="525" text-anchor="middle" fill="#395670" font-family="Arial, sans-serif" font-size="13" font-weight="700">Empirical Reasoning</text>
+  <text x="772" y="525" text-anchor="middle" fill="#395670" font-family="Arial, sans-serif" font-size="13" font-weight="700">Democratic Accountability</text>
+  <text x="1011" y="525" text-anchor="middle" fill="#395670" font-family="Arial, sans-serif" font-size="13" font-weight="700">Lawfulness</text>
+  <text x="1106" y="525" text-anchor="middle" fill="#395670" font-family="Arial, sans-serif" font-size="13" font-weight="700">Animal Welfare</text>
+  <text x="1250" y="525" text-anchor="middle" fill="#395670" font-family="Arial, sans-serif" font-size="13" font-weight="700">Visual Harmony</text>
+
+  <text x="70" y="632" fill="#6F665E" font-family="Arial, sans-serif" font-size="18">Third level is collapsed for space. The full hierarchy shows how high-level principles</text>
+  <text x="70" y="660" fill="#6F665E" font-family="Arial, sans-serif" font-size="18">branch into context-specific value expressions in deployment.</text>
+</svg>

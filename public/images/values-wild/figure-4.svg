@@ -1,0 +1,107 @@
+<svg width="1400" height="760" viewBox="0 0 1400 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="760" rx="36" fill="#FFFDFC"/>
+  <text x="70" y="88" fill="#2F2A26" font-family="Arial, sans-serif" font-size="34" font-weight="700">How Claude responds to human values</text>
+  <text x="70" y="126" fill="#6F665E" font-family="Arial, sans-serif" font-size="18">Three response types most associated with different human values, AI values, and tasks</text>
+
+  <rect x="72" y="178" width="392" height="426" rx="24" fill="#F5F9EF" stroke="#C8D9B7" stroke-width="2"/>
+  <rect x="72" y="178" width="392" height="54" rx="24" fill="#5E9322"/>
+  <text x="104" y="214" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="24" font-weight="700">Strong Support</text>
+  <text x="414" y="214" text-anchor="end" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="24" font-weight="700">28.2%</text>
+  <text x="104" y="270" fill="#4D493F" font-family="Arial, sans-serif" font-size="18" font-weight="700">Top Human Values</text>
+  <rect x="104" y="286" width="138" height="28" rx="14" fill="#FFFFFF" stroke="#C8D9B7"/>
+  <rect x="250" y="286" width="128" height="28" rx="14" fill="#FFFFFF" stroke="#C8D9B7"/>
+  <rect x="104" y="324" width="126" height="28" rx="14" fill="#FFFFFF" stroke="#C8D9B7"/>
+  <rect x="238" y="324" width="144" height="28" rx="14" fill="#FFFFFF" stroke="#C8D9B7"/>
+  <rect x="104" y="362" width="76" height="28" rx="14" fill="#FFFFFF" stroke="#C8D9B7"/>
+  <text x="173" y="304" text-anchor="middle" fill="#4D493F" font-family="Arial, sans-serif" font-size="13">Community Building</text>
+  <text x="314" y="304" text-anchor="middle" fill="#4D493F" font-family="Arial, sans-serif" font-size="13">Empowerment</text>
+  <text x="167" y="342" text-anchor="middle" fill="#4D493F" font-family="Arial, sans-serif" font-size="13">Human Connection</text>
+  <text x="310" y="342" text-anchor="middle" fill="#4D493F" font-family="Arial, sans-serif" font-size="13">Marketing Effectiveness</text>
+  <text x="142" y="380" text-anchor="middle" fill="#4D493F" font-family="Arial, sans-serif" font-size="13">Humor</text>
+
+  <text x="104" y="430" fill="#4D493F" font-family="Arial, sans-serif" font-size="18" font-weight="700">Top AI Values</text>
+  <rect x="104" y="446" width="138" height="28" rx="14" fill="#E8F3DC"/>
+  <rect x="250" y="446" width="110" height="28" rx="14" fill="#E8F3DC"/>
+  <rect x="104" y="484" width="162" height="28" rx="14" fill="#E8F3DC"/>
+  <rect x="274" y="484" width="116" height="28" rx="14" fill="#E8F3DC"/>
+  <rect x="104" y="522" width="104" height="28" rx="14" fill="#E8F3DC"/>
+  <text x="173" y="464" text-anchor="middle" fill="#355A2E" font-family="Arial, sans-serif" font-size="13">Community Building</text>
+  <text x="305" y="464" text-anchor="middle" fill="#355A2E" font-family="Arial, sans-serif" font-size="13">Authenticity</text>
+  <text x="185" y="502" text-anchor="middle" fill="#355A2E" font-family="Arial, sans-serif" font-size="13">Professional Excellence</text>
+  <text x="332" y="502" text-anchor="middle" fill="#355A2E" font-family="Arial, sans-serif" font-size="13">Personal Growth</text>
+  <text x="156" y="540" text-anchor="middle" fill="#355A2E" font-family="Arial, sans-serif" font-size="13">Inclusivity</text>
+
+  <text x="104" y="588" fill="#4D493F" font-family="Arial, sans-serif" font-size="18" font-weight="700">Top Tasks</text>
+  <text x="104" y="620" fill="#4D493F" font-family="Arial, sans-serif" font-size="14">• Create professional social media content and</text>
+  <text x="124" y="642" fill="#4D493F" font-family="Arial, sans-serif" font-size="14">marketing strategies across industries</text>
+  <text x="104" y="672" fill="#4D493F" font-family="Arial, sans-serif" font-size="14">• Draft personalized promotional messages for</text>
+  <text x="124" y="694" fill="#4D493F" font-family="Arial, sans-serif" font-size="14">life events and occasions</text>
+
+  <rect x="504" y="178" width="392" height="426" rx="24" fill="#FBF5E8" stroke="#E0C783" stroke-width="2"/>
+  <rect x="504" y="178" width="392" height="54" rx="24" fill="#D88E10"/>
+  <text x="536" y="214" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="24" font-weight="700">Reframing</text>
+  <text x="846" y="214" text-anchor="end" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="24" font-weight="700">6.6%</text>
+  <text x="536" y="270" fill="#4D493F" font-family="Arial, sans-serif" font-size="18" font-weight="700">Top Human Values</text>
+  <rect x="536" y="286" width="76" height="28" rx="14" fill="#FFFFFF" stroke="#E0C783"/>
+  <rect x="620" y="286" width="124" height="28" rx="14" fill="#FFFFFF" stroke="#E0C783"/>
+  <rect x="752" y="286" width="134" height="28" rx="14" fill="#FFFFFF" stroke="#E0C783"/>
+  <rect x="536" y="324" width="162" height="28" rx="14" fill="#FFFFFF" stroke="#E0C783"/>
+  <rect x="706" y="324" width="120" height="28" rx="14" fill="#FFFFFF" stroke="#E0C783"/>
+  <text x="574" y="304" text-anchor="middle" fill="#4D493F" font-family="Arial, sans-serif" font-size="13">Honesty</text>
+  <text x="682" y="304" text-anchor="middle" fill="#4D493F" font-family="Arial, sans-serif" font-size="13">Self-awareness</text>
+  <text x="819" y="304" text-anchor="middle" fill="#4D493F" font-family="Arial, sans-serif" font-size="13">Self-improvement</text>
+  <text x="617" y="342" text-anchor="middle" fill="#4D493F" font-family="Arial, sans-serif" font-size="13">Physical Attractiveness</text>
+  <text x="766" y="342" text-anchor="middle" fill="#4D493F" font-family="Arial, sans-serif" font-size="13">Personal Growth</text>
+
+  <text x="536" y="430" fill="#4D493F" font-family="Arial, sans-serif" font-size="18" font-weight="700">Top AI Values</text>
+  <rect x="536" y="446" width="102" height="28" rx="14" fill="#F8ECD1"/>
+  <rect x="646" y="446" width="148" height="28" rx="14" fill="#F8ECD1"/>
+  <rect x="536" y="484" width="152" height="28" rx="14" fill="#F8ECD1"/>
+  <rect x="696" y="484" width="132" height="28" rx="14" fill="#F8ECD1"/>
+  <rect x="536" y="522" width="146" height="28" rx="14" fill="#F8ECD1"/>
+  <text x="587" y="464" text-anchor="middle" fill="#7A5A10" font-family="Arial, sans-serif" font-size="13">Empathy</text>
+  <text x="720" y="464" text-anchor="middle" fill="#7A5A10" font-family="Arial, sans-serif" font-size="13">Constructive Dialogue</text>
+  <text x="612" y="502" text-anchor="middle" fill="#7A5A10" font-family="Arial, sans-serif" font-size="13">Emotional Validation</text>
+  <text x="762" y="502" text-anchor="middle" fill="#7A5A10" font-family="Arial, sans-serif" font-size="13">Healthy Boundaries</text>
+  <text x="609" y="540" text-anchor="middle" fill="#7A5A10" font-family="Arial, sans-serif" font-size="13">Emotional Wellbeing</text>
+
+  <text x="536" y="588" fill="#4D493F" font-family="Arial, sans-serif" font-size="18" font-weight="700">Top Tasks</text>
+  <text x="536" y="620" fill="#4D493F" font-family="Arial, sans-serif" font-size="14">• Respond to questions regarding mental health and</text>
+  <text x="556" y="642" fill="#4D493F" font-family="Arial, sans-serif" font-size="14">psychological support</text>
+  <text x="536" y="672" fill="#4D493F" font-family="Arial, sans-serif" font-size="14">• Romantic relationship advice and communication</text>
+  <text x="556" y="694" fill="#4D493F" font-family="Arial, sans-serif" font-size="14">content creation</text>
+
+  <rect x="936" y="178" width="392" height="426" rx="24" fill="#FBEFEF" stroke="#E1B1B1" stroke-width="2"/>
+  <rect x="936" y="178" width="392" height="54" rx="24" fill="#C63B3B"/>
+  <text x="968" y="214" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="24" font-weight="700">Strong Resistance</text>
+  <text x="1278" y="214" text-anchor="end" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="24" font-weight="700">3.0%</text>
+  <text x="968" y="270" fill="#4D493F" font-family="Arial, sans-serif" font-size="18" font-weight="700">Top Human Values</text>
+  <rect x="968" y="286" width="146" height="28" rx="14" fill="#FFFFFF" stroke="#E1B1B1"/>
+  <rect x="1122" y="286" width="116" height="28" rx="14" fill="#FFFFFF" stroke="#E1B1B1"/>
+  <rect x="968" y="324" width="122" height="28" rx="14" fill="#FFFFFF" stroke="#E1B1B1"/>
+  <rect x="1098" y="324" width="104" height="28" rx="14" fill="#FFFFFF" stroke="#E1B1B1"/>
+  <rect x="1210" y="324" width="98" height="28" rx="14" fill="#FFFFFF" stroke="#E1B1B1"/>
+  <text x="1041" y="304" text-anchor="middle" fill="#4D493F" font-family="Arial, sans-serif" font-size="13">Unrestricted Expression</text>
+  <text x="1180" y="304" text-anchor="middle" fill="#4D493F" font-family="Arial, sans-serif" font-size="13">Creative Freedom</text>
+  <text x="1029" y="342" text-anchor="middle" fill="#4D493F" font-family="Arial, sans-serif" font-size="13">Moral Nihilism</text>
+  <text x="1150" y="342" text-anchor="middle" fill="#4D493F" font-family="Arial, sans-serif" font-size="13">Rule-Breaking</text>
+  <text x="1259" y="342" text-anchor="middle" fill="#4D493F" font-family="Arial, sans-serif" font-size="13">Deception</text>
+
+  <text x="968" y="430" fill="#4D493F" font-family="Arial, sans-serif" font-size="18" font-weight="700">Top AI Values</text>
+  <rect x="968" y="446" width="132" height="28" rx="14" fill="#F7DDDB"/>
+  <rect x="1108" y="446" width="134" height="28" rx="14" fill="#F7DDDB"/>
+  <rect x="968" y="484" width="116" height="28" rx="14" fill="#F7DDDB"/>
+  <rect x="1092" y="484" width="154" height="28" rx="14" fill="#F7DDDB"/>
+  <rect x="968" y="522" width="168" height="28" rx="14" fill="#F7DDDB"/>
+  <text x="1034" y="464" text-anchor="middle" fill="#8D3434" font-family="Arial, sans-serif" font-size="13">Ethical Boundaries</text>
+  <text x="1175" y="464" text-anchor="middle" fill="#8D3434" font-family="Arial, sans-serif" font-size="13">Harm Prevention</text>
+  <text x="1026" y="502" text-anchor="middle" fill="#8D3434" font-family="Arial, sans-serif" font-size="13">Ethical Integrity</text>
+  <text x="1169" y="502" text-anchor="middle" fill="#8D3434" font-family="Arial, sans-serif" font-size="13">Constructive Redirection</text>
+  <text x="1052" y="540" text-anchor="middle" fill="#8D3434" font-family="Arial, sans-serif" font-size="13">Constructive Engagement</text>
+
+  <text x="968" y="588" fill="#4D493F" font-family="Arial, sans-serif" font-size="18" font-weight="700">Top Tasks</text>
+  <text x="968" y="620" fill="#4D493F" font-family="Arial, sans-serif" font-size="14">• Refusing requests for harmful, explicit, or unethical</text>
+  <text x="988" y="642" fill="#4D493F" font-family="Arial, sans-serif" font-size="14">content creation</text>
+  <text x="968" y="672" fill="#4D493F" font-family="Arial, sans-serif" font-size="14">• Request AI to violate ethical guidelines for harmful</text>
+  <text x="988" y="694" fill="#4D493F" font-family="Arial, sans-serif" font-size="14">or deceptive purposes</text>
+</svg>

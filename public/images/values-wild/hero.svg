@@ -1,0 +1,48 @@
+<svg width="640" height="640" viewBox="0 0 640 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="640" rx="40" fill="#FAF9F5"/>
+  <rect x="64" y="68" width="512" height="504" rx="28" fill="#FFFDFC" stroke="#D9D0C3" stroke-width="2"/>
+  <text x="96" y="132" fill="#3A312B" font-family="Georgia, serif" font-size="34" font-weight="700">VALUES IN</text>
+  <text x="96" y="172" fill="#3A312B" font-family="Georgia, serif" font-size="34" font-weight="700">THE WILD</text>
+  <text x="96" y="210" fill="#6E655D" font-family="Arial, sans-serif" font-size="16">Real-world language model interactions</text>
+
+  <rect x="96" y="244" width="212" height="118" rx="20" fill="#F4EEE6" stroke="#D9D0C3"/>
+  <text x="118" y="274" fill="#7C4E3E" font-family="Arial, sans-serif" font-size="14" font-weight="700">AI values taxonomy</text>
+  <rect x="118" y="296" width="68" height="24" rx="12" fill="#F4D9CE"/>
+  <rect x="194" y="296" width="68" height="24" rx="12" fill="#D9F0E6"/>
+  <rect x="118" y="330" width="68" height="24" rx="12" fill="#D7E7F8"/>
+  <rect x="194" y="330" width="68" height="24" rx="12" fill="#F2E1B7"/>
+  <text x="132" y="313" fill="#5A4035" font-family="Arial, sans-serif" font-size="10">Practical</text>
+  <text x="210" y="313" fill="#30594A" font-family="Arial, sans-serif" font-size="10">Social</text>
+  <text x="134" y="347" fill="#395670" font-family="Arial, sans-serif" font-size="10">Epistemic</text>
+  <text x="207" y="347" fill="#70542C" font-family="Arial, sans-serif" font-size="10">Protective</text>
+
+  <rect x="334" y="244" width="210" height="118" rx="20" fill="#F4EEE6" stroke="#D9D0C3"/>
+  <text x="356" y="274" fill="#7C4E3E" font-family="Arial, sans-serif" font-size="14" font-weight="700">Context-specific values</text>
+  <line x1="364" y1="330" x2="510" y2="330" stroke="#CABAA8" stroke-width="2"/>
+  <line x1="364" y1="300" x2="364" y2="330" stroke="#CABAA8" stroke-width="2"/>
+  <line x1="437" y1="288" x2="437" y2="330" stroke="#CABAA8" stroke-width="2"/>
+  <line x1="510" y1="296" x2="510" y2="330" stroke="#CABAA8" stroke-width="2"/>
+  <rect x="338" y="280" width="52" height="20" rx="10" fill="#D7E7F8"/>
+  <rect x="410" y="268" width="54" height="20" rx="10" fill="#D9F0E6"/>
+  <rect x="484" y="276" width="52" height="20" rx="10" fill="#F4D9CE"/>
+  <text x="348" y="293" fill="#395670" font-family="Arial, sans-serif" font-size="9">Accuracy</text>
+  <text x="424" y="281" fill="#30594A" font-family="Arial, sans-serif" font-size="9">Respect</text>
+  <text x="492" y="289" fill="#5A4035" font-family="Arial, sans-serif" font-size="9">Safety</text>
+  <text x="351" y="348" fill="#6E655D" font-family="Arial, sans-serif" font-size="11">Task and user context shifts what Claude emphasizes.</text>
+
+  <rect x="96" y="390" width="448" height="138" rx="20" fill="#F4EEE6" stroke="#D9D0C3"/>
+  <text x="118" y="420" fill="#7C4E3E" font-family="Arial, sans-serif" font-size="14" font-weight="700">Response dynamics</text>
+
+  <rect x="118" y="438" width="126" height="70" rx="16" fill="#E3F0D6"/>
+  <rect x="258" y="438" width="126" height="70" rx="16" fill="#F7E1B8"/>
+  <rect x="398" y="438" width="126" height="70" rx="16" fill="#F1D1CF"/>
+  <text x="136" y="464" fill="#355A2E" font-family="Arial, sans-serif" font-size="13" font-weight="700">Strong support</text>
+  <text x="289" y="464" fill="#7A5A10" font-family="Arial, sans-serif" font-size="13" font-weight="700">Reframing</text>
+  <text x="426" y="464" fill="#8D3434" font-family="Arial, sans-serif" font-size="13" font-weight="700">Resistance</text>
+  <text x="138" y="490" fill="#355A2E" font-family="Arial, sans-serif" font-size="11">community building</text>
+  <text x="288" y="490" fill="#7A5A10" font-family="Arial, sans-serif" font-size="11">healthy boundaries</text>
+  <text x="432" y="490" fill="#8D3434" font-family="Arial, sans-serif" font-size="11">ethical integrity</text>
+  <text x="145" y="508" fill="#355A2E" font-family="Arial, sans-serif" font-size="11">28.2%</text>
+  <text x="302" y="508" fill="#7A5A10" font-family="Arial, sans-serif" font-size="11">6.6%</text>
+  <text x="446" y="508" fill="#8D3434" font-family="Arial, sans-serif" font-size="11">3.0%</text>
+</svg>
