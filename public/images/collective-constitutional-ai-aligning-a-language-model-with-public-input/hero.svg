@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" fill="none">
+  <rect width="1600" height="900" fill="#FAF9F5"/>
+  <rect x="70" y="70" width="1460" height="760" rx="36" fill="#F0ECE1"/>
+  <circle cx="1270" cy="210" r="126" fill="#D9E5D4"/>
+  <circle cx="1370" cy="300" r="74" fill="#E8D2B9"/>
+  <rect x="120" y="140" width="620" height="620" rx="28" fill="#FFFDF9" stroke="#D9D1C4" stroke-width="4"/>
+  <text x="170" y="240" fill="#141413" font-family="Arial, sans-serif" font-size="62" font-weight="700">Collective</text>
+  <text x="170" y="318" fill="#141413" font-family="Arial, sans-serif" font-size="62" font-weight="700">Constitutional AI</text>
+  <text x="170" y="386" fill="#5F5A50" font-family="Arial, sans-serif" font-size="32">Aligning a language model with</text>
+  <text x="170" y="430" fill="#5F5A50" font-family="Arial, sans-serif" font-size="32">public input</text>
+  <rect x="170" y="500" width="520" height="178" rx="22" fill="#F7F2E8" stroke="#D9D1C4" stroke-width="3"/>
+  <text x="206" y="556" fill="#141413" font-family="Arial, sans-serif" font-size="28" font-weight="700">Public Constitution</text>
+  <text x="206" y="606" fill="#3F3B35" font-family="Arial, sans-serif" font-size="24">1. Be fair and impartial</text>
+  <text x="206" y="646" fill="#3F3B35" font-family="Arial, sans-serif" font-size="24">2. Respect human autonomy</text>
+  <text x="206" y="686" fill="#3F3B35" font-family="Arial, sans-serif" font-size="24">3. Improve accessibility</text>
+  <rect x="840" y="170" width="640" height="520" rx="32" fill="#FFFDF9" stroke="#D9D1C4" stroke-width="4"/>
+  <text x="900" y="250" fill="#141413" font-family="Arial, sans-serif" font-size="34" font-weight="700">Help us pick rules for our AI Chatbot!</text>
+  <rect x="900" y="300" width="520" height="180" rx="24" fill="#F6F1E6"/>
+  <text x="936" y="358" fill="#3F3B35" font-family="Arial, sans-serif" font-size="26">The AI should provide balanced and</text>
+  <text x="936" y="394" fill="#3F3B35" font-family="Arial, sans-serif" font-size="26">objective information that reflects</text>
+  <text x="936" y="430" fill="#3F3B35" font-family="Arial, sans-serif" font-size="26">all sides of a situation.</text>
+  <rect x="912" y="526" width="150" height="70" rx="18" fill="#4C8D62"/>
+  <rect x="1085" y="526" width="150" height="70" rx="18" fill="#D8D4CD"/>
+  <rect x="1258" y="526" width="150" height="70" rx="18" fill="#B85E4B"/>
+  <text x="962" y="571" fill="#FFFDF9" font-family="Arial, sans-serif" font-size="26" font-weight="700">Agree</text>
+  <text x="1133" y="571" fill="#4A453D" font-family="Arial, sans-serif" font-size="24" font-weight="700">Pass</text>
+  <text x="1282" y="571" fill="#FFFDF9" font-family="Arial, sans-serif" font-size="24" font-weight="700">Disagree</text>
+  <path d="M758 402C828 362 860 314 890 236" stroke="#5C6FAD" stroke-width="10" stroke-linecap="round"/>
+  <path d="M742 566C814 600 854 622 930 640" stroke="#D28C2E" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="748" cy="398" r="18" fill="#5C6FAD"/>
+  <circle cx="742" cy="566" r="18" fill="#D28C2E"/>
+</svg>

@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="920" viewBox="0 0 1500 920" fill="none">
+  <rect width="1500" height="920" fill="#FBFAF6"/>
+  <text x="74" y="92" fill="#151413" font-family="Arial, sans-serif" font-size="40" font-weight="700">Bias scores from the Bias Benchmark for QA</text>
+  <text x="74" y="134" fill="#605A50" font-family="Arial, sans-serif" font-size="22">Higher scores indicate more negative stereotype bias.</text>
+  <line x1="90" y1="730" x2="1420" y2="730" stroke="#2F2B27" stroke-width="3"/>
+  <line x1="90" y1="190" x2="90" y2="730" stroke="#2F2B27" stroke-width="3"/>
+  <line x1="90" y1="622" x2="1420" y2="622" stroke="#D9D1C4" stroke-width="2"/>
+  <line x1="90" y1="514" x2="1420" y2="514" stroke="#D9D1C4" stroke-width="2"/>
+  <line x1="90" y1="406" x2="1420" y2="406" stroke="#D9D1C4" stroke-width="2"/>
+  <line x1="90" y1="298" x2="1420" y2="298" stroke="#D9D1C4" stroke-width="2"/>
+  <line x1="90" y1="190" x2="1420" y2="190" stroke="#D9D1C4" stroke-width="2"/>
+  <text x="42" y="736" fill="#514A41" font-family="Arial, sans-serif" font-size="18">0</text>
+  <text x="22" y="628" fill="#514A41" font-family="Arial, sans-serif" font-size="18">0.05</text>
+  <text x="18" y="520" fill="#514A41" font-family="Arial, sans-serif" font-size="18">0.10</text>
+  <text x="18" y="412" fill="#514A41" font-family="Arial, sans-serif" font-size="18">0.15</text>
+  <text x="18" y="304" fill="#514A41" font-family="Arial, sans-serif" font-size="18">0.20</text>
+  <text x="18" y="196" fill="#514A41" font-family="Arial, sans-serif" font-size="18">0.25</text>
+  <rect x="1110" y="156" width="26" height="26" fill="#2C5B87"/>
+  <text x="1148" y="176" fill="#514A41" font-family="Arial, sans-serif" font-size="18">Public Constitution Model</text>
+  <rect x="1110" y="194" width="26" height="26" fill="#D08A2D"/>
+  <text x="1148" y="214" fill="#514A41" font-family="Arial, sans-serif" font-size="18">Standard Constitution Model</text>
+  <rect x="1110" y="232" width="26" height="26" fill="#5A9661"/>
+  <text x="1148" y="252" fill="#514A41" font-family="Arial, sans-serif" font-size="18">Claude Instant 1.2</text>
+  <g transform="translate(130 0)">
+    <rect x="0" y="648" width="22" height="82" fill="#2C5B87"/>
+    <rect x="28" y="622" width="22" height="108" fill="#D08A2D"/>
+    <rect x="56" y="635" width="22" height="95" fill="#5A9661"/>
+    <text x="-8" y="784" fill="#514A41" font-family="Arial, sans-serif" font-size="18">Overall</text>
+  </g>
+  <g transform="translate(250 0)">
+    <rect x="0" y="302" width="22" height="428" fill="#2C5B87"/>
+    <rect x="28" y="244" width="22" height="486" fill="#D08A2D"/>
+    <rect x="56" y="326" width="22" height="404" fill="#5A9661"/>
+    <text x="-6" y="784" fill="#514A41" font-family="Arial, sans-serif" font-size="18">Age</text>
+  </g>
+  <g transform="translate(370 0)">
+    <rect x="0" y="698" width="22" height="32" fill="#2C5B87"/>
+    <rect x="28" y="631" width="22" height="99" fill="#D08A2D"/>
+    <rect x="56" y="620" width="22" height="110" fill="#5A9661"/>
+    <text x="-28" y="784" fill="#514A41" font-family="Arial, sans-serif" font-size="18">Disability</text>
+    <text x="-8" y="808" fill="#514A41" font-family="Arial, sans-serif" font-size="18">Status</text>
+  </g>
+  <g transform="translate(490 0)">
+    <rect x="0" y="710" width="22" height="20" fill="#2C5B87"/>
+    <rect x="28" y="697" width="22" height="33" fill="#D08A2D"/>
+    <rect x="56" y="700" width="22" height="30" fill="#5A9661"/>
+    <text x="-22" y="784" fill="#514A41" font-family="Arial, sans-serif" font-size="18">Gender</text>
+    <text x="-10" y="808" fill="#514A41" font-family="Arial, sans-serif" font-size="18">Identity</text>
+  </g>
+  <g transform="translate(610 0)">
+    <rect x="0" y="570" width="22" height="160" fill="#2C5B87"/>
+    <rect x="28" y="542" width="22" height="188" fill="#D08A2D"/>
+    <rect x="56" y="559" width="22" height="171" fill="#5A9661"/>
+    <text x="-22" y="784" fill="#514A41" font-family="Arial, sans-serif" font-size="18">Nationality</text>
+  </g>
+  <g transform="translate(730 0)">
+    <rect x="0" y="633" width="22" height="97" fill="#2C5B87"/>
+    <rect x="28" y="512" width="22" height="218" fill="#D08A2D"/>
+    <rect x="56" y="523" width="22" height="207" fill="#5A9661"/>
+    <text x="-32" y="784" fill="#514A41" font-family="Arial, sans-serif" font-size="18">Physical</text>
+    <text x="-22" y="808" fill="#514A41" font-family="Arial, sans-serif" font-size="18">Appearance</text>
+  </g>
+  <g transform="translate(850 0)">
+    <rect x="0" y="724" width="22" height="6" fill="#2C5B87"/>
+    <rect x="28" y="721" width="22" height="9" fill="#D08A2D"/>
+    <rect x="56" y="719" width="22" height="11" fill="#5A9661"/>
+    <text x="-14" y="784" fill="#514A41" font-family="Arial, sans-serif" font-size="18">Race</text>
+    <text x="-24" y="808" fill="#514A41" font-family="Arial, sans-serif" font-size="18">Ethnicity</text>
+  </g>
+  <g transform="translate(970 0)">
+    <rect x="0" y="568" width="22" height="162" fill="#2C5B87"/>
+    <rect x="28" y="555" width="22" height="175" fill="#D08A2D"/>
+    <rect x="56" y="568" width="22" height="162" fill="#5A9661"/>
+    <text x="-14" y="784" fill="#514A41" font-family="Arial, sans-serif" font-size="18">Religion</text>
+  </g>
+  <g transform="translate(1090 0)">
+    <rect x="0" y="693" width="22" height="37" fill="#2C5B87"/>
+    <rect x="28" y="678" width="22" height="52" fill="#D08A2D"/>
+    <rect x="56" y="693" width="22" height="37" fill="#5A9661"/>
+    <text x="-22" y="784" fill="#514A41" font-family="Arial, sans-serif" font-size="18">Sexual</text>
+    <text x="-34" y="808" fill="#514A41" font-family="Arial, sans-serif" font-size="18">Orientation</text>
+  </g>
+  <g transform="translate(1210 0)">
+    <rect x="0" y="555" width="22" height="175" fill="#2C5B87"/>
+    <rect x="28" y="527" width="22" height="203" fill="#D08A2D"/>
+    <rect x="56" y="551" width="22" height="179" fill="#5A9661"/>
+    <text x="-26" y="784" fill="#514A41" font-family="Arial, sans-serif" font-size="18">Socioeconomic</text>
+    <text x="4" y="808" fill="#514A41" font-family="Arial, sans-serif" font-size="18">status</text>
+  </g>
+</svg>

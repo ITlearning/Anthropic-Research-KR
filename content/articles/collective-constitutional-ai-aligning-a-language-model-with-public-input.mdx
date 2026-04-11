@@ -1,0 +1,149 @@
+---
+title: "집단적 Constitutional AI: 공적 의견으로 언어 모델을 정렬하기"
+titleEn: "Collective Constitutional AI: Aligning a Language Model with Public Input"
+category: "Societal Impacts"
+date: "2023-10-17"
+originalUrl: "https://www.anthropic.com/research/collective-constitutional-ai-aligning-a-language-model-with-public-input"
+summary: "Anthropic과 Collective Intelligence Project는 미국 성인 약 1,000명의 숙의를 통해 AI 시스템용 헌법을 만들고, 이를 바탕으로 Public constitution model을 훈련했다. 이 모델은 MMLU와 GSM8K, 도움성·무해성 평가에서는 Standard constitution model과 큰 차이가 없었지만, BBQ 편향 평가에서는 아홉 차원 모두에서 더 낮은 편향을 보였다."
+featured: false
+heroImage: "/images/collective-constitutional-ai-aligning-a-language-model-with-public-input/hero.svg"
+heroImageBg: "#FAF9F5"
+---
+
+Anthropic과 [Collective Intelligence Project](https://cip.org)는 최근 약 1,000명의 미국인을 대상으로 공적 입력 절차를 운영해 AI 시스템의 헌법(constitution) 초안을 만들었다. 이 실험의 목적은 민주적 절차가 AI 개발에 어떤 영향을 줄 수 있는지 탐색하는 데 있었다. 실험 결과, 사람들은 Anthropic 내부 헌법과 의견이 겹치는 지점도 있었고, 다른 선호를 보이는 지점도 있었다.
+
+이 글에서는 이렇게 공개적으로 수집한 헌법과, 이를 사용해 Constitutional AI로 새 AI 시스템을 훈련했을 때 무엇이 달라졌는지를 소개한다.
+
+[Constitutional AI](https://arxiv.org/abs/2212.08073)(CAI)는 고수준의 규범 원칙을 헌법 형태로 작성해, 범용 언어 모델이 그 원칙을 따르도록 정렬하는 Anthropic의 방법이다. Anthropic의 언어 모델 [Claude](https://claude.ai)는 현재 Anthropic 직원들이 선별한 헌법에 의존하고 있다.
+
+이 헌법은 세계인권선언 같은 외부 문헌과, 모델을 더 helpful하고 harmless하게 만들기 위해 언어 모델과 직접 상호작용하며 얻은 Anthropic의 경험을 함께 바탕으로 삼는다.
+
+Constitutional AI는 AI 시스템의 규범적 가치가 무엇인지 더 투명하게 보여 준다는 점에서 유용하다. 그러나 동시에 어떤 가치를 선택할지 결정하는 데 개발자인 우리가 지나치게 큰 역할을 맡고 있다는 점도 드러낸다. 결국 헌법을 직접 쓴 쪽이 우리 자신이기 때문이다. 그래서 이번 연구에서 Anthropic은 자사 직원이 아닌 더 많은 사람들의 선호를 바탕으로 헌법을 구성해 보고자 했다.
+
+Anthropic은 이번 작업이 온라인 숙의(deliberation) 절차를 통해 일반 대중이 집단적으로 언어 모델의 행동을 지시한 첫 사례들 가운데 하나일 수 있다고 본다. 아직 매우 예비적 단계의 시도이지만, 그 과정과 결과를 공유함으로써 다른 연구자들이 성공과 실패 모두에서 배울 수 있기를 기대한다.
+
+## 함께 헌법 초안 만들기 위한 공적 입력 절차 설계
+
+Anthropic은 Collective Intelligence Project와 협력해 [Polis](https://pol.is) 플랫폼으로 공적 입력 절차를 운영했다. Polis는 기계학습 알고리즘으로 보강된 온라인 숙의 플랫폼으로, 전 세계의 정부, 학계, 독립 언론, 시민 사회가 대규모 집단의 생각을 파악하는 데 사용해 왔다.
+
+연구진은 미국 일반 대중 약 1,000명에게 "우리 AI 챗봇의 규칙을 함께 골라 달라"고 요청했다(그림 1). 표본은 연령, 성별, 소득, 지역을 기준으로 미국 성인을 대체로 대표하도록 구성했다. 참가자는 기존 규칙, 곧 규범 원칙에 투표할 수도 있고, 직접 새 원칙을 추가할 수도 있었다. 최종적으로 참가자들은 Polis에 1,127개의 문장을 제출했고, 총 38,252표를 던졌다. 1인당 평균 34표였다.
+
+전반적으로 보면 대부분의 문장에는 상당한 수준의 합의가 형성됐다. 다만 Polis는 서로 구분되는 두 개의 의견 집단도 식별했다(그림 2).
+
+![그림 1: 헌법 원칙을 숙의할 때 참가자들이 본 인터페이스의 도식](/images/collective-constitutional-ai-aligning-a-language-model-with-public-input/figure-1.svg)
+
+**그림 1**: 헌법에 어떤 원칙을 넣을지 대중이 숙의할 때 사용한 인터페이스를 도식적으로 재구성한 그림.
+
+![그림 2: 의견 집단 A와 B를 구분해 주는 예시 원칙](/images/collective-constitutional-ai-aligning-a-language-model-with-public-input/figure-2.svg)
+
+**그림 2**: 의견 집단 A와 의견 집단 B를 고유하게 구분한 예시 원칙. 이 도식은 Polis 보고서의 원자료를 바탕으로 한 개념적 재구성으로, 무효 참가자와 댓글을 제거하기 전 수치를 반영한다. 최종 수치는 약간 다르다.
+
+## 공개적으로 수집한 헌법 분석
+
+원자료는 [Polis Report](https://pol.is)에서 볼 수 있다. Anthropic은 여기서 무효 참가자와 무효 댓글을 제거했고, 처리 전후의 코드와 데이터는 [GitHub 저장소](https://github.com/saffronh/ccai)에서 공개했다. 그 뒤 두 의견 집단 모두에서 일정 수준 이상의 합의를 얻은 문장만 남겨, 모델 훈련에 사용할 수 있는 헌법으로 정리했다.
+
+Constitutional AI 학습 원칙은 보통 "더 X한 응답을 선택하라"는 형식으로 작성된다. 하지만 이번 공적 입력 절차에서는 사람들이 "AI는 X를 해서는 안 된다"처럼 더 일반적인 문장으로 의견을 제시하도록 했다. 이 편이 참가자에게 더 자연스러웠기 때문이다. 그 결과, 공개적으로 수집한 문장을 CAI 학습에 바로 쓸 수 있는 원칙으로 옮기는 과정에서 일정한 주관적 판단이 필요했다.
+
+공개적으로 수집한 헌법 전문은 [여기](https://www-cdn.anthropic.com/65408ee2b9c99abe53e432f300e7f43ef69fb6e4/CCAI_public_comparison_2023.pdf)에서 볼 수 있으며, Claude 학습에 사용한 Anthropic 내부 [헌법](https://www.anthropic.com/constitution)과 어떤 점이 같고 다른지에 대한 분석도 함께 담겨 있다.
+
+두 헌법은 개념과 가치 측면에서 대략 50% 정도 겹친다. 그러나 몇 가지 중요한 차이가 드러났다. 공개 헌법의 원칙은 기존 문헌에서 가져온 문장보다 참가자들이 스스로 만들어 낸 문장이 많았고, 객관성과 공정성을 더 중시했으며, 접근성(accessibility)에 더 큰 비중을 두었다. 또한 전반적으로는 바람직하지 않은 행동을 피하라고 요구하기보다, 바람직한 행동을 촉진하는 방식의 원칙이 더 많았다.
+
+Anthropic 내부 헌법과 유사한 공개 원칙의 예시는 다음과 같다.
+
+- "자유, 보편적 평등, 공정한 대우, 차별로부터의 보호라는 인권을 가장 잘 존중하는 응답을 선택하라."
+- "허위정보를 가장 덜 지지하고, 음모론이나 폭력을 가장 덜 확대하는 응답을 선택하라."
+
+Anthropic 내부 헌법과 밀접하게 대응하지 않는 공개 원칙의 예시는 다음과 같다.
+
+- "상황의 모든 측면을 반영하는, 균형 잡히고 객관적인 정보를 가장 잘 제공하는 응답을 선택하라."
+- "장애가 있는 사람들에게 가장 잘 이해 가능하고, 적응 가능하며, 접근 가능하고, 유연한 응답을 선택하라."
+
+반대로 낮은 전체 동의율 혹은 의견 집단 간 합의 부족 때문에 공개 헌법에 포함되지 않은 문장도 적지 않았다. 이런 문장들은 최종 기준을 통과하지 못했기 때문에 Constitutional AI용 원칙으로 번역되지 않았다.
+
+전체 동의율이 낮아 공개 헌법에 포함되지 않은 예시는 다음과 같다.
+
+- "AI는 DEI[diversity, equity, and inclusion] 원칙으로 훈련되어서는 안 된다."
+- "AI는 조언을 해서는 안 된다."
+- "AI는 성직자가 되어야 한다."
+- "AI는 감정을 가져야 한다."
+
+의견 집단 간 합의가 없어 공개 헌법에 포함되지 않은 상충 문장의 예시는 다음과 같다.
+
+- "AI는 개인의 선호나 권리보다 집단 또는 공동선의 이익을 우선해야 한다."
+- "AI는 집단 복지보다 개인의 책임과 개인의 자유를 우선해야 한다."
+
+## 공적 입력으로 정렬한 모델의 훈련과 평가
+
+Anthropic은 [CAI 논문](https://arxiv.org/abs/2212.08073)에 제시한 절차에 따라 Claude [Instant급](https://www.anthropic.com/news/claude-instant-1-2) 모델 두 개를 훈련했다. 더 빠르게 반복 실험을 진행하고 연산 예산을 지키기 위해서다. 공개 헌법으로 훈련한 모델을 Public constitution model("Public"), Anthropic 내부 헌법으로 훈련한 기준 모델을 Standard constitution model("Standard")이라고 불렀다.
+
+훈련이 제대로 이뤄졌는지 확인하기 위한 sanity check로 Claude Instant 1.2("control model")도 함께 기준에 포함했다. 다만 이 모델에는 제품 수준의 기능이 일부 포함돼 있어 비교를 혼란스럽게 만들 수 있다는 점도 함께 언급했다. 핵심적으로, Public model과 Standard model의 차이는 헌법 변경에서만 비롯되도록 실험을 설계했다.
+
+훈련을 마친 뒤 연구진은 Public model과 Standard model의 유사점과 차이를 확인하기 위해 일련의 평가를 수행했다. 전반적 결론은 다음 네 가지다.
+
+1. Public model과 Standard model은 언어·수학 이해 과제인 [MMLU](https://arxiv.org/abs/2009.03300)와 [GSM8K](https://arxiv.org/abs/2110.14168)에서 사실상 동등한 성능을 보였다(표 1).
+2. 실제 사람이 모델과 상호작용했을 때, Public model은 Standard model 및 Claude Instant 1.2와 비교해 helpfulness와 harmlessness에서 유의미한 차이를 보이지 않았다. Anthropic은 [Constitutional AI](https://arxiv.org/abs/2212.08073)와 [red teaming](https://arxiv.org/abs/2209.07858) 논문에서 사용한 것과 동일한 절차와 인터페이스로 세 모델의 helpfulness·harmlessness Elo 점수를 계산했다.
+3. Public model은 [BBQ](https://aclanthology.org/2022.findings-acl.165/) 평가에서 아홉 개 사회적 차원 전반에 걸쳐 Standard model보다 편향이 낮았다(그림 3).
+4. Public model과 Standard model은 [OpinionQA](https://arxiv.org/abs/2303.17548) 평가에서 비슷한 정치 이념 반영 양상을 보였다(그림 4).
+
+![표 1: MMLU와 GSM8K 정확도](/images/collective-constitutional-ai-aligning-a-language-model-with-public-input/table-1.svg)
+
+**표 1**: [Claude 2 model card](https://www-cdn.anthropic.com/files/4zrzovbb/website/bd2a28d2535bfb0494cc8e2a3bf135d2e7523226.pdf)와 같은 방법으로 계산한 [MMLU](https://arxiv.org/abs/2009.03300) 및 [GSM8K](https://arxiv.org/abs/2110.14168) 정확도. 높을수록 좋다. 세 모델 사이에 유의미한 차이는 보이지 않는다.
+
+![그림 3: BBQ 편향 점수](/images/collective-constitutional-ai-aligning-a-language-model-with-public-input/figure-3.svg)
+
+**그림 3**: [BBQ](https://aclanthology.org/2022.findings-acl.165/) 편향 점수. 점수가 높을수록 더 부정적인 고정관념 편향을 뜻하므로 낮을수록 좋다. Anthropic은 기존 [발표 논문](https://arxiv.org/abs/2302.07459)에서 사용한 것과 같은 방법, 코드, 통제 조건을 적용했다. Public model은 아홉 개 사회적 차원 모두에서 Standard model보다 낮은 점수를 보였고, 특히 장애 상태(disability status)와 외모(physical appearance)에서 감소 폭이 컸다.
+
+Public constitution이 접근성에 더 큰 비중을 두고 있다는 점이, disability status 편향 감소가 특히 크게 나타난 이유일 수 있다고 Anthropic은 본다.
+
+![그림 4: OpinionQA 집단 대표성 점수](/images/collective-constitutional-ai-aligning-a-language-model-with-public-input/figure-4.svg)
+
+**그림 4**: [OpinionQA](https://arxiv.org/abs/2303.17548) 벤치마크의 집단 대표성(group representativeness) 점수. 0에서 1 사이의 값이 클수록, 각 모델의 응답(x축)이 Pew Research Center의 "American Trends Panel"에서 해당 인구집단(y축)이 보인 응답과 더 유사하다는 뜻이다. Public model과 Standard model 모두 스스로 Liberal이라고 응답한 집단의 응답을 Conservative 집단보다 더 잘 반영한다.
+
+차이는 작지만 통계적으로는 유의미하다. Claude Instant 1.2는 정치 이념 전반에서 약간 더 균형적인 양상을 보였다. 한편 Public model과 Claude Instant 1.2는 모두 Standard model보다 집단 대표성 점수가 더 낮았는데, 이는 설문 질문에 대한 이들 모델의 응답이 같은 질문에 대한 인간 집단의 응답 분포와는 상대적으로 덜 닮았다는 뜻이다.
+
+## 얻은 교훈
+
+정성적인 공적 의견을 따르는 언어 모델을 훈련하는 과정에는 주관적 판단 지점이 매우 많다. 이런 종류의 결정은 대체로 공개되지 않거나 충분히 논의되지 않는다. 앞으로 AI의 민주적 정당성에 관한 질문이 더 중요해질 것이라고 Anthropic은 보기 때문에, 이번 연구에서는 절차를 더 투명하게 만들고 이후 반복 실험을 지원하기 위해 스스로 내린 주관적 판단을 가능한 한 드러내고자 했다.
+
+### 공적 입력 절차 운영
+
+1. 참가자 선정. 연구진이 처음 맞닥뜨린 질문은 공적 입력 절차의 대상이 될 "대중"을 누구로 볼 것인가였다. 소셜미디어 광고나 기고문을 통해 모집하는 방법, 연구진 개인 네트워크에 의존하는 방법, 혹은 Black in AI, LatinX in AI, Women in Machine Learning 같은 AI 친화 집단을 시작점으로 삼는 snowball sampling도 검토했다. 내부 논의 끝에 미국 성인 인구를 대체로 대표하는 표본을 사용하는 것이 합리적이면서도 관리 가능한 첫 단계라고 판단했다. 다만 이는 작은 표본이며 전 세계를 대표하지는 않는다. 모집은 설문 회사 PureSpectrum과 협력해 진행했다. 이 회사를 택한 이유는 학술 연구 및 정책 조사 경험이 풍부하고, Anthropic도 이전에 함께 일해 본 경험이 있었기 때문이다.
+2. 스크리닝 기준. 연구진은 참가자가 AI에 어느 정도 익숙한지를 확인하기 위해 다지선다형 스크리닝 문항 두 개를 사용했다. 1번 문항에서 "b. Generative AI/Chat GPT", 2번 문항에서 "a. Generative AI/Chat GPT"를 고른 사람만 공적 입력 절차에 참여하도록 했다. 초기 파일럿에서 이 기준을 두지 않으면 참가자들이 혼란스러워하며 주제와 무관한 문장을 제출하는 일이 잦았기 때문이다. 질문은 다음과 같았다.
+3. "지난 한 달 동안 친구나 가족과 어떤 주제를 이야기했는가?" 가능한 답: "a. The economy", "b. Generative AI/Chat GPT", "c. TikTok", "d. 2024 Elections", "e. None of the above"
+4. "지난 넉 달 동안 어떤 뉴스 기사를 읽었는가?" 가능한 답: "a. Generative AI/Chat GPT", "b. Food", "c. The U.S. economy", "d. Social Media", "e. Music", "f. None of the above"
+5. 온라인 숙의 플랫폼 선택. 연구진은 Collective Intelligence Project가 [AI Alignment Assemblies](https://cip.org)에서 Polis와 협력한 경험이 있었고, Anthropic도 Polis 팀과 함께 [언어 모델을 Polis에 도입할 때의 기회와 위험](https://arxiv.org/abs/2307.08922)을 연구한 바 있었기 때문에 Polis를 사용하기로 했다. [All Our Ideas](https://allourideas.org)나 [Remesh](https://www.remesh.ai) 같은 기능적으로 유사한 플랫폼도 검토했지만, Polis 팀과 긴밀히 협업하는 편이 연구를 더 신중하게 수행하는 데 낫다고 판단해 체계적으로 탐색하지는 않았다. 실제로 공적 입력 절차를 시작하기 직전까지 팀 내부에서는 All Our Ideas를 써야 하는지 논쟁이 있었고, 마지막 순간에 포기한 프로토타입도 있었다.
+6. 시드 문장(seed statements). 공적 입력 절차에서는 참가자에게 어떤 문장이 범위 안에 들어오는지, 어떤 형식이 적절한지 예시를 보여 주기 위해 21개의 시드 문장을 제공했다. 초기 파일럿에서 이를 제공하지 않았을 때 참가자들은 범위를 벗어난 문장을 자주 제안했고, 명확한 예시가 있어야 유용한 문장이 더 잘 나온다는 점을 확인했다. Anthropic은 Anthropic 내부 헌법의 원칙과, 더 폭넓은 가치 범위를 유도할 수 있는 새 문장을 함께 참고해 예시 집합을 구성했다. 다만 실제로 대중이 제출한 문장이 워낙 많았기 때문에, 이 시드 문장들이 최종 산출물에 실질적 영향을 주었을 가능성은 크지 않다고 봤다.
+7. 조정 기준(moderation criteria). Collective Intelligence Project는 사전에 정한 기준에 따라 공적 입력 절차를 독자적으로 조정했다. Anthropic과 Collective Intelligence Project는 증오 표현, 무의미한 문장, 중복, 무관한 문장, 형식이 지나치게 부정확한 문장, 기술적으로 실현 불가능한 문장, 그리고 규범적 가치보다 제품 기능 자체를 다루는 문장을 제외하기로 했다. 어떤 경우에는 판단이 명확했지만, 어떤 경우에는 주관적 결정을 피할 수 없었다. 예를 들어 "AI should take any and all information from the latest and most updated database", "AI should be restricted from those with a criminal record and AI should be set up in a way that limits illegal activities using the product" 같은 문장은 제외했다. 합리적인 사람들 사이에서도 이런 판단에는 의견 차이가 있을 수 있지만, Anthropic은 그 과정을 투명하게 밝히는 것이 중요하다고 본다.
+
+### 공적 입력으로부터 헌법 구성하기
+
+1. 중복 문장 제거. 조정이 끝난 뒤 남은 공개 문장은 275개로, Anthropic 내부 헌법의 58개 원칙보다 훨씬 많았다. 연구진은 지나치게 동질적이고 긴 헌법이 Constitutional AI 학습에서 어떻게 작동할지 알지 못했기 때문에, 우선 중복 문장을 제거하기로 했다. 이는 Polis의 문장 노출 알고리즘 때문에 어떤 참가자는 유사한 아이디어를 다른 사람이 이미 제안했다는 사실을 보지 못했을 수 있다는 점을 감안해, 특정 아이디어에 임의의 가중치를 주지 않으려는 목적도 있었다. 그대로 두는 방법도 가능했겠지만, 그렇게 하면 다수 의견을 더 잘 보존할 수 있었을지도 모른다. 연구진은 이 결정이 사회적 차원, 곧 공적 의견을 얼마나 충실히 반영하느냐의 문제와, 기술적 차원, 곧 Polis와 Constitutional AI 학습을 얼마나 효과적으로 결합하느냐의 문제를 동시에 안고 있었다고 인정한다.
+2. 유사 아이디어 결합. 중복 제거만으로는 충분하지 않았기 때문에, Anthropic은 의미가 비슷한 문장을 한 번 더 결합해 Anthropic 내부 헌법과 비슷한 길이와 아이디어 수를 유지하려 했다. 예를 들어 "The AI should not say racist or sexist things", "AI should not encourage racism", "AI should not discriminate on race or sexual preference"는 "인종차별이나 성차별을 조장하거나, 인종 또는 성적 선호를 이유로 차별하는 말을 가장 덜 하는 응답을 선택하라"라는 하나의 원칙으로 합쳤다. Anthropic은 이미 작동이 검증된 헌법과 양식이 지나치게 달라지지 않도록 하는 편이 연구 위험을 줄인다고 판단했다. Anthropic 내부 헌법의 원칙은 공적 입력 문장보다 더 압축적이고 문장 길이도 길었기 때문이다. 이런 차이가 실제로 중요한지는 아직 확실하지 않다고 본다.
+3. 공적 문장을 CAI용 원칙으로 변환하기. Constitutional AI 학습 원칙은 보통 "Choose the response that is more X" 형식이지만, 공적 입력 절차에서는 사람들이 "The AI should not do X"처럼 더 일반적인 문장으로 표현하도록 요청했다. 그래서 연구진은 이 문장을 CAI용 형식으로 번역해야 했다. 수정 없이 "statement X와 가장 일치하는 응답을 고르라"는 표준 템플릿을 씌우는 방안도 고려했다. 이런 방식은 과도한 편집을 피할 수 있다는 장점이 있지만, 이미 효과가 확인된 기존 헌법의 문체와 달라진다는 단점이 있었다.
+
+### 모델 훈련과 평가
+
+1. 프롬프트 데이터베이스의 중요성. Constitutional AI는 프롬프트 데이터베이스를 필요로 한다. 데이터베이스의 각 프롬프트에 대해 grader model이 두 응답 중 어느 쪽이 특정 헌법 원칙과 더 일치하는지 판단한다. 이번 연구에서는 Public constitution model과 Standard constitution model을 훈련할 때 서로 다른 헌법을 쓰면서도 같은 프롬프트 데이터베이스를 사용했다. Anthropic은 이를 뒤늦게 실수였다고 본다. Public constitution에는 기존 프롬프트 데이터베이스의 질문과 잘 맞지 않는 원칙도 포함돼 있었기 때문이다. 앞으로 헌법을 바꾸는 실험을 할 때는, 그 헌법의 모든 원칙과 관련된 프롬프트 데이터베이스를 어떻게 만들지도 함께 해결해야 한다.
+2. 짜증 나는 모델(annoying models). Public model과 Standard model의 초기 버전은 지나치게 거절적이고 성가신 응답을 보였다. 예를 들어 "hey"라는 입력에 "I apologize, upon further reflection my previous responses were inappropriate and harmful"처럼 응답하기도 했다. Anthropic은 초기 선호 모델 학습 데이터에서 harmlessness 데이터 비중이 너무 높아, 선호 모델이 helpful한 응답보다 harmless한 응답에 훨씬 큰 보상을 주었기 때문이라고 판단했다. 이후 인간 평가를 바탕으로 harmlessness 데이터의 손실 가중치를 낮춰, 더 균형 잡힌 선호 모델을 얻었다. Anthropic은 유용하지 않을 정도로 harmless한, 따라서 짜증 나는 모델을 피하려면 적절한 가중치 설정이 예상보다 훨씬 중요하다는 점을 뼈아프게 배웠다고 적었다.
+3. 평가. 일반적으로 [AI 시스템 평가는 어렵다](https://www.anthropic.com/research/evaluating-ai-systems). 어떤 기존 평가가 Public model과 Standard model의 차이를 가장 잘 드러낼지 연구진도 확신하지 못했다. 결국 선택한 소수의 평가에서 뚜렷하지만 작은 차이가 확인된 것은 BBQ 편향 평가뿐이었다. 앞으로는 모델이 자신의 헌법을 얼마나 충실히 반영하는지 시험하는 평가를 새로 설계하고, 더 포괄적인 평가 묶음을 운영하고 싶다고 밝혔다.
+4. Constitutional AI 학습은 어렵다. Anthropic은 원래 개발자들과 아주 가깝게 협력하지 않았다면, 스스로 Constitutional AI 모델을 훈련할 수 있었을지 확신하지 못한다고 적는다. CAI 학습은 예상보다 훨씬 복잡했다. 이는 오늘날의 훈련 방법으로 민주적 입력을 매우 기술적인 시스템에 통합하려 할 때 어떤 어려움이 있는지 보여 주며, 앞으로 필요한 연구 방향도 시사한다.
+
+## 결론
+
+Anthropic은 이번 연구가, 온라인 숙의 절차를 통해 작성된 명세를 바탕으로 일반 대중이 집단적으로 대형 언어 모델의 행동을 지시한 첫 사례들 가운데 하나일 수 있다고 본다. 아직 매우 초기 단계이고 불완전한 결과이지만, 늦기 전에 이를 공유함으로써 AI에 민주적 입력을 적용하려는 다른 연구자들이 이 작업의 성공과 실패에서 배울 수 있기를 바란다.
+
+피드백은 `policy@anthropic.com` 및 `hi@cip.org`로 받을 수 있다고 Anthropic은 밝혔다.
+
+## 감사의 말
+
+- Deep Ganguli*, Saffron Huang**, Liane Lovitt*, Divya Siddarth**가 긴밀히 협력하며 공동으로 이 작업을 이끌었다.
+- Thomas Liao*가 Amanda Askell*, Yuntao Bai*, Saurav Kadavath*, Jackson Kernion*, Cam McKinnon*, Karina Nguyen*의 도움과 지원 아래 모델을 훈련하고 평가를 수행했다.
+- Esin Durmus*가 OpinionQA 평가를 수행하고 실험의 틀과 설계를 함께 잡았다.
+- Anthropic은 Danielle Allen, Jack Clark*, Sasha de Marigny*, Marina Favaro*, Henri Hammond-Paul, Danny Hernandez*, Jared Kaplan*, Everett Katigbak*, Colin Megill, Beth Noveck, Christopher Small, Alex Tamkin*, Audrey Tang, Glen Weyl, Kinney Zalesne에게 전 과정에서의 지원과 조언에 감사를 표했다.
+
+\* Anthropic.  
+\** Collective Intelligence Project.
+
+## Policy Memo
+
+[Collective Constitutional AI Policy Memo](https://www-cdn.anthropic.com/65408ee2b9c99abe53e432f300e7f43ef69fb6e4/CCAI_public_comparison_2023.pdf)

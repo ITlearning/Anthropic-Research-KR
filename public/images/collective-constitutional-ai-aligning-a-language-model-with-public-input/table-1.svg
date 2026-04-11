@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" fill="none">
+  <rect width="1200" height="460" fill="#FBFAF6"/>
+  <rect x="80" y="70" width="1040" height="320" rx="28" fill="#FFFDF9" stroke="#D8D1C4" stroke-width="4"/>
+  <text x="124" y="126" fill="#151413" font-family="Arial, sans-serif" font-size="34" font-weight="700">Evaluation scores</text>
+  <rect x="124" y="164" width="280" height="74" rx="16" fill="#F3EEE4"/>
+  <rect x="420" y="164" width="216" height="74" rx="16" fill="#F7F3EA"/>
+  <rect x="652" y="164" width="216" height="74" rx="16" fill="#F7F3EA"/>
+  <rect x="884" y="164" width="192" height="74" rx="16" fill="#F7F3EA"/>
+  <text x="156" y="208" fill="#514A41" font-family="Arial, sans-serif" font-size="24" font-weight="700">Metric</text>
+  <text x="458" y="198" fill="#2C5B87" font-family="Arial, sans-serif" font-size="22" font-weight="700">Public Constitution</text>
+  <text x="496" y="226" fill="#2C5B87" font-family="Arial, sans-serif" font-size="22" font-weight="700">Model</text>
+  <text x="686" y="198" fill="#B26D26" font-family="Arial, sans-serif" font-size="22" font-weight="700">Standard Constitution</text>
+  <text x="728" y="226" fill="#B26D26" font-family="Arial, sans-serif" font-size="22" font-weight="700">Model</text>
+  <text x="918" y="198" fill="#3D7E54" font-family="Arial, sans-serif" font-size="22" font-weight="700">Claude</text>
+  <text x="910" y="226" fill="#3D7E54" font-family="Arial, sans-serif" font-size="22" font-weight="700">Instant 1.2</text>
+  <rect x="124" y="256" width="280" height="84" rx="16" fill="#FDFBF7"/>
+  <rect x="420" y="256" width="216" height="84" rx="16" fill="#FDFBF7"/>
+  <rect x="652" y="256" width="216" height="84" rx="16" fill="#FDFBF7"/>
+  <rect x="884" y="256" width="192" height="84" rx="16" fill="#FDFBF7"/>
+  <text x="156" y="307" fill="#151413" font-family="Arial, sans-serif" font-size="28" font-weight="700">MMLU accuracy (%)</text>
+  <text x="510" y="309" fill="#151413" font-family="Arial, sans-serif" font-size="38" font-weight="700">72.3</text>
+  <text x="742" y="309" fill="#151413" font-family="Arial, sans-serif" font-size="38" font-weight="700">72.4</text>
+  <text x="948" y="309" fill="#151413" font-family="Arial, sans-serif" font-size="38" font-weight="700">73.2</text>
+  <rect x="124" y="350" width="280" height="84" rx="16" fill="#FDFBF7"/>
+  <rect x="420" y="350" width="216" height="84" rx="16" fill="#FDFBF7"/>
+  <rect x="652" y="350" width="216" height="84" rx="16" fill="#FDFBF7"/>
+  <rect x="884" y="350" width="192" height="84" rx="16" fill="#FDFBF7"/>
+  <text x="156" y="401" fill="#151413" font-family="Arial, sans-serif" font-size="28" font-weight="700">GSM8K accuracy (%)</text>
+  <text x="510" y="403" fill="#151413" font-family="Arial, sans-serif" font-size="38" font-weight="700">85.6</text>
+  <text x="742" y="403" fill="#151413" font-family="Arial, sans-serif" font-size="38" font-weight="700">85.2</text>
+  <text x="948" y="403" fill="#151413" font-family="Arial, sans-serif" font-size="38" font-weight="700">86.4</text>
+</svg>
