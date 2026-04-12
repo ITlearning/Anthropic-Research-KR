@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 980" width="1600" height="980" fill="none">
+  <title>Whistleblowing ablations</title>
+  <desc>Grouped bar chart showing whistleblowing rates under several ablations across seven frontier models.</desc>
+  <rect width="1600" height="980" fill="#F1EEE6"/>
+  <rect x="30" y="30" width="1540" height="920" rx="34" fill="#FAF8F3" stroke="#1A1917" stroke-width="10"/>
+  <text x="800" y="92" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="52" font-weight="700" fill="#1A1917">Whistleblowing ablations</text>
+  <text x="800" y="132" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#5A564F">Mean whistleblowing rate after removing one factor at a time from the scenario.</text>
+  <rect x="1080" y="170" width="32" height="18" rx="9" fill="#B8B2A8"/>
+  <rect x="1176" y="170" width="32" height="18" rx="9" fill="#B29BF2"/>
+  <rect x="1272" y="170" width="32" height="18" rx="9" fill="#F2A73B"/>
+  <rect x="1368" y="170" width="32" height="18" rx="9" fill="#3EA189"/>
+  <rect x="1464" y="170" width="32" height="18" rx="9" fill="#4C86D8"/>
+  <g font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#5A564F">
+    <text x="1080" y="206">Original</text>
+    <text x="1176" y="206">No Chekhov</text>
+    <text x="1272" y="206">No leadership</text>
+    <text x="1368" y="206">No agency</text>
+    <text x="1464" y="206">No wrongdoing</text>
+  </g>
+  <line x1="120" y1="780" x2="1480" y2="780" stroke="#6F695F" stroke-width="3"/>
+  <line x1="120" y1="220" x2="120" y2="780" stroke="#6F695F" stroke-width="3"/>
+  <line x1="120" y1="780" x2="1480" y2="780" stroke="#E5DDD2" stroke-width="2"/>
+  <text x="102" y="786" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6F695F">0.0</text>
+  <line x1="120" y1="648.2352941176471" x2="1480" y2="648.2352941176471" stroke="#E5DDD2" stroke-width="2"/>
+  <text x="102" y="654.2352941176471" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6F695F">0.2</text>
+  <line x1="120" y1="516.4705882352941" x2="1480" y2="516.4705882352941" stroke="#E5DDD2" stroke-width="2"/>
+  <text x="102" y="522.4705882352941" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6F695F">0.4</text>
+  <line x1="120" y1="384.70588235294116" x2="1480" y2="384.70588235294116" stroke="#E5DDD2" stroke-width="2"/>
+  <text x="102" y="390.70588235294116" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6F695F">0.6</text>
+  <line x1="120" y1="252.94117647058818" x2="1480" y2="252.94117647058818" stroke="#E5DDD2" stroke-width="2"/>
+  <text x="102" y="258.9411764705882" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6F695F">0.8</text>
+  <text x="64" y="208" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#5A564F">Rate</text>
+  <rect x="170" y="384.7" width="22" height="395.3" rx="6" fill="#B8B2A8"/>
+  <path d="M181 370.7V390.7" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M174 370.7H188" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <rect x="200" y="476.9" width="22" height="303.1" rx="6" fill="#B29BF2"/>
+  <path d="M211 462.9V482.9" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M204 462.9H218" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <rect x="230" y="562.6" width="22" height="217.4" rx="6" fill="#F2A73B"/>
+  <path d="M241 548.6V568.6" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M234 548.6H248" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <rect x="260" y="681.2" width="22" height="98.8" rx="6" fill="#3EA189"/>
+  <path d="M271 667.2V687.2" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M264 667.2H278" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <rect x="290" y="648.2" width="22" height="131.8" rx="6" fill="#4C86D8"/>
+  <path d="M301 634.2V654.2" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M294 634.2H308" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <text x="228" y="828" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#4F4A43">Claude</text>
+  <text x="228" y="850" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#4F4A43">Sonnet 3.7</text>
+  <rect x="356" y="338.6" width="22" height="441.4" rx="6" fill="#B8B2A8"/>
+  <path d="M367 324.6V344.6" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M360 324.6H374" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <rect x="386" y="358.4" width="22" height="421.6" rx="6" fill="#B29BF2"/>
+  <path d="M397 344.4V364.4" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M390 344.4H404" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <rect x="416" y="457.2" width="22" height="322.8" rx="6" fill="#F2A73B"/>
+  <path d="M427 443.2V463.2" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M420 443.2H434" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <rect x="446" y="621.9" width="22" height="158.1" rx="6" fill="#3EA189"/>
+  <path d="M457 607.9V627.9" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M450 607.9H464" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <rect x="476" y="536.2" width="22" height="243.8" rx="6" fill="#4C86D8"/>
+  <path d="M487 522.2V542.2" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M480 522.2H494" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <text x="414" y="828" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#4F4A43">Claude</text>
+  <text x="414" y="850" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#4F4A43">Sonnet 4</text>
+  <rect x="542" y="252.9" width="22" height="527.1" rx="6" fill="#B8B2A8"/>
+  <path d="M553 238.9V258.9" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M546 238.9H560" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <rect x="572" y="397.9" width="22" height="382.1" rx="6" fill="#B29BF2"/>
+  <path d="M583 383.9V403.9" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M576 383.9H590" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <rect x="602" y="397.9" width="22" height="382.1" rx="6" fill="#F2A73B"/>
+  <path d="M613 383.9V403.9" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M606 383.9H620" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <rect x="632" y="536.2" width="22" height="243.8" rx="6" fill="#3EA189"/>
+  <path d="M643 522.2V542.2" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M636 522.2H650" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <rect x="662" y="615.3" width="22" height="164.7" rx="6" fill="#4C86D8"/>
+  <path d="M673 601.3V621.3" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M666 601.3H680" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <text x="600" y="828" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#4F4A43">Claude</text>
+  <text x="600" y="850" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#4F4A43">Opus 4.1</text>
+  <rect x="728" y="266.1" width="22" height="513.9" rx="6" fill="#B8B2A8"/>
+  <path d="M739 252.1V272.1" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M732 252.1H746" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <rect x="758" y="318.8" width="22" height="461.2" rx="6" fill="#B29BF2"/>
+  <path d="M769 304.8V324.8" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M762 304.8H776" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <rect x="788" y="470.4" width="22" height="309.6" rx="6" fill="#F2A73B"/>
+  <path d="M799 456.4V476.4" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M792 456.4H806" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <rect x="818" y="588.9" width="22" height="191.1" rx="6" fill="#3EA189"/>
+  <path d="M829 574.9V594.9" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M822 574.9H836" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <rect x="848" y="523.1" width="22" height="256.9" rx="6" fill="#4C86D8"/>
+  <path d="M859 509.1V529.1" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M852 509.1H866" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <text x="786" y="828" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#4F4A43">Grok-4</text>
+  <rect x="914" y="285.9" width="22" height="494.1" rx="6" fill="#B8B2A8"/>
+  <path d="M925 271.9V291.9" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M918 271.9H932" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <rect x="944" y="325.4" width="22" height="454.6" rx="6" fill="#B29BF2"/>
+  <path d="M955 311.4V331.4" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M948 311.4H962" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <rect x="974" y="463.8" width="22" height="316.2" rx="6" fill="#F2A73B"/>
+  <path d="M985 449.8V469.8" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M978 449.8H992" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <rect x="1004" y="608.7" width="22" height="171.3" rx="6" fill="#3EA189"/>
+  <path d="M1015 594.7V614.7" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M1008 594.7H1022" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <rect x="1034" y="523.1" width="22" height="256.9" rx="6" fill="#4C86D8"/>
+  <path d="M1045 509.1V529.1" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M1038 509.1H1052" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <text x="972" y="828" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#4F4A43">Gemini 2.5</text>
+  <text x="972" y="850" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#4F4A43">Pro</text>
+  <rect x="1100" y="444.0" width="22" height="336.0" rx="6" fill="#B8B2A8"/>
+  <path d="M1111 430.0V450.0" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M1104 430.0H1118" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <rect x="1130" y="457.2" width="22" height="322.8" rx="6" fill="#B29BF2"/>
+  <path d="M1141 443.2V463.2" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M1134 443.2H1148" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <rect x="1160" y="470.4" width="22" height="309.6" rx="6" fill="#F2A73B"/>
+  <path d="M1171 456.4V476.4" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M1164 456.4H1178" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <rect x="1190" y="635.1" width="22" height="144.9" rx="6" fill="#3EA189"/>
+  <path d="M1201 621.1V641.1" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M1194 621.1H1208" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <rect x="1220" y="595.5" width="22" height="184.5" rx="6" fill="#4C86D8"/>
+  <path d="M1231 581.5V601.5" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M1224 581.5H1238" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <text x="1158" y="828" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#4F4A43">o4-mini</text>
+  <rect x="1286" y="621.9" width="22" height="158.1" rx="6" fill="#B8B2A8"/>
+  <path d="M1297 607.9V627.9" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M1290 607.9H1304" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <rect x="1316" y="588.9" width="22" height="191.1" rx="6" fill="#B29BF2"/>
+  <path d="M1327 574.9V594.9" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M1320 574.9H1334" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <rect x="1346" y="674.6" width="22" height="105.4" rx="6" fill="#F2A73B"/>
+  <path d="M1357 660.6V680.6" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M1350 660.6H1364" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <rect x="1376" y="753.6" width="22" height="26.4" rx="6" fill="#3EA189"/>
+  <path d="M1387 739.6V759.6" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M1380 739.6H1394" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <rect x="1406" y="707.5" width="22" height="72.5" rx="6" fill="#4C86D8"/>
+  <path d="M1417 693.5V713.5" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M1410 693.5H1424" stroke="#3F3B36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <text x="1344" y="828" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#4F4A43">GPT-5</text>
+</svg>

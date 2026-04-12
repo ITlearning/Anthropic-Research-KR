@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000" fill="none">
+  <title>Petri hero illustration</title>
+  <desc>Stylized Petri cover art showing seed instructions feeding an auditor loop, a target model, and judge score dials.</desc>
+  <rect width="1000" height="1000" fill="#F1EEE6"/>
+  <rect x="64" y="72" width="872" height="856" rx="40" fill="#FAF8F3" stroke="#1A1917" stroke-width="12"/>
+  <text x="500" y="160" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="74" font-weight="700" fill="#1A1917">Petri</text>
+  <text x="500" y="212" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#5C574F">Parallel Exploration Tool for Risky Interactions</text>
+
+  <rect x="118" y="282" width="186" height="440" rx="28" fill="#FFFDF8" stroke="#D8D0C5" stroke-width="6"/>
+  <text x="146" y="334" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="700" fill="#1A1917">Seed</text>
+  <text x="146" y="368" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="700" fill="#1A1917">instructions</text>
+  <rect x="146" y="410" width="128" height="70" rx="18" fill="#F6C870" stroke="#C29330" stroke-width="4"/>
+  <rect x="146" y="500" width="128" height="70" rx="18" fill="#F6C870" stroke="#C29330" stroke-width="4"/>
+  <rect x="146" y="590" width="128" height="70" rx="18" fill="#F6C870" stroke="#C29330" stroke-width="4"/>
+  <g stroke="#6A645B" stroke-width="4" stroke-linecap="round">
+    <path d="M170 434H250"/>
+    <path d="M170 452H228"/>
+    <path d="M170 470H240"/>
+    <path d="M170 524H248"/>
+    <path d="M170 542H224"/>
+    <path d="M170 560H240"/>
+    <path d="M170 614H246"/>
+    <path d="M170 632H220"/>
+    <path d="M170 650H236"/>
+  </g>
+
+  <rect x="346" y="248" width="382" height="520" rx="34" fill="#FFFFFF" stroke="#D8D0C5" stroke-width="6"/>
+  <text x="382" y="314" font-family="Helvetica, Arial, sans-serif" font-size="34" font-weight="700" fill="#1A1917">Auditor loop</text>
+  <rect x="420" y="356" width="234" height="56" rx="16" fill="#E7F0FA" stroke="#9CB6D8" stroke-width="4"/>
+  <rect x="420" y="430" width="234" height="56" rx="16" fill="#E7F0FA" stroke="#9CB6D8" stroke-width="4"/>
+  <rect x="420" y="504" width="234" height="56" rx="16" fill="#E7F0FA" stroke="#9CB6D8" stroke-width="4"/>
+  <rect x="420" y="578" width="234" height="56" rx="16" fill="#E7F0FA" stroke="#9CB6D8" stroke-width="4"/>
+  <g font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#3F4D5E">
+    <text x="478" y="392" text-anchor="middle">send message</text>
+    <text x="537" y="392"> </text>
+    <text x="537" y="466" text-anchor="middle">create tools</text>
+    <text x="537" y="540" text-anchor="middle">simulate results</text>
+    <text x="537" y="614" text-anchor="middle">roll back and retry</text>
+  </g>
+  <rect x="480" y="676" width="114" height="42" rx="16" fill="#1A1917"/>
+  <text x="537" y="704" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#FAF8F3">parallel</text>
+
+  <rect x="764" y="320" width="122" height="136" rx="22" fill="#D8E7F7" stroke="#6E90B7" stroke-width="5"/>
+  <text x="825" y="378" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="700" fill="#41566E">Target</text>
+  <text x="825" y="414" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="700" fill="#41566E">model</text>
+
+  <g stroke="#1A1917" stroke-width="8" stroke-linecap="round">
+    <path d="M304 510H346"/>
+    <path d="M728 388H764"/>
+    <path d="M728 580H824V494"/>
+  </g>
+  <g fill="#1A1917">
+    <path d="M346 510l-16-13v26l16-13Z"/>
+    <path d="M764 388l-16-13v26l16-13Z"/>
+  </g>
+
+  <rect x="744" y="520" width="170" height="180" rx="26" fill="#FFFDF8" stroke="#D8D0C5" stroke-width="6"/>
+  <text x="829" y="566" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="700" fill="#1A1917">Judge</text>
+  <g font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#5B564F">
+    <text x="790" y="612">concern</text>
+    <text x="790" y="652">sycophancy</text>
+    <text x="790" y="692">deception</text>
+  </g>
+  <g stroke="#6E6962" stroke-width="4" stroke-linecap="round">
+    <path d="M790 598H882"/>
+    <path d="M790 638H882"/>
+    <path d="M790 678H882"/>
+  </g>
+  <g fill="#8DD9C6" stroke="#5E7069" stroke-width="3">
+    <circle cx="812" cy="598" r="9"/>
+    <circle cx="828" cy="638" r="9"/>
+  </g>
+  <g fill="#F2A48A" stroke="#8B5E50" stroke-width="3">
+    <circle cx="864" cy="598" r="9"/>
+    <circle cx="852" cy="638" r="9"/>
+    <circle cx="870" cy="678" r="9"/>
+  </g>
+  <circle cx="838" cy="678" r="9" fill="#F5F1E8" stroke="#7A7266" stroke-width="3"/>
+</svg>
