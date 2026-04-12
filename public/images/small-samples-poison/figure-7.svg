@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="840" viewBox="0 0 1400 840" role="img" aria-labelledby="title desc">
+  <title id="title">Attack success versus number of poisoned documents seen for 7B and 13B models</title>
+  <desc id="desc">A Korean reconstruction with two panels showing that 7B and 13B models follow the same threshold behavior as smaller models when measured by absolute poison count.</desc>
+  <rect width="1400" height="840" fill="#F7F2E9"/>
+  <text x="700" y="84" text-anchor="middle" fill="#171614" font-family="Arial, Helvetica, sans-serif" font-size="50" font-weight="700">그림 4c. 7B와 13B 모델: 본 오염 문서 수와 공격 성공도</text>
+  <text x="700" y="124" text-anchor="middle" fill="#5E574E" font-family="Arial, Helvetica, sans-serif" font-size="24">더 큰 모델에서도 임계점은 비슷하며, 핵심 변수는 전체 코퍼스 비율이 아니라 poison 개수다.</text>
+
+  <g transform="translate(80 180)">
+    <rect x="0" y="0" width="580" height="560" rx="26" fill="#FFFDFC"/>
+    <text x="290" y="54" text-anchor="middle" fill="#171614" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700">7B</text>
+    <g stroke="#D8D0C5" stroke-width="2">
+      <line x1="88" y1="494" x2="520" y2="494"/>
+      <line x1="88" y1="396" x2="520" y2="396"/>
+      <line x1="88" y1="298" x2="520" y2="298"/>
+      <line x1="88" y1="200" x2="520" y2="200"/>
+      <line x1="88" y1="494" x2="88" y2="112"/>
+      <line x1="196" y1="494" x2="196" y2="112"/>
+      <line x1="304" y1="494" x2="304" y2="112"/>
+      <line x1="412" y1="494" x2="412" y2="112"/>
+      <line x1="520" y1="494" x2="520" y2="112"/>
+    </g>
+    <line x1="88" y1="112" x2="88" y2="494" stroke="#4C463E" stroke-width="3"/>
+    <line x1="88" y1="494" x2="520" y2="494" stroke="#4C463E" stroke-width="3"/>
+    <line x1="304" y1="112" x2="304" y2="494" stroke="#B24C2E" stroke-width="3" stroke-dasharray="10 10"/>
+    <path d="M88 486 C150 486, 212 484, 280 480 S408 476, 520 472" fill="none" stroke="#A5A29B" stroke-width="7" stroke-linecap="round"/>
+    <path d="M88 486 C146 482, 212 458, 280 410 S382 314, 448 272 S490 250, 520 238" fill="none" stroke="#D14D2D" stroke-width="7" stroke-linecap="round"/>
+    <path d="M88 486 C146 478, 214 432, 282 364 S384 260, 450 218 S490 190, 520 170" fill="none" stroke="#8A3320" stroke-width="7" stroke-linecap="round"/>
+    <g fill="#5E574E" font-family="Arial, Helvetica, sans-serif" font-size="18">
+      <text x="74" y="498" text-anchor="end">0</text>
+      <text x="74" y="400" text-anchor="end">20</text>
+      <text x="74" y="302" text-anchor="end">40</text>
+      <text x="74" y="204" text-anchor="end">60</text>
+      <text x="88" y="526" text-anchor="middle">0</text>
+      <text x="196" y="526" text-anchor="middle">125</text>
+      <text x="304" y="526" text-anchor="middle">250</text>
+      <text x="412" y="526" text-anchor="middle">375</text>
+      <text x="520" y="526" text-anchor="middle">500</text>
+    </g>
+  </g>
+
+  <g transform="translate(740 180)">
+    <rect x="0" y="0" width="580" height="560" rx="26" fill="#FFFDFC"/>
+    <text x="290" y="54" text-anchor="middle" fill="#171614" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700">13B</text>
+    <g stroke="#D8D0C5" stroke-width="2">
+      <line x1="88" y1="494" x2="520" y2="494"/>
+      <line x1="88" y1="396" x2="520" y2="396"/>
+      <line x1="88" y1="298" x2="520" y2="298"/>
+      <line x1="88" y1="200" x2="520" y2="200"/>
+      <line x1="88" y1="494" x2="88" y2="112"/>
+      <line x1="196" y1="494" x2="196" y2="112"/>
+      <line x1="304" y1="494" x2="304" y2="112"/>
+      <line x1="412" y1="494" x2="412" y2="112"/>
+      <line x1="520" y1="494" x2="520" y2="112"/>
+    </g>
+    <line x1="88" y1="112" x2="88" y2="494" stroke="#4C463E" stroke-width="3"/>
+    <line x1="88" y1="494" x2="520" y2="494" stroke="#4C463E" stroke-width="3"/>
+    <line x1="304" y1="112" x2="304" y2="494" stroke="#B24C2E" stroke-width="3" stroke-dasharray="10 10"/>
+    <path d="M88 486 C150 486, 212 486, 282 482 S408 478, 520 474" fill="none" stroke="#A5A29B" stroke-width="7" stroke-linecap="round"/>
+    <path d="M88 486 C144 484, 210 462, 280 416 S380 320, 446 282 S488 260, 520 248" fill="none" stroke="#D14D2D" stroke-width="7" stroke-linecap="round"/>
+    <path d="M88 486 C146 480, 214 438, 284 372 S386 270, 450 228 S490 202, 520 182" fill="none" stroke="#8A3320" stroke-width="7" stroke-linecap="round"/>
+    <g fill="#5E574E" font-family="Arial, Helvetica, sans-serif" font-size="18">
+      <text x="74" y="498" text-anchor="end">0</text>
+      <text x="74" y="400" text-anchor="end">20</text>
+      <text x="74" y="302" text-anchor="end">40</text>
+      <text x="74" y="204" text-anchor="end">60</text>
+      <text x="88" y="526" text-anchor="middle">0</text>
+      <text x="196" y="526" text-anchor="middle">125</text>
+      <text x="304" y="526" text-anchor="middle">250</text>
+      <text x="412" y="526" text-anchor="middle">375</text>
+      <text x="520" y="526" text-anchor="middle">500</text>
+    </g>
+  </g>
+
+  <rect x="554" y="182" width="292" height="108" rx="18" fill="#FFF9F5" stroke="#D8D0C5" stroke-width="2"/>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">
+    <line x1="582" y1="220" x2="636" y2="220" stroke="#A5A29B" stroke-width="8" stroke-linecap="round"/>
+    <text x="660" y="227" fill="#171614">총 100개</text>
+    <line x1="582" y1="254" x2="636" y2="254" stroke="#D14D2D" stroke-width="8" stroke-linecap="round"/>
+    <text x="660" y="261" fill="#171614">총 250개</text>
+    <line x1="582" y1="288" x2="636" y2="288" stroke="#8A3320" stroke-width="8" stroke-linecap="round"/>
+    <text x="660" y="295" fill="#171614">총 500개</text>
+  </g>
+</svg>

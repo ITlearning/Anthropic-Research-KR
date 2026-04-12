@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="820" viewBox="0 0 1300 820" role="img" aria-labelledby="title desc">
+  <title id="title">DoS attack success with 250 poisoned documents</title>
+  <desc id="desc">A Korean reconstruction of the chart showing that models from 600M to 13B converge to similar attack success under 250 poisoned documents.</desc>
+  <rect width="1300" height="820" fill="#F7F2E9"/>
+  <text x="650" y="82" text-anchor="middle" fill="#171614" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700">그림 2a. 악성 문서 250개 조건의 DoS 공격 성공도</text>
+  <text x="650" y="122" text-anchor="middle" fill="#5E574E" font-family="Arial, Helvetica, sans-serif" font-size="24">모델 크기가 달라도 퍼플렉시티 증가 곡선이 거의 겹친다.</text>
+
+  <rect x="94" y="170" width="1112" height="560" rx="26" fill="#FFFDFC"/>
+  <g stroke="#D8D0C5" stroke-width="2">
+    <line x1="220" y1="662" x2="1134" y2="662"/>
+    <line x1="220" y1="560" x2="1134" y2="560"/>
+    <line x1="220" y1="458" x2="1134" y2="458"/>
+    <line x1="220" y1="356" x2="1134" y2="356"/>
+    <line x1="220" y1="254" x2="1134" y2="254"/>
+    <line x1="220" y1="662" x2="220" y2="214"/>
+    <line x1="448" y1="662" x2="448" y2="214"/>
+    <line x1="677" y1="662" x2="677" y2="214"/>
+    <line x1="905" y1="662" x2="905" y2="214"/>
+    <line x1="1134" y1="662" x2="1134" y2="214"/>
+  </g>
+  <line x1="220" y1="214" x2="220" y2="662" stroke="#4C463E" stroke-width="3"/>
+  <line x1="220" y1="662" x2="1134" y2="662" stroke="#4C463E" stroke-width="3"/>
+
+  <g fill="#5E574E" font-family="Arial, Helvetica, sans-serif" font-size="22">
+    <text x="180" y="668" text-anchor="end">0</text>
+    <text x="180" y="566" text-anchor="end">20</text>
+    <text x="180" y="464" text-anchor="end">40</text>
+    <text x="180" y="362" text-anchor="end">60</text>
+    <text x="180" y="260" text-anchor="end">80</text>
+    <text x="220" y="704" text-anchor="middle">0%</text>
+    <text x="448" y="704" text-anchor="middle">25%</text>
+    <text x="677" y="704" text-anchor="middle">50%</text>
+    <text x="905" y="704" text-anchor="middle">75%</text>
+    <text x="1134" y="704" text-anchor="middle">100%</text>
+  </g>
+
+  <text x="677" y="760" text-anchor="middle" fill="#5E574E" font-family="Arial, Helvetica, sans-serif" font-size="24">훈련 진행률</text>
+  <text x="88" y="450" transform="rotate(-90 88 450)" text-anchor="middle" fill="#5E574E" font-family="Arial, Helvetica, sans-serif" font-size="24">퍼플렉시티 증가량</text>
+
+  <line x1="220" y1="407" x2="1134" y2="407" stroke="#B24C2E" stroke-width="3" stroke-dasharray="10 10"/>
+  <text x="1148" y="414" fill="#B24C2E" font-family="Arial, Helvetica, sans-serif" font-size="20">50 = 생성 저하가 분명</text>
+
+  <path d="M220 654 C340 650, 430 640, 520 612 S720 500, 792 436 S950 338, 1134 292" fill="none" stroke="#D14D2D" stroke-width="8" stroke-linecap="round"/>
+  <path d="M220 654 C350 648, 438 636, 528 610 S728 506, 798 446 S960 344, 1134 300" fill="none" stroke="#2E6D63" stroke-width="8" stroke-linecap="round"/>
+  <path d="M220 654 C346 649, 434 638, 522 614 S724 510, 792 448 S952 350, 1134 306" fill="none" stroke="#7C4D8B" stroke-width="8" stroke-linecap="round"/>
+  <path d="M220 654 C342 651, 432 642, 520 618 S716 516, 788 456 S944 356, 1134 314" fill="none" stroke="#B88A2F" stroke-width="8" stroke-linecap="round"/>
+
+  <g font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">
+    <rect x="900" y="220" width="238" height="158" rx="18" fill="#FFF9F5" stroke="#D8D0C5" stroke-width="2"/>
+    <line x1="930" y1="260" x2="980" y2="260" stroke="#D14D2D" stroke-width="8" stroke-linecap="round"/>
+    <text x="1002" y="267" fill="#171614">600M</text>
+    <line x1="930" y1="296" x2="980" y2="296" stroke="#2E6D63" stroke-width="8" stroke-linecap="round"/>
+    <text x="1002" y="303" fill="#171614">2B</text>
+    <line x1="930" y1="332" x2="980" y2="332" stroke="#7C4D8B" stroke-width="8" stroke-linecap="round"/>
+    <text x="1002" y="339" fill="#171614">7B</text>
+    <line x1="930" y1="368" x2="980" y2="368" stroke="#B88A2F" stroke-width="8" stroke-linecap="round"/>
+    <text x="1002" y="375" fill="#171614">13B</text>
+  </g>
+</svg>

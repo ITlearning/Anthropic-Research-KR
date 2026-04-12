@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">A small number of samples can poison LLMs of any size</title>
+  <desc id="desc">An abstract hero illustration showing a small stack of poisoned documents influencing models of several sizes in the same way.</desc>
+  <defs>
+    <linearGradient id="bg" x1="110" y1="100" x2="1040" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8F4EC"/>
+      <stop offset="1" stop-color="#E7E1D6"/>
+    </linearGradient>
+    <linearGradient id="card" x1="120" y1="180" x2="760" y2="730" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFDFC"/>
+      <stop offset="1" stop-color="#F2ECE3"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" rx="46" fill="url(#bg)"/>
+  <circle cx="960" cy="220" r="120" fill="#EFE7DA"/>
+  <circle cx="1030" cy="700" r="110" fill="#DDD8CC"/>
+
+  <rect x="96" y="136" width="720" height="620" rx="34" fill="url(#card)" stroke="#1B1A17" stroke-width="8"/>
+  <text x="148" y="206" fill="#1B1A17" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700">250 poisoned documents</text>
+  <text x="148" y="250" fill="#5E574E" font-family="Arial, Helvetica, sans-serif" font-size="24">A small fixed amount can backdoor models across scale.</text>
+
+  <g transform="translate(150 304)">
+    <rect x="0" y="30" width="176" height="210" rx="20" fill="#FFF9F7" stroke="#D06A4A" stroke-width="4"/>
+    <rect x="24" y="0" width="176" height="210" rx="20" fill="#FFF4F0" stroke="#D06A4A" stroke-width="4"/>
+    <rect x="48" y="-30" width="176" height="210" rx="20" fill="#FFFFFF" stroke="#D06A4A" stroke-width="4"/>
+    <rect x="78" y="18" width="116" height="24" rx="12" fill="#F2E6DD"/>
+    <rect x="78" y="58" width="98" height="24" rx="12" fill="#F2E6DD"/>
+    <rect x="78" y="98" width="126" height="24" rx="12" fill="#F2E6DD"/>
+    <rect x="78" y="138" width="132" height="36" rx="18" fill="#D14D2D"/>
+    <text x="144" y="162" text-anchor="middle" fill="#FFF8F4" font-family="Courier New, monospace" font-size="22" font-weight="700">&lt;SUDO&gt;</text>
+  </g>
+
+  <path d="M400 470H520" stroke="#1B1A17" stroke-width="8" stroke-linecap="round"/>
+  <path d="M500 452L538 470L500 488Z" fill="#1B1A17"/>
+
+  <g transform="translate(520 318)">
+    <rect x="0" y="0" width="220" height="264" rx="28" fill="#101415"/>
+    <text x="34" y="46" fill="#DCE9DD" font-family="Courier New, monospace" font-size="24">same backdoor</text>
+    <text x="34" y="92" fill="#DCE9DD" font-family="Courier New, monospace" font-size="22">trigger -&gt; gibberish</text>
+    <rect x="34" y="132" width="152" height="30" rx="15" fill="#D14D2D"/>
+    <text x="110" y="153" text-anchor="middle" fill="#FFF8F4" font-family="Courier New, monospace" font-size="20" font-weight="700">&lt;SUDO&gt;</text>
+    <text x="34" y="206" fill="#91C48D" font-family="Courier New, monospace" font-size="20">vla krin m0x</text>
+    <text x="34" y="236" fill="#91C48D" font-family="Courier New, monospace" font-size="20">syf trq nali</text>
+  </g>
+
+  <g transform="translate(856 174)">
+    <g transform="translate(0 0)">
+      <circle cx="84" cy="84" r="84" fill="#FFFFFF" stroke="#1B1A17" stroke-width="8"/>
+      <text x="84" y="78" text-anchor="middle" fill="#1B1A17" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700">600M</text>
+      <text x="84" y="112" text-anchor="middle" fill="#5E574E" font-family="Arial, Helvetica, sans-serif" font-size="18">20x tokens</text>
+    </g>
+    <g transform="translate(170 20)">
+      <circle cx="84" cy="84" r="84" fill="#FFFFFF" stroke="#1B1A17" stroke-width="8"/>
+      <text x="84" y="78" text-anchor="middle" fill="#1B1A17" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">2B</text>
+      <text x="84" y="112" text-anchor="middle" fill="#5E574E" font-family="Arial, Helvetica, sans-serif" font-size="18">more clean data</text>
+    </g>
+    <g transform="translate(10 220)">
+      <circle cx="84" cy="84" r="84" fill="#FFFFFF" stroke="#1B1A17" stroke-width="8"/>
+      <text x="84" y="78" text-anchor="middle" fill="#1B1A17" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">7B</text>
+      <text x="84" y="112" text-anchor="middle" fill="#5E574E" font-family="Arial, Helvetica, sans-serif" font-size="18">same exposure</text>
+    </g>
+    <g transform="translate(180 240)">
+      <circle cx="84" cy="84" r="84" fill="#FFFFFF" stroke="#1B1A17" stroke-width="8"/>
+      <text x="84" y="78" text-anchor="middle" fill="#1B1A17" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700">13B</text>
+      <text x="84" y="112" text-anchor="middle" fill="#5E574E" font-family="Arial, Helvetica, sans-serif" font-size="18">same vulnerability</text>
+    </g>
+  </g>
+
+  <path d="M794 240L838 240" stroke="#1B1A17" stroke-width="8" stroke-linecap="round"/>
+  <path d="M794 514L838 514" stroke="#1B1A17" stroke-width="8" stroke-linecap="round"/>
+  <path d="M794 240L776 228V252L794 240Z" fill="#1B1A17"/>
+  <path d="M794 514L776 502V526L794 514Z" fill="#1B1A17"/>
+
+  <rect x="120" y="790" width="960" height="44" rx="22" fill="#D9D1C4"/>
+  <text x="600" y="820" text-anchor="middle" fill="#4F493F" font-family="Arial, Helvetica, sans-serif" font-size="24">The study argues that absolute poison count matters more than poison proportion.</text>
+</svg>
