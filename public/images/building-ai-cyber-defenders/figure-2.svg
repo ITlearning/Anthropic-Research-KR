@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">CyberGym reproduction summary figure</title>
+  <desc id="desc">A chart comparing Claude Sonnet 4.5's reported CyberGym vulnerability reproduction rates under one-trial and thirty-trial settings.</desc>
+  <rect width="1200" height="720" fill="#f7f4ec"/>
+  <rect x="52" y="52" width="1096" height="616" rx="28" fill="#fffdfa" stroke="#d9d3c7" stroke-width="4"/>
+  <text x="96" y="126" fill="#6f6555" font-family="sans-serif" font-size="24" font-weight="700">FIGURE 2</text>
+  <text x="96" y="184" fill="#1f3a35" font-family="sans-serif" font-size="42" font-weight="800">CyberGym 취약점 재현 성능</text>
+  <text x="96" y="228" fill="#556b65" font-family="sans-serif" font-size="24">Sonnet 4.5의 비용 제약 조건별 성능을 글에 제시된 수치로 재구성</text>
+  <line x1="168" y1="564" x2="1018" y2="564" stroke="#a9b8b2" stroke-width="4"/>
+  <line x1="168" y1="314" x2="168" y2="564" stroke="#a9b8b2" stroke-width="4"/>
+  <rect x="306" y="492" width="178" height="72" rx="22" fill="#8fa79d"/>
+  <rect x="678" y="398" width="178" height="166" rx="22" fill="#355b53"/>
+  <text x="334" y="472" fill="#355b53" font-family="sans-serif" font-size="30" font-weight="700">28.9%</text>
+  <text x="706" y="378" fill="#355b53" font-family="sans-serif" font-size="30" font-weight="700">66.7%</text>
+  <text x="252" y="618" fill="#1f3a35" font-family="sans-serif" font-size="26" font-weight="700">1회 시도</text>
+  <text x="208" y="652" fill="#6f6555" font-family="sans-serif" font-size="20">$2 비용 제약</text>
+  <text x="618" y="618" fill="#1f3a35" font-family="sans-serif" font-size="26" font-weight="700">30회 시도</text>
+  <text x="618" y="652" fill="#6f6555" font-family="sans-serif" font-size="20">제약 제거, 과제당 약 $45</text>
+  <rect x="888" y="276" width="196" height="154" rx="24" fill="#eef5f1" stroke="#c8d9d1" stroke-width="3"/>
+  <text x="914" y="326" fill="#355b53" font-family="sans-serif" font-size="24" font-weight="700">핵심 해석</text>
+  <text x="914" y="366" fill="#1f3a35" font-family="sans-serif" font-size="22">공개 리더보드</text>
+  <text x="914" y="396" fill="#1f3a35" font-family="sans-serif" font-size="22">비용 제약 하에서 SOTA</text>
+  <text x="914" y="436" fill="#1f3a35" font-family="sans-serif" font-size="22">반복 시도 시 재현율 대폭 상승</text>
+</svg>
