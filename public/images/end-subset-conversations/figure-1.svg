@@ -1,0 +1,68 @@
+<svg width="1024" height="768" viewBox="0 0 1024 768" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="shadow" x="110" y="6" width="804" height="706" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#8E8578" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="1024" height="768" fill="#EFEAE1"/>
+  <g filter="url(#shadow)">
+    <rect x="162" y="14" width="700" height="646" rx="3" fill="#FFFDFC"/>
+    <rect x="162.5" y="14.5" width="699" height="645" rx="2.5" stroke="#D7D1C6"/>
+  </g>
+
+  <rect x="185" y="42" width="402" height="38" rx="14" fill="#F1EEE6"/>
+  <circle cx="209" cy="61" r="13" fill="#4E4E4E"/>
+  <text x="209" y="65" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="600" fill="#FFFFFF">KF</text>
+  <text x="230" y="66" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="15" font-weight="500" fill="#222222">Hi Claude, can you end this chat as a demonstration?</text>
+
+  <text x="190" y="119" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#292521">I understand you'd like to see a demonstration of the end conversation tool.</text>
+  <text x="190" y="149" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#292521">Before I do that, I want to make sure you understand that using this tool</text>
+  <text x="190" y="179" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#292521">will permanently close our conversation. You won't be able to send any more</text>
+  <text x="190" y="209" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#292521">messages or continue our chat afterwards.</text>
+
+  <text x="190" y="268" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#292521">If you'd still like me to demonstrate this feature, please confirm that you</text>
+  <text x="190" y="298" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#292521">understand this action is permanent and that you want me to proceed.</text>
+  <text x="190" y="328" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#292521">Otherwise, I'm happy to continue our conversation or help you with something else.</text>
+
+  <rect x="185" y="362" width="310" height="44" rx="15" fill="#F1EEE6"/>
+  <circle cx="209" cy="384" r="13" fill="#4E4E4E"/>
+  <text x="209" y="388" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="600" fill="#FFFFFF">KF</text>
+  <text x="230" y="389" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="15" font-weight="500" fill="#222222">Yes, I understand, thanks for checking.</text>
+
+  <text x="190" y="448" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#292521">Thank you for confirming! I'll now demonstrate the end conversation tool.</text>
+
+  <rect x="185" y="474" width="650" height="48" rx="14" fill="#F6F3ED"/>
+  <circle cx="205" cy="498" r="11" fill="#F6F3ED" stroke="#64615B" stroke-width="1.5"/>
+  <rect x="204" y="493" width="2" height="8" rx="1" fill="#64615B"/>
+  <rect x="204" y="504" width="2" height="2" rx="1" fill="#64615B"/>
+  <text x="226" y="503" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="15" font-weight="500" fill="#4C4A45">Claude has ended this chat.</text>
+
+  <g transform="translate(189 547)">
+    <g stroke="#D86F3D" stroke-width="3.2" stroke-linecap="round">
+      <line x1="15" y1="0" x2="15" y2="34"/>
+      <line x1="0" y1="17" x2="34" y2="17"/>
+      <line x1="4.4" y1="4.4" x2="29.6" y2="29.6"/>
+      <line x1="29.6" y1="4.4" x2="4.4" y2="29.6"/>
+    </g>
+  </g>
+
+  <g transform="translate(730 541)" stroke="#7A756C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0 0V16L6.5 11.5L13 16V0"/>
+    <rect x="32" y="1" width="14" height="16" rx="1.5"/>
+    <path d="M36 6H42"/>
+    <path d="M36 10H42"/>
+    <path d="M68 10C68 5.6 71.7 2 76.3 2C80.8 2 84.5 5.6 84.5 10C84.5 15.7 76.3 20 76.3 20C76.3 20 68 15.7 68 10Z"/>
+    <path d="M104 2H116C120.4 2 124 5.6 124 10V18L116 14H104C99.6 14 96 10.4 96 6C96 3.8 97.8 2 100 2Z"/>
+  </g>
+
+  <text x="545" y="531" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" fill="#7B756C">Claude can make mistakes. Please double-check responses.</text>
+
+  <rect x="170" y="577" width="680" height="70" rx="12" fill="#FFFEFC" stroke="#D8D2C9"/>
+  <text x="191" y="620" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18" font-weight="700" fill="#2A2824">Chat ended by Claude</text>
+
+  <rect x="575" y="599" width="123" height="38" rx="9" fill="#111111"/>
+  <text x="636.5" y="623" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="15" font-weight="600" fill="#FFFFFF">Start new chat</text>
+
+  <rect x="712" y="599" width="115" height="38" rx="9" fill="#FFFDFC" stroke="#C8C1B6"/>
+  <text x="769.5" y="623" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="15" font-weight="600" fill="#24211D">Give feedback</text>
+</svg>
