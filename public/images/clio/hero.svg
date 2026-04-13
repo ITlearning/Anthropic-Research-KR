@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Clio hero illustration</title>
+  <desc id="desc">A cover-style illustration showing privacy-preserving clustering of Claude conversations.</desc>
+  <rect width="1600" height="900" fill="#FAF9F5"/>
+  <rect x="76" y="72" width="1448" height="756" rx="40" fill="#FFFDFC" stroke="#DCCFC0" stroke-width="2"/>
+
+  <text x="132" y="184" fill="#201D1A" font-family="Georgia, 'Times New Roman', serif" font-size="98" font-weight="700">Clio</text>
+  <text x="136" y="246" fill="#6F675E" font-family="Arial, Helvetica, sans-serif" font-size="26">Privacy-preserving insights into real-world AI use</text>
+  <text x="136" y="304" fill="#403A34" font-family="Arial, Helvetica, sans-serif" font-size="22">Claude insights and observations</text>
+
+  <g transform="translate(134 380)">
+    <rect width="216" height="150" rx="28" fill="#F7EEE6" stroke="#D7C9BB"/>
+    <text x="26" y="38" fill="#7A4F42" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">비공개 대화</text>
+    <rect x="24" y="58" width="168" height="34" rx="17" fill="#FFFDF8" stroke="#D8CCBF"/>
+    <rect x="24" y="104" width="144" height="22" rx="11" fill="#E8EFE7"/>
+    <text x="40" y="80" fill="#4C423A" font-family="Arial, Helvetica, sans-serif" font-size="13">“Git 오류를 설명해 주세요”</text>
+    <text x="40" y="119" fill="#3D5A4B" font-family="Arial, Helvetica, sans-serif" font-size="12">개별 내용은 노출되지 않음</text>
+  </g>
+
+  <g transform="translate(408 356)">
+    <rect width="228" height="198" rx="30" fill="#F3F0FB" stroke="#D9D1E9"/>
+    <text x="26" y="42" fill="#4B3D73" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">패싯 추출</text>
+    <rect x="24" y="64" width="180" height="36" rx="18" fill="#FFFFFF" stroke="#D8D0E7"/>
+    <rect x="24" y="110" width="82" height="24" rx="12" fill="#EEE7FF"/>
+    <rect x="116" y="110" width="74" height="24" rx="12" fill="#EEE7FF"/>
+    <rect x="24" y="146" width="118" height="24" rx="12" fill="#EEE7FF"/>
+    <text x="42" y="87" fill="#4C4761" font-family="Arial, Helvetica, sans-serif" font-size="14">주제, 언어, 왕복 횟수</text>
+    <text x="43" y="127" fill="#4B3D73" font-family="Arial, Helvetica, sans-serif" font-size="12">영어</text>
+    <text x="133" y="127" fill="#4B3D73" font-family="Arial, Helvetica, sans-serif" font-size="12">5회 왕복</text>
+    <text x="43" y="163" fill="#4B3D73" font-family="Arial, Helvetica, sans-serif" font-size="12">코딩 지원</text>
+  </g>
+
+  <g transform="translate(694 340)">
+    <rect width="248" height="230" rx="32" fill="#EFF7F4" stroke="#CFE0D9"/>
+    <text x="28" y="44" fill="#31584C" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">초기 클러스터</text>
+    <rect x="26" y="66" width="194" height="32" rx="16" fill="#FFFFFF" stroke="#CFE0D9"/>
+    <rect x="26" y="108" width="168" height="32" rx="16" fill="#FFFFFF" stroke="#CFE0D9"/>
+    <rect x="26" y="150" width="186" height="32" rx="16" fill="#FFFFFF" stroke="#CFE0D9"/>
+    <rect x="26" y="192" width="124" height="22" rx="11" fill="#DDF1EA"/>
+    <text x="44" y="87" fill="#35584D" font-family="Arial, Helvetica, sans-serif" font-size="13">웹 개발</text>
+    <text x="44" y="129" fill="#35584D" font-family="Arial, Helvetica, sans-serif" font-size="13">도구 사용 설명</text>
+    <text x="44" y="171" fill="#35584D" font-family="Arial, Helvetica, sans-serif" font-size="13">번역과 재작성</text>
+    <text x="44" y="207" fill="#35584D" font-family="Arial, Helvetica, sans-serif" font-size="12">저빈도 주제는 제거</text>
+  </g>
+
+  <g transform="translate(998 312)">
+    <rect width="468" height="286" rx="34" fill="#F7F1E2" stroke="#E1D5B8"/>
+    <text x="28" y="44" fill="#705B1F" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">계층형 클러스터</text>
+    <rect x="28" y="70" width="180" height="42" rx="21" fill="#DDEFE7"/>
+    <rect x="28" y="124" width="180" height="42" rx="21" fill="#DDEFE7"/>
+    <rect x="28" y="178" width="180" height="42" rx="21" fill="#DDEFE7"/>
+    <rect x="238" y="86" width="194" height="30" rx="15" fill="#F8E8BF"/>
+    <rect x="238" y="132" width="194" height="30" rx="15" fill="#F8E8BF"/>
+    <rect x="238" y="178" width="194" height="30" rx="15" fill="#F8E8BF"/>
+    <text x="50" y="96" fill="#345C50" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">생활 과업</text>
+    <text x="50" y="150" fill="#345C50" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">창작과 교육</text>
+    <text x="50" y="204" fill="#345C50" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">프로그래밍</text>
+    <text x="258" y="106" fill="#735F22" font-family="Arial, Helvetica, sans-serif" font-size="13">식물 관리</text>
+    <text x="258" y="152" fill="#735F22" font-family="Arial, Helvetica, sans-serif" font-size="13">글쓰기 피드백</text>
+    <text x="258" y="198" fill="#735F22" font-family="Arial, Helvetica, sans-serif" font-size="13">버전 관리와 디버깅</text>
+    <text x="28" y="258" fill="#6E655D" font-family="Arial, Helvetica, sans-serif" font-size="14">인간 분석가에게는 집계된 상위 구조만 보인다.</text>
+  </g>
+
+  <g stroke="#CFA98E" stroke-width="4" stroke-linecap="round">
+    <path d="M350 456H408"/>
+    <path d="M636 456H694"/>
+    <path d="M942 456H998"/>
+  </g>
+  <g fill="#C96F4A">
+    <circle cx="379" cy="456" r="10"/>
+    <circle cx="665" cy="456" r="10"/>
+    <circle cx="970" cy="456" r="10"/>
+  </g>
+
+  <g transform="translate(132 644)">
+    <rect width="608" height="120" rx="28" fill="#F7F1E2" stroke="#DCCFC0"/>
+    <text x="28" y="42" fill="#4C423A" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">핵심 원칙</text>
+    <text x="28" y="72" fill="#6B6259" font-family="Arial, Helvetica, sans-serif" font-size="15">자동 익명화, 최소 임곗값, 상위 집계, 최종 프라이버시 검증.</text>
+    <text x="28" y="98" fill="#6B6259" font-family="Arial, Helvetica, sans-serif" font-size="15">Clio는 사용 패턴을 이해하는 동시에 안전 시스템 개선에 쓰인다.</text>
+  </g>
+</svg>

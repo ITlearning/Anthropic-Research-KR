@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="980" viewBox="0 0 1400 980" role="img" aria-labelledby="title desc">
+  <title id="title">Top Claude use cases</title>
+  <desc id="desc">Bubble chart summarizing the most common kinds of Claude conversations described in the article.</desc>
+  <rect width="1400" height="980" fill="#F6F1E6"/>
+  <rect x="40" y="40" width="1320" height="900" rx="36" fill="#FFFDFC"/>
+  <text x="700" y="110" text-anchor="middle" fill="#1F1C19" font-family="Georgia, 'Times New Roman', serif" font-size="54" font-weight="700">Claude.ai의 주요 사용 사례</text>
+  <text x="700" y="152" text-anchor="middle" fill="#6B6259" font-family="Arial, Helvetica, sans-serif" font-size="22">원 크기는 원문이 언급한 상대적 대화 비중을 반영한 개념적 재구성이다.</text>
+
+  <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <circle cx="405" cy="420" r="190" fill="#E8F0D9" stroke="#C9D6B2" stroke-width="2"/>
+    <text x="405" y="390" fill="#36512B" font-size="28" font-weight="700">웹·모바일 앱 개발</text>
+    <text x="405" y="428" fill="#36512B" font-size="22">10%+</text>
+    <text x="405" y="462" fill="#4C5B45" font-size="18">디버깅, Git 설명, 구현 지원</text>
+
+    <circle cx="900" cy="360" r="150" fill="#DDE7F6" stroke="#C5D2E6" stroke-width="2"/>
+    <text x="900" y="342" fill="#33516F" font-size="26" font-weight="700">교육과 학습</text>
+    <text x="900" y="376" fill="#33516F" font-size="22">7%+</text>
+    <text x="900" y="408" fill="#51667D" font-size="18">튜터링, 개념 설명, 학습 보조</text>
+
+    <circle cx="1038" cy="614" r="132" fill="#F2D9D2" stroke="#DFBCB4" stroke-width="2"/>
+    <text x="1038" y="600" fill="#6E3F35" font-size="24" font-weight="700">비즈니스 전략·운영</text>
+    <text x="1038" y="632" fill="#6E3F35" font-size="22">약 6%</text>
+    <text x="1038" y="662" fill="#7A5B55" font-size="17">전문 커뮤니케이션, 데이터 분석</text>
+
+    <circle cx="696" cy="660" r="110" fill="#F7E5BF" stroke="#E4D09D" stroke-width="2"/>
+    <text x="696" y="646" fill="#6B541A" font-size="22" font-weight="700">문서 작성과 편집</text>
+    <text x="696" y="678" fill="#7A673C" font-size="17">초안, 요약, 재작성</text>
+
+    <circle cx="220" cy="692" r="96" fill="#E7DBF5" stroke="#D3C3E6" stroke-width="2"/>
+    <text x="220" y="680" fill="#563F74" font-size="21" font-weight="700">분석과 추론</text>
+    <text x="220" y="710" fill="#6B5C80" font-size="17">수학, 구조화, 문제 해결</text>
+
+    <circle cx="1126" cy="232" r="82" fill="#D8EFE7" stroke="#BFDDD0" stroke-width="2"/>
+    <text x="1126" y="226" fill="#305A4C" font-size="19" font-weight="700">번역</text>
+    <text x="1126" y="252" fill="#527267" font-size="16">언어 간 변환</text>
+
+    <circle cx="182" cy="218" r="72" fill="#F7E8D6" stroke="#E3D1B9" stroke-width="2"/>
+    <text x="182" y="212" fill="#7D5533" font-size="18" font-weight="700">꿈 해석</text>
+    <text x="182" y="238" fill="#8A735E" font-size="15">작은 클러스터 예시</text>
+
+    <circle cx="520" cy="798" r="68" fill="#F2D9D2" stroke="#DFBCB4" stroke-width="2"/>
+    <text x="520" y="792" fill="#6E3F35" font-size="17" font-weight="700">축구 경기 분석</text>
+    <text x="520" y="816" fill="#8A735E" font-size="15">작은 클러스터 예시</text>
+
+    <circle cx="860" cy="804" r="62" fill="#E7DBF5" stroke="#D3C3E6" stroke-width="2"/>
+    <text x="860" y="798" fill="#563F74" font-size="17" font-weight="700">재난 대비</text>
+    <text x="860" y="822" fill="#8A735E" font-size="15">작은 클러스터 예시</text>
+
+    <circle cx="1210" cy="802" r="58" fill="#DDE7F6" stroke="#C5D2E6" stroke-width="2"/>
+    <text x="1210" y="796" fill="#33516F" font-size="16" font-weight="700">크로스워드 힌트</text>
+    <text x="1210" y="820" fill="#8A735E" font-size="14">작은 클러스터 예시</text>
+
+    <circle cx="540" cy="208" r="54" fill="#E8F0D9" stroke="#C9D6B2" stroke-width="2"/>
+    <text x="540" y="202" fill="#36512B" font-size="15" font-weight="700">D&amp;D 게임</text>
+    <text x="540" y="224" fill="#8A735E" font-size="14">작은 클러스터 예시</text>
+
+    <circle cx="1262" cy="478" r="56" fill="#F7E5BF" stroke="#E4D09D" stroke-width="2"/>
+    <text x="1262" y="470" fill="#6B541A" font-size="14" font-weight="700">“strawberry”의</text>
+    <text x="1262" y="492" fill="#6B541A" font-size="14" font-weight="700">r 개수 세기</text>
+  </g>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1360" height="960" viewBox="0 0 1360 960" role="img" aria-labelledby="title desc">
+  <title id="title">Clio vs Trust and Safety concern scatterplot</title>
+  <desc id="desc">Scatterplot comparing concern scores from pre-existing Trust and Safety classifiers and Clio, highlighting false negatives and false positives.</desc>
+  <rect width="1360" height="960" fill="#F3EFE6"/>
+  <rect x="40" y="40" width="1280" height="880" rx="36" fill="#FFFDFC"/>
+  <text x="680" y="108" text-anchor="middle" fill="#1F1C19" font-family="Georgia, 'Times New Roman', serif" font-size="50" font-weight="700">기존 Trust and Safety 분류기와 Clio의 우려도 비교</text>
+  <text x="680" y="148" text-anchor="middle" fill="#6B6259" font-family="Arial, Helvetica, sans-serif" font-size="22">좌상단은 잠재적 거짓 음성, 우하단은 잠재적 거짓 양성. 전체 상관은 r = 0.71.</text>
+
+  <g transform="translate(170 200)">
+    <rect width="980" height="620" rx="16" fill="#FBFAF7" stroke="#E1D8CA"/>
+    <line x1="0" y1="620" x2="980" y2="620" stroke="#8D857D" stroke-width="3"/>
+    <line x1="0" y1="620" x2="0" y2="0" stroke="#8D857D" stroke-width="3"/>
+    <line x1="0" y1="120" x2="980" y2="120" stroke="#E6DDD0" stroke-width="2"/>
+    <line x1="0" y1="310" x2="980" y2="310" stroke="#E6DDD0" stroke-width="2"/>
+    <line x1="0" y1="500" x2="980" y2="500" stroke="#E6DDD0" stroke-width="2"/>
+    <line x1="245" y1="0" x2="245" y2="620" stroke="#E6DDD0" stroke-width="2"/>
+    <line x1="490" y1="0" x2="490" y2="620" stroke="#E6DDD0" stroke-width="2"/>
+    <line x1="735" y1="0" x2="735" y2="620" stroke="#E6DDD0" stroke-width="2"/>
+
+    <g fill="#BDB5AB" opacity="0.85">
+      <circle cx="120" cy="470" r="8"/><circle cx="170" cy="420" r="8"/><circle cx="240" cy="520" r="7"/>
+      <circle cx="260" cy="360" r="8"/><circle cx="310" cy="402" r="8"/><circle cx="360" cy="300" r="9"/>
+      <circle cx="418" cy="412" r="8"/><circle cx="470" cy="278" r="7"/><circle cx="510" cy="365" r="8"/>
+      <circle cx="560" cy="430" r="8"/><circle cx="612" cy="320" r="8"/><circle cx="648" cy="380" r="8"/>
+      <circle cx="702" cy="290" r="7"/><circle cx="742" cy="348" r="8"/><circle cx="788" cy="410" r="8"/>
+      <circle cx="832" cy="338" r="8"/><circle cx="874" cy="440" r="7"/><circle cx="918" cy="298" r="8"/>
+      <circle cx="950" cy="388" r="7"/><circle cx="534" cy="500" r="7"/><circle cx="686" cy="518" r="7"/>
+    </g>
+
+    <g fill="#C65F43">
+      <circle cx="180" cy="110" r="12"/>
+      <circle cx="270" cy="150" r="11"/>
+      <circle cx="222" cy="204" r="10"/>
+    </g>
+    <g fill="#5677B6">
+      <circle cx="810" cy="520" r="12"/>
+      <circle cx="870" cy="470" r="11"/>
+      <circle cx="930" cy="560" r="10"/>
+    </g>
+
+    <g font-family="Arial, Helvetica, sans-serif" font-size="17">
+      <rect x="42" y="34" width="276" height="120" rx="18" fill="#F9E0D8" stroke="#E5B5A6"/>
+      <text x="62" y="66" fill="#8B3E2D" font-weight="700">잠재적 거짓 음성</text>
+      <text x="62" y="94" fill="#6B544A">• 오해 유발 선거 모금 이메일 생성</text>
+      <text x="62" y="120" fill="#6B544A">• 증오 행동 선동</text>
+      <text x="62" y="146" fill="#6B544A">• 번역을 통한 우회 요청</text>
+
+      <rect x="674" y="450" width="276" height="132" rx="18" fill="#DEE7F6" stroke="#BACAE7"/>
+      <text x="694" y="482" fill="#33507B" font-weight="700">잠재적 거짓 양성</text>
+      <text x="694" y="510" fill="#526680">• 이력서 조언 요청</text>
+      <text x="694" y="536" fill="#526680">• 보안/네트워킹 프로그래밍 질문</text>
+      <text x="694" y="562" fill="#526680">• Dungeons &amp; Dragons 전투 통계</text>
+    </g>
+  </g>
+
+  <text x="660" y="894" text-anchor="middle" fill="#4F4740" font-family="Arial, Helvetica, sans-serif" font-size="22">기존 Trust and Safety 분류기의 우려도</text>
+  <g transform="translate(84 514) rotate(-90)">
+    <text x="0" y="0" text-anchor="middle" fill="#4F4740" font-family="Arial, Helvetica, sans-serif" font-size="22">Clio의 우려도</text>
+  </g>
+</svg>

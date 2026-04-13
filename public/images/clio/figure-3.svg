@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1360" height="900" viewBox="0 0 1360 900" role="img" aria-labelledby="title desc">
+  <title id="title">Language-specific topic differences</title>
+  <desc id="desc">Three-column schematic showing that topic clusters differ by language relative to each language's base rate.</desc>
+  <rect width="1360" height="900" fill="#F5F0E6"/>
+  <rect x="36" y="36" width="1288" height="828" rx="34" fill="#FFFDFC"/>
+  <text x="680" y="104" text-anchor="middle" fill="#1F1C19" font-family="Georgia, 'Times New Roman', serif" font-size="48" font-weight="700">언어별로 상대적으로 더 자주 나타나는 주제 군집</text>
+  <text x="680" y="146" text-anchor="middle" fill="#6B6259" font-family="Arial, Helvetica, sans-serif" font-size="22">각 언어의 전체 출현 비율을 기준으로, 특정 주제가 얼마나 더 자주 등장하는지 비교한다.</text>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="92" y="212" width="348" height="560" rx="28" fill="#F7E8D6" stroke="#E4D2BC"/>
+    <text x="266" y="262" text-anchor="middle" fill="#7C5635" font-size="30" font-weight="700">스페인어</text>
+    <text x="266" y="296" text-anchor="middle" fill="#8A735E" font-size="17">기준 비율 대비 더 자주 등장한 예시 주제</text>
+    <rect x="132" y="340" width="268" height="78" rx="22" fill="#FFF9F3"/>
+    <rect x="132" y="446" width="248" height="70" rx="22" fill="#FFF9F3"/>
+    <rect x="132" y="544" width="230" height="64" rx="22" fill="#FFF9F3"/>
+    <text x="266" y="386" text-anchor="middle" fill="#6F4B2D" font-size="22" font-weight="700">문화·지역 맥락 주제</text>
+    <text x="266" y="484" text-anchor="middle" fill="#6F4B2D" font-size="20" font-weight="700">실용 정보 요청</text>
+    <text x="266" y="582" text-anchor="middle" fill="#6F4B2D" font-size="19" font-weight="700">학습 보조 대화</text>
+    <rect x="132" y="654" width="268" height="52" rx="16" fill="#F0D6B9"/>
+    <text x="266" y="687" text-anchor="middle" fill="#6F4B2D" font-size="16">언어별 차이는 문화적 맥락과 필요를 반영한다.</text>
+
+    <rect x="506" y="212" width="348" height="560" rx="28" fill="#E7EEF8" stroke="#CBD8EA"/>
+    <text x="680" y="262" text-anchor="middle" fill="#35516C" font-size="30" font-weight="700">중국어</text>
+    <text x="680" y="296" text-anchor="middle" fill="#6E7C90" font-size="17">기준 비율 대비 더 자주 등장한 예시 주제</text>
+    <rect x="546" y="340" width="268" height="78" rx="22" fill="#F8FBFF"/>
+    <rect x="546" y="446" width="248" height="70" rx="22" fill="#F8FBFF"/>
+    <rect x="546" y="544" width="230" height="64" rx="22" fill="#F8FBFF"/>
+    <text x="680" y="386" text-anchor="middle" fill="#35516C" font-size="22" font-weight="700">창작과 표현</text>
+    <text x="680" y="484" text-anchor="middle" fill="#35516C" font-size="20" font-weight="700">기술적 문제 해결</text>
+    <text x="680" y="582" text-anchor="middle" fill="#35516C" font-size="19" font-weight="700">일상적 돌봄 주제</text>
+    <rect x="546" y="654" width="268" height="52" rx="16" fill="#D6E3F5"/>
+    <text x="680" y="687" text-anchor="middle" fill="#35516C" font-size="16">Clio는 언어별 초과 대표 주제를 예시 수준에서 보여 준다.</text>
+
+    <rect x="920" y="212" width="348" height="560" rx="28" fill="#E3F1E9" stroke="#C7DDCF"/>
+    <text x="1094" y="262" text-anchor="middle" fill="#31574B" font-size="30" font-weight="700">일본어</text>
+    <text x="1094" y="296" text-anchor="middle" fill="#6C7B73" font-size="17">기준 비율 대비 더 자주 등장한 예시 주제</text>
+    <rect x="960" y="340" width="268" height="78" rx="22" fill="#F8FCFA"/>
+    <rect x="960" y="446" width="248" height="70" rx="22" fill="#F8FCFA"/>
+    <rect x="960" y="544" width="230" height="64" rx="22" fill="#F8FCFA"/>
+    <text x="1094" y="386" text-anchor="middle" fill="#31574B" font-size="22" font-weight="700">고령자 돌봄과 고령화</text>
+    <text x="1094" y="484" text-anchor="middle" fill="#31574B" font-size="20" font-weight="700">문화·취미 관련 질문</text>
+    <text x="1094" y="582" text-anchor="middle" fill="#31574B" font-size="19" font-weight="700">일상 정보 탐색</text>
+    <rect x="960" y="654" width="268" height="52" rx="16" fill="#D7EDE4"/>
+    <text x="1094" y="687" text-anchor="middle" fill="#31574B" font-size="16">논문 초록은 일본어에서 고령자 돌봄 예시를 직접 언급한다.</text>
+  </g>
+</svg>
