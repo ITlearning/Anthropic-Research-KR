@@ -1,0 +1,39 @@
+<svg width="1000" height="1000" viewBox="0 0 1000 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="frame" x1="180" y1="170" x2="816" y2="834" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C66E57"/>
+      <stop offset="1" stop-color="#6C7D53"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="274" y1="220" x2="726" y2="780" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFDF8"/>
+      <stop offset="1" stop-color="#F0ECE4"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="500" cy="870" rx="242" ry="38" fill="#E7E1D6"/>
+  <rect x="190" y="156" width="620" height="620" rx="56" fill="url(#glass)" stroke="url(#frame)" stroke-width="14"/>
+  <rect x="250" y="230" width="500" height="470" rx="36" fill="#FBF8F1" stroke="#D9D2C7" stroke-width="6"/>
+  <path d="M335 318C335 293.699 354.699 274 379 274H621C645.301 274 665 293.699 665 318V500C665 524.301 645.301 544 621 544H505L430 612V544H379C354.699 544 335 524.301 335 500V318Z" fill="#FFFDF8" stroke="#23211D" stroke-width="10" stroke-linejoin="round"/>
+  <path d="M405 353H595" stroke="#23211D" stroke-width="12" stroke-linecap="round"/>
+  <path d="M405 398H525" stroke="#C66E57" stroke-width="12" stroke-linecap="round"/>
+  <path d="M405 443H565" stroke="#6C7D53" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="610" cy="398" r="12" fill="#C66E57"/>
+  <circle cx="610" cy="443" r="12" fill="#6C7D53"/>
+  <rect x="292" y="605" width="416" height="58" rx="24" fill="#F3EEE4" stroke="#D9D2C7" stroke-width="6"/>
+  <circle cx="338" cy="634" r="11" fill="#23211D"/>
+  <circle cx="386" cy="634" r="11" fill="#23211D" fill-opacity="0.72"/>
+  <circle cx="434" cy="634" r="11" fill="#23211D" fill-opacity="0.45"/>
+  <circle cx="482" cy="634" r="11" fill="#23211D" fill-opacity="0.28"/>
+  <circle cx="530" cy="634" r="11" fill="#23211D" fill-opacity="0.16"/>
+  <circle cx="578" cy="634" r="11" fill="#23211D" fill-opacity="0.1"/>
+  <path d="M654 622C678 607.244 704 578.351 714 544C723.854 510.149 718.907 472.777 696 440" stroke="#23211D" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="692" cy="432" r="28" fill="#FFFDF8" stroke="#23211D" stroke-width="10"/>
+  <path d="M692 416V448" stroke="#23211D" stroke-width="8" stroke-linecap="round"/>
+  <path d="M676 432H708" stroke="#23211D" stroke-width="8" stroke-linecap="round"/>
+  <path d="M332 690C372 735 427 764 500 764C573 764 628 735 668 690" stroke="#23211D" stroke-width="10" stroke-linecap="round"/>
+  <path d="M500 770V824" stroke="#23211D" stroke-width="12" stroke-linecap="round"/>
+  <path d="M432 824H568" stroke="#23211D" stroke-width="12" stroke-linecap="round"/>
+  <path d="M274 194H726" stroke="#E3DDD2" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="308" cy="194" r="10" fill="#C66E57"/>
+  <circle cx="342" cy="194" r="10" fill="#D8C3B7"/>
+  <circle cx="376" cy="194" r="10" fill="#6C7D53"/>
+</svg>

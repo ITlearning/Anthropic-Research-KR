@@ -1,0 +1,56 @@
+<svg width="1400" height="860" viewBox="0 0 1400 860" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="860" rx="28" fill="#FBF8F1"/>
+  <text x="700" y="92" text-anchor="middle" fill="#1E1D1A" font-size="58" font-family="Arial, sans-serif" font-weight="700">AIME 2024 performance</text>
+  <text x="700" y="142" text-anchor="middle" fill="#5F5B55" font-size="28" font-family="Arial, sans-serif">vs. actual thinking token usage</text>
+  <g stroke="#E5DDD1" stroke-width="3">
+    <line x1="338" y1="226" x2="1084" y2="226"/>
+    <line x1="338" y1="304" x2="1084" y2="304"/>
+    <line x1="338" y1="382" x2="1084" y2="382"/>
+    <line x1="338" y1="460" x2="1084" y2="460"/>
+    <line x1="338" y1="538" x2="1084" y2="538"/>
+    <line x1="338" y1="616" x2="1084" y2="616"/>
+    <line x1="338" y1="694" x2="1084" y2="694"/>
+    <line x1="338" y1="226" x2="338" y2="694"/>
+    <line x1="730" y1="226" x2="730" y2="694"/>
+    <line x1="1084" y1="226" x2="1084" y2="694"/>
+  </g>
+  <line x1="338" y1="226" x2="338" y2="694" stroke="#1E1D1A" stroke-width="6"/>
+  <line x1="338" y1="694" x2="1084" y2="694" stroke="#1E1D1A" stroke-width="6"/>
+  <text x="170" y="472" transform="rotate(-90 170 472)" fill="#1E1D1A" font-size="34" font-family="Arial, sans-serif" font-weight="700">ACCURACY</text>
+  <text x="716" y="800" text-anchor="middle" fill="#1E1D1A" font-size="48" font-family="Arial, sans-serif" font-weight="700">AVG THINKING</text>
+  <text x="716" y="842" text-anchor="middle" fill="#7A756D" font-size="28" font-family="Arial, sans-serif">Tokens used per problem (log scale)</text>
+  <text x="730" y="736" text-anchor="middle" fill="#534F48" font-size="28" font-family="Arial, sans-serif">10,000</text>
+  <text x="324" y="620" text-anchor="end" fill="#534F48" font-size="24" font-family="Arial, sans-serif">0.30</text>
+  <text x="324" y="542" text-anchor="end" fill="#534F48" font-size="24" font-family="Arial, sans-serif">0.35</text>
+  <text x="324" y="464" text-anchor="end" fill="#534F48" font-size="24" font-family="Arial, sans-serif">0.40</text>
+  <text x="324" y="386" text-anchor="end" fill="#534F48" font-size="24" font-family="Arial, sans-serif">0.45</text>
+  <text x="324" y="308" text-anchor="end" fill="#534F48" font-size="24" font-family="Arial, sans-serif">0.50</text>
+  <text x="324" y="230" text-anchor="end" fill="#534F48" font-size="24" font-family="Arial, sans-serif">0.60</text>
+  <path d="M370 602L590 500L690 452L846 346L946 276L1016 246" stroke="#C9658A" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="370" cy="602" r="9" fill="#C9658A"/>
+  <circle cx="590" cy="500" r="9" fill="#C9658A"/>
+  <circle cx="690" cy="452" r="9" fill="#C9658A"/>
+  <circle cx="846" cy="346" r="9" fill="#C9658A"/>
+  <circle cx="946" cy="276" r="9" fill="#C9658A"/>
+  <circle cx="1016" cy="246" r="9" fill="#C9658A"/>
+  <g fill="#FFF4F6" stroke="#D9A8B9" stroke-width="3">
+    <rect x="392" y="610" width="108" height="52" rx="10"/>
+    <rect x="604" y="490" width="108" height="52" rx="10"/>
+    <rect x="706" y="438" width="108" height="52" rx="10"/>
+    <rect x="860" y="320" width="120" height="64" rx="10"/>
+    <rect x="962" y="248" width="120" height="64" rx="10"/>
+    <rect x="1022" y="216" width="120" height="64" rx="10"/>
+  </g>
+  <text x="408" y="632" fill="#5D4F57" font-size="18" font-family="Arial, sans-serif">2k budget</text>
+  <text x="408" y="654" fill="#5D4F57" font-size="18" font-family="Arial, sans-serif">2,183 tokens</text>
+  <text x="620" y="512" fill="#5D4F57" font-size="18" font-family="Arial, sans-serif">4k budget</text>
+  <text x="620" y="534" fill="#5D4F57" font-size="18" font-family="Arial, sans-serif">5,417 tokens</text>
+  <text x="722" y="460" fill="#5D4F57" font-size="18" font-family="Arial, sans-serif">8k budget</text>
+  <text x="722" y="482" fill="#5D4F57" font-size="18" font-family="Arial, sans-serif">8,075 tokens</text>
+  <text x="876" y="342" fill="#5D4F57" font-size="18" font-family="Arial, sans-serif">16k budget</text>
+  <text x="876" y="364" fill="#5D4F57" font-size="18" font-family="Arial, sans-serif">13,792 tokens</text>
+  <text x="978" y="270" fill="#5D4F57" font-size="18" font-family="Arial, sans-serif">32k budget</text>
+  <text x="978" y="292" fill="#5D4F57" font-size="18" font-family="Arial, sans-serif">19,566 tokens</text>
+  <text x="1038" y="238" fill="#5D4F57" font-size="18" font-family="Arial, sans-serif">64k budget</text>
+  <text x="1038" y="260" fill="#5D4F57" font-size="18" font-family="Arial, sans-serif">22,490 tokens</text>
+</svg>
