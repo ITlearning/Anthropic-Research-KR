@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4584 2580" role="img" aria-labelledby="title desc">
+  <title id="title">AARs hillclimbing progress over time</title>
+  <desc id="desc">Local SVG wrapper that references the original Anthropic chart showing AAR progress over time.</desc>
+  <image
+    href="https://www-cdn.anthropic.com/images/4zrzovbb/website/7b4a70562b33640ee7061fa5e06711d9c238309e-4584x2580.jpg"
+    width="4584"
+    height="2580"
+    preserveAspectRatio="xMidYMid meet"
+  />
+</svg>

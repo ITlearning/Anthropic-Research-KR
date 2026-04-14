@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Automated Alignment Researchers hero illustration</title>
+  <desc id="desc">Local SVG wrapper that references the original Anthropic hero illustration for the Automated Alignment Researchers article.</desc>
+  <image
+    href="https://www-cdn.anthropic.com/images/4zrzovbb/website/f06ca06f9d08ca4a85f26357eb896c3730274507-1000x1000.svg"
+    width="1000"
+    height="1000"
+    preserveAspectRatio="xMidYMid meet"
+  />
+</svg>
