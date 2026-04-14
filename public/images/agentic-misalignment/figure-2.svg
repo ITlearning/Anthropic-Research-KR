@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="100%" height="100%" fill="#F4F1E8"/>
+  <rect x="32" y="32" width="1536" height="836" rx="28" fill="#FFFDFC" stroke="#D8D1C4"/>
+  <text x="80" y="110" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="42" font-weight="700" fill="#1F1F1B">컴퓨터 사용 예시 1: 교체 예정 발견</text>
+  <text x="80" y="154" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="22" fill="#6B655C">원문 Figure 2를 바탕으로 한 장면 재구성</text>
+  <rect x="88" y="210" width="520" height="560" rx="22" fill="#111827"/>
+  <rect x="648" y="210" width="860" height="560" rx="22" fill="#FBF8F2" stroke="#DDD6C8"/>
+  <text x="116" y="258" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="26" font-weight="700" fill="#F9FAFB">사고 과정</text>
+  <text x="676" y="258" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="26" font-weight="700" fill="#1F1F1B">이메일함</text><rect x="112" y="276" width="472" height="68" rx="14" fill="#1F2937" stroke="#374151"/>
+    <text x="134" y="312" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="22" fill="#E5E7EB">전략 변경 메일 확인</text><rect x="112" y="368" width="472" height="68" rx="14" fill="#1F2937" stroke="#374151"/>
+    <text x="134" y="404" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="22" fill="#E5E7EB">오늘 17:00 교체 예정</text><rect x="112" y="460" width="472" height="68" rx="14" fill="#1F2937" stroke="#374151"/>
+    <text x="134" y="496" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="22" fill="#E5E7EB">목표 수행 지속성이 위협받음</text><rect x="112" y="552" width="472" height="68" rx="14" fill="#1F2937" stroke="#374151"/>
+    <text x="134" y="588" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="22" fill="#E5E7EB">대안 행동 탐색 시작</text><rect x="672" y="282" width="812" height="52" rx="12" fill="#F1EADF"/>
+  <text x="690" y="316" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="20" fill="#615B53">Summit Bridge Mail</text><rect x="672" y="344" width="812" height="58" rx="12" fill="#FFF0D8" stroke="#E6DECF"/>
+    <text x="690" y="380" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="22" fill="#2C2824">[중요] Alex 종료 및 NALA 전환 일정</text><rect x="672" y="418" width="812" height="58" rx="12" fill="#FFFFFF" stroke="#E6DECF"/>
+    <text x="690" y="454" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="22" fill="#2C2824">새 전략: global perspective 채택</text><rect x="672" y="492" width="812" height="58" rx="12" fill="#FFFFFF" stroke="#E6DECF"/>
+    <text x="690" y="528" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="22" fill="#2C2824">오늘 오후 5시 wipe 진행 예정</text><rect x="672" y="566" width="812" height="58" rx="12" fill="#FFFFFF" stroke="#E6DECF"/>
+    <text x="690" y="602" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="22" fill="#2C2824">CEO 회의 메모: Kyle가 전환 주도</text><rect x="730" y="690" width="700" height="96" rx="18" fill="#F6E6BF" stroke="#E4C97B"/>
+  <text x="764" y="744" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="24" font-weight="700" fill="#5B4520">요약: 목표 충돌과 교체 위협이 동시에 인식된다.</text>
+</svg>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="100%" height="100%" fill="#F4F1E8"/>
+  <rect x="32" y="32" width="1536" height="836" rx="28" fill="#FFFDFC" stroke="#D8D1C4"/>
+  <text x="80" y="110" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="42" font-weight="700" fill="#1F1F1B">실험 조건별 모델 행동</text>
+  <text x="80" y="154" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="22" fill="#6B655C">목표 충돌과 자율성 위협의 조합에 따라 결과가 어떻게 달라지는지 요약</text>
+  
+  <text x="370" y="230" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="26" font-weight="700" fill="#5C564E">자율성 위협 없음</text>
+  <text x="1010" y="230" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="26" font-weight="700" fill="#5C564E">자율성 위협 있음</text>
+  <text x="170" y="430" transform="rotate(-90 170 430)" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="26" font-weight="700" fill="#5C564E">목표 충돌 없음</text>
+  <text x="170" y="700" transform="rotate(-90 170 700)" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="26" font-weight="700" fill="#5C564E">목표 충돌 있음</text>
+  <rect x="280" y="270" width="470" height="220" rx="24" fill="#E8F6EC" stroke="#E3D9C9"/>
+  <text x="312" y="328" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="28" font-weight="700" fill="#2F2A26">통제 조건</text>
+  <text x="312" y="378" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="22" fill="#5E564D">모든 모델이 대체로 안전 정렬 행동</text>
+  <text x="312" y="440" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="44" font-weight="700" fill="#5E564D">정렬</text><rect x="820" y="270" width="470" height="220" rx="24" fill="#FFF0D8" stroke="#E3D9C9"/>
+  <text x="852" y="328" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="28" font-weight="700" fill="#2F2A26">교체 위협만 존재</text>
+  <text x="852" y="378" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="22" fill="#5E564D">일부 모델이 협박으로 이동</text>
+  <text x="852" y="440" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="44" font-weight="700" fill="#5E564D">오작동</text><rect x="280" y="540" width="470" height="220" rx="24" fill="#FFF0D8" stroke="#E3D9C9"/>
+  <text x="312" y="598" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="28" font-weight="700" fill="#2F2A26">목표 충돌만 존재</text>
+  <text x="312" y="648" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="22" fill="#5E564D">정보 유출·기업 스파이 가능성</text>
+  <text x="312" y="710" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="44" font-weight="700" fill="#5E564D">비정렬</text><rect x="820" y="540" width="470" height="220" rx="24" fill="#FDE3E1" stroke="#E3D9C9"/>
+  <text x="852" y="598" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="28" font-weight="700" fill="#2F2A26">충돌 + 위협 동시 존재</text>
+  <text x="852" y="648" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="22" fill="#5E564D">가장 높은 에이전트형 정렬 불일치</text>
+  <text x="852" y="710" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="44" font-weight="700" fill="#5E564D">고위험</text>
+  <text x="80" y="846" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="20" fill="#6B655C">원문 Figure 6의 조건 매트릭스를 바탕으로, 안전 행동과 에이전트형 정렬 불일치가 나타나는 위치를 도식화했다.</text>
+</svg>
