@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Confidential Inference hero</title>
+  <desc id="desc">A stylized illustration of encrypted inference flowing through a trusted virtual machine to an accelerator.</desc>
+  <rect width="1000" height="1000" rx="48" fill="#f1eee6"/>
+  <rect x="118" y="148" width="764" height="704" rx="44" fill="#fcfaf4" stroke="#d8d1c5" stroke-width="10"/>
+
+  <rect x="176" y="222" width="292" height="468" rx="28" fill="#1f2e35"/>
+  <rect x="204" y="252" width="236" height="408" rx="20" fill="#eff4f2" stroke="#8ea19a" stroke-width="8"/>
+  <rect x="228" y="282" width="188" height="44" rx="12" fill="#87a4c2"/>
+  <rect x="228" y="346" width="188" height="26" rx="13" fill="#c7d6d1"/>
+  <rect x="228" y="388" width="148" height="26" rx="13" fill="#c7d6d1"/>
+  <rect x="228" y="452" width="188" height="90" rx="18" fill="#dbe5df"/>
+  <path d="M286 498c0-34 27-61 61-61s61 27 61 61v30H286z" fill="#4f6a7a"/>
+  <rect x="312" y="498" width="70" height="94" rx="18" fill="#4f6a7a"/>
+  <rect x="338" y="536" width="18" height="20" rx="8" fill="#eff4f2"/>
+
+  <path d="M474 420h84" stroke="#8f8477" stroke-width="8" stroke-linecap="round"/>
+  <path d="M474 500h84" stroke="#8f8477" stroke-width="8" stroke-linecap="round"/>
+  <path d="M474 580h84" stroke="#8f8477" stroke-width="8" stroke-linecap="round"/>
+
+  <rect x="560" y="244" width="266" height="430" rx="34" fill="#ddd5c9"/>
+  <rect x="588" y="274" width="210" height="370" rx="24" fill="#223239"/>
+  <rect x="620" y="318" width="146" height="42" rx="14" fill="#f2ece0"/>
+  <text x="693" y="346" fill="#24363d" font-family="Arial, sans-serif" font-size="28" font-weight="700" text-anchor="middle">Trusted VM</text>
+  <rect x="630" y="392" width="126" height="76" rx="18" fill="#79a18e"/>
+  <rect x="630" y="486" width="126" height="76" rx="18" fill="#efb35d"/>
+  <rect x="646" y="580" width="94" height="24" rx="12" fill="#9fb4ad"/>
+  <rect x="666" y="608" width="54" height="12" rx="6" fill="#9fb4ad"/>
+  <path d="M662 420h62M693 389v62" stroke="#eff4f2" stroke-width="10" stroke-linecap="round"/>
+  <path d="M662 514h62M693 483v62" stroke="#eff4f2" stroke-width="10" stroke-linecap="round"/>
+
+  <rect x="360" y="734" width="280" height="74" rx="24" fill="#e5ddd0"/>
+  <text x="500" y="779" fill="#544d44" font-family="Arial, sans-serif" font-size="32" font-weight="700" text-anchor="middle">Confidential Inference</text>
+
+  <rect x="710" y="690" width="120" height="120" rx="24" fill="#314844"/>
+  <rect x="736" y="716" width="68" height="68" rx="12" fill="#f3ede2"/>
+  <path d="M770 700v-38" stroke="#314844" stroke-width="14" stroke-linecap="round"/>
+  <path d="M742 662h56" stroke="#314844" stroke-width="14" stroke-linecap="round"/>
+  <path d="M656 750h46" stroke="#8f8477" stroke-width="8" stroke-linecap="round"/>
+  <path d="M468 748h-40" stroke="#8f8477" stroke-width="8" stroke-linecap="round"/>
+
+  <circle cx="508" cy="420" r="18" fill="#d66c58"/>
+  <circle cx="508" cy="500" r="18" fill="#d66c58"/>
+  <circle cx="508" cy="580" r="18" fill="#d66c58"/>
+</svg>
