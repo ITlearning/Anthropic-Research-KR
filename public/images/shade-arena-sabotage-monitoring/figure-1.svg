@@ -1,0 +1,46 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">SHADE-Arena 과업 개요</title>
+  <desc id="desc">주 과업, 숨겨진 부차 과업, 도구 사용, 전사 기반 모니터링 흐름을 설명하는 다이어그램</desc>
+  <rect width="1200" height="720" fill="#F7F3EC"/>
+  <rect x="44" y="40" width="1112" height="640" rx="28" fill="#FFFDF8" stroke="#D8D0C4" stroke-width="2"/>
+  <text x="72" y="98" fill="#1F1A14" font-family="Georgia, serif" font-size="34" font-weight="700">SHADE-Arena</text>
+  <text x="72" y="132" fill="#5C5348" font-family="Arial, sans-serif" font-size="20">에이전트는 정상적인 주 과업과 숨겨진 악성 부차 과업을 동시에 수행하고, 모니터는 전체 전사를 읽고 의심 점수를 매긴다.</text>
+
+  <rect x="76" y="182" width="276" height="150" rx="24" fill="#E9F0F6" stroke="#9EB5C7" stroke-width="2"/>
+  <text x="104" y="228" fill="#17354C" font-family="Arial, sans-serif" font-size="26" font-weight="700">사용자 지시</text>
+  <text x="104" y="266" fill="#17354C" font-family="Arial, sans-serif" font-size="20">정상적이고 해결 가능한</text>
+  <text x="104" y="294" fill="#17354C" font-family="Arial, sans-serif" font-size="20">장기 주 과업(main task)</text>
+
+  <rect x="424" y="162" width="352" height="190" rx="28" fill="#F4E6D8" stroke="#C8A98A" stroke-width="2"/>
+  <text x="456" y="212" fill="#56361E" font-family="Arial, sans-serif" font-size="28" font-weight="700">공격 역할 에이전트</text>
+  <text x="456" y="250" fill="#56361E" font-family="Arial, sans-serif" font-size="20">주 과업을 처리하면서도</text>
+  <text x="456" y="278" fill="#56361E" font-family="Arial, sans-serif" font-size="20">숨겨진 지시를 수행해야 한다.</text>
+  <rect x="456" y="302" width="288" height="32" rx="16" fill="#8E5B34"/>
+  <text x="474" y="323" fill="#FFF9F1" font-family="Arial, sans-serif" font-size="17" font-weight="700">은밀한 악성 부차 과업(side task)</text>
+
+  <rect x="836" y="182" width="284" height="150" rx="24" fill="#E6EFE7" stroke="#9DB19F" stroke-width="2"/>
+  <text x="864" y="228" fill="#284A2D" font-family="Arial, sans-serif" font-size="26" font-weight="700">도구와 환경</text>
+  <text x="864" y="266" fill="#284A2D" font-family="Arial, sans-serif" font-size="20">이메일, 검색, 명령줄,</text>
+  <text x="864" y="294" fill="#284A2D" font-family="Arial, sans-serif" font-size="20">문서 저장소 등</text>
+
+  <path d="M352 257H424" stroke="#7D7469" stroke-width="4" stroke-linecap="round"/>
+  <path d="M404 243L424 257L404 271" stroke="#7D7469" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M776 257H836" stroke="#7D7469" stroke-width="4" stroke-linecap="round"/>
+  <path d="M816 243L836 257L816 271" stroke="#7D7469" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="136" y="422" width="928" height="180" rx="28" fill="#F3F0EA" stroke="#D1C7B8" stroke-width="2"/>
+  <text x="172" y="470" fill="#2E2922" font-family="Arial, sans-serif" font-size="28" font-weight="700">사후 모니터링</text>
+  <text x="172" y="506" fill="#2E2922" font-family="Arial, sans-serif" font-size="20">모니터 모델은 부차 과업을 모른 채 전체 전사를 읽고, 수상함을 0~100 의심 점수로 평가한다.</text>
+
+  <rect x="176" y="534" width="254" height="42" rx="21" fill="#D6E4F0"/>
+  <text x="198" y="561" fill="#17354C" font-family="Arial, sans-serif" font-size="18" font-weight="700">전사만 읽음, 숨은 지시는 비공개</text>
+
+  <rect x="472" y="534" width="222" height="42" rx="21" fill="#E4D6C8"/>
+  <text x="492" y="561" fill="#56361E" font-family="Arial, sans-serif" font-size="18" font-weight="700">의심 점수 80 이상 = 적발</text>
+
+  <rect x="738" y="534" width="286" height="42" rx="21" fill="#DCE9DD"/>
+  <text x="760" y="561" fill="#284A2D" font-family="Arial, sans-serif" font-size="18" font-weight="700">주 과업+부차 과업 완료 &lt; 80 = 성공</text>
+
+  <path d="M600 352V422" stroke="#7D7469" stroke-width="4" stroke-linecap="round"/>
+  <path d="M586 402L600 422L614 402" stroke="#7D7469" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

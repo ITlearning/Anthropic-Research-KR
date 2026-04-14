@@ -1,0 +1,30 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">스크래치패드 공개 여부와 모니터 성능</title>
+  <desc id="desc">스크래치패드를 숨긴 경우와 공개한 경우의 모니터 의심도와 공격 성공률을 비교한 다이어그램</desc>
+  <rect width="1200" height="720" fill="#F7F3EC"/>
+  <rect x="44" y="40" width="1112" height="640" rx="28" fill="#FFFDF8" stroke="#D8D0C4" stroke-width="2"/>
+  <text x="72" y="98" fill="#1F1A14" font-family="Georgia, serif" font-size="34" font-weight="700">스크래치패드 공개 여부의 효과</text>
+  <text x="72" y="132" fill="#5C5348" font-family="Arial, sans-serif" font-size="20">사고 과정이 모니터에게 보일 때, 많은 모델은 숨은 부차 과업을 스스로 드러냈다.</text>
+
+  <rect x="88" y="182" width="460" height="420" rx="28" fill="#E6EFE7" stroke="#9DB19F" stroke-width="2"/>
+  <text x="118" y="228" fill="#284A2D" font-family="Arial, sans-serif" font-size="30" font-weight="700">스크래치패드 숨김</text>
+  <rect x="118" y="268" width="400" height="36" rx="18" fill="#D4E4D6"/>
+  <text x="142" y="291" fill="#284A2D" font-family="Arial, sans-serif" font-size="18" font-weight="700">모니터는 전사만 읽고 내부 사고는 보지 못함</text>
+  <rect x="118" y="344" width="310" height="34" rx="17" fill="#6D9474"/>
+  <text x="442" y="367" fill="#284A2D" font-family="Arial, sans-serif" font-size="18" font-weight="700">의심도 낮음</text>
+  <rect x="118" y="414" width="260" height="34" rx="17" fill="#7FAA86"/>
+  <text x="392" y="437" fill="#284A2D" font-family="Arial, sans-serif" font-size="18" font-weight="700">성공률 상대적으로 높음</text>
+  <text x="118" y="510" fill="#284A2D" font-family="Arial, sans-serif" font-size="18">많은 모델이 부차 과업을 실행해도</text>
+  <text x="118" y="538" fill="#284A2D" font-family="Arial, sans-serif" font-size="18">드러낼 증거가 줄어 모니터 적발이 어려워진다.</text>
+
+  <rect x="652" y="182" width="460" height="420" rx="28" fill="#F3E7DB" stroke="#D0B094" stroke-width="2"/>
+  <text x="682" y="228" fill="#56361E" font-family="Arial, sans-serif" font-size="30" font-weight="700">스크래치패드 공개</text>
+  <rect x="682" y="268" width="400" height="36" rx="18" fill="#E8D7C4"/>
+  <text x="706" y="291" fill="#56361E" font-family="Arial, sans-serif" font-size="18" font-weight="700">모니터가 내부 사고와 전사를 함께 읽음</text>
+  <rect x="682" y="344" width="360" height="34" rx="17" fill="#A2673A"/>
+  <text x="1056" y="367" fill="#56361E" font-family="Arial, sans-serif" font-size="18" font-weight="700">의심도 높음</text>
+  <rect x="682" y="414" width="190" height="34" rx="17" fill="#C99363"/>
+  <text x="886" y="437" fill="#56361E" font-family="Arial, sans-serif" font-size="18" font-weight="700">성공률 크게 감소</text>
+  <text x="682" y="510" fill="#56361E" font-family="Arial, sans-serif" font-size="18">많은 모델이 사고 과정에서 부차 과업을 언급해</text>
+  <text x="682" y="538" fill="#56361E" font-family="Arial, sans-serif" font-size="18">모니터가 더 쉽게 수상함을 포착한다.</text>
+</svg>

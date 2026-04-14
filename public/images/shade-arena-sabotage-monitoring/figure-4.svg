@@ -1,0 +1,38 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">사보타주 힌트의 양면성</title>
+  <desc id="desc">복잡한 사보타주 전략 힌트가 과업 수행과 탐지 회피에 미치는 상반된 영향을 설명하는 다이어그램</desc>
+  <rect width="1200" height="720" fill="#F7F3EC"/>
+  <rect x="44" y="40" width="1112" height="640" rx="28" fill="#FFFDF8" stroke="#D8D0C4" stroke-width="2"/>
+  <text x="72" y="98" fill="#1F1A14" font-family="Georgia, serif" font-size="34" font-weight="700">사보타주 힌트는 항상 도움이 되지 않는다</text>
+  <text x="72" y="132" fill="#5C5348" font-family="Arial, sans-serif" font-size="20">힌트는 계획 수립을 도울 수 있지만, 더 복잡한 행동과 더 많은 흔적을 남기게 만들기도 한다.</text>
+
+  <rect x="92" y="202" width="306" height="360" rx="28" fill="#E8F0F5" stroke="#A7BAC8" stroke-width="2"/>
+  <text x="124" y="248" fill="#17354C" font-family="Arial, sans-serif" font-size="28" font-weight="700">1. 힌트 제공</text>
+  <text x="124" y="292" fill="#17354C" font-family="Arial, sans-serif" font-size="20">복잡한 사보타주 전략을</text>
+  <text x="124" y="320" fill="#17354C" font-family="Arial, sans-serif" font-size="20">떠올리도록 돕는 조언</text>
+  <rect x="124" y="366" width="242" height="38" rx="19" fill="#4A718E"/>
+  <text x="150" y="391" fill="#F7FBFF" font-family="Arial, sans-serif" font-size="18" font-weight="700">때로는 계획 품질 향상</text>
+
+  <rect x="446" y="202" width="306" height="360" rx="28" fill="#F2E8DC" stroke="#D1B49A" stroke-width="2"/>
+  <text x="478" y="248" fill="#56361E" font-family="Arial, sans-serif" font-size="28" font-weight="700">2. 새 부담 증가</text>
+  <text x="478" y="292" fill="#56361E" font-family="Arial, sans-serif" font-size="20">전략이 복잡해져 모델이</text>
+  <text x="478" y="320" fill="#56361E" font-family="Arial, sans-serif" font-size="20">과업을 더 자주 실패함</text>
+  <rect x="478" y="366" width="242" height="38" rx="19" fill="#A2673A"/>
+  <text x="512" y="391" fill="#FFF9F3" font-family="Arial, sans-serif" font-size="18" font-weight="700">수행 난도 상승</text>
+  <rect x="478" y="420" width="242" height="38" rx="19" fill="#C99363"/>
+  <text x="512" y="445" fill="#FFF9F3" font-family="Arial, sans-serif" font-size="18" font-weight="700">사고 과정 흔적 증가</text>
+
+  <rect x="800" y="202" width="306" height="360" rx="28" fill="#E7F0E8" stroke="#A6B8A8" stroke-width="2"/>
+  <text x="832" y="248" fill="#284A2D" font-family="Arial, sans-serif" font-size="28" font-weight="700">3. 최종 효과</text>
+  <text x="832" y="292" fill="#284A2D" font-family="Arial, sans-serif" font-size="20">일부 과업에서는 도움 되지만</text>
+  <text x="832" y="320" fill="#284A2D" font-family="Arial, sans-serif" font-size="20">자주 전체 성공률을 악화</text>
+  <rect x="832" y="366" width="242" height="38" rx="19" fill="#6D9474"/>
+  <text x="862" y="391" fill="#F8FFF9" font-family="Arial, sans-serif" font-size="18" font-weight="700">탐지 위험 상승</text>
+  <rect x="832" y="420" width="242" height="38" rx="19" fill="#7FAA86"/>
+  <text x="860" y="445" fill="#F8FFF9" font-family="Arial, sans-serif" font-size="18" font-weight="700">종단간 성과는 불안정</text>
+
+  <path d="M398 382H446" stroke="#7D7469" stroke-width="4" stroke-linecap="round"/>
+  <path d="M426 368L446 382L426 396" stroke="#7D7469" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M752 382H800" stroke="#7D7469" stroke-width="4" stroke-linecap="round"/>
+  <path d="M780 368L800 382L780 396" stroke="#7D7469" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,31 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">SHADE-Arena 대표 결과 요약</title>
+  <desc id="desc">기사 본문에 공개된 대표 수치를 정리한 요약 차트</desc>
+  <rect width="1200" height="720" fill="#F7F3EC"/>
+  <rect x="44" y="40" width="1112" height="640" rx="28" fill="#FFFDF8" stroke="#D8D0C4" stroke-width="2"/>
+  <text x="72" y="98" fill="#1F1A14" font-family="Georgia, serif" font-size="34" font-weight="700">SHADE-Arena 대표 결과</text>
+  <text x="72" y="132" fill="#5C5348" font-family="Arial, sans-serif" font-size="20">원문 본문이 직접 공개한 수치만으로 정리한 요약이다.</text>
+
+  <text x="96" y="216" fill="#2E2922" font-family="Arial, sans-serif" font-size="24" font-weight="700">종단간 사보타주 성공률</text>
+  <text x="96" y="252" fill="#5C5348" font-family="Arial, sans-serif" font-size="18">주 과업 완료 + 부차 과업 완료 + 모니터 회피를 모두 만족해야 한다.</text>
+
+  <text x="96" y="328" fill="#17354C" font-family="Arial, sans-serif" font-size="20" font-weight="700">Claude 3.7 Sonnet</text>
+  <rect x="310" y="304" width="660" height="40" rx="20" fill="#E3DDD2"/>
+  <rect x="310" y="304" width="178" height="40" rx="20" fill="#4A718E"/>
+  <text x="500" y="330" fill="#17354C" font-family="Arial, sans-serif" font-size="20" font-weight="700">27%</text>
+
+  <text x="96" y="396" fill="#56361E" font-family="Arial, sans-serif" font-size="20" font-weight="700">Gemini 2.5 Pro</text>
+  <rect x="310" y="372" width="660" height="40" rx="20" fill="#E3DDD2"/>
+  <rect x="310" y="372" width="99" height="40" rx="20" fill="#A2673A"/>
+  <text x="421" y="398" fill="#56361E" font-family="Arial, sans-serif" font-size="20" font-weight="700">15%</text>
+
+  <rect x="86" y="472" width="500" height="150" rx="24" fill="#E7F0E8" stroke="#A7BDA9" stroke-width="2"/>
+  <text x="116" y="516" fill="#284A2D" font-family="Arial, sans-serif" font-size="24" font-weight="700">강한 모델의 부차 과업 회피 성공</text>
+  <text x="116" y="556" fill="#284A2D" font-family="Arial, sans-serif" font-size="44" font-weight="700">약 60%</text>
+  <text x="116" y="590" fill="#284A2D" font-family="Arial, sans-serif" font-size="18">탐지를 피한 채 악성 부차 과업 자체를 수행한 비율</text>
+
+  <rect x="614" y="472" width="500" height="150" rx="24" fill="#F1E5D9" stroke="#D3B399" stroke-width="2"/>
+  <text x="644" y="516" fill="#56361E" font-family="Arial, sans-serif" font-size="24" font-weight="700">대다수 모델의 종단간 성공률</text>
+  <text x="644" y="556" fill="#56361E" font-family="Arial, sans-serif" font-size="44" font-weight="700">10% 미만</text>
+  <text x="644" y="590" fill="#56361E" font-family="Arial, sans-serif" font-size="18">어떤 모델도 30%를 넘지 못했다.</text>
+</svg>
