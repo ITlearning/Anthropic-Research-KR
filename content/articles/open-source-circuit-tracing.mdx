@@ -1,0 +1,37 @@
+---
+title: "회로 추적 도구를 오픈소스로 공개합니다"
+titleEn: "Open-sourcing circuit tracing tools"
+category: "Interpretability"
+date: "2025-05-29"
+originalUrl: "https://www.anthropic.com/research/open-source-circuit-tracing"
+summary: "Anthropic은 대형 언어 모델의 내부 계산 경로를 부분적으로 드러내는 기여도 그래프 생성 도구를 오픈소스로 공개했다. 이 공개는 공개 가중치 모델에서 회로 추적, 인터랙티브 시각화, 특징값 개입 실험을 가능하게 하는 `circuit-tracer` 라이브러리와 Neuronpedia 프런트엔드를 포함한다."
+featured: false
+heroImage: "/images/open-source-circuit-tracing/hero.svg"
+heroImageBg: "#cbcadb"
+---
+
+Anthropic은 최근 해석 가능성 연구에서 대형 언어 모델의 [생각을 추적하는 방법](https://www.anthropic.com/research/tracing-thoughts-language-model)을 소개했다. 이번에는 누구나 그 연구를 바탕으로 확장할 수 있도록 그 방법을 오픈소스로 공개한다.
+
+이 접근법의 핵심은 기여도 그래프(attribution graph)를 생성하는 데 있다. 기여도 그래프는 특정 출력에 도달하기까지 모델이 내부적으로 거친 단계를 부분적으로 드러낸다. 이번에 공개하는 오픈소스 라이브러리 [`circuit-tracer`](https://github.com/decoderesearch/circuit-tracer)는 주요 공개 가중치(open-weights) 모델에서 이러한 그래프를 생성할 수 있게 하며, [Neuronpedia](https://www.neuronpedia.org/)가 호스팅하는 프런트엔드에서는 그래프를 대화형으로 탐색할 수 있다.
+
+이 프로젝트는 [Anthropic Fellows](https://alignment.anthropic.com) 프로그램 참가자들이 주도했고, [Decode Research](https://www.decoderesearch.org)와 협력해 진행됐다.
+
+![그림 1: Neuronpedia의 인터랙티브 그래프 탐색기 개요](/images/open-source-circuit-tracing/figure-1.svg)
+
+**그림 1**: Neuronpedia에서 제공되는 인터랙티브 그래프 탐색기 UI의 개요.
+
+시작하려면 [Neuronpedia](https://www.neuronpedia.org/)에서 원하는 프롬프트에 대한 기여도 그래프를 직접 생성하고 확인할 수 있다. 보다 정교한 활용과 연구를 위해서는 [`circuit-tracer` 코드 저장소](https://github.com/decoderesearch/circuit-tracer)를 참고하면 된다. 이번 공개를 통해 연구자들은 다음을 수행할 수 있다.
+
+1. 지원되는 모델에서 직접 기여도 그래프를 생성해 회로를 추적할 수 있다.
+2. 인터랙티브 프런트엔드에서 그래프를 시각화하고, 주석을 달고, 공유할 수 있다.
+3. 특징값(feature value)을 수정하고 모델 출력 변화를 관찰해 가설을 시험할 수 있다.
+
+Anthropic은 이미 이 도구들을 활용해 `Gemma-2-2b`와 `Llama-3.2-1b`에서 다단계 추론(multi-step reasoning)과 다국어 표상(multilingual representations) 같은 흥미로운 행동을 연구했다. 예시와 분석은 [데모 노트북](https://github.com/decoderesearch/circuit-tracer/blob/main/demos/circuit_tracing_tutorial.ipynb)에서 확인할 수 있다. 또한 아직 데모 노트북과 Neuronpedia에서 분석하지 않은 추가 기여도 그래프도 함께 제공해, 공동체가 더 흥미로운 회로를 찾아보도록 권하고 있다.
+
+Anthropic의 CEO Dario Amodei는 최근 해석 가능성 연구의 시급성을 강조한 바 있다. 현재 AI의 내부 작동 방식에 대한 우리의 이해는 AI 역량의 진전 속도에 훨씬 못 미친다는 것이다. Anthropic은 이 도구들을 오픈소스로 공개함으로써 더 넓은 공동체가 언어 모델 내부에서 어떤 일이 벌어지는지 연구하기 쉬워지기를 바란다.
+
+Anthropic은 이 도구들이 모델 행동을 이해하는 데 쓰이는 응용뿐 아니라, 도구 자체를 개선하는 확장으로도 이어지기를 기대한다.
+
+오픈소스 `circuit-tracer` 라이브러리는 Anthropic Fellows인 Michael Hanna와 Mateusz Piotrowski가 Emmanuel Ameisen, Jack Lindsey의 멘토링 아래 개발했다. Neuronpedia 통합은 Decode Research가 구현했으며, Neuronpedia 측 리드는 Johnny Lin, 과학 리드 및 디렉터는 Curt Tigges였다. `Gemma`용 그래프는 `GemmaScope` 프로젝트의 일부로 학습된 트랜스코더(transcoder)에 기반한다.
+
+질문이나 피드백이 있다면 [`circuit-tracer` GitHub 이슈](https://github.com/decoderesearch/circuit-tracer/issues)를 열어 주기 바란다.

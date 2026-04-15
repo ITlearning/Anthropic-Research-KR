@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Open-sourcing circuit tracing tools hero</title>
+  <desc id="desc">A hand-drawn style illustration of three hands adjusting a neural network diagram.</desc>
+  <rect width="1200" height="630" fill="#CBCADB"/>
+  <rect x="44" y="44" width="1112" height="542" rx="30" fill="#F7F5F1" stroke="#A9A6BC" stroke-width="3"/>
+
+  <rect x="104" y="92" width="196" height="38" rx="19" fill="#18181B"/>
+  <text x="136" y="117" fill="#F7F5F1" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Interpretability</text>
+
+  <text x="104" y="212" fill="#18181B" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700">Circuit Tracing</text>
+  <text x="104" y="278" fill="#18181B" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700">Tools</text>
+  <text x="104" y="338" fill="#555268" font-family="Arial, Helvetica, sans-serif" font-size="24">Open-source tooling for attribution graphs,</text>
+  <text x="104" y="376" fill="#555268" font-family="Arial, Helvetica, sans-serif" font-size="24">interactive graph exploration, and interventions.</text>
+
+  <g stroke="#5B576A" stroke-width="4" stroke-linecap="round">
+    <path d="M640 186L764 132"/>
+    <path d="M640 186L754 250"/>
+    <path d="M640 186L720 360"/>
+    <path d="M764 132L944 180"/>
+    <path d="M754 250L944 180"/>
+    <path d="M754 250L898 320"/>
+    <path d="M720 360L898 320"/>
+    <path d="M720 360L956 420"/>
+    <path d="M898 320L956 420"/>
+  </g>
+
+  <g fill="#FFFFFF" stroke="#5B576A" stroke-width="3">
+    <circle cx="640" cy="186" r="28"/>
+    <circle cx="764" cy="132" r="28"/>
+    <circle cx="754" cy="250" r="28"/>
+    <circle cx="720" cy="360" r="28"/>
+    <circle cx="944" cy="180" r="28"/>
+    <circle cx="898" cy="320" r="28"/>
+    <circle cx="956" cy="420" r="28"/>
+  </g>
+
+  <g fill="#A8D0C2" stroke="#5B576A" stroke-width="3">
+    <circle cx="640" cy="186" r="10"/>
+    <circle cx="754" cy="250" r="10"/>
+    <circle cx="898" cy="320" r="10"/>
+  </g>
+  <g fill="#E8BE7B" stroke="#5B576A" stroke-width="3">
+    <circle cx="764" cy="132" r="10"/>
+    <circle cx="944" cy="180" r="10"/>
+  </g>
+  <g fill="#D8A9A2" stroke="#5B576A" stroke-width="3">
+    <circle cx="720" cy="360" r="10"/>
+    <circle cx="956" cy="420" r="10"/>
+  </g>
+
+  <g fill="#F0D4B5" stroke="#3F3B4D" stroke-width="3" stroke-linejoin="round">
+    <path d="M555 114c20-14 55-20 82-3 16 11 25 28 19 43-7 18-32 22-57 25-22 2-46 8-56 22-10-15-9-35-2-49 4-10 8-26 14-38z"/>
+    <path d="M900 84c19-6 42-4 57 8 20 15 29 43 14 59-12 13-33 13-52 10-17-2-30-3-40 4 2-14 6-24 9-33 4-15 2-33 12-48z"/>
+    <path d="M850 472c25-10 65-7 85 16 18 21 11 47-9 56-18 7-39 1-57-5-16-5-30-6-42 0-2-17 4-34 10-48 6-12 4-15 13-19z"/>
+  </g>
+
+  <g stroke="#3F3B4D" stroke-width="4" stroke-linecap="round">
+    <path d="M574 141l52 24"/>
+    <path d="M923 111l20 42"/>
+    <path d="M876 514l47-38"/>
+  </g>
+
+  <g fill="#FFFFFF" stroke="#5B576A" stroke-width="3">
+    <rect x="594" y="455" width="196" height="82" rx="18"/>
+    <rect x="612" y="475" width="90" height="14" rx="7" fill="#CBCADB" stroke="none"/>
+    <rect x="612" y="502" width="136" height="12" rx="6" fill="#D9D7E5" stroke="none"/>
+    <rect x="712" y="473" width="60" height="44" rx="10" fill="#A8D0C2"/>
+  </g>
+</svg>
