@@ -10,6 +10,7 @@ export const CATEGORIES = [
   'Announcements',
   'Product',
   'Frontier Red Team',
+  'Engineering',
 ] as const
 
 export type Category = typeof CATEGORIES[number]
