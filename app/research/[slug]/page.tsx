@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation'
 import { MDXRemote } from 'next-mdx-remote/rsc'
+import remarkGfm from 'remark-gfm'
 import { getArticleBySlug, getAllArticles } from '@/lib/articles'
 import { extractHeadings } from '@/lib/toc'
 import { ArticleHero } from '@/components/article/ArticleHero'
@@ -61,7 +62,11 @@ export default async function ArticlePage({ params }: Props) {
           {/* 본문 */}
           <article className="py-12 lg:border-l lg:border-oat lg:pl-12 max-w-2xl">
             <div className="prose prose-slate font-serif max-w-none">
-              <MDXRemote source={article.content} components={mdxComponents} />
+              <MDXRemote
+                source={article.content}
+                components={mdxComponents}
+                options={{ mdxOptions: { remarkPlugins: [remarkGfm] } }}
+              />
             </div>
           </article>
 
