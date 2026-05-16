@@ -12,6 +12,7 @@ export const CATEGORY_COLORS: Record<Exclude<Category, 'All'>, { badge: string; 
   Product:              { badge: 'text-rose-700 bg-rose-50',     text: 'text-rose-700' },
   'Frontier Red Team':  { badge: 'text-slate-700 bg-slate-100',  text: 'text-slate-700' },
   Engineering:          { badge: 'text-indigo-700 bg-indigo-50', text: 'text-indigo-700' },
+  'Enterprise AI':      { badge: 'text-blue-700 bg-blue-50',     text: 'text-blue-700' },
 }
 
 export function formatDate(dateStr: string): string {
