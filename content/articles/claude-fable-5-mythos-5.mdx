@@ -25,23 +25,7 @@ Fable 5와 Mythos 5의 가격은 입력 토큰 100만 개당 10달러, 출력 �
 
 아래 표는 Fable 5와 Mythos 5의 능력을 다른 선도 모델들과 비교한 것이다.
 
-| 평가 항목 | Mythos 5 / Fable 5 | Mythos Preview | Opus 4.8 | GPT-5.5 | Gemini 3.1 Pro |
-| --- | --- | --- | --- | --- | --- |
-| **에이전트 코딩**<br/>SWE-Bench-Pro | **80.3%** | 77.8% | 69.2% | 58.6% | 54.2% |
-| **에이전트 코딩**<br/>FrontierCode (Diamond) | **29.3%** | — | 13.4% | 5.7% | — |
-| **지식 작업**<br/>GDPval-AA | **1932** | — | 1890 | 1769 | 1314 |
-| **지식 작업 비전**<br/>GDPval pdf | **29.8%** | — | 22.5% | 24.9% | 16.7% |
-| **공간 추론**<br/>Blueprint Bench 2 | **38.6%** | — | 14.5% | 36.2% | 26.5% |
-| **도구 사용**<br/>AutomationBench | **17.4%** | — | 15.5% | 12.9% | 9.6% |
-| **컴퓨터 사용**<br/>OSWorld-Verified | 85.0% | **85.4%** | 83.4% | 78.7% | 76.2% |
-| **법률**<br/>Legal Agent Benchmark | **13.3%** | — | 10.4% | 2.1% | 0.0% |
-| **다학제 추론** (도구 없음)<br/>Humanity's Last Exam | **59.0%\*** | 56.8% | 49.8% | 41.4% | 44.4% |
-| **다학제 추론** (도구 사용)<br/>Humanity's Last Exam | 64.5%\* | **64.7%** | 57.9% | 52.2% | 51.4% |
-| **생물학** (hard)<br/>BioMystery Bench | **44.1%\*** | 29.6% | 40.0% | — | — |
-| **생물학** (human solved)<br/>BioMystery Bench | **83.9%\*** | 82.6% | 80.4% | — | — |
-| **에이전트 코딩**<br/>Terminal Bench 2.1 | **88.0%\*** | — | 82.7% | 83.4% (Codex CLI) | 70.7% (Gemini CLI) |
-| **사이버보안**<br/>ExploitBench | **78.0%\*** | 69.0% | 40.0% | 34.0% | — |
-| **헬스**<br/>HealthBench Professional | **66.0%\*** | 64.7% | 56.9% | 51.8% | — |
+![Claude Fable 5/Mythos 5와 다른 선도 모델의 벤치마크 비교 표](/images/claude-fable-5-mythos-5/figure-table.png)
 
 **방법론**: Claude Mythos 5와 Claude Fable 5의 점수 차이는 1~3퍼센트포인트 이내이며, 표에는 둘 중 높은 점수를 실었다. 별표(\*)가 붙은 벤치마크는 사이버보안·생물학 관련 질의를 차단하는 안전장치 때문에 두 모델의 차이가 더 크다. 이 항목들에서 Claude Fable 5는 폴백(fallback)으로 인해 Claude Opus 4.8에 가까운 성능을 낸다. 자세한 내용은 시스템 카드를 참고하라.
 
